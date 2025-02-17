@@ -1,0 +1,38 @@
+<!-- UNC Monogram + Name on Blue Background Header -->
+<mj-section
+  background-color="#013c65"
+  padding="20px"
+  css-class="force-dark dark-mode-section">
+  <mj-column width="33.33%" vertical-align="middle">
+    <mj-image
+      css-class="light-img"
+      src="https://ncd.test.technolutions.net/www/images/unc_tertiary_h_rv.png"
+      alt="UNC Logo"
+      width="187px"
+      href="https://unco.edu"
+      padding="0" />
+    <mj-image
+      css-class="dark-img"
+      src="https://ncd.test.technolutions.net/www/images/unc_tertiary_h_rv.png"
+      alt="UNC Logo"
+      width="187px"
+      href="https://unco.edu"
+      padding="0" />
+  </mj-column>
+  <mj-column
+    width="66.67%"
+    vertical-align="middle"
+    padding-left="60px"
+    padding-right="20px">
+    <mj-text
+      css-class="dark-mode-text"
+      color="#ffffff"
+      font-family="'Arvo', 'Courier New', Courier, monospace"
+      font-size="16px"
+      font-weight="700"
+      align="right"
+      line-height="120%">
+      {{ department_name | default: 'University of Northern Colorado' }}
+    </mj-text>
+  </mj-column>
+</mj-section>

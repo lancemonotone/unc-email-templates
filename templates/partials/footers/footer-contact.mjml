@@ -1,0 +1,80 @@
+<!-- Contact Footer -->
+<mj-section
+  background-color="#013c65"
+  padding="20px"
+  css-class="force-dark dark-mode-section">
+  <mj-column width="33.33%" vertical-align="middle">
+    <mj-image
+      css-class="light-img"
+      src="https://ncd.test.technolutions.net/www/images/unc_logo_h_rv.png"
+      alt="UNC logo"
+      width="127px"
+      href="https://unco.edu"
+      padding="0" />
+    <mj-image
+      css-class="dark-img"
+      src="https://ncd.test.technolutions.net/www/images/unc_logo_h_wht.png"
+      alt="UNC logo"
+      width="127px"
+      href="https://unco.edu"
+      padding="0" />
+  </mj-column>
+  <mj-column
+    width="66.67%"
+    vertical-align="middle"
+    padding-left="40px"
+    padding-right="20px">
+    <mj-text
+      color="#ffffff"
+      css-class="dark-mode-text"
+      font-family="'Open Sans', Tahoma, Arial, sans-serif"
+      font-size="12px"
+      align="right"
+      padding-bottom="5px"
+      padding-left="40px"
+      padding-top="5px">
+      <a
+        href="https://www.unco.edu/"
+        style="text-decoration: underline; color: #ffffff"
+        >{{ department_name | default: 'Division, Department or Office Name'
+        }}</a
+      >
+    </mj-text>
+    <mj-text
+      color="#ffffff"
+      css-class="dark-mode-text"
+      font-family="'Open Sans', Tahoma, Arial, sans-serif"
+      font-size="12px"
+      align="right"
+      padding-bottom="5px"
+      padding-left="40px"
+      padding-top="5px">
+      <a
+        href="https://goo.gl/maps/GDztMJYnNjs8r8369"
+        style="text-decoration: underline; color: #ffffff"
+        >{{ address | default: '1234 Address, Greeley, CO 12345' }}</a
+      >
+    </mj-text>
+    <mj-text
+      color="#ffffff"
+      css-class="dark-mode-text"
+      font-family="'Open Sans', Tahoma, Arial, sans-serif"
+      font-size="12px"
+      align="right"
+      padding-bottom="5px"
+      padding-left="40px"
+      padding-top="5px">
+      <a
+        href="tel:{{ phone | default: '970-351-XXXX' }}"
+        style="text-decoration: underline; color: #ffffff"
+        >{{ phone | default: '970-351-XXXX' }}</a
+      >
+      &nbsp;|&nbsp;
+      <a
+        href="mailto:{{ email | default: 'your.email@unco.edu' }}"
+        style="text-decoration: underline; color: #ffffff"
+        >{{ email | default: 'your.email@unco.edu' }}</a
+      >
+    </mj-text>
+  </mj-column>
+</mj-section>

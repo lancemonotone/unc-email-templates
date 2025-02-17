@@ -1,0 +1,60 @@
+<mj-wrapper padding="10px" background-color="#f4f4f4">
+  <!-- Start Editable Region: event_content -->
+  <mj-section>
+    <mj-column width="30%">
+      <mj-text
+        font-family="Arvo, Georgia, serif"
+        font-size="24px"
+        font-weight="bold"
+        color="#013C65"
+        align="center">
+        {{ event.date | date: "%b" }}
+        <br />
+        {{ event.date | date: "%-d" }}
+      </mj-text>
+    </mj-column>
+
+    <mj-column width="70%">
+      <mj-text
+        font-family="Arvo, Georgia, serif"
+        font-size="18px"
+        font-weight="bold"
+        color="#013C65"
+        padding-bottom="5px">
+        {{ event.title }}
+      </mj-text>
+
+      <mj-text
+        font-family="Roboto, Arial, sans-serif"
+        font-size="14px"
+        color="#666666"
+        padding-bottom="5px">
+        <strong>Time:</strong> {{ event.time }}<br />
+        <strong>Location:</strong> {{ event.location }}
+      </mj-text>
+
+      <mj-text
+        font-family="Roboto, Arial, sans-serif"
+        font-size="14px"
+        line-height="1.4"
+        padding-bottom="10px">
+        {{ event.description }}
+      </mj-text>
+
+      {% if event.registration_open %}
+      <mj-button
+        background-color="#013C65"
+        color="#ffffff"
+        font-family="Roboto, Arial, sans-serif"
+        font-size="14px"
+        font-weight="bold"
+        border-radius="4px"
+        padding="10px 25px"
+        href="{{ event.registration_url }}">
+        Register Now
+      </mj-button>
+      {% endif %}
+    </mj-column>
+  </mj-section>
+  <!-- End Editable Region: event_content -->
+</mj-wrapper>

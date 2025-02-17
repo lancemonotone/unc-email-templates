@@ -1,0 +1,23 @@
+# Build output
+dist/
+
+# Dependencies
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/*
+# !.vscode/tasks.json
+!.vscode/extensions.json
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.local
+_office/

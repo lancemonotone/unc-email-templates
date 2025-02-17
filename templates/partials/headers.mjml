@@ -1,0 +1,17 @@
+<mj-raw> {% if header_style == 'monogram-name-blue' %} </mj-raw>
+<mj-include path="./headers/monogram-name-blue.mjml" />
+<mj-raw> {% elsif header_style == 'monogram-name-white' %} </mj-raw>
+<mj-include path="./headers/monogram-name-white.mjml" />
+<mj-raw> {% elsif header_style == 'bear-name-blue' %} </mj-raw>
+<mj-include path="./headers/bear-name-blue.mjml" />
+<mj-raw> {% elsif header_style == 'bear-name-white' %} </mj-raw>
+<mj-include path="./headers/bear-name-white.mjml" />
+<mj-raw> {% elsif header_style == 'monogram-blue' %} </mj-raw>
+<mj-include path="./headers/monogram-blue.mjml" />
+<mj-raw> {% elsif header_style == 'monogram-white' %} </mj-raw>
+<mj-include path="./headers/monogram-white.mjml" />
+<mj-raw> {% elsif header_style == 'bear-monogram-blue' %} </mj-raw>
+<mj-include path="./headers/bear-monogram-blue.mjml" />
+<mj-raw> {% elsif header_style == 'bear-monogram-white' %} </mj-raw>
+<mj-include path="./headers/bear-monogram-white.mjml" />
+<mj-raw> {% endif %} </mj-raw>

@@ -1,0 +1,6 @@
+<!-- Bottom Bumper -->
+<mj-section padding="5px">
+  <mj-column>
+    <mj-spacer height="15px" />
+  </mj-column>
+</mj-section>

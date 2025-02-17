@@ -1,0 +1,11 @@
+{
+  "header_style": "bear",
+  "footer_style": "compact",
+  "department_name": "Test Department Name",
+  "email_title": "Welcome to Our Department",
+  "email_content_1": "This is the first paragraph of test content. You can customize this message for your specific needs.",
+  "email_content_2": "This is the second paragraph of test content. Feel free to modify this text as needed.",
+  "address": "501 20th Street, Greeley, CO 80639",
+  "phone": "970-351-2000",
+  "email": "department@unco.edu"
+}
