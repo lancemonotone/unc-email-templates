@@ -66,17 +66,8 @@
       </mj-column>
     </mj-section>
 
-    <!-- Footer Selection -->
-    <mj-raw> {% if footer_style == 'compact' %} </mj-raw>
-    <mj-include path="./partials/footers/footer-compact.mjml" />
-    <mj-raw> {% elsif footer_style == 'contact' %} </mj-raw>
-    <mj-include path="./partials/footers/footer-contact.mjml" />
-    <mj-raw> {% elsif footer_style == 'minimal' %} </mj-raw>
-    <mj-include path="./partials/footers/footer-minimal.mjml" />
-    <mj-raw> {% elsif footer_style == 'primary-blue' %} </mj-raw>
-    <mj-include path="./partials/footers/footer-primary-blue.mjml" />
-    <mj-raw> {% elsif footer_style == 'primary' %} </mj-raw>
-    <mj-include path="./partials/footers/footer-primary.mjml" />
-    <mj-raw> {% endif %} </mj-raw>
+    <!-- Footers  -->
+    <mj-include path="./partials/footers.mjml" />
+    <!--end Footers -->
   </mj-body>
 </mjml>
