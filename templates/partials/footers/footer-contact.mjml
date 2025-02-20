@@ -34,11 +34,10 @@
       padding-left="40px"
       padding-top="5px">
       <a
-        href="https://www.unco.edu/"
-        style="text-decoration: underline; color: #ffffff"
-        >{{ department_name | default: 'Division, Department or Office Name'
-        }}</a
-      >
+        href="{{ department_url | default: 'https://unco.edu' }}"
+        style="text-decoration: underline; color: #ffffff">
+        {{ department_name | default: 'University of Northern Colorado' }}
+      </a>
     </mj-text>
     <mj-text
       color="#ffffff"

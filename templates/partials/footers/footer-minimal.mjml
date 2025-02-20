@@ -12,7 +12,7 @@
       align="center"
       width="50px"
       padding="0"
-      href="{{ system.base_url | default: 'https://unco.edu' }}" />
+      href="{{ department_url | default: 'https://unco.edu' }}" />
     <mj-image
       css-class="dark-img"
       src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
@@ -20,7 +20,7 @@
       align="center"
       width="50px"
       padding="0"
-      href="{{ system.base_url | default: 'https://unco.edu' }}" />
+      href="{{ department_url | default: 'https://unco.edu' }}" />
   </mj-column>
 
   <mj-column width="80%" vertical-align="middle" padding-left="20px">
@@ -30,38 +30,17 @@
       font-size="12px"
       font-family="Roboto, Arial, sans-serif"
       padding-bottom="5px">
-      {{ sender.name | default: 'University of Northern Colorado' }} | {{
-      sender.phone | default: '970-351-1890' }} |
       <a
-        href="mailto:{{ sender.email | default: 'info@unco.edu' }}"
+        href="{{ department_url | default: 'https://unco.edu' }}"
         style="color: #013c65; text-decoration: underline">
-        {{ sender.email | default: 'info@unco.edu' }}
+        {{ department_name | default: 'University of Northern Colorado' }}
       </a>
-    </mj-text>
-  </mj-column>
-</mj-section>
-
-<!-- Required Links -->
-<mj-section
-  background-color="#f4f4f4"
-  padding="10px"
-  css-class="force-dark dark-mode-section">
-  <mj-column>
-    <mj-text
-      align="center"
-      font-size="12px"
-      color="#666666"
-      css-class="dark-mode-text">
+      | {{ phone | default: '970-351-1890' }} | {{ address | default: '1234
+      Address, Greeley, CO 12345' }} |
       <a
-        href="{{ system.unsubscribe_url | default: '#' }}"
-        style="color: #666666; text-decoration: none">
-        Unsubscribe
-      </a>
-      |
-      <a
-        href="{{ system.view_online_url | default: '#' }}"
-        style="color: #666666; text-decoration: none">
-        View in Browser
+        href="mailto:{{ email | default: 'info@unco.edu' }}"
+        style="color: #013c65; text-decoration: underline">
+        {{ email | default: 'info@unco.edu' }}
       </a>
     </mj-text>
   </mj-column>

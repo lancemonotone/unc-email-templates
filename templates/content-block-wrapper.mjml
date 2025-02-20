@@ -1,0 +1,6 @@
+<?mjml>
+<mjml>
+  <mj-body>
+    <mj-include path="partials/components/content-block.mjml" />
+  </mj-body>
+</mjml>

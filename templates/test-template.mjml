@@ -15,8 +15,9 @@
     </mj-raw>
     <mj-style>
       /* Default (Light Mode) */ .dark-img { display: none; } .light-img {
-      display: block; } @media (prefers-color-scheme: dark) { /* Page Background
-      */ body { background-color: #1a1a1a !important; }
+      display: block; } .light-section { background-color: #ffffff; } @media
+      (prefers-color-scheme: dark) { /* Page Background */ body {
+      background-color: #1a1a1a !important; }
       div[style*="background-color:#f7f7f7"] { background-color: #1a1a1a
       !important; } /* Force colors */ .force-dark, .force-dark table,
       table.force-dark { background: #013c65 !important; background-color:
@@ -41,30 +42,9 @@
     <mj-include path="./partials/headers.mjml" />
     <!--end Headers -->
 
-    <!-- Static Content -->
-    <mj-section background-color="#ffffff" padding="20px">
-      <mj-column>
-        <mj-text
-          font-size="24px"
-          color="#013c65"
-          font-family="Arvo, Arial, sans-serif"
-          padding-bottom="20px">
-          {{ email_title | default: 'Welcome to UNC' }}
-        </mj-text>
-        <mj-text>
-          {{ email_content_1 | default: 'Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.' }}
-        </mj-text>
-        <mj-text>
-          {{ email_content_2 | default: 'Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum.' }}
-        </mj-text>
-      </mj-column>
-    </mj-section>
+    <!-- Content Block -->
+    <mj-include path="./partials/components/content-block.mjml" />
+    <!--end Content Block -->
 
     <!-- Footers  -->
     <mj-include path="./partials/footers.mjml" />

@@ -11,7 +11,7 @@
       align="center"
       width="40px"
       padding="0"
-      href="{{ system.base_url | default: 'https://unco.edu' }}" />
+      href="{{ department_url | default: 'https://unco.edu' }}" />
     <mj-image
       css-class="dark-img"
       src="https://ncd.test.technolutions.net/www/images/unc_brdmk_wht.png"
@@ -19,7 +19,7 @@
       align="center"
       width="40px"
       padding="0"
-      href="{{ system.base_url | default: 'https://unco.edu' }}" />
+      href="{{ department_url | default: 'https://unco.edu' }}" />
   </mj-column>
 
   <mj-column width="70%" vertical-align="middle">
@@ -29,9 +29,14 @@
       font-size="11px"
       font-family="Roboto, Arial, sans-serif"
       align="center">
-      {{ sender.name | default: 'University of Northern Colorado' }} | {{
-      sender.phone | default: '970-351-1890' }} | {{ sender.email | default:
-      'info@unco.edu' }}
+      <a
+        href="{{ department_url | default: 'https://unco.edu' }}"
+        style="color: #ffffff; text-decoration: underline">
+        {{ department_name | default: 'University of Northern Colorado' }}
+      </a>
+      | {{ phone | default: '970-351-1890' }} | {{ email | default:
+      'info@unco.edu' }} | {{ address | default: '1234 Address, Greeley, CO
+      12345' }}
     </mj-text>
   </mj-column>
 
@@ -45,31 +50,5 @@
         href="https://www.facebook.com/universitynortherncolorado"
         src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png" />
     </mj-social>
-  </mj-column>
-</mj-section>
-
-<!-- Required Links -->
-<mj-section
-  background-color="#013C65"
-  padding="5px"
-  css-class="force-dark dark-mode-section">
-  <mj-column>
-    <mj-text
-      align="center"
-      font-size="10px"
-      color="#ffffff"
-      css-class="dark-mode-text">
-      <a
-        href="{{ system.unsubscribe_url | default: '#' }}"
-        style="color: #ffffff; text-decoration: none">
-        Unsubscribe
-      </a>
-      |
-      <a
-        href="{{ system.view_online_url | default: '#' }}"
-        style="color: #ffffff; text-decoration: none">
-        View in Browser
-      </a>
-    </mj-text>
   </mj-column>
 </mj-section>

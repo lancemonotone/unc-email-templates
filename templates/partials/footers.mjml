@@ -1,11 +1,11 @@
-<mj-raw> {% if footer_style == 'compact' %} </mj-raw>
+<mj-raw> {% if footer_style == 'footer-compact' %} </mj-raw>
 <mj-include path="./footers/footer-compact.mjml" />
-<mj-raw> {% elsif footer_style == 'contact' %} </mj-raw>
+<mj-raw> {% elsif footer_style == 'footer-contact' %} </mj-raw>
 <mj-include path="./footers/footer-contact.mjml" />
-<mj-raw> {% elsif footer_style == 'minimal' %} </mj-raw>
+<mj-raw> {% elsif footer_style == 'footer-minimal' %} </mj-raw>
 <mj-include path="./footers/footer-minimal.mjml" />
-<mj-raw> {% elsif footer_style == 'primary-blue' %} </mj-raw>
+<mj-raw> {% elsif footer_style == 'footer-primary-blue' %} </mj-raw>
 <mj-include path="./footers/footer-primary-blue.mjml" />
-<mj-raw> {% elsif footer_style == 'primary' %} </mj-raw>
+<mj-raw> {% elsif footer_style == 'footer-primary' %} </mj-raw>
 <mj-include path="./footers/footer-primary.mjml" />
 <mj-raw> {% endif %} </mj-raw>

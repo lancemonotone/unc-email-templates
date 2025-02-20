@@ -1,0 +1,56 @@
+<!-- CONTENT Heading Two Column -->
+<!-- Copy these styles to Slate:
+<style type="text/css">
+  .light-section {
+    background-color: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    .dark-mode-section {
+      background-color: #333333 !important;
+    }
+    .dark-mode-text,
+    .dark-mode-text * {
+      color: #ffffff !important;
+    }
+  }
+  @media only screen and (min-width:480px) {
+    .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+    .mj-column-per-50 {
+      width: 50% !important;
+      max-width: 50%;
+    }
+  }
+</style>
+-->
+
+<mj-wrapper css-class="light-section dark-mode-section" full-width="full-width">
+  <mj-section padding="20px">
+    <!-- Heading Column -->
+    <mj-column width="100%">
+      <mj-text
+        font-size="24px"
+        color="#013c65"
+        css-class="dark-mode-text"
+        font-family="Arvo, Arial, sans-serif"
+        padding-bottom="20px">
+        {{ heading | default: 'Welcome to UNC' }}
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Content Columns -->
+  <mj-section padding="0 20px 20px">
+    <!-- Left Column -->
+    <mj-column width="50%" padding-right="10px">
+      <mj-text css-class="dark-mode-text"> {{ column_1 | safe }} </mj-text>
+    </mj-column>
+
+    <!-- Right Column -->
+    <mj-column width="50%" padding-left="10px">
+      <mj-text css-class="dark-mode-text"> {{ column_2 | safe }} </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
