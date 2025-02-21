@@ -11,7 +11,7 @@
   <mj-body width="1080px">
     <!-- Content Block -->
     <mj-section full-width="full-width">
-      <mj-include path="./partials/components/content-block.mjml" />
+      <mj-include path="./partials/components/block-heading-two-column.mjml" />
     </mj-section>
     <!--end Content Block -->
   </mj-body>

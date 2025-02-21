@@ -1,6 +1,11 @@
 <!-- CONTENT Heading Two Column -->
-<mj-wrapper css-class="light-section dark-mode-section">
-  <mj-section padding="20px">
+<mj-wrapper
+  css-class="light-section dark-mode-section"
+  padding-top="20px"
+  padding-bottom="20px"
+  padding-left="90px"
+  padding-right="90px">
+  <mj-section padding-top="20px" padding-bottom="20px">
     <!-- Heading Column -->
     <mj-column>
       <mj-text
@@ -15,7 +20,7 @@
   </mj-section>
 
   <!-- Content Columns -->
-  <mj-section padding="0 20px 20px" direction="ltr">
+  <mj-section padding-top="0" padding-bottom="20px" direction="ltr">
     <!-- Left Column -->
     <mj-group>
       <mj-column width="50%" padding-right="10px">

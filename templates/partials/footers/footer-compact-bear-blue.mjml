@@ -31,8 +31,8 @@
       css-class="dark-mode-text mobile-center"
       font-size="11px"
       align="center"
-			padding-left="40px";
-			padding-right="40px";
+      padding-left="40px"
+      padding-right="40px"
       padding-bottom="20px"
       padding-top="5px">
       <a
