@@ -2,15 +2,12 @@
 <mjml>
   <mj-head>
     <mj-title>UNC Email Test Template</mj-title>
+    <mj-breakpoint width="700px" />
     <mj-include path="./partials/styles.mjml" />
     <mj-attributes>
       <mj-all padding="0" />
       <mj-column width="100%" />
     </mj-attributes>
-    <mj-style>
-      .email-container { margin: 0 auto !important; } @media only screen and
-      (max-width:700px) { .email-container { width: 100% !important; } }
-    </mj-style>
   </mj-head>
   <mj-body width="1080px">
     <!-- Headers -->

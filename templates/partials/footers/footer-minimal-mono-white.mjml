@@ -1,4 +1,4 @@
-<!-- Compact Mono White Footer -->
+<!-- Minimal Mono White Footer -->
 <mj-section
   background-color="#f4f4f4"
   padding-top="20px"
@@ -6,21 +6,21 @@
   padding-left="90px"
   padding-right="90px"
   css-class="force-dark dark-mode-section">
-  <mj-column width="15%" vertical-align="middle">
+  <mj-column width="15%" vertical-align="middle" padding-bottom="10px">
     <mj-image
-      css-class="light-img"
+      css-class="light-img mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_mono_clr.png"
       alt="UNC Monogram"
-      align="left"
       width="50px"
+      align="left"
       padding="0"
       href="{{ department_url | default: 'https://unco.edu' }}" />
     <mj-image
-      css-class="dark-img"
+      css-class="dark-img mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
       alt="UNC Monogram"
-      align="left"
       width="50px"
+      align="left"
       padding="0"
       href="{{ department_url | default: 'https://unco.edu' }}" />
   </mj-column>
@@ -28,14 +28,13 @@
   <mj-column width="85%" vertical-align="middle">
     <mj-text
       color="#013C65"
-      css-class="dark-mode-text"
-      font-size="12px"
-      font-family="Roboto, Arial, sans-serif"
-      padding-bottom="5px"
+      css-class="dark-mode-text mobile-center"
+      font-size="11px"
+      align="center"
+      padding-bottom="20px"
       padding-left="40px"
       padding-right="40px"
-      padding-top="5px"
-      align="center">
+      padding-top="5px">
       <a
         href="{{ department_url | default: 'https://unco.edu' }}"
         style="color: #013c65; text-decoration: underline">

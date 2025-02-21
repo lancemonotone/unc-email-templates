@@ -7,10 +7,6 @@
       <mj-all padding="0" />
       <mj-column width="100%" />
     </mj-attributes>
-    <mj-style>
-      .email-container { margin: 0 auto !important; } @media only screen and
-      (max-width:700px) { .email-container { width: 100% !important; } }
-    </mj-style>
   </mj-head>
   <mj-body width="1080px">
     <!-- Content Block -->

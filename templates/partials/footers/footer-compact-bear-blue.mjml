@@ -6,9 +6,9 @@
   padding-left="90px"
   padding-right="90px"
   css-class="force-dark dark-mode-section">
-  <mj-column width="15%" vertical-align="middle">
+  <mj-column width="15%" vertical-align="middle" padding-bottom="10px">
     <mj-image
-      css-class="light-img"
+      css-class="light-img mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
       alt="UNC Brandmark"
       width="40px"
@@ -16,7 +16,7 @@
       padding="0"
       href="{{ department_url | default: 'https://unco.edu' }}" />
     <mj-image
-      css-class="dark-img"
+      css-class="dark-img mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_brdmk_wht.png"
       alt="UNC Brandmark"
       width="40px"
@@ -28,21 +28,25 @@
   <mj-column width="70%" vertical-align="middle">
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text"
+      css-class="dark-mode-text mobile-center"
       font-size="11px"
       align="center"
-      padding-bottom="5px"
-      padding-left="40px"
-      padding-right="40px"
+			padding-left="40px";
+			padding-right="40px";
+      padding-bottom="20px"
       padding-top="5px">
       <a
         href="{{ department_url | default: 'https://unco.edu' }}"
         style="color: #ffffff; text-decoration: underline">
         {{ department_name | default: 'University of Northern Colorado' }}
       </a>
-      | {{ phone | default: '970-351-1890' }} | {{ email | default:
-      'info@unco.edu' }} | {{ address | default: '1234 Address, Greeley, CO
-      12345' }}
+      | {{ phone | default: '970-351-1890' }} | {{ address | default: '1234
+      Address, Greeley, CO 12345' }} |
+      <a
+        href="mailto:{{ email | default: 'info@unco.edu' }}"
+        style="color: #ffffff; text-decoration: underline">
+        {{ email | default: 'info@unco.edu' }}
+      </a>
     </mj-text>
   </mj-column>
 

@@ -17,9 +17,9 @@
   padding-left="90px"
   padding-right="90px"
   css-class="force-dark dark-mode-section">
-  <mj-column width="33.33%" vertical-align="middle">
+  <mj-column width="25%" vertical-align="middle" padding-bottom="10px">
     <mj-image
-      css-class="light-img"
+      css-class="light-img mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_logo_h_rv.png"
       alt="UNC logo"
       width="127px"
@@ -27,7 +27,7 @@
       padding="0"
       href="{{ department_url | default: 'https://unco.edu' }}" />
     <mj-image
-      css-class="dark-img"
+      css-class="dark-img mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_logo_h_wht.png"
       alt="UNC logo"
       width="127px"
@@ -35,28 +35,27 @@
       padding="0"
       href="{{ department_url | default: 'https://unco.edu' }}" />
   </mj-column>
-  <mj-column width="66.67%" vertical-align="middle" padding-left="40px">
+  <mj-column width="75%" vertical-align="middle">
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text"
+      css-class="dark-mode-text mobile-center"
       font-size="12px"
       align="right"
       padding-bottom="5px"
-      padding-left="40px"
       padding-top="5px">
       <a
         href="{{ department_url | default: 'https://unco.edu' }}"
-        style="text-decoration: underline; color: #ffffff">
+        style="color: #ffffff; text-decoration: underline">
         {{ department_name | default: 'University of Northern Colorado' }}
       </a>
     </mj-text>
+		
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text"
+      css-class="dark-mode-text mobile-center"
       font-size="12px"
       align="right"
       padding-bottom="5px"
-      padding-left="40px"
       padding-top="5px">
       <a
         href="https://goo.gl/maps/GDztMJYnNjs8r8369"
@@ -64,13 +63,13 @@
         >{{ address | default: '1234 Address, Greeley, CO 12345' }}</a
       >
     </mj-text>
+		
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text"
+      css-class="dark-mode-text mobile-center"
       font-size="12px"
       align="right"
       padding-bottom="5px"
-      padding-left="40px"
       padding-top="5px">
       <a
         href="tel:{{ phone | default: '970-351-XXXX' }}"

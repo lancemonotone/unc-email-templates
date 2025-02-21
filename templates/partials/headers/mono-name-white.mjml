@@ -6,9 +6,9 @@
   padding-left="90px"
   padding-right="90px"
   css-class="force-dark dark-mode-section">
-  <mj-column width="33.33%" vertical-align="middle">
+  <mj-column width="33.33%" vertical-align="middle" padding-bottom="10px">
     <mj-image
-      css-class="light-img"
+      css-class="light-img mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_tertiary_h_clr.png"
       alt="UNC Logo"
       width="187px"
@@ -16,7 +16,7 @@
       align="left"
       padding="0" />
     <mj-image
-      css-class="dark-img"
+      css-class="dark-img mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_tertiary_h_rv.png"
       alt="UNC Logo"
       width="187px"
@@ -26,7 +26,7 @@
   </mj-column>
   <mj-column width="66.67%" vertical-align="middle">
     <mj-text
-      css-class="dark-mode-text"
+      css-class="dark-mode-text mobile-center"
       color="#013c65"
       font-family="'Arvo', 'Courier New', Courier, monospace"
       font-size="16px"
