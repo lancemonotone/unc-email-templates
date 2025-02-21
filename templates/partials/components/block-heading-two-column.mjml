@@ -11,7 +11,7 @@
       <mj-text
         font-size="24px"
         color="#013c65"
-        css-class="dark-mode-text"
+        css-class="dark-mode-text mobile-center"
         font-family="Arvo, Arial, sans-serif"
         padding-bottom="20px">
         {{ heading | default: 'Welcome to UNC' }}
