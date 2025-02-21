@@ -1,0 +1,9 @@
+<mj-column>
+  <mj-social
+    font-size="13px"
+    icon-size="20px"
+    mode="horizontal"
+    padding-top="5px">
+    <mj-include path="./social-elements.mjml" />
+  </mj-social>
+</mj-column>

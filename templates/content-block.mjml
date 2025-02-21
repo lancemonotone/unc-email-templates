@@ -13,22 +13,10 @@
     </mj-style>
   </mj-head>
   <mj-body width="1080px">
-    <!-- Headers -->
-    <mj-section full-width="full-width">
-      <mj-include path="./partials/headers.mjml" />
-    </mj-section>
-    <!--end Headers -->
-
     <!-- Content Block -->
     <mj-section full-width="full-width">
       <mj-include path="./partials/components/content-block.mjml" />
     </mj-section>
     <!--end Content Block -->
-
-    <!-- Footers  -->
-    <mj-section full-width="full-width">
-      <mj-include path="./partials/footers.mjml" />
-    </mj-section>
-    <!--end Footers -->
   </mj-body>
 </mjml>

@@ -1,7 +1,10 @@
 <!-- UNC Monogram on White Background Header -->
 <mj-section
   background-color="#ffffff"
-  padding="20px"
+  padding-top="20px"
+  padding-bottom="20px"
+  padding-left="90px"
+  padding-right="90px"
   css-class="force-dark dark-mode-section">
   <mj-column width="33.33%" vertical-align="middle">
     <mj-image
@@ -10,6 +13,7 @@
       alt="UNC Logo"
       width="187px"
       href="https://unco.edu"
+      align="left"
       padding="0" />
     <mj-image
       css-class="dark-img"
@@ -17,13 +21,10 @@
       alt="UNC Logo"
       width="187px"
       href="https://unco.edu"
+      align="left"
       padding="0" />
   </mj-column>
-  <mj-column
-    width="66.67%"
-    vertical-align="middle"
-    padding-left="60px"
-    padding-right="20px">
+  <mj-column width="66.67%" vertical-align="middle">
     <mj-text
       css-class="dark-mode-text"
       color="#013c65"

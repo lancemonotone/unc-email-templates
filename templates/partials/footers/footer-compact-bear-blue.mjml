@@ -1,23 +1,26 @@
-<!-- Compact Footer -->
+<!-- Compact Bear Blue Footer -->
 <mj-section
   background-color="#013C65"
-  padding="15px"
+  padding-top="20px"
+  padding-bottom="20px"
+  padding-left="90px"
+  padding-right="90px"
   css-class="force-dark dark-mode-section">
   <mj-column width="15%" vertical-align="middle">
     <mj-image
       css-class="light-img"
       src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
       alt="UNC Brandmark"
-      align="center"
       width="40px"
+      align="left"
       padding="0"
       href="{{ department_url | default: 'https://unco.edu' }}" />
     <mj-image
       css-class="dark-img"
       src="https://ncd.test.technolutions.net/www/images/unc_brdmk_wht.png"
       alt="UNC Brandmark"
-      align="center"
       width="40px"
+      align="left"
       padding="0"
       href="{{ department_url | default: 'https://unco.edu' }}" />
   </mj-column>
@@ -27,8 +30,11 @@
       color="#ffffff"
       css-class="dark-mode-text"
       font-size="11px"
-      font-family="Roboto, Arial, sans-serif"
-      align="center">
+      align="center"
+      padding-bottom="5px"
+      padding-left="40px"
+      padding-right="40px"
+      padding-top="5px">
       <a
         href="{{ department_url | default: 'https://unco.edu' }}"
         style="color: #ffffff; text-decoration: underline">
@@ -41,14 +47,6 @@
   </mj-column>
 
   <mj-column width="15%" vertical-align="middle">
-    <mj-social
-      font-size="13px"
-      icon-size="20px"
-      mode="horizontal"
-      align="right">
-      <mj-social-element
-        href="https://www.facebook.com/universitynortherncolorado"
-        src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png" />
-    </mj-social>
+    <mj-include path="./social/footer-social-20.mjml" />
   </mj-column>
 </mj-section>

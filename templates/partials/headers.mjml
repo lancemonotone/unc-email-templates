@@ -1,7 +1,7 @@
-<mj-raw> {% if header_style == 'mono-name-blue' %} </mj-raw>
-<mj-include path="./headers/mono-name-blue.mjml" />
-<mj-raw> {% elsif header_style == 'mono-name-white' %} </mj-raw>
-<mj-include path="./headers/mono-name-white.mjml" />
+<mj-raw> {% if header_style == 'bear-mono-blue' %} </mj-raw>
+<mj-include path="./headers/bear-mono-blue.mjml" />
+<mj-raw> {% elsif header_style == 'bear-mono-white' %} </mj-raw>
+<mj-include path="./headers/bear-mono-white.mjml" />
 <mj-raw> {% elsif header_style == 'bear-name-blue' %} </mj-raw>
 <mj-include path="./headers/bear-name-blue.mjml" />
 <mj-raw> {% elsif header_style == 'bear-name-white' %} </mj-raw>
@@ -10,8 +10,8 @@
 <mj-include path="./headers/mono-blue.mjml" />
 <mj-raw> {% elsif header_style == 'mono-white' %} </mj-raw>
 <mj-include path="./headers/mono-white.mjml" />
-<mj-raw> {% elsif header_style == 'bear-mono-blue' %} </mj-raw>
-<mj-include path="./headers/bear-mono-blue.mjml" />
-<mj-raw> {% elsif header_style == 'bear-mono-white' %} </mj-raw>
-<mj-include path="./headers/bear-mono-white.mjml" />
+<mj-raw> {% if header_style == 'mono-name-blue' %} </mj-raw>
+<mj-include path="./headers/mono-name-blue.mjml" />
+<mj-raw> {% elsif header_style == 'mono-name-white' %} </mj-raw>
+<mj-include path="./headers/mono-name-white.mjml" />
 <mj-raw> {% endif %} </mj-raw>

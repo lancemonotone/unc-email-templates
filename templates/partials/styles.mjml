@@ -1,0 +1,63 @@
+<mj-font
+  name="Arvo"
+  href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700" />
+<mj-font
+  name="Roboto"
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700" />
+<mj-attributes>
+  <!-- Default body font stack - Ringside first -->
+  <mj-all font-family="Ringside, Roboto, Tahoma, Arial, sans-serif" />
+  <mj-text font-size="14px" color="#000000" line-height="1.5" />
+  <!-- Header styles - Questa Slab first -->
+  <mj-class
+    name="h1"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="32px"
+    font-weight="700"
+    color="#013C65" />
+  <mj-class
+    name="h2"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="24px"
+    font-weight="700"
+    color="#000000" />
+  <mj-class
+    name="h3"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="20px"
+    font-weight="700"
+    color="#000000" />
+  <!-- Special highlight text - Ed's Market first -->
+  <mj-class
+    name="highlight"
+    font-family="'Ed\'s Market', 'Zeija Pro', Cursive, sans-serif" />
+</mj-attributes>
+<mj-raw>
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
+</mj-raw>
+<mj-style>
+  /* Default (Light Mode) */ .dark-img { display: none; } .light-img { display:
+  block; } .light-section { background-color: #ffffff; } /* Font Classes */
+  .header-font { font-family: 'Questa Slab', Arvo, Rockwell, Verdana, Arial,
+  sans-serif !important; } .body-font { font-family: Ringside, Roboto, Tahoma,
+  Arial, sans-serif !important; } .highlight-font { font-family: 'Ed\'s Market',
+  'Zeija Pro', Cursive, sans-serif !important; } @media (prefers-color-scheme:
+  dark) { /* Page Background */ body { background-color: #1a1a1a !important; }
+  div[style*="background-color:#f7f7f7"] { background-color: #1a1a1a !important;
+  } /* Force colors */ .force-dark, .force-dark table, table.force-dark {
+  background: #013c65 !important; background-color: #013c65 !important; color:
+  #ffffff !important; } /* Sections */ .dark-mode-section { background-color:
+  #333333 !important; } /* Text */ .dark-mode-text, .dark-mode-text * { color:
+  #ffffff !important; } /* Images */ .light-img { display: none !important; }
+  .dark-img { display: block !important; } } /* Outlook Dark Mode */ [data-ogsc]
+  body { background-color: #1a1a1a !important; } [data-ogsc]
+  div[style*="background-color:#f7f7f7"] { background-color: #1a1a1a !important;
+  } [data-ogsc] .force-dark, [data-ogsc] .force-dark table, [data-ogsc]
+  table.force-dark { background: #013c65 !important; background-color: #013c65
+  !important; color: #ffffff !important; } [data-ogsc] .dark-mode-section {
+  background-color: #333333 !important; } [data-ogsc] .dark-mode-text,
+  [data-ogsc] .dark-mode-text * { color: #ffffff !important; } [data-ogsc]
+  .light-img { display: none !important; } [data-ogsc] .dark-img { display:
+  block !important; }
+</mj-style>
