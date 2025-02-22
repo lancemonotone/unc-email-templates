@@ -10,7 +10,7 @@
 <mj-include path="./headers/mono-blue.mjml" />
 <mj-raw> {% elsif header_style == 'mono-white' %} </mj-raw>
 <mj-include path="./headers/mono-white.mjml" />
-<mj-raw> {% if header_style == 'mono-name-blue' %} </mj-raw>
+<mj-raw> {% elsif header_style == 'mono-name-blue' %} </mj-raw>
 <mj-include path="./headers/mono-name-blue.mjml" />
 <mj-raw> {% elsif header_style == 'mono-name-white' %} </mj-raw>
 <mj-include path="./headers/mono-name-white.mjml" />

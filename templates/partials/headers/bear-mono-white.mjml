@@ -3,8 +3,8 @@
   background-color="#ffffff"
   padding-top="20px"
   padding-bottom="20px"
-  padding-left="90px"
-  padding-right="90px"
+  padding-left="10%"
+  padding-right="10%"
   css-class="force-dark dark-mode-section">
   <mj-column width="33.33%" vertical-align="middle" padding-bottom="10px">
     <mj-image

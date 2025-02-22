@@ -3,8 +3,8 @@
   css-class="light-section dark-mode-section"
   padding-top="20px"
   padding-bottom="20px"
-  padding-left="90px"
-  padding-right="90px">
+  padding-left="10%"
+  padding-right="10%">
   <mj-section padding-top="20px" padding-bottom="20px">
     <!-- Heading Column -->
     <mj-column>
@@ -22,13 +22,15 @@
   <!-- Content Columns -->
   <mj-section padding-top="0" padding-bottom="20px" direction="ltr">
     <!-- Left Column -->
-    <mj-group>
-      <mj-column width="50%" padding-right="10px">
+    <mj-group css-class="mobile-stack">
+      <mj-column
+        width="50%"
+        css-class="mobile-stack-column mobile-stack-padding">
         <mj-text css-class="dark-mode-text"> {{ column_1 | safe }} </mj-text>
       </mj-column>
 
       <!-- Right Column -->
-      <mj-column width="50%" padding-left="10px">
+      <mj-column width="50%" css-class="mobile-stack-column">
         <mj-text css-class="dark-mode-text"> {{ column_2 | safe }} </mj-text>
       </mj-column>
     </mj-group>
