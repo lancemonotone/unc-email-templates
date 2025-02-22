@@ -1,0 +1,21 @@
+<!-- Featured Story Block -->
+<mj-section css-class="light-section dark-mode-section">
+  <mj-column padding="20px">
+    <mj-image
+      width="680px"
+      src="{{ image_url | default: 'https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png' }}"
+      alt="University of Northern Colorado" />
+
+    <mj-text mj-class="h3">
+      <h3>{{ heading}}</h3>
+    </mj-text>
+
+    <mj-text css-class="dark-mode-text">
+      <p>{{ content }}</p>
+    </mj-text>
+
+    <mj-raw>{% if button_text != "" %}</mj-raw>
+    <mj-include path="./button.mjml" />
+    <mj-raw>{% endif %}</mj-raw>
+  </mj-column>
+</mj-wrapper>

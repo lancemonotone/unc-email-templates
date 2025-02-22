@@ -16,11 +16,17 @@
     </mj-section>
     <!--end Headers -->
 
-    <!-- Content Block -->
+    <!-- Featured Story Block -->
+    <mj-section full-width="full-width">
+      <mj-include path="./partials/components/block-featured-story.mjml" />
+    </mj-section>
+    <!--end Featured Story Block -->
+
+    <!-- Heading Two Column Block -->
     <mj-section full-width="full-width">
       <mj-include path="./partials/components/block-heading-two-column.mjml" />
     </mj-section>
-    <!--end Content Block -->
+    <!--end Heading Two Column Block -->
 
     <!-- Footers  -->
     <mj-section full-width="full-width">

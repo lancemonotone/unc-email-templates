@@ -7,7 +7,11 @@
 <mj-attributes>
   <!-- Default body font stack - Ringside first -->
   <mj-all font-family="Ringside, Roboto, Tahoma, Arial, sans-serif" />
-  <mj-text font-size="14px" color="#000000" line-height="1.5" />
+  <mj-text
+    font-size="14px"
+    color="#000000"
+    line-height="1.5"
+    css-class="dark-mode-text" />
   <!-- Header styles - Questa Slab first -->
   <mj-class
     name="h1"
@@ -20,17 +24,43 @@
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
     font-size="24px"
     font-weight="700"
-    color="#000000" />
+    color="#013c65"
+    css-class="dark-mode-text mobile-center" />
   <mj-class
     name="h3"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
-    font-size="20px"
+    font-size="18px"
     font-weight="700"
-    color="#000000" />
-  <!-- Special highlight text - Ed's Market first -->
+    color="#013c65"
+    css-class="dark-mode-text" />
+  <mj-class
+    name="h4"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="16px"
+    font-weight="700"
+    color="#013c65"
+    css-class="dark-mode-text" />
+  <!-- Special highlight text - Eds Market first -->
   <mj-class
     name="highlight"
-    font-family="'Ed\'s Market', 'Zeija Pro', Cursive, sans-serif" />
+    font-family="'Eds Market', 'Zeija Pro', Cursive, sans-serif" />
+
+  <!-- Button styles -->
+  <mj-class
+    name="button-primary"
+    background-color="#013c65"
+    color="#ffffff !important"
+    border-radius="4px"
+    padding="10px 20px"
+    css-class="button-primary" />
+
+  <mj-class
+    name="button-secondary"
+    background-color="#f6b000"
+    color="#000000 !important"
+    border-radius="4px"
+    padding="10px 20px"
+    css-class="button-secondary" />
 </mj-attributes>
 <mj-raw>
   <meta name="color-scheme" content="light dark" />
@@ -39,33 +69,36 @@
 <mj-style>
   /* Default (Light Mode) */ .dark-img { display: none; } .light-img { display:
   block; } .light-section { background-color: #ffffff; } /* Links */ a { color:
-  #013c65 !important; } .dark-bg-link a { color: #ffffff !important; } /* Font
-  Classes */ .header-font { font-family: 'Questa Slab', Arvo, Rockwell, Verdana,
-  Arial, sans-serif !important; } .body-font { font-family: Ringside, Roboto,
-  Tahoma, Arial, sans-serif !important; } .highlight-font { font-family: 'Ed\'s
-  Market', 'Zeija Pro', Cursive, sans-serif !important; } @media
-  (prefers-color-scheme: dark) { /* Page Background */ body { background-color:
-  #1a1a1a !important; } div[style*="background-color:#f7f7f7"] {
-  background-color: #1a1a1a !important; } /* Force colors */ .force-dark,
-  .force-dark table, table.force-dark { background: #013c65 !important;
-  background-color: #013c65 !important; color: #ffffff !important; } /* Sections
-  */ .dark-mode-section { background-color: #333333 !important; } /* Text */
-  .dark-mode-text, .dark-mode-text * { color: #ffffff !important; } /* Images */
-  .light-img { display: none !important; } .dark-img { display: block
-  !important; } } /* Outlook Dark Mode */ [data-ogsc] body { background-color:
-  #1a1a1a !important; } [data-ogsc] div[style*="background-color:#f7f7f7"] {
-  background-color: #1a1a1a !important; } [data-ogsc] .force-dark, [data-ogsc]
-  .force-dark table, [data-ogsc] table.force-dark { background: #013c65
-  !important; background-color: #013c65 !important; color: #ffffff !important; }
-  [data-ogsc] .dark-mode-section { background-color: #333333 !important; }
-  [data-ogsc] .dark-mode-text, [data-ogsc] .dark-mode-text * { color: #ffffff
-  !important; } [data-ogsc] .light-img { display: none !important; } [data-ogsc]
-  .dark-img { display: block !important; } @media only screen and (max-width:
-  700px) { .mobile-center {padding-left: 0 !important; padding-right: 0
-  !important; } .mobile-center table, .mobile-center div { text-align: center
-  !important; width: auto; margin: 0 auto; } /* Add these new styles */
-  .mobile-stack { display: block !important; width: 100% !important; }
-  .mobile-stack-column { width: 100% !important; display: block !important;
-  padding-right: 0 !important; padding-left: 0 !important; }
-  .mobile-stack-padding { padding-bottom: 20px !important; } }
+  #013c65; } .dark-bg-link a { color: #ffffff; } /* Font Classes */ .header-font
+  { font-family: 'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif
+  !important; } .body-font { font-family: Ringside, Roboto, Tahoma, Arial,
+  sans-serif !important; } .highlight-font { font-family: Eds Market, Zeija Pro,
+  Cursive, sans-serif !important; } /* Button Styles - These act as overrides if
+  needed */ .button-primary table td:hover { background-color: #014d80
+  !important; } .button-secondary table td:hover { background-color: #ffc426
+  !important; } @media (prefers-color-scheme: dark) { /* Page Background */ body
+  { background-color: #1a1a1a !important; }
+  div[style*="background-color:#f7f7f7"] { background-color: #1a1a1a !important;
+  } /* Force colors */ .force-dark, .force-dark table, table.force-dark {
+  background: #013c65 !important; background-color: #013c65 !important; color:
+  #ffffff !important; } /* Sections */ .dark-mode-section { background-color:
+  #333333 !important; } /* Text */ .dark-mode-text, .dark-mode-text * { color:
+  #ffffff !important; } /* Images */ .light-img { display: none !important; }
+  .dark-img { display: block !important; } } /* Outlook Dark Mode */ [data-ogsc]
+  body { background-color: #1a1a1a !important; } [data-ogsc]
+  div[style*="background-color:#f7f7f7"] { background-color: #1a1a1a !important;
+  } [data-ogsc] .force-dark, [data-ogsc] .force-dark table, [data-ogsc]
+  table.force-dark { background: #013c65 !important; background-color: #013c65
+  !important; color: #ffffff !important; } [data-ogsc] .dark-mode-section {
+  background-color: #333333 !important; } [data-ogsc] .dark-mode-text,
+  [data-ogsc] .dark-mode-text * { color: #ffffff !important; } [data-ogsc]
+  .light-img { display: none !important; } [data-ogsc] .dark-img { display:
+  block !important; } @media only screen and (max-width: 700px) { .mobile-center
+  { padding-left: 0 !important; padding-right: 0 !important; } .mobile-center
+  table, .mobile-center div { text-align: center !important; width: auto;
+  margin: 0 auto; } /* Add these new styles */ .mobile-stack { display: block
+  !important; width: 100% !important; } .mobile-stack-column { width: 100%
+  !important; display: block !important; padding-right: 0 !important;
+  padding-left: 0 !important; } .mobile-stack-padding { padding-bottom: 20px
+  !important; } }
 </mj-style>

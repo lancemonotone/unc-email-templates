@@ -34,11 +34,42 @@ media-queries: max-width: 700px
 
 ### Typography System
 
-#### Headers (H1, H2, H3)
+#### Required CSS Classes
+
+- All `mj-text` elements must include `dark-mode-text` class for dark mode support
+- All heading tags (`h2`, `h3`, `h4`) must include `mobile-center` class for responsive alignment
+
+#### Headers (H2, H3, H4)
 
 ```css
 font-family: "Questa Slab", Arvo, Rockwell, Verdana, Arial, sans-serif;
 ```
+
+#### MJML Header Implementation
+
+Headers should be constructed using `mj-text` components with HTML heading tags:
+
+```mjml
+<mj-text
+  font-family="Questa Slab, Arvo, Rockwell, Verdana, Arial, sans-serif"
+  font-size="24px"
+  color="#013c65">
+  <h2>Heading</h2>
+</mj-text>
+```
+
+Header Hierarchy:
+
+- H2: 24px (Component Headers)
+- H3: 18px (Section Headers)
+- H4: 16px (Subsection Headers)
+
+**Important Notes:**
+
+- Always use semantic HTML heading tags (`h2`, `h3`, `h4`) within `mj-text` components
+- Apply UNC brand fonts through the `font-family` attribute on `mj-text`
+- Use UNC Bears Blue (`#013c65`) for heading colors unless otherwise specified
+- Maintain proper heading hierarchy (H2 for main components, H3 for sections, H4 for subsections)
 
 #### Body Text
 
@@ -139,7 +170,7 @@ The template width is configured using the `width` attribute on the `<mj-body>` 
 
 **Important Notes:**
 
-- Never use percentage values (e.g., `width="100%"`) as this can cause image rendering issues
+- Never use 100% width for page width (e.g., `width="100%"`) as this can cause image rendering issues
 - Use `full-width="full-width"` on sections that need full viewport background span
 - Maintain consistent structure across all template partials
 
