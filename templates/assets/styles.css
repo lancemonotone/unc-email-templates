@@ -8,6 +8,16 @@
 .light-section {
   background-color: #ffffff;
 }
+/* Image adjustments */
+.mobile-stack img {
+  width: auto !important;
+  max-height: 300px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.mobile-stack-column {
+  max-width: 600px !important;
+}
 @media (prefers-color-scheme: dark) {
   /* Page Background */
   body {
@@ -89,7 +99,10 @@
     display: block !important;
     width: 100% !important;
   }
-  .mobile-stack-column {
+  .mobile-stack-column,
+  .mobile-stack-column.mj-column-per-70,
+  .mobile-stack-column.mj-column-per-30,
+  [class*="mj-column-per-"].mobile-stack-column {
     max-width: 100% !important;
     width: 100% !important;
     display: block !important;
@@ -100,15 +113,21 @@
     padding-bottom: 20px !important;
   }
 
-  /* Table cell adjustments */
-  /* td.mobile-stack {
-    padding: 10px !important;
-  } */
-
+  td.mj-full-width-mobile {
+    width: auto !important;
+  }
   /* Image adjustments */
   .mobile-stack img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Override MJML default column behavior */
+  .mj-column-per-30,
+  .mj-column-per-70 {
+    width: 100% !important;
     max-width: 100% !important;
-    height: auto !important;
   }
 }
 

@@ -1,0 +1,20 @@
+<!-- CONTENT Heading Two Column -->
+<mj-section padding="20px" css-class="dark-mode-section mobile-stack">
+  <!-- Left Column -->
+  <mj-column
+    width="70%"
+    padding="20px"
+    vertical-align="top"
+    css-class="mobile-stack-column">
+    <mj-include path="./block-featured-story.mjml" />
+  </mj-column>
+
+  <!-- Right Column -->
+  <mj-column
+    width="30%"
+    padding="20px"
+    vertical-align="top"
+    css-class="mobile-stack-column">
+    <mj-include path="./block-featured-story.mjml" />
+  </mj-column>
+</mj-section>

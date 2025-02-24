@@ -35,7 +35,7 @@
       padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/components/block-heading-two-column.mjml" />
+      <mj-include path="./partials/components/block-two-column.mjml" />
     </mj-section>
 
     <!-- Section 3: Introduction Text Section -->
