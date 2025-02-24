@@ -27,13 +27,6 @@
       padding-left="20px"
       padding-right="20px">
       <mj-include path="./partials/headers/bear-mono-blue.mjml" />
-      <mj-include path="./partials/headers/bear-mono-white.mjml" />
-      <mj-include path="./partials/headers/bear-name-blue.mjml" />
-      <mj-include path="./partials/headers/bear-name-white.mjml" />
-      <mj-include path="./partials/headers/mono-blue.mjml" />
-      <mj-include path="./partials/headers/mono-white.mjml" />
-      <mj-include path="./partials/headers/mono-name-blue.mjml" />
-      <mj-include path="./partials/headers/mono-name-white.mjml" />
     </mj-section>
 
     <!-- Section 2: Hero/Banner Section -->
@@ -42,13 +35,7 @@
       padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-column>
-        <mj-text>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt.
-        </mj-text>
-      </mj-column>
+      <mj-include path="./partials/components/block-heading-two-column.mjml" />
     </mj-section>
 
     <!-- Section 3: Introduction Text Section -->
@@ -139,7 +126,7 @@
       padding-bottom="0"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/footers/footer-compact-bear-blue.mjml" />
+      <mj-include path="./partials/footers/footer-primary-blue.mjml" />
     </mj-section>
   </mj-body>
 </mjml>
