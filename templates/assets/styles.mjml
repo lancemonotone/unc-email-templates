@@ -1,0 +1,62 @@
+<mj-font
+  name="Arvo"
+  href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700" />
+<mj-font
+  name="Roboto"
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700" />
+<mj-attributes>
+  <!-- Default body font stack - Ringside first -->
+  <mj-all font-family="Ringside, Roboto, Tahoma, Arial, sans-serif" />
+  <mj-text
+    font-size="14px"
+    color="#000000"
+    line-height="1.5"
+    css-class="dark-mode-text" />
+  <!-- Header styles - Questa Slab first -->
+  <mj-class
+    name="h1"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="32px"
+    font-weight="700"
+    color="#013C65" />
+  <mj-class
+    name="h2"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="24px"
+    font-weight="700"
+    color="#013c65"
+    css-class="dark-mode-text mobile-center" />
+  <mj-class
+    name="h3"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="18px"
+    font-weight="700"
+    color="#013c65"
+    css-class="dark-mode-text" />
+  <mj-class
+    name="h4"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="16px"
+    font-weight="700"
+    color="#013c65"
+    css-class="dark-mode-text" />
+  <!-- Special highlight text - Eds Market first -->
+  <mj-class
+    name="highlight"
+    font-family="'Eds Market', 'Zeija Pro', Cursive, sans-serif" />
+</mj-attributes>
+<mj-raw>
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if mso]>
+    <style type="text/css">
+      /* Force Outlook to provide a "view in browser" menu */
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+    </style>
+  <![endif]-->
+</mj-raw>

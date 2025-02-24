@@ -1,0 +1,126 @@
+/* Default (Light Mode) */
+.dark-img {
+  display: none;
+}
+.light-img {
+  display: block;
+}
+.light-section {
+  background-color: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  /* Page Background */
+  body {
+    background-color: #1a1a1a !important;
+  }
+  div[style*="background-color:#f7f7f7"] {
+    background-color: #1a1a1a !important;
+  }
+  /* Force colors */
+  .force-dark,
+  .force-dark table,
+  table.force-dark {
+    background: #013c65 !important;
+    background-color: #013c65 !important;
+    color: #ffffff !important;
+  }
+  /* Sections */
+  .dark-mode-section {
+    background-color: #333333 !important;
+  } /* Text */
+  .dark-mode-text,
+  .dark-mode-text * {
+    color: #ffffff !important;
+  } /* Images */
+  .light-img {
+    display: none !important;
+  }
+  .dark-img {
+    display: block !important;
+  }
+} /* Outlook Dark
+      Mode */
+[data-ogsc] body {
+  background-color: #1a1a1a !important;
+}
+[data-ogsc] div[style*="background-color:#f7f7f7"] {
+  background-color: #1a1a1a !important;
+}
+[data-ogsc] .dark-mode-section {
+  background-color: #333333 !important;
+}
+[data-ogsc] .dark-mode-text,
+[data-ogsc] .dark-mode-text * {
+  color: #ffffff !important;
+}
+[data-ogsc] .light-img {
+  display: none !important;
+}
+[data-ogsc] .dark-img {
+  display: block !important;
+}
+
+/* Mobile Responsive Rules */
+@media only screen and (max-width: 700px) {
+  /* Container width control */
+  .mobile-container,
+  .mobile-stack {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  /* Mobile center alignment */
+  .mobile-center {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .mobile-center table,
+  .mobile-center div {
+    text-align: center !important;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  /* Mobile stacking */
+  .mobile-stack {
+    display: block !important;
+    width: 100% !important;
+  }
+  .mobile-stack-column {
+    max-width: 100% !important;
+    width: 100% !important;
+    display: block !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+  .mobile-stack-padding {
+    padding-bottom: 20px !important;
+  }
+
+  /* Table cell adjustments */
+  /* td.mobile-stack {
+    padding: 10px !important;
+  } */
+
+  /* Image adjustments */
+  .mobile-stack img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Ensure all columns stack properly */
+  [class*="mj-column-per-"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Mobile text alignments */
+  .mobile-text-center {
+    text-align: center !important;
+  }
+}
