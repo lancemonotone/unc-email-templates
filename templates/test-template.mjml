@@ -2,36 +2,37 @@
 <mjml>
   <mj-head>
     <mj-title>UNC Email Test Template</mj-title>
+    <!-- Breakpoints for responsive design -->
     <mj-breakpoint width="700px" />
+    <mj-breakpoint width="480px" />
     <mj-include path="./partials/styles.mjml" />
     <mj-attributes>
       <mj-all padding="0" />
+      <mj-body width="1080px" background-color="#ffffff" />
       <mj-column width="100%" />
     </mj-attributes>
   </mj-head>
-  <mj-body width="1080px">
+  <mj-body>
     <!-- Headers -->
-    <mj-section full-width="full-width">
-      <mj-include path="./partials/headers.mjml" />
-    </mj-section>
-    <!--end Headers -->
+    <mj-wrapper css-class="email-container">
+      <mj-section full-width="full-width">
+        <mj-include path="./partials/headers.mjml" />
+      </mj-section>
+    </mj-wrapper>
 
-    <!-- Featured Story Block -->
-    <mj-section full-width="full-width">
-      <mj-include path="./partials/components/block-featured-story.mjml" />
-    </mj-section>
-    <!--end Featured Story Block -->
-
-    <!-- Heading Two Column Block -->
-    <mj-section full-width="full-width">
-      <mj-include path="./partials/components/block-heading-two-column.mjml" />
-    </mj-section>
-    <!--end Heading Two Column Block -->
+    <!-- Content -->
+    <mj-wrapper css-class="email-container">
+      <mj-section full-width="full-width">
+        <mj-include
+          path="./partials/components/block-heading-two-column.mjml" />
+      </mj-section>
+    </mj-wrapper>
 
     <!-- Footers  -->
-    <mj-section full-width="full-width">
-      <mj-include path="./partials/footers.mjml" />
-    </mj-section>
-    <!--end Footers -->
+    <mj-wrapper css-class="email-container">
+      <mj-section full-width="full-width">
+        <mj-include path="./partials/footers.mjml" />
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>

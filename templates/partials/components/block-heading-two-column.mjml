@@ -1,5 +1,5 @@
 <!-- CONTENT Heading Two Column -->
-<mj-wrapper css-class="light-section dark-mode-section" padding-top="20px" padding-bottom="20px" padding-left="10%" padding-right="10%">
+<mj-wrapper padding="0" css-class="light-section dark-mode-section">
   <mj-section>
     <!-- Heading Column -->
     <mj-column>
@@ -10,23 +10,50 @@
   </mj-section>
 
   <!-- Content Columns -->
-  <mj-section padding-top="0" padding-bottom="20px" direction="ltr">
+  <mj-section padding="0" direction="ltr">
     <!-- Left Column -->
     <mj-group css-class="mobile-stack">
-      <mj-column width="50%" padding-right="2%" css-class="mobile-stack-column mobile-stack-padding">
+      <mj-column
+        width="70%"
+        css-class="mobile-stack-column mobile-stack-padding">
+        <mj-include path="./block-featured-story.mjml" />
         <mj-text css-class="dark-mode-text">
           <p>
-            Fusce <strong>pulvinar tortor</strong> at sem <em>tempus elementum</em>. Vestibulum <span style="background-color: #f0f0f0">ante ipsum</span> primis in <u>faucibus orci</u> luctus et <span style="font-size: 1.1em">ultrices posuere</span> cubilia curae; Sed <sub>vestibulum</sub> erat <sup>vitae nulla</sup> facilisis, ac <a href="#" style="color: #0066cc">sollicitudin lorem</a> consequat. Nunc
-            <span style="font-family: 'Times New Roman', serif">vehicula lectus</span>
-            vel nibh <b>consectetur hendrerit</b>.
+            Left Column: Maecenas <mark>consectetur magna</mark> at
+            <small>tellus varius</small> dignissim. Donec
+            <code>elementum ligula</code> vel
+            <span style="font-weight: 600">tortor vehicula</span> lacinia. Ut
+            <span style="font-style: oblique">commodo tellus</span> sed
+            <span style="text-decoration: line-through">massa tincidunt</span>,
+            at <q>vestibulum nunc</q> pulvinar. Cras
+            <abbr title="example">ex.</abbr> mattis <del>magna in</del> vehicula
+            <ins>condimentum</ins>. Praesent
+            <span style="letter-spacing: 2px">SAGITTIS</span> enim
+            <span style="text-transform: uppercase">vel metus</span> rhoncus
+            tempus.
           </p>
         </mj-text>
       </mj-column>
 
       <!-- Right Column -->
-      <mj-column width="50%" padding-left="2%" css-class="mobile-stack-column mobile-stack-padding">
+      <mj-column
+        width="30%"
+        css-class="mobile-stack-column mobile-stack-padding">
         <mj-text css-class="dark-mode-text">
-          <p>Maecenas <mark>consectetur magna</mark> at <small>tellus varius</small> dignissim. Donec <code>elementum ligula</code> vel <span style="font-weight: 600">tortor vehicula</span> lacinia. Ut <span style="font-style: oblique">commodo tellus</span> sed <span style="text-decoration: line-through">massa tincidunt</span>, at <q>vestibulum nunc</q> pulvinar. Cras <abbr title="example">ex.</abbr> mattis <del>magna in</del> vehicula <ins>condimentum</ins>. Praesent <span style="letter-spacing: 2px">SAGITTIS</span> enim <span style="text-transform: uppercase">vel metus</span> rhoncus tempus.</p>
+          <p>
+            Right Column: Maecenas <mark>consectetur magna</mark> at
+            <small>tellus varius</small> dignissim. Donec
+            <code>elementum ligula</code> vel
+            <span style="font-weight: 600">tortor vehicula</span> lacinia. Ut
+            <span style="font-style: oblique">commodo tellus</span> sed
+            <span style="text-decoration: line-through">massa tincidunt</span>,
+            at <q>vestibulum nunc</q> pulvinar. Cras
+            <abbr title="example">ex.</abbr> mattis <del>magna in</del> vehicula
+            <ins>condimentum</ins>. Praesent
+            <span style="letter-spacing: 2px">SAGITTIS</span> enim
+            <span style="text-transform: uppercase">vel metus</span> rhoncus
+            tempus.
+          </p>
         </mj-text>
       </mj-column>
     </mj-group>

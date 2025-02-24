@@ -3,17 +3,17 @@
   <mj-column padding="20px">
     <mj-image
       width="600px"
-      src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+      src="{{ image_url | default: 'https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png' }}"
       alt="University of Northern Colorado" />
 
     <mj-text mj-class="h3">
-      <h3>Heading</h3>
+      <h3>{{ heading}}</h3>
     </mj-text>
 
     <mj-text css-class="dark-mode-text">
-      <p>Content</p>
+      <p>{{ content }}</p>
     </mj-text>
 
-    <mj-button padding="0" align="left" mj-class="button-primary" href="#">Button Text</mj-button>
+    <mj-button padding="0" align="left" mj-class="button-primary" href="{{ button_url }}">{{ button_text }}</mj-button>
   </mj-column>
 </mj-wrapper>
