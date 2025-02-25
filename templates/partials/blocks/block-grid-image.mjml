@@ -1,0 +1,105 @@
+<!-- Grid Image Block -->
+<mj-column
+  padding="0"
+  css-class="block-container light-section dark-mode-section">
+  <!-- Header Section with Gradient Background -->
+  <mj-section padding="0">
+    <mj-column padding="0">
+      <!--[if gte mso 9]>
+        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill
+            type="gradient"
+            color="#003366"
+            color2="#007dba"
+            angle="270" />
+        </v:background>
+      <![endif]-->
+      <mj-text
+        background-color="#013c65"
+        font-family="'Eds Market', 'Zeija Pro', cursive, sans-serif"
+        font-size="32px"
+        padding="0"
+        align="center"
+        css-class="images-header"
+        color="#FFB71B">
+        <div
+          style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
+          <a
+            href="#"
+            style="color: #ffb71b; text-decoration: none; display: block">
+            <img
+              src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+              alt="UNC"
+              width="100"
+              style="vertical-align: middle" />
+
+            <span style="vertical-align: middle"> in Pictures</span>
+          </a>
+        </div>
+      </mj-text>
+
+      <!-- Subtitle -->
+      <mj-text
+        align="center"
+        mj-class="h5"
+        css-class="dark-mode-text"
+        padding="5px 0 20px">
+        <p style="margin: 0">The people, places and events at UNC</p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Image Grid - Row 1 -->
+  <mj-section padding="0">
+    <!-- Left Image -->
+    <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
+      <mj-image
+        padding="0"
+        fluid-on-mobile="true"
+        src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+        alt="UNC Men's Basketball game" />
+      <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
+        <p>UNC Men's Basketball game.</p>
+      </mj-text>
+    </mj-column>
+
+    <!-- Right Image -->
+    <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
+      <mj-image
+        padding="0"
+        fluid-on-mobile="true"
+        src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+        alt="2025 Honored Scholars Awards" />
+      <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
+        <p>2025 Honored Scholars Awards.</p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Image Grid - Row 2 (Additional rows can be added following this pattern) -->
+  <mj-section padding="0">
+    <!-- Left Image -->
+    <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
+      <mj-image
+        padding="0"
+        fluid-on-mobile="true"
+        src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+        alt="Track and field training" />
+      <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
+        <p>Track and field training.</p>
+      </mj-text>
+    </mj-column>
+
+    <!-- Right Image -->
+    <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
+      <mj-image
+        padding="0"
+        fluid-on-mobile="true"
+        src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+        alt="2025 Honored Scholars Awards" />
+      <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
+        <p>2025 Honored Scholars Awards.</p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-column>

@@ -1,0 +1,77 @@
+<!-- Events Block -->
+<mj-column
+  padding="0"
+  css-class="block-container light-section dark-mode-section">
+  <!-- Events Header -->
+  <!--[if gte mso 9]>
+    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+      <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
+    </v:background>
+  <![endif]-->
+  <mj-text
+    background-color="#013c65"
+    font-family="'Eds Market', 'Zeija Pro', cursive, sans-serif"
+    font-size="32px"
+    padding="0"
+    align="center"
+    css-class="events-header"
+    color="#FFB71B">
+    <div style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
+      <a
+        href="https://www.unco.edu/events-calendar/events.aspx"
+        style="color: #ffb71b; text-decoration: none; display: block">
+        Events
+      </a>
+    </div>
+  </mj-text>
+
+  <mj-section
+    padding-top="5px"
+    padding-bottom="0px"
+    padding-left="0px"
+    padding-right="0px">
+    <!-- Event Items -->
+    <mj-wrapper padding="0">
+      <mj-text mj-class="h4" css-class="dark-mode-text" padding="0">
+        <h4>
+          <a href="#">Free Movie Night</a>
+        </h4>
+      </mj-text>
+      <mj-text css-class="dark-mode-text" padding="0">
+        <p>Monday, Feb. 10, 5-7 p.m., Kress Cinema.</p>
+      </mj-text>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0">
+      <mj-text mj-class="h4" css-class="dark-mode-text" padding="0">
+        <h4>
+          <a href="#">Valentine's Bash</a>
+        </h4>
+      </mj-text>
+      <mj-text css-class="dark-mode-text" padding="0">
+        <p>
+          Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
+        </p>
+      </mj-text>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0">
+      <mj-text mj-class="h4" css-class="dark-mode-text" padding="0">
+        <h4>
+          <a href="#">Valentine's Bash</a>
+        </h4>
+      </mj-text>
+      <mj-text css-class="dark-mode-text" padding="0">
+        <p>Wednesday, Feb. 12, 7-9 p.m., Harrison Hall Den.</p>
+      </mj-text>
+    </mj-wrapper>
+  </mj-section>
+
+  <mj-button
+    padding="0"
+    align="left"
+    mj-class="button-primary"
+    href="https://www.unco.edu/events-calendar/events.aspx">
+    More Events
+  </mj-button>
+</mj-column>

@@ -18,7 +18,8 @@
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
     font-size="32px"
     font-weight="700"
-    color="#013C65" />
+    color="#013C65"
+    css-class="dark-mode-text" />
   <mj-class
     name="h2"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"

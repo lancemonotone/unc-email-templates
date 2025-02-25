@@ -3,6 +3,8 @@
   padding="0"
   css-class="block-container light-section dark-mode-section">
   <mj-image
+    align="left"
+    padding="0"
     fluid-on-mobile="true"
     src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
     alt="University of Northern Colorado" />
@@ -16,6 +18,6 @@
   </mj-text>
 
   <mj-button padding="0" align="left" mj-class="button-primary" href="#"
-    >Button Text</mj-button
+    >Find Out More</mj-button
   >
 </mj-column>

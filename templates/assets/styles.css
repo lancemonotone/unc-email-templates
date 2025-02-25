@@ -7,17 +7,74 @@
 }
 .light-section {
   background-color: #ffffff;
+} /* Links */
+a {
+  color: #013c65;
+  text-decoration: underline;
+}
+.dark-bg-link a {
+  color: #ffffff;
+}
+/* Button styles */
+.button-primary {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.button-secondary {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
 /* Image adjustments */
 .mobile-stack img {
   width: auto !important;
   max-height: 300px;
-  margin: 0 auto;
   max-width: 100%;
 }
 .mobile-stack-column {
   max-width: 600px !important;
 }
+
+/* Heading margin resets */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+/* Using classes directly in case tag selectors aren't supported in some clients */
+p {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.h1 {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.h2 {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.h3 {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.h4 {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.h5 {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
 @media (prefers-color-scheme: dark) {
   /* Page Background */
   body {
@@ -109,18 +166,15 @@
     padding: 0 !important;
     box-sizing: border-box !important;
   }
+  .mobile-stack-column div {
+    margin: 0 !important;
+  }
   .mobile-stack-padding {
     padding-bottom: 20px !important;
   }
 
   td.mj-full-width-mobile {
     width: auto !important;
-  }
-  /* Image adjustments */
-  .mobile-stack img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
   }
 
   /* Override MJML default column behavior */

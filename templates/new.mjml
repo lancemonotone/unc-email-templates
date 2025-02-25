@@ -29,43 +29,31 @@
       <mj-include path="./partials/headers/bear-mono-blue.mjml" />
     </mj-section>
 
-    <!-- Section 2: Hero/Banner Section -->
+    <!-- Section 2: Featured Story/Events Section inside Two Column Sidebar -->
     <mj-section
       padding-top="0"
       padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/components/block-two-column.mjml" />
+      <mj-include path="./partials/blocks/block-two-column-sidebar.mjml" />
     </mj-section>
 
-    <!-- Section 3: Introduction Text Section -->
+    <!-- Section 3: Stories Section -->
     <mj-section
       padding-top="0"
       padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-column>
-        <mj-text>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae.
-        </mj-text>
-      </mj-column>
+      <mj-include path="./partials/blocks/block-stories.mjml" />
     </mj-section>
 
-    <!-- Section 4: Featured Content Section -->
+    <!-- Section 4: Image Grid Section -->
     <mj-section
       padding-top="0"
       padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-column>
-        <mj-text>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-          fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-          sequi nesciunt. Neque porro quisquam est.
-        </mj-text>
-      </mj-column>
+      <mj-include path="./partials/blocks/block-grid-image.mjml" />
     </mj-section>
 
     <!-- Section 5: Two Column Content Section -->

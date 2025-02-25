@@ -31,7 +31,8 @@ a {
   width: 100% !important;
   max-width: 600px !important;
   margin: 0 auto !important;
-} /* Button Styles - These act as overrides if needed */
+}
+/* Button Styles - These act as overrides if needed */
 .button-primary table td:hover {
   background-color: #014d80 !important;
 }

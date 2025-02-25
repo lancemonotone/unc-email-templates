@@ -11,6 +11,7 @@
     font-size="14px"
     color="#000000"
     line-height="1.5"
+    padding="0"
     css-class="dark-mode-text" />
   <!-- Header styles - Questa Slab first -->
   <mj-class
@@ -18,12 +19,14 @@
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
     font-size="32px"
     font-weight="700"
+    padding="0"
     color="#013C65" />
   <mj-class
     name="h2"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
     font-size="24px"
     font-weight="700"
+    padding="0"
     color="#013c65"
     css-class="dark-mode-text mobile-center" />
   <mj-class
@@ -31,6 +34,7 @@
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
     font-size="18px"
     font-weight="700"
+    padding="0"
     color="#013c65"
     css-class="dark-mode-text" />
   <mj-class
@@ -38,12 +42,30 @@
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
     font-size="16px"
     font-weight="700"
+    padding="0"
     color="#013c65"
     css-class="dark-mode-text" />
   <!-- Special highlight text - Eds Market first -->
   <mj-class
     name="highlight"
     font-family="'Eds Market', 'Zeija Pro', Cursive, sans-serif" />
+
+  <!-- Button styles -->
+  <mj-class
+    name="button-primary"
+    background-color="#013c65"
+    color="#ffffff !important"
+    border-radius="4px"
+    padding="10px 20px"
+    css-class="button-primary" />
+
+  <mj-class
+    name="button-secondary"
+    background-color="#f6b000"
+    color="#013c65 !important"
+    border-radius="4px"
+    padding="10px 20px"
+    css-class="button-secondary" />
 </mj-attributes>
 <mj-raw>
   <meta name="color-scheme" content="light dark" />
