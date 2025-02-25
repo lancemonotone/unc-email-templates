@@ -4,49 +4,45 @@
   css-class="block-container light-section dark-mode-section">
   <!-- Header Section with Gradient Background -->
   <mj-section padding="0">
-    <mj-column padding="0">
-      <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-          <v:fill
-            type="gradient"
-            color="#003366"
-            color2="#007dba"
-            angle="270" />
-        </v:background>
-      <![endif]-->
-      <mj-text
-        background-color="#013c65"
-        font-family="'Eds Market', 'Zeija Pro', cursive, sans-serif"
-        font-size="32px"
-        padding="0"
-        align="center"
-        css-class="images-header"
-        color="#FFB71B">
-        <div
-          style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
-          <a
-            href="#"
-            style="color: #ffb71b; text-decoration: none; display: block">
-            <img
-              src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-              alt="UNC"
-              width="100"
-              style="vertical-align: middle" />
+    <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+        <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
+      </v:background>
+    <![endif]-->
+    <mj-text
+      background-color="#013c65"
+      font-family="'Eds Market', 'Zeija Pro', cursive, sans-serif"
+      font-size="32px"
+      padding="0"
+      align="center"
+      css-class="images-header"
+      color="#FFB71B">
+      <div
+        style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
+        <a
+          href="#"
+          style="color: #ffb71b; text-decoration: none; display: block">
+          <img
+            src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+            alt="UNC"
+            width="100"
+            style="vertical-align: middle" />
 
-            <span style="vertical-align: middle"> in Pictures</span>
-          </a>
-        </div>
-      </mj-text>
+          <span style="vertical-align: middle"> in Pictures</span>
+        </a>
+      </div>
+    </mj-text>
 
-      <!-- Subtitle -->
+    <!-- Subtitle -->
+    <mj-section padding="0" background-color="#EBEBEB">
       <mj-text
         align="center"
         mj-class="h5"
         css-class="dark-mode-text"
-        padding="5px 0 20px">
+        padding="15px 10px">
         <p style="margin: 0">The people, places and events at UNC</p>
       </mj-text>
-    </mj-column>
+    </mj-section>
   </mj-section>
 
   <!-- Image Grid - Row 1 -->

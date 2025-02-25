@@ -56,56 +56,22 @@
       <mj-include path="./partials/blocks/block-grid-image.mjml" />
     </mj-section>
 
-    <!-- Section 5: Two Column Content Section -->
+    <!-- Section 5: Faculty and Staff Section -->
     <mj-section
       padding-top="0"
       padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-column width="50%" padding="0">
-        <mj-text>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati.
-        </mj-text>
-      </mj-column>
-      <mj-column width="50%" padding="0">
-        <mj-text>
-          Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-          impedit quo minus id quod maxime placeat facere possimus, omnis
-          voluptas assumenda est, omnis dolor repellendus.
-        </mj-text>
-      </mj-column>
+      <mj-include path="./partials/blocks/block-students-faculty-staff.mjml" />
     </mj-section>
 
-    <!-- Section 6: Call to Action Section -->
+    <!-- Section 6: In the News Section -->
     <mj-section
       padding-top="0"
       padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-column>
-        <mj-text>
-          Temporibus autem quibusdam et aut officiis debitis aut rerum
-          necessitatibus saepe eveniet ut et voluptates repudiandae sint et
-          molestiae non recusandae. Itaque earum rerum hic tenetur.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- Section 7: Social Proof/Testimonial Section -->
-    <mj-section
-      padding-top="0"
-      padding-bottom="20px"
-      padding-left="20px"
-      padding-right="20px">
-      <mj-column>
-        <mj-text>
-          Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-          tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
-          minus id quod maxime placeat facere.
-        </mj-text>
-      </mj-column>
+      <mj-include path="./partials/blocks/block-in-the-news.mjml" />
     </mj-section>
 
     <!-- Section 8: Footer Section -->
