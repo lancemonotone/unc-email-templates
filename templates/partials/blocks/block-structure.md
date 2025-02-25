@@ -25,6 +25,11 @@ All blocks follow a similar container structure using MJML components:
 
 3. **Consistent Class Usage**: Always include the appropriate CSS classes (`block-container`, `light-section`, `dark-mode-section`) on the containing elements.
 
+4. **Standard Structure Pattern**: All blocks now follow the same consistent structure pattern:
+   - Outer container `mj-column` with `padding="0"` and standard CSS classes
+   - `mj-section` elements with `padding="0"` nested inside this column
+   - Content-bearing `mj-column` elements with appropriate padding inside these sections
+
 ### Common CSS Classes
 
 - `block-container`: Base class for all blocks
@@ -80,7 +85,7 @@ Examples:
 - Image with caption: Image has `padding="0"`, caption text has `padding="5px 0 0"`
 - Header section: Container has `padding="0"`, subtitle has `padding="5px 0 20px"`
 
-> **Clarification on Multi-column and Two-column layouts**: In all our blocks, we consistently use `padding="0"` on sections (the structural containers) and apply `padding="20px"` to the columns within them (the content-bearing elements). This pattern appears in both the grid-image block and the two-column-sidebar block. The distinction between "Two-column sections" and "Multi-column layouts" in the padding table refers to the same consistent pattern - sections have zero padding while columns have standard padding.
+> **Clarification on Multi-column and Two-column layouts**: In all our blocks, we consistently use `padding="0"` on sections (the structural containers) and apply `padding="20px"` to the columns within them (the content-bearing elements). The distinction between "Two-column sections" and "Multi-column layouts" in the padding table refers to the same consistent pattern - sections have zero padding while columns have standard padding.
 
 ## Special Components
 
@@ -234,6 +239,10 @@ Standard image implementation:
 - Two columns with different widths (75%/25%)
 - Mobile stacking enabled
 - Uses includes to pull in other block components
+- Follows standard block structure pattern with:
+  - Outer container column with `padding="0"` and standard CSS classes
+  - Section with `padding="0"` inside that column
+  - Content columns within the section, each with `padding="20px"`
 
 ### Grid Image Block
 
