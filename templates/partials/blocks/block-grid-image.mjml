@@ -21,7 +21,11 @@
         style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
         <a
           href="#"
-          style="color: #ffb71b; text-decoration: none; display: block">
+          style="
+            color: #ffb71b !important;
+            text-decoration: none;
+            display: block;
+          ">
           <img
             src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
             alt="UNC"

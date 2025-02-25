@@ -3,7 +3,6 @@
   padding="0"
   css-class="block-container light-section dark-mode-section">
   <mj-section padding="0">
-    <!-- Heading -->
     <!--[if gte mso 9]>
       <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
         <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
@@ -15,62 +14,68 @@
       font-size="32px"
       padding="0"
       align="center"
-      css-class="news-header"
+      css-class="images-header"
       color="#FFB71B">
       <div
         style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
         <a
           href="#"
-          style="color: #ffb71b; text-decoration: none; display: block">
+          style="
+            color: #ffb71b !important;
+            text-decoration: none;
+            display: block;
+          ">
           <img
             src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
             alt="UNC"
             width="100"
             style="vertical-align: middle" />
+
           <span style="vertical-align: middle"> in the News</span>
         </a>
       </div>
     </mj-text>
-  </mj-section>
 
-  <!-- Subtitle -->
-  <mj-section padding="0" background-color="#EBEBEB">
-    <mj-text
-      align="center"
-      mj-class="h5"
-      css-class="dark-mode-text"
-      padding="15px 10px">
-      <p style="margin: 0">
-        A selection of featured headlines about the university
-      </p>
-    </mj-text>
-  </mj-section>
+    <!-- Subtitle -->
+    <mj-wrapper padding="0" background-color="#EBEBEB">
+      <mj-text
+        align="center"
+        mj-class="h5"
+        css-class="dark-mode-text"
+        padding="15px 10px">
+        <p style="margin: 0">
+          A selection of featured headlines about the university
+        </p>
+      </mj-text>
+    </mj-wrapper>
 
-  <mj-column mj-class="mobile-stack-column">
-    <mj-text css-class="dark-mode-text" padding="0">
-      <ul>
-        <li>
-          The UNC Center for Career Readiness is hosting the Spring 2025 Job,
-          Internship, and Graduate School Fair on
-          <strong
-            >Thursday, Feb. 15, from 10:00 a.m. to 4:00 p.m. in the University
-            Center Ballrooms</strong
-          >. Employers will be recruiting for full-time jobs, part-time jobs,
-          internships, and Graduate Schools will be providing information on
-          their programs. Admission is free and students and alumni from all
-          majors are encouraged to attend!
-          <a href="#">Register to attend here</a>.
-        </li>
-        <li>
-          Are you thinking about studying abroad? The deadline to apply for
-          Summer and Fall 2025 study abroad programs is
-          <strong>Wednesday, Feb. 28</strong>. For more information and to
-          apply, contact the Education Abroad team at
-          <a href="#">abroad@unco.edu</a>
-          or
-          <a href="#">visit their web page</a>.
-        </li>
-      </ul>
-    </mj-text>
-  </mj-column>
+    <!-- Mobile Stack Column -->
+    <mj-column css-class="mobile-stack-column" width="100%">
+      <mj-text css-class="dark-mode-text" padding="0">
+        <ul>
+          <li>
+            The UNC Center for Career Readiness is hosting the Spring 2025 Job,
+            Internship, and Graduate School Fair on
+            <strong
+              >Thursday, Feb. 15, from 10:00 a.m. to 4:00 p.m. in the University
+              Center Ballrooms</strong
+            >. Employers will be recruiting for full-time jobs, part-time jobs,
+            internships, and Graduate Schools will be providing information on
+            their programs. Admission is free and students and alumni from all
+            majors are encouraged to attend!
+            <a href="#">Register to attend here</a>.
+          </li>
+          <li>
+            Are you thinking about studying abroad? The deadline to apply for
+            Summer and Fall 2025 study abroad programs is
+            <strong>Wednesday, Feb. 28</strong>. For more information and to
+            apply, contact the Education Abroad team at
+            <a href="#">abroad@unco.edu</a>
+            or
+            <a href="#">visit their web page</a>.
+          </li>
+        </ul>
+      </mj-text>
+    </mj-column>
+  </mj-section>
 </mj-column>

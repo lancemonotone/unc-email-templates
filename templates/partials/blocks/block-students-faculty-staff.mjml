@@ -17,8 +17,8 @@
     </mj-wrapper>
 
     <!-- Mobile Stack Column -->
-    <mj-column mj-class="mobile-stack-column">
-      <mj-text css-class="dark-mode-text" padding="20px">
+    <mj-column css-class="mobile-stack-column" width="100%">
+      <mj-text css-class="dark-mode-text" padding="0">
         <ul>
           <li>
             The UNC Center for Career Readiness is hosting the Spring 2025 Job,
@@ -61,7 +61,7 @@
     </mj-wrapper>
 
     <!-- Mobile Stack Column -->
-    <mj-column mj-class="mobile-stack-column">
+    <mj-column css-class="mobile-stack-column" width="100%">
       <mj-text css-class="dark-mode-text" padding="0">
         <ul>
           <li>

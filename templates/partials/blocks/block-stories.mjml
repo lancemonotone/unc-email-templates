@@ -1,7 +1,8 @@
 <!-- Stories Block -->
 <mj-column
   padding="20px"
-  css-class="mobile-stack-column block-container light-section dark-mode-section">
+  css-class="mobile-stack-column block-container light-section dark-mode-section"
+  width="100%">
   <!-- Story 1 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
   <mj-text mj-class="h3" css-class="dark-mode-text">
