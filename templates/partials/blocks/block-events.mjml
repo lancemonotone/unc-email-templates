@@ -31,7 +31,7 @@
   <!-- Event Items -->
   <mj-text css-class="dark-mode-text" padding="0">
     <p>
-      <a href="#">Free Movie Night</a>
+      <strong><a href="#">Free Movie Night</a></strong>
     </p>
   </mj-text>
   <mj-text css-class="dark-mode-text" padding="0">
@@ -40,7 +40,7 @@
 
   <mj-text css-class="dark-mode-text" padding="0">
     <p>
-      <a href="#">Valentine's Bash</a>
+      <strong><a href="#">Valentine's Bash</a></strong>
     </p>
   </mj-text>
   <mj-text css-class="dark-mode-text" padding="0">
@@ -49,7 +49,7 @@
 
   <mj-text css-class="dark-mode-text" padding="0">
     <p>
-      <a href="#">Valentine's Bash</a>
+      <strong><a href="#">Valentine's Bash</a></strong>
     </p>
   </mj-text>
   <mj-text css-class="dark-mode-text" padding="0">

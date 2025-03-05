@@ -37,17 +37,16 @@
     </mj-text>
 
     <!-- Subtitle -->
-    <mj-wrapper padding="0" background-color="#EBEBEB">
-      <mj-text
-        align="center"
-        mj-class="h5"
-        css-class="dark-mode-text"
-        padding="15px 10px">
+    <mj-section
+      padding="0"
+      background-color="#EBEBEB"
+      css-class="subtitle-section dark-mode-section dark-mode-text">
+      <mj-text align="center" mj-class="h5" css-class="" padding="15px 10px">
         <p style="margin: 0">
           A selection of featured headlines about the university
         </p>
       </mj-text>
-    </mj-wrapper>
+    </mj-section>
 
     <!-- Mobile Stack Column -->
     <mj-column css-class="mobile-stack-column" width="100%">

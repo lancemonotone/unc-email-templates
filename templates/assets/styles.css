@@ -9,11 +9,11 @@
   background-color: #ffffff;
 } /* Links */
 a {
-  color: #013c65;
+  color: #013c65 !important;
   text-decoration: underline;
 }
 .dark-bg-link a {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 /* Button styles */
 .button-primary {
@@ -32,6 +32,13 @@ a {
 }
 .mobile-stack-column {
   max-width: 600px !important;
+}
+
+/* Subtitle section styles */
+.subtitle-section {
+  background-color: #ebebeb;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 20px !important;
 }
 
 /* Heading margin resets */
@@ -94,7 +101,21 @@ p {
   /* Sections */
   .dark-mode-section {
     background-color: #333333 !important;
-  } /* Text */
+  }
+
+  /* Subtitle section dark mode */
+  .subtitle-section.dark-mode-section {
+    background: transparent !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #ffffff !important;
+  }
+
+  .subtitle-section.dark-mode-section table {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+
+  /* Text */
   .dark-mode-text,
   .dark-mode-text * {
     color: #ffffff !important;
@@ -135,8 +156,6 @@ p {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
   }
 
   /* Mobile center alignment */
@@ -168,6 +187,10 @@ p {
   }
   .mobile-stack-column div {
     margin: 0 !important;
+  }
+  .mobile-stack-column td {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .mobile-stack-padding {
     padding-bottom: 20px !important;
