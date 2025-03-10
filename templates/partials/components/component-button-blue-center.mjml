@@ -1,0 +1,6 @@
+<!-- UNC Standard Button Component -->
+<mj-column align="center">
+  <mj-button align="center" mj-class="button-primary" href="#">
+    Read More
+  </mj-button>
+</mj-wrapper>

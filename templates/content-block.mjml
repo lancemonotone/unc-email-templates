@@ -1,16 +1,23 @@
 <?mjml>
 <mjml>
   <mj-head>
-    <mj-title>UNC Email Test Template</mj-title>
-    <!-- Breakpoints for responsive design -->
     <mj-breakpoint width="700px" />
     <mj-breakpoint width="480px" />
-    <mj-include path="./partials/styles.mjml" />
+    <!-- Set global width to 1080px -->
     <mj-attributes>
-      <mj-all padding="0" />
-      <mj-body width="1080px" background-color="#ffffff" />
-      <mj-column width="100%" />
+      <mj-body width="1080px" />
+      <mj-text css-class="dark-mode-text" />
+      <mj-section css-class="light-section dark-mode-section" />
     </mj-attributes>
+
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+
+    <mj-include path="./assets/styles.mjml" />
+
+    <mj-include path="./assets/styles.css" type="css" />
   </mj-head>
   <mj-body>
     <!-- Content -->

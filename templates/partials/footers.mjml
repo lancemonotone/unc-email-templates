@@ -4,4 +4,6 @@
 <mj-include path="./footers/footer-minimal-mono-white.mjml" />
 <mj-raw> {% elsif footer_style == 'footer-primary-blue' %} </mj-raw>
 <mj-include path="./footers/footer-primary-blue.mjml" />
+<mj-raw> {% elsif footer_style == 'footer-primary-compact-blue' %} </mj-raw>
+<mj-include path="./footers/footer-logo-two-column.mjml" />
 <mj-raw> {% endif %} </mj-raw>

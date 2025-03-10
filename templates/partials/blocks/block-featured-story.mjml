@@ -12,7 +12,5 @@
     <p>Content</p>
   </mj-text>
 
-  <mj-button padding="0" align="left" mj-class="button-primary" href="#"
-    >Find Out More</mj-button
-  >
+  <mj-include path="../components/component-button-left.mjml" />
 </mj-column>

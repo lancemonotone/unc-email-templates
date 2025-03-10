@@ -6,150 +6,42 @@
   <!-- Story 1 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
   <mj-wrapper padding="0">
-    <mj-column
-      css-class="block-container light-section dark-mode-section mobile-stack-column"
-      width="100%">
-      <mj-text mj-class="h3" css-class="dark-mode-text">
-        <h3>Emergency Alert System to be Tested</h3>
-      </mj-text>
-      <mj-text css-class="dark-mode-text">
-        <p>
-          On Wednesday, Feb. 19, at 12:15 p.m., a test of UNC's Emergency Alert
-          Messaging System will be conducted.
-        </p>
-      </mj-text>
-      <mj-button
-        padding="0 0 20px"
-        align="left"
-        mj-class="button-primary"
-        href="#">
-        Sign in to Receive Emergency Alerts
-      </mj-button>
-    </mj-column>
+    <mj-include
+      path="../components/component-story-h3-button-blue-center.mjml" />
   </mj-wrapper>
 
   <!-- Story 2 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
   <mj-wrapper padding="0">
-    <mj-column
-      css-class="block-container light-section dark-mode-section mobile-stack-column"
-      width="100%">
-      <mj-text mj-class="h3" css-class="dark-mode-text">
-        <h3>Story Title 2</h3>
-      </mj-text>
-      <mj-text css-class="dark-mode-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </mj-text>
-      <mj-button
-        padding="0 0 20px"
-        align="left"
-        mj-class="button-primary"
-        href="#">
-        Read More
-      </mj-button>
-    </mj-column>
+    <mj-include
+      path="../components/component-story-h3-button-blue-center.mjml" />
   </mj-wrapper>
 
   <!-- Story 3 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
   <mj-wrapper padding="0">
-    <mj-column
-      css-class="block-container light-section dark-mode-section mobile-stack-column"
-      width="100%">
-      <mj-text mj-class="h3" css-class="dark-mode-text">
-        <h3>Story Title 3</h3>
-      </mj-text>
-      <mj-text css-class="dark-mode-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </mj-text>
-      <mj-button
-        padding="0 0 20px"
-        align="left"
-        mj-class="button-primary"
-        href="#">
-        Read More
-      </mj-button>
-    </mj-column>
+    <mj-include
+      path="../components/component-story-h3-button-blue-center.mjml" />
   </mj-wrapper>
 
   <!-- Story 4 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
   <mj-wrapper padding="0">
-    <mj-column
-      css-class="block-container light-section dark-mode-section mobile-stack-column"
-      width="100%">
-      <mj-text mj-class="h3" css-class="dark-mode-text">
-        <h3>Story Title 4</h3>
-      </mj-text>
-      <mj-text css-class="dark-mode-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </mj-text>
-      <mj-button
-        padding="0 0 20px"
-        align="left"
-        mj-class="button-primary"
-        href="#">
-        Read More
-      </mj-button>
-    </mj-column>
+    <mj-include
+      path="../components/component-story-h3-button-blue-center.mjml" />
   </mj-wrapper>
 
   <!-- Story 5 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
   <mj-wrapper padding="0">
-    <mj-column
-      css-class="block-container light-section dark-mode-section mobile-stack-column"
-      width="100%">
-      <mj-text mj-class="h3" css-class="dark-mode-text">
-        <h3>Story Title 5</h3>
-      </mj-text>
-      <mj-text css-class="dark-mode-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </mj-text>
-      <mj-button
-        padding="0 0 20px"
-        align="left"
-        mj-class="button-primary"
-        href="#">
-        Read More
-      </mj-button>
-    </mj-column>
+    <mj-include
+      path="../components/component-story-h3-button-blue-center.mjml" />
   </mj-wrapper>
 
   <!-- Story 6 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
   <mj-wrapper padding="0">
-    <mj-column
-      css-class="block-container light-section dark-mode-section mobile-stack-column"
-      width="100%">
-      <mj-text mj-class="h3" css-class="dark-mode-text">
-        <h3>Story Title 6</h3>
-      </mj-text>
-      <mj-text css-class="dark-mode-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </mj-text>
-      <mj-button
-        padding="0 0 20px"
-        align="left"
-        mj-class="button-primary"
-        href="#">
-        Read More
-      </mj-button>
-    </mj-column>
+    <mj-include
+      path="../components/component-story-h3-button-blue-center.mjml" />
   </mj-wrapper>
 </mj-column>

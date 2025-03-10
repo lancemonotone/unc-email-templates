@@ -1,0 +1,54 @@
+<!-- Split Footer with Centered Bear Head -->
+<mj-section
+  background-color="#013c65"
+  padding="20px"
+  css-class="force-dark dark-mode-section dark-bg-link mobile-stack">
+  <!-- Left Column - Address -->
+  <mj-column width="40%" vertical-align="middle">
+    <mj-text
+      color="#ffffff"
+      css-class="dark-mode-text mobile-center"
+      font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
+      font-size="12px"
+      align="left"
+      padding-bottom="5px"
+      padding-top="5px">
+      {{ address | default: 'Tobey-Kendel Hall 199, Greeley, CO 80631' }}
+    </mj-text>
+  </mj-column>
+
+  <!-- Center Column - Bear Head Logo -->
+  <mj-column width="20%" vertical-align="middle">
+    <mj-image
+      css-class="light-img"
+      src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+      alt="UNC Bear Head"
+      width="50px"
+      align="center" />
+    <mj-image
+      css-class="dark-img"
+      src="https://ncd.test.technolutions.net/www/images/unc_brdmk_wht.png"
+      alt="UNC Bear Head"
+      width="50px"
+      align="center" />
+  </mj-column>
+
+  <!-- Right Column - Contact Info -->
+  <mj-column width="40%" vertical-align="middle">
+    <mj-text
+      color="#ffffff"
+      css-class="dark-mode-text mobile-center"
+      font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
+      font-size="12px"
+      align="right"
+      padding-bottom="5px"
+      padding-top="5px">
+      {{ phone | default: '970-351-2721' }} &nbsp;|&nbsp;
+      <a
+        href="{{ department_url | default: 'https://unco.edu/living-on-campus/housing' }}"
+        style="color: #ffffff; text-decoration: underline">
+        {{ department_website | default: 'unco.edu/living-on-campus/housing' }}
+      </a>
+    </mj-text>
+  </mj-column>
+</mj-section>

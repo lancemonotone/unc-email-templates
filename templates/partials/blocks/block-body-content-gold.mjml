@@ -38,12 +38,6 @@
     </mj-text>
 
     <!-- CTA Button -->
-    <mj-button
-      padding="10px 0"
-      align="center"
-      mj-class="button-primary"
-      href="#">
-      LEARN MORE
-    </mj-button>
+    <mj-include path="../components/component-button-left.mjml" />
   </mj-column>
 </mj-section>

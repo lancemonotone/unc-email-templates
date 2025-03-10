@@ -116,7 +116,8 @@
       padding-bottom="0px"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/blocks/block-callout-box.mjml" />
+      <mj-include
+        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Footer Section -->
@@ -125,7 +126,12 @@
       padding-bottom="0"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/footers/footer-primary-compact-blue.mjml" />
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+
+      <!-- Contact Footer -->
+      <mj-include
+        path="./partials/footers/footer-centered-single-column.mjml" />
     </mj-section>
   </mj-body>
 </mjml>

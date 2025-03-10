@@ -23,10 +23,10 @@
     <!-- Section 1: Header/Logo Section -->
     <mj-section
       padding-top="0"
-      padding-bottom="0"
+      padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/headers/bear-mono-blue.mjml" />
+      <mj-include path="./partials/headers/bear-mono-centered-blue.mjml" />
     </mj-section>
 
     <!-- H1 Intro Section - Hero Story -->
@@ -35,7 +35,7 @@
       padding-bottom="20px"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+      <mj-include path="./partials/blocks/block-two-column-hero.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 1 -->
@@ -116,7 +116,8 @@
       padding-bottom="0px"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/blocks/block-callout-box.mjml" />
+      <mj-include
+        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Footer Section -->
@@ -125,7 +126,12 @@
       padding-bottom="0"
       padding-left="20px"
       padding-right="20px">
-      <mj-include path="./partials/footers/footer-primary-compact-blue.mjml" />
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+
+      <!-- Contact Footer -->
+      <mj-include
+        path="./partials/footers/footer-centered-single-column.mjml" />
     </mj-section>
   </mj-body>
 </mjml>

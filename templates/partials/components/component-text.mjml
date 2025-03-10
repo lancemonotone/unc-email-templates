@@ -1,0 +1,10 @@
+<mj-text css-class="dark-mode-text">
+  <p>
+    Lorem ipsum dolor <a href="#">sit amet</a>, consectetur adipiscing elit. Sed
+    do eiusmod tempor <a href="#">incididunt ut labore</a> et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud
+    <a href="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in
+    <a href="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+  </p>
+</mj-text>

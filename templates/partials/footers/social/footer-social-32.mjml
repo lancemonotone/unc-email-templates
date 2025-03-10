@@ -1,9 +1,18 @@
-<mj-column>
-  <mj-social
-    font-size="13px"
-    icon-size="32px"
-    mode="horizontal"
-    padding-top="5px">
-    <mj-include path="./social-elements.mjml" />
-  </mj-social>
-</mj-column>
+<mj-section
+  background-color="#f6b000"
+  padding-top="0"
+  padding-bottom="0"
+  padding-left="20px"
+  padding-right="20px"
+  css-class="force-dark dark-mode-section mobile-stack"
+  border-bottom="1px solid #ffffff">
+  <mj-column>
+    <mj-social
+      font-size="13px"
+      icon-size="32px"
+      mode="horizontal"
+      padding-top="5px">
+      <mj-include path="./social-elements.mjml" />
+    </mj-social>
+  </mj-column>
+</mj-section>

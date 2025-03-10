@@ -58,7 +58,7 @@
 
   <mj-button
     padding="0"
-    align="left"
+    align="center"
     mj-class="button-primary"
     href="https://www.unco.edu/events-calendar/events.aspx">
     More Events

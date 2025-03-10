@@ -1,0 +1,49 @@
+<!-- UNC Monogram Centered with Newsletter Name on Blue Background Header -->
+<mj-section
+  background-color="#013c65"
+  padding="20px"
+  css-class="force-dark dark-mode-section dark-bg-link mobile-stack">
+  <mj-column width="100%" vertical-align="middle">
+    <!-- Logo -->
+    <mj-image
+      css-class="light-img mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/unc_logo_h_rv.png"
+      alt="UNC Logo"
+      width="200px"
+      href="https://unco.edu"
+      align="center" />
+    <mj-image
+      css-class="dark-img mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/unc_logo_h_wht.png"
+      alt="UNC Logo"
+      width="200px"
+      href="https://unco.edu"
+      align="center" />
+
+    <!-- Newsletter Name -->
+    <mj-text
+      css-class="dark-mode-text"
+      color="#ffffff"
+      font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+      font-size="18px"
+      font-weight="700"
+      align="center"
+      padding-top="10px"
+      padding-bottom="5px">
+      {{ newsletter_name | default: 'Newsletter Name' }}
+    </mj-text>
+
+    <!-- Department Name -->
+    <mj-text
+      css-class="dark-mode-text"
+      color="#ffffff"
+      font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+      font-size="14px"
+      font-weight="700"
+      align="center"
+      padding-top="0"
+      padding-bottom="5px">
+      {{ department_name | default: 'Department Name' }}
+    </mj-text>
+  </mj-column>
+</mj-section>
