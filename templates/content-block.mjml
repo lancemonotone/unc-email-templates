@@ -16,7 +16,7 @@
     <!-- Content -->
     <mj-wrapper>
       <mj-section full-width="full-width">
-        <mj-include path="./partials/components/story-block.mjml" />
+        <mj-include path="./partials/blocks/block-one-column-top-image.mjml" />
       </mj-section>
     </mj-wrapper>
   </mj-body>

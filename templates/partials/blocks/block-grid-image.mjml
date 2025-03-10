@@ -41,7 +41,7 @@
     <mj-section
       padding="0"
       background-color="#EBEBEB"
-      css-class="subtitle-section dark-mode-section dark-mode-text">
+      css-class="grey-section subtitle-section dark-mode-section dark-mode-text">
       <mj-text align="center" mj-class="h5" css-class="" padding="15px 10px">
         <p style="margin: 0">The people, places and events at UNC</p>
       </mj-text>
@@ -52,25 +52,17 @@
   <mj-section padding="0">
     <!-- Left Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
-      <mj-image
-        padding="0"
-        fluid-on-mobile="true"
-        src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
-        alt="UNC Men's Basketball game" />
+      <mj-include path="../components/component-image-content-center.mjml" />
       <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
-        <p>UNC Men's Basketball game.</p>
+        <p>Image caption</p>
       </mj-text>
     </mj-column>
 
     <!-- Right Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
-      <mj-image
-        padding="0"
-        fluid-on-mobile="true"
-        src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
-        alt="2025 Honored Scholars Awards" />
+      <mj-include path="../components/component-image-content-center.mjml" />
       <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
-        <p>2025 Honored Scholars Awards.</p>
+        <p>Image caption</p>
       </mj-text>
     </mj-column>
   </mj-section>
@@ -79,25 +71,17 @@
   <mj-section padding="0">
     <!-- Left Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
-      <mj-image
-        padding="0"
-        fluid-on-mobile="true"
-        src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
-        alt="Track and field training" />
+      <mj-include path="../components/component-image-content-center.mjml" />
       <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
-        <p>Track and field training.</p>
+        <p>Image caption</p>
       </mj-text>
     </mj-column>
 
     <!-- Right Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
-      <mj-image
-        padding="0"
-        fluid-on-mobile="true"
-        src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
-        alt="2025 Honored Scholars Awards" />
+      <mj-include path="../components/component-image-content-center.mjml" />
       <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
-        <p>2025 Honored Scholars Awards.</p>
+        <p>Image caption</p>
       </mj-text>
     </mj-column>
   </mj-section>

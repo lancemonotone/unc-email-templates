@@ -1,0 +1,6 @@
+<mj-image
+  padding="0"
+  fluid-on-mobile="true"
+  css-class="hero-image-half-width"
+  src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+  alt="Hero image" />

@@ -1,0 +1,7 @@
+<mj-image
+  align="left"
+  padding="0"
+  fluid-on-mobile="true"
+  css-class="content-image"
+  src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+  alt="Image alt text" />

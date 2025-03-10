@@ -7,7 +7,25 @@
 }
 .light-section {
   background-color: #ffffff;
-} /* Links */
+}
+.gold-section {
+  background-color: #fce2a3;
+}
+.grey-section {
+  background-color: #ebebeb;
+}
+/* Subtitle section styles */
+.subtitle-section {
+  margin-bottom: 20px !important;
+}
+.light-border,
+.gold-border {
+  border-bottom: 1px solid transparent !important;
+}
+.blue-border {
+  border-bottom: 1px solid #013c65 !important;
+}
+/* Links */
 a {
   color: #013c65 !important;
   text-decoration: underline;
@@ -32,13 +50,6 @@ a {
 }
 .mobile-stack-column {
   max-width: 600px !important;
-}
-
-/* Subtitle section styles */
-.subtitle-section {
-  background-color: #ebebeb;
-  border-bottom: 1px solid transparent;
-  margin-bottom: 20px !important;
 }
 
 /* Heading margin resets */
@@ -99,20 +110,33 @@ p {
     color: #ffffff !important;
   }
   /* Sections */
-  .dark-mode-section {
+  .dark-mode-section,
+  .gold-section {
     background-color: #333333 !important;
   }
 
-  /* Subtitle section dark mode */
-  .subtitle-section.dark-mode-section {
+  /* Grey background in dark mode */
+  .grey-section.dark-mode-section {
     background: transparent !important;
     background-color: transparent !important;
     border-bottom: 1px solid #ffffff !important;
   }
 
-  .subtitle-section.dark-mode-section table {
+  .grey-section.dark-mode-section table {
     background: transparent !important;
     background-color: transparent !important;
+  }
+
+  .gold-border {
+    border-bottom: 1px solid #f6b000 !important;
+  }
+
+  .blue-border {
+    border-bottom: 1px solid #ffffff !important;
+  }
+
+  .light-border {
+    border-bottom: 1px solid #ffffff !important;
   }
 
   /* Text */
@@ -145,6 +169,69 @@ p {
   display: none !important;
 }
 [data-ogsc] .dark-img {
+  display: block !important;
+}
+
+/* Hero image dimensions */
+.hero-image-half-width {
+  max-width: 550px !important;
+  max-height: 450px !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.hero-image half-width img {
+  max-width: 550px !important;
+  max-height: 450px !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.hero-image-full-width {
+  max-width: 1080px !important;
+  max-height: 238px !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+
+.hero-image-full-width img {
+  max-width: 1080px !important;
+  max-height: 238px !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+
+/* Content image dimensions */
+.content-image {
+  max-width: 350px !important;
+  max-height: 250px !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.content-image img {
+  max-width: 350px !important;
+  max-height: 250px !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* Image centering class */
+.image-centered {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+}
+
+.image-centered img {
+  margin-left: auto !important;
+  margin-right: auto !important;
   display: block !important;
 }
 

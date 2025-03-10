@@ -2,7 +2,7 @@
 <mj-section padding="0" css-class="dark-mode-section mobile-stack">
   <!-- Left Column -->
   <mj-column
-    width="70%"
+    width="60%"
     padding="20px"
     vertical-align="top"
     css-class="mobile-stack-column">
@@ -11,7 +11,7 @@
 
   <!-- Right Column -->
   <mj-column
-    width="30%"
+    width="40%"
     padding="20px"
     vertical-align="top"
     css-class="mobile-stack-column">

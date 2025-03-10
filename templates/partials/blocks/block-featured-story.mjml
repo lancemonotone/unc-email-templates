@@ -2,12 +2,7 @@
 <mj-column
   padding="0"
   css-class="block-container light-section dark-mode-section">
-  <mj-image
-    align="left"
-    padding="0"
-    fluid-on-mobile="true"
-    src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
-    alt="University of Northern Colorado" />
+  <mj-include path="../components/component-image-content-left.mjml" />
 
   <mj-text mj-class="h3">
     <h3>Heading</h3>

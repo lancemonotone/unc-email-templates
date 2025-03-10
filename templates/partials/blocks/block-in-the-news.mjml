@@ -40,7 +40,7 @@
     <mj-section
       padding="0"
       background-color="#EBEBEB"
-      css-class="subtitle-section dark-mode-section dark-mode-text">
+      css-class="grey-section subtitle-section dark-mode-section dark-mode-text">
       <mj-text align="center" mj-class="h5" css-class="" padding="15px 10px">
         <p style="margin: 0">
           A selection of featured headlines about the university

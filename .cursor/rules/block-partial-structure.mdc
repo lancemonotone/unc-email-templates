@@ -1,0 +1,97 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# MJML Block Partial Structure Rules
+
+## 1. Basic Container Structure
+- Always start with an HTML comment describing the block's purpose
+- Use `<mj-column>` as the root container
+- Add appropriate CSS classes for dark mode and mobile responsiveness:
+  ```mjml
+  css-class="block-container light-section dark-mode-section"
+  ```
+
+## 2. Padding & Spacing
+- Root sections: `padding="20px"`
+- Inner columns: `padding="0"` or `padding="20px"` depending on design
+- Content elements (text, buttons): Use consistent padding
+  - Top/bottom padding: 10px
+  - Side padding: 0px or 20px
+
+## 3. Typography System
+### Headers
+```mjml
+<mj-text
+  font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+  font-weight="bold"
+  font-size="14px"
+  color="#000000"
+>
+```
+
+### Body Text
+```mjml
+<mj-text
+  font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
+  font-size="14px"
+  color="#000000"
+>
+```
+
+## 4. Column Layout Rules
+- Single column: Use full width
+- Two columns: 
+  - Image column: `width="45%"`
+  - Content column: `width="55%"`
+- Always add `css-class="mobile-stack-column"` for responsive design
+
+## 5. Images
+```mjml
+<mj-image
+  padding="0"
+  fluid-on-mobile="true"
+  css-class="content-image"
+  src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
+  align="left"
+/>
+```
+
+## 6. CTA Buttons
+```mjml
+<mj-button
+  background-color="#013C65"
+  color="#FFFFFF"
+  font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
+  font-weight="bold"
+  font-size="14px"
+  align="center"
+  border-radius="4px"
+>
+```
+
+## 7. Dark Mode Support
+- Add these classes to sections that need dark mode:
+  - `dark-mode-section`: For background color switching
+  - `dark-mode-text`: For text color switching
+  - `dark-bg-link`: For link color adaptation
+
+## 8. Mobile Responsiveness
+Required classes:
+- `mobile-stack-column`: For columns that should stack on mobile
+- `mobile-center`: For content that should center align on mobile
+- `content-image`: For images that need mobile optimization
+
+## 9. Background Colors
+Common background colors:
+- White (default): No background color specified
+- Blue: `#013C65`
+- Gold: `#F6B000`
+- Grey: `#EBEBEB`
+
+## 10. File Naming Convention
+- Prefix: Always use `block-`
+- Descriptive name: Describe the main purpose
+- Example: `block-body-content-white.mjml`

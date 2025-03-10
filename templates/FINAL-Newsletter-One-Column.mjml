@@ -1,0 +1,131 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="700px" />
+    <mj-breakpoint width="480px" />
+    <!-- Set global width to 1080px -->
+    <mj-attributes>
+      <mj-body width="1080px" />
+      <mj-text css-class="dark-mode-text" />
+      <mj-section css-class="light-section dark-mode-section" />
+    </mj-attributes>
+
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" content="light dark" />
+    </mj-raw>
+
+    <mj-include path="./assets/styles.mjml" />
+
+    <mj-include path="./assets/styles.css" type="css" />
+  </mj-head>
+
+  <mj-body>
+    <!-- Section 1: Header/Logo Section -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="20px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/headers/bear-name-blue.mjml" />
+    </mj-section>
+
+    <!-- H1 Intro Section - Hero Story -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="20px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-two-column-hero.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 1 -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-body-content-white.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 2 -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-body-content-gold.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 3 -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-body-content-white.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 4 -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-body-content-gold.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 5 -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-body-content-white.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 6 -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-body-content-gold.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 7 -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-body-content-white.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 8 -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-body-content-gold.mjml" />
+    </mj-section>
+
+    <!-- Follow-up Information (Callout Box) -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0px"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/blocks/block-callout-box.mjml" />
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section
+      padding-top="0"
+      padding-bottom="0"
+      padding-left="20px"
+      padding-right="20px">
+      <mj-include path="./partials/footers/footer-primary-compact-blue.mjml" />
+    </mj-section>
+  </mj-body>
+</mjml>

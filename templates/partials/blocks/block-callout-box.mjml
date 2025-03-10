@@ -1,0 +1,27 @@
+<!-- Follow-Up Information Callout Box -->
+<mj-section
+  padding="20px"
+  background-color="#EBEBEB"
+  css-class="grey-section dark-mode-section dark-mode-text">
+  <mj-column css-class="mobile-stack-column">
+    <!-- Headline -->
+    <mj-text
+      font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
+      font-weight="bold"
+      font-size="16px"
+      color="#013C65"
+      align="center">
+      Questions?
+    </mj-text>
+
+    <!-- Body Text -->
+    <mj-text
+      font-family="'Open Sans', Roboto, Tahoma, Arial, sans-serif"
+      font-size="14px"
+      color="#000000"
+      align="center">
+      Contact us for more information about this event or program. We're here to
+      help you navigate your UNC experience.
+    </mj-text>
+  </mj-column>
+</mj-section>
