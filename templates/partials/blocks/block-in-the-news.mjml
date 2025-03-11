@@ -2,6 +2,7 @@
 <mj-column
   padding="0"
   css-class="block-container light-section dark-mode-section">
+  <!-- Header Section with Gradient Background -->
   <mj-section padding="0">
     <!--[if gte mso 9]>
       <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
@@ -10,11 +11,7 @@
     <![endif]-->
     <mj-text
       background-color="#013c65"
-      font-family="'Eds Market', 'Zeija Pro', cursive, sans-serif"
-      font-size="32px"
-      padding="0"
-      align="center"
-      css-class="images-header"
+      mj-class="highlight"
       color="#FFB71B">
       <div
         style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
@@ -23,7 +20,6 @@
           alt="UNC"
           width="100"
           style="vertical-align: middle" />
-
         <span style="vertical-align: middle"> in the News</span>
       </div>
     </mj-text>

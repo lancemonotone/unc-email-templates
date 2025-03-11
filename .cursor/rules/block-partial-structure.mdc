@@ -95,3 +95,41 @@ Common background colors:
 - Prefix: Always use `block-`
 - Descriptive name: Describe the main purpose
 - Example: `block-body-content-white.mjml`
+
+## 11. Class Usage Guidelines
+### mj-class vs css-class
+- `mj-class`: 
+  - Applied directly to the MJML element as inline styles
+  - Use for core styling that must work in all email clients
+  - Ideal for font properties, colors, and spacing
+  - Example:
+    ```mjml
+    <mj-class name="header" 
+      font-size="24px" 
+      color="#013C65" 
+      padding="10px" />
+    ```
+
+- `css-class`:
+  - Applied to the outer wrapper element in generated HTML
+  - Use for responsive design and progressive enhancement
+  - Required for dark mode and mobile adaptations
+  - When styling, target inner elements if needed:
+    ```css
+    .dark-mode-text div {
+      color: #ffffff !important;
+    }
+    ```
+
+### Best Practices
+- Use `mj-class` for:
+  - Typography base styles
+  - Colors that must work everywhere
+  - Consistent spacing
+  - Core layout properties
+
+- Use `css-class` for:
+  - Dark mode toggles
+  - Mobile responsiveness
+  - Progressive enhancements
+  - Dynamic styling that's okay to fail gracefully

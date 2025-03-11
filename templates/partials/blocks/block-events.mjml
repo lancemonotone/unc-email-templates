@@ -10,10 +10,7 @@
   <![endif]-->
   <mj-text
     background-color="#013c65"
-    font-family="'Eds Market', 'Zeija Pro', cursive, sans-serif"
-    font-size="32px"
-    padding="0"
-    align="center"
+    mj-class="highlight"
     css-class="events-header dark-mode-text">
     <div style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
       <a
@@ -57,9 +54,8 @@
   </mj-text>
 
   <mj-button
-    padding="0"
-    align="center"
     mj-class="button-primary"
+    align="center"
     href="https://www.unco.edu/events-calendar/events.aspx">
     More Events
   </mj-button>

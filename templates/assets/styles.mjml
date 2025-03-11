@@ -48,13 +48,16 @@
   <!-- Special highlight text - Eds Market first -->
   <mj-class
     name="highlight"
-    font-family="'Eds Market', 'Zeija Pro', Cursive, sans-serif" />
+    font-size="32px"
+    padding="0"
+    align="center"
+    font-family="'Eds Market', 'Zeija Pro', 'Bradley Hand', 'Apple Chancery', 'URW Chancery L', 'Dancing Script', cursive, sans-serif" />
 
   <!-- Button styles -->
   <mj-class
     name="button-primary"
     background-color="#013c65"
-    color="#ffffff !important"
+    color="#ffffff"
     font-weight="bold"
     border-radius="4px"
     padding="10px 20px"
@@ -64,7 +67,7 @@
     name="button-secondary"
     background-color="#f6b000"
     font-weight="bold"
-    color="#ffffff !important"
+    color="#ffffff"
     border-radius="4px"
     padding="10px 20px"
     css-class="button-secondary" />

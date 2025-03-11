@@ -14,9 +14,9 @@
       <meta name="supported-color-schemes" content="light dark" />
     </mj-raw>
 
-    <mj-include path="./assets/styles.mjml" />
-
     <mj-include path="./assets/styles.css" type="css" />
+
+    <mj-include path="./assets/styles.mjml" />
   </mj-head>
 
   <mj-body>

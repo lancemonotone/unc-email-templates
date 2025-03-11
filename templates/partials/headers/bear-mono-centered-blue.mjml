@@ -6,15 +6,8 @@
   <mj-column width="100%" vertical-align="middle">
     <!-- Logo -->
     <mj-image
-      css-class="light-img mobile-center"
+      css-class="mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_logo_h_rv.png"
-      alt="UNC Logo"
-      width="200px"
-      href="https://unco.edu"
-      align="center" />
-    <mj-image
-      css-class="dark-img mobile-center"
-      src="https://ncd.test.technolutions.net/www/images/unc_logo_h_wht.png"
       alt="UNC Logo"
       width="200px"
       href="https://unco.edu"

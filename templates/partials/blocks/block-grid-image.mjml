@@ -11,11 +11,7 @@
     <![endif]-->
     <mj-text
       background-color="#013c65"
-      font-family="'Eds Market', 'Zeija Pro', cursive, sans-serif"
-      font-size="32px"
-      padding="0"
-      align="center"
-      css-class="images-header"
+      mj-class="highlight"
       color="#FFB71B">
       <div
         style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">

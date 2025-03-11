@@ -1,10 +1,4 @@
 /* Default (Light Mode) */
-.dark-img {
-  display: none;
-}
-.light-img {
-  display: block;
-}
 .light-section {
   background-color: #ffffff;
 }
@@ -27,11 +21,11 @@
 }
 /* Links */
 a {
-  color: #013c65 !important;
+  color: #013c65;
   text-decoration: underline;
 }
 .dark-bg-link a {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 /* Button styles */
 .button-primary {
@@ -143,12 +137,6 @@ p {
   .dark-mode-text,
   .dark-mode-text * {
     color: #ffffff !important;
-  } /* Images */
-  .light-img {
-    display: none !important;
-  }
-  .dark-img {
-    display: block !important;
   }
 } /* Outlook Dark
       Mode */
@@ -165,12 +153,6 @@ p {
 [data-ogsc] .dark-mode-text * {
   color: #ffffff !important;
 }
-[data-ogsc] .light-img {
-  display: none !important;
-}
-[data-ogsc] .dark-img {
-  display: block !important;
-}
 
 /* Hero image dimensions */
 .hero-image-half-width {
@@ -181,7 +163,7 @@ p {
   object-fit: contain !important;
 }
 
-.hero-image half-width img {
+.hero-image-half-width img {
   max-width: 550px !important;
   max-height: 450px !important;
   width: 100% !important;

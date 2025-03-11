@@ -13,15 +13,8 @@
         vertical-align="middle"
         css-class="mobile-stack-column">
         <mj-image
-          css-class="light-img mobile-center"
+          css-class="mobile-center"
           src="https://ncd.test.technolutions.net/www/images/unc_mono_clr.png"
-          alt="UNC Monogram"
-          width="50px"
-          align="left"
-          href="{{ department_url | default: 'https://unco.edu' }}" />
-        <mj-image
-          css-class="dark-img mobile-center"
-          src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
           alt="UNC Monogram"
           width="50px"
           align="left"
