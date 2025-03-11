@@ -145,33 +145,6 @@ This document outlines crucial considerations when building HTML email templates
      }
      ```
 
-2. **Image Handling in Dark Mode**
-   - Use transparent PNG images when possible
-   - For critical images with dark/light versions, implement with:
-
-     ```html
-     <div
-       class="dark-img"
-       style="display:none; overflow:hidden; line-height:0px; max-height:0px;">
-       <img src="dark-logo.png" alt="Logo" />
-     </div>
-     <div class="light-img" style="display:block;">
-       <img src="light-logo.png" alt="Logo" />
-     </div>
-
-     <style>
-       @media (prefers-color-scheme: dark) {
-         .dark-img {
-           display: block !important;
-           max-height: none !important;
-         }
-         .light-img {
-           display: none !important;
-         }
-       }
-     </style>
-     ```
-
 ## Testing Protocol
 
 1. **Client Testing Matrix**
