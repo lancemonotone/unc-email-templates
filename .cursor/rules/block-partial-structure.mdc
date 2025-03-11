@@ -1,6 +1,6 @@
 ---
-description: 
-globs: 
+description: MJML Block Partial Structure Rules
+globs: .mjml
 alwaysApply: false
 ---
 

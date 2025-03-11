@@ -4,13 +4,9 @@
   css-class="block-container light-section dark-mode-section">
   <mj-include path="../components/component-image-content-left.mjml" />
 
-  <mj-text mj-class="h3">
-    <h3>Heading</h3>
-  </mj-text>
+  <mj-include path="../components/component-h3.mjml" />
 
-  <mj-text css-class="dark-mode-text">
-    <p>Content</p>
-  </mj-text>
+  <mj-include path="../components/component-text.mjml" />
 
   <mj-include path="../components/component-button-left.mjml" />
 </mj-column>

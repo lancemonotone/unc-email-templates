@@ -19,21 +19,12 @@
       color="#FFB71B">
       <div
         style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
-        <a
-          href="#"
-          style="
-            color: #ffb71b !important;
-            text-decoration: none;
-            display: block;
-          ">
           <img
             src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
             alt="UNC"
             width="100"
             style="vertical-align: middle" />
-
           <span style="vertical-align: middle"> in Pictures</span>
-        </a>
       </div>
     </mj-text>
 
@@ -53,17 +44,13 @@
     <!-- Left Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
       <mj-include path="../components/component-image-content-center.mjml" />
-      <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
-        <p>Image caption</p>
-      </mj-text>
+      <mj-include path="../components/component-image-caption.mjml" />
     </mj-column>
 
     <!-- Right Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
       <mj-include path="../components/component-image-content-center.mjml" />
-      <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
-        <p>Image caption</p>
-      </mj-text>
+      <mj-include path="../components/component-image-caption.mjml" />
     </mj-column>
   </mj-section>
 
@@ -72,17 +59,14 @@
     <!-- Left Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
       <mj-include path="../components/component-image-content-center.mjml" />
-      <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
-        <p>Image caption</p>
+      <mj-include path="../components/component-image-caption.mjml" />
       </mj-text>
     </mj-column>
 
     <!-- Right Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
       <mj-include path="../components/component-image-content-center.mjml" />
-      <mj-text align="center" css-class="dark-mode-text" padding="5px 0 0">
-        <p>Image caption</p>
-      </mj-text>
+      <mj-include path="../components/component-image-caption.mjml" />
     </mj-column>
   </mj-section>
 </mj-column>

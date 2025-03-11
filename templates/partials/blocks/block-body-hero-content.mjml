@@ -1,0 +1,19 @@
+<!-- Hero Block with Full-Width Image and Content -->
+<mj-section
+  padding="0"
+  css-class="block-container light-section dark-mode-section">
+  <!-- Hero Image -->
+  <mj-column width="100%" padding="0">
+    <mj-include path="../components/component-image-hero-full-width.mjml" />
+  </mj-column>
+</mj-section>
+
+<!-- Content Section -->
+<mj-section padding="20px">
+  <mj-column width="100%">
+    <mj-include path="../components/component-h1.mjml" />
+    <mj-include path="../components/component-text.mjml" />
+    <mj-include path="../components/component-h2.mjml" />
+    <mj-include path="../components/component-text.mjml" />
+  </mj-column>
+</mj-section>

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<base target="_blank" />
+<style>a, a:link, a:visited { color: blue; } a:active, a:hover { color: red; } pre { white-space: pre-wrap; }</style><!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><!--<![endif]--><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><meta name="viewport" content="width=device-width, initial-scale=1" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><style type="text/css" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">#outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+    
+    </style><!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]--><!--[if lte mso 11]>
+    <style type="text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]--><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700" rel="stylesheet" type="text/css" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700" rel="stylesheet" type="text/css" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><style type="text/css" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700);
+    @import url(https://fonts.googleapis.com/css2?family=Arvo:wght@400;700);
+    
+    </style><!--<![endif]--><style type="text/css" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">@media only screen and (min-width:480px) {
+      .mj-column-per-33-33 {
+        width: 33.33% !important;
+        max-width: 33.33%;
+      }
+
+      .mj-column-per-66-67 {
+        width: 66.67% !important;
+        max-width: 66.67%;
+      }
+
+      .mj-column-per-60 {
+        width: 60% !important;
+        max-width: 60%;
+      }
+
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-40 {
+        width: 40% !important;
+        max-width: 40%;
+      }
+
+      .mj-column-per-33-333333333333336 {
+        width: 33.333333333333336% !important;
+        max-width: 33.333333333333336%;
+      }
+
+      .mj-column-per-49 {
+        width: 49% !important;
+        max-width: 49%;
+      }
+
+      .mj-column-per-25 {
+        width: 25% !important;
+        max-width: 25%;
+      }
+
+      .mj-column-per-75 {
+        width: 75% !important;
+        max-width: 75%;
+      }
+    }
+    
+    </style><style media="screen and (min-width:480px)" type="text/css" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">.moz-text-html .mj-column-per-33-33 {
+      width: 33.33% !important;
+      max-width: 33.33%;
+    }
+
+    .moz-text-html .mj-column-per-66-67 {
+      width: 66.67% !important;
+      max-width: 66.67%;
+    }
+
+    .moz-text-html .mj-column-per-60 {
+      width: 60% !important;
+      max-width: 60%;
+    }
+
+    .moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-per-40 {
+      width: 40% !important;
+      max-width: 40%;
+    }
+
+    .moz-text-html .mj-column-per-33-333333333333336 {
+      width: 33.333333333333336% !important;
+      max-width: 33.333333333333336%;
+    }
+
+    .moz-text-html .mj-column-per-49 {
+      width: 49% !important;
+      max-width: 49%;
+    }
+
+    .moz-text-html .mj-column-per-25 {
+      width: 25% !important;
+      max-width: 25%;
+    }
+
+    .moz-text-html .mj-column-per-75 {
+      width: 75% !important;
+      max-width: 75%;
+    }
+    
+    </style><style type="text/css" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">@media only screen and (max-width:479px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+    }
+    
+    </style><style type="text/css" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">/* Default (Light Mode) */
+    .dark-img {
+      display: none;
+    }
+
+    .light-img {
+      display: block;
+    }
+
+    .light-section {
+      background-color: #ffffff;
+    }
+
+    .gold-section {
+      background-color: #fce2a3;
+    }
+
+    .grey-section {
+      background-color: #ebebeb;
+    }
+
+    /* Subtitle section styles */
+    .subtitle-section {
+      margin-bottom: 20px !important;
+    }
+
+    .light-border,
+    .gold-border {
+      border-bottom: 1px solid transparent !important;
+    }
+
+    .blue-border {
+      border-bottom: 1px solid #013c65 !important;
+    }
+
+    /* Links */
+    a {
+      color: #013c65 !important;
+      text-decoration: underline;
+    }
+
+    .dark-bg-link a {
+      color: #ffffff !important;
+    }
+
+    /* Button styles */
+    .button-primary {
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+    }
+
+    .button-secondary {
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+    }
+
+    /* Image adjustments */
+    .mobile-stack img {
+      width: auto !important;
+      max-height: 300px;
+      max-width: 100%;
+    }
+
+    .mobile-stack-column {
+      max-width: 600px !important;
+    }
+
+    /* Heading margin resets */
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5 {
+      margin-top: 0.5em !important;
+      margin-bottom: 0.5em !important;
+    }
+
+    /* Using classes directly in case tag selectors aren't supported in some clients */
+    p {
+      margin-top: 0.5em !important;
+      margin-bottom: 0.5em !important;
+    }
+
+    .h1 {
+      margin-top: 0.5em !important;
+      margin-bottom: 0.5em !important;
+    }
+
+    .h2 {
+      margin-top: 0.5em !important;
+      margin-bottom: 0.5em !important;
+    }
+
+    .h3 {
+      margin-top: 0.5em !important;
+      margin-bottom: 0.5em !important;
+    }
+
+    .h4 {
+      margin-top: 0.5em !important;
+      margin-bottom: 0.5em !important;
+    }
+
+    .h5 {
+      margin-top: 0.5em !important;
+      margin-bottom: 0.5em !important;
+    }
+
+    @media (prefers-color-scheme: dark) {
+
+      /* Page Background */
+      body {
+        background-color: #1a1a1a !important;
+      }
+
+      div[style*="background-color:#f7f7f7"] {
+        background-color: #1a1a1a !important;
+      }
+
+      /* Force colors */
+      .force-dark,
+      .force-dark table,
+      table.force-dark {
+        background: #013c65 !important;
+        background-color: #013c65 !important;
+        color: #ffffff !important;
+      }
+
+      /* Sections */
+      .dark-mode-section,
+      .gold-section {
+        background-color: #333333 !important;
+      }
+
+      /* Grey background in dark mode */
+      .grey-section.dark-mode-section {
+        background: transparent !important;
+        background-color: transparent !important;
+        border-bottom: 1px solid #ffffff !important;
+      }
+
+      .grey-section.dark-mode-section table {
+        background: transparent !important;
+        background-color: transparent !important;
+      }
+
+      .gold-border {
+        border-bottom: 1px solid #f6b000 !important;
+      }
+
+      .blue-border {
+        border-bottom: 1px solid #ffffff !important;
+      }
+
+      .light-border {
+        border-bottom: 1px solid #ffffff !important;
+      }
+
+      /* Text */
+      .dark-mode-text,
+      .dark-mode-text * {
+        color: #ffffff !important;
+      }
+
+      /* Images */
+      .light-img {
+        display: none !important;
+      }
+
+      .dark-img {
+        display: block !important;
+      }
+    }
+
+    /* Outlook Dark
+      Mode */
+    [data-ogsc] body {
+      background-color: #1a1a1a !important;
+    }
+
+    [data-ogsc] div[style*="background-color:#f7f7f7"] {
+      background-color: #1a1a1a !important;
+    }
+
+    [data-ogsc] .dark-mode-section {
+      background-color: #333333 !important;
+    }
+
+    [data-ogsc] .dark-mode-text,
+    [data-ogsc] .dark-mode-text * {
+      color: #ffffff !important;
+    }
+
+    [data-ogsc] .light-img {
+      display: none !important;
+    }
+
+    [data-ogsc] .dark-img {
+      display: block !important;
+    }
+
+    /* Hero image dimensions */
+    .hero-image-half-width {
+      max-width: 550px !important;
+      max-height: 450px !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: contain !important;
+    }
+
+    .hero-image half-width img {
+      max-width: 550px !important;
+      max-height: 450px !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: contain !important;
+    }
+
+    .hero-image-full-width {
+      max-width: 1080px !important;
+      max-height: 238px !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: cover !important;
+    }
+
+    .hero-image-full-width img {
+      max-width: 1080px !important;
+      max-height: 238px !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: cover !important;
+    }
+
+    /* Content image dimensions */
+    .content-image {
+      max-width: 350px !important;
+      max-height: 250px !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: contain !important;
+    }
+
+    .content-image img {
+      max-width: 350px !important;
+      max-height: 250px !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: contain !important;
+    }
+
+    /* Image centering class */
+    .image-centered {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: block !important;
+    }
+
+    .image-centered img {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: block !important;
+    }
+
+    /* Mobile Responsive Rules */
+    @media only screen and (max-width: 700px) {
+
+      /* Container width control */
+      .mobile-container,
+      .mobile-stack {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+      }
+
+      /* Mobile center alignment */
+      .mobile-center {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .mobile-center table,
+      .mobile-center div {
+        text-align: center !important;
+        width: auto;
+        margin: 0 auto;
+      }
+
+      /* Mobile stacking */
+      .mobile-stack {
+        display: block !important;
+        width: 100% !important;
+      }
+
+      .mobile-stack-column,
+      .mobile-stack-column.mj-column-per-70,
+      .mobile-stack-column.mj-column-per-30,
+      [class*="mj-column-per-"].mobile-stack-column {
+        max-width: 100% !important;
+        width: 100% !important;
+        display: block !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+      }
+
+      .mobile-stack-column div {
+        margin: 0 !important;
+      }
+
+      .mobile-stack-column td {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .mobile-stack-padding {
+        padding-bottom: 20px !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+
+      /* Override MJML default column behavior */
+      .mj-column-per-30,
+      .mj-column-per-70 {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+
+      /* Ensure all columns stack properly */
+      [class*="mj-column-per-"] {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      /* Mobile text alignments */
+      .mobile-text-center {
+        text-align: center !important;
+      }
+    }
+    
+    </style><!-- Set global width to 1080px --><meta name="color-scheme" content="light dark" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><meta name="supported-color-schemes" content="light dark" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><meta name="color-scheme" content="light dark" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><meta name="supported-color-schemes" content="light dark" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><meta name="viewport" content="width=device-width, initial-scale=1" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" /><!--[if mso]>
+    <style type="text/css">
+      /* Force Outlook to provide a "view in browser" menu */
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+    </style>
+  <![endif]-->
+</head>
+<body style="word-spacing:normal;">
+<font face="Times New Roman, Times, serif" size="3"><div style="font-family: Times New Roman, Times, serif; font-size: 12pt;"><div dir="auto" lang="und" style="" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml"><!-- Section 1: Header/Logo Section --><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1080px;" width="1080" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1080px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Bear + UNC Monogram on Blue Background Header --><!--[if mso | IE]><td class="force-dark-outlook dark-mode-section-outlook dark-bg-link-outlook mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="force-dark-outlook dark-mode-section-outlook dark-bg-link-outlook mobile-stack-outlook" role="presentation" style="width:1040px;" width="1040" bgcolor="#013c65" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="force-dark dark-mode-section dark-bg-link mobile-stack" style="background:#013c65;background-color:#013c65;margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#013c65;background-color:#013c65;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1000px;" width="1000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:1000px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:20px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook" width="1000px" ><![endif]--><div class="mj-column-per-33-33 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"><tbody><tr><td align="left" class="light-img mobile-center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:200px;"><a href="https://mx.technolutions.net/ss/c/u001.-JLG6By4-20xZllkVwUz4cfYl2NK9n-XBNI0gWn9XB4/4ep/Y7SudKDPRby73i_gUUpaZw/h0/h001.R8yQuC5XeUDyuFgfjmdY04xSqnKZtsO7PU2zEqDqKe8" title="https://unco.edu" target="_blank"><img alt="UNC Bear Logo" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="200" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIUVQXBZJAyK_bJSgjJmNaWw" /></a></td></tr></tbody></table></td></tr><tr><td align="left" class="dark-img mobile-center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:200px;"><a href="https://mx.technolutions.net/ss/c/u001.-JLG6By4-20xZllkVwUz4cfYl2NK9n-XBNI0gWn9XB4/4ep/Y7SudKDPRby73i_gUUpaZw/h1/h001.40wGmk4SzQfB9w3MNGNC2G_HBMIAGzw_fo-LCkR_Tts" title="https://unco.edu" target="_blank"><img alt="UNC Bear Logo" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="200" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIrE4632ChSv5dO1uN1C8sJKC9alqjLjRrMDHRVDOptCM" /></a></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr><tr><td class="mobile-stack-column-outlook" width="1000px" ><![endif]--><div class="mj-column-per-66-67 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"><tbody><tr><td align="right" class="dark-mode-text mobile-center" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Arvo', 'Courier New', Courier, monospace;font-size:16px;font-weight:700;line-height:120%;text-align:right;color:#ffffff;">
+                                        Test Email Template Litmus
+                                      </div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--><!-- Section 2: Featured Story/Events Section inside Two Column Sidebar --><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1080px;" width="1080" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1080px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- CONTENT Heading Two Column --><!--[if mso | IE]><td class="dark-mode-section-outlook mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="dark-mode-section-outlook mobile-stack-outlook" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="dark-mode-section mobile-stack" style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Left Column --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:624px;" ><![endif]--><div class="mj-column-per-60 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:20px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><!-- Featured Story Block --><tr><td class="block-container light-section dark-mode-section" style="font-size:0px;padding:0;word-break:break-word;"><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="content-image" style="font-size:0px;padding:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" class="mj-full-width-mobile" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td class="mj-full-width-mobile" style="width:584px;"><img alt="Image alt text" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="584" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIWNGNrK50w_fbmnmkf8dtNw" /></td></tr></tbody></table></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.5;text-align:left;color:#013c65;"><h3>
+                                                      Story Title H3
+                                                    </h3></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                      Lorem ipsum dolor <a href="#" title="#">sit amet</a>, consectetur adipiscing elit. Sed do eiusmod tempor <a href="#" title="#">incididunt ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#" title="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <a href="#" title="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+                                                    </p></div></td></tr><!-- UNC Standard Button Component --><tr><td align="left" class="button-primary" style="font-size:0px;padding:0 0 20px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr><td align="center" bgcolor="#013c65" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65;" valign="middle"><a href="#" title="#" style="display:inline-block;background:#013c65;color:#ffffff !important;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">Read More </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><![endif]--><!-- Right Column --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:416px;" ><![endif]--><div class="mj-column-per-40 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:20px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><!-- Events Block --><tr><td class="block-container light-section dark-mode-section" style="font-size:0px;padding:0;word-break:break-word;"><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><!-- Events Header --><!-- [if gte mso 9]>
+    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+      <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
+    </v:background>
+  <![endif] --><tr><td align="center" class="events-header dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Eds Market', 'Zeija Pro', cursive, sans-serif;font-size:32px;line-height:1.5;text-align:center;color:#000000;"><div style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)"><a href="https://mx.technolutions.net/ss/c/u001.jxaZRujEt1lhE0WEp4QewM407s9tcb8IXCkkg-PqsbLOKl6B-mDjNkio1mcNu5fo3fl3XbfVC_79dk0FkZNjvw/4ep/Y7SudKDPRby73i_gUUpaZw/h2/h001.bLcP2Ms6MBod2SRYfcN_uy66sN8aQHtg3stT3msUsuo" title="https://www.unco.edu/events-calendar/events.aspx" style="&#13;&#10;          color: #ffb71b !important;&#13;&#10;          text-decoration: none;&#13;&#10;          display: block;&#13;&#10;        ">Events </a></div></div></td></tr><!-- Event Items --><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p><strong><a href="#" title="#">Free Movie Night</a></strong></p></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                      Monday, Feb. 10, 5-7 p.m., Kress Cinema.
+                                                    </p></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p><strong><a href="#" title="#">Valentine's Bash</a></strong></p></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                      Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
+                                                    </p></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p><strong><a href="#" title="#">Valentine's Bash</a></strong></p></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                      Wednesday, Feb. 12, 7-9 p.m., Harrison Hall Den.
+                                                    </p></div></td></tr><tr><td align="center" class="button-primary" style="font-size:0px;padding:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr><td align="center" bgcolor="#013c65" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65;" valign="middle"><a href="https://mx.technolutions.net/ss/c/u001.jxaZRujEt1lhE0WEp4QewM407s9tcb8IXCkkg-PqsbLOKl6B-mDjNkio1mcNu5fo3fl3XbfVC_79dk0FkZNjvw/4ep/Y7SudKDPRby73i_gUUpaZw/h3/h001.CpFrs5Vx5Y2l0FTG8xCMw3Xc2mIt7943r54vCSAMB50" title="https://www.unco.edu/events-calendar/events.aspx" style="display:inline-block;background:#013c65;color:#ffffff !important;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">More Events </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--><!-- Section 3: Stories Section --><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1080px;" width="1080" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1080px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Stories Block --><!--[if mso | IE]><td class="block-container-outlook light-section-outlook dark-mode-section-outlook" style="vertical-align:top;width:1040px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><!-- Story 1 --><tr><td align="center" style="font-size:0px;padding:10px 0 0;word-break:break-word;"><p style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:100%;"></p><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:1040px;" role="presentation" width="1040px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td></tr><tr><td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="block-container-outlook light-section-outlook dark-mode-section-outlook mobile-stack-column-outlook" width="1040px" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.5;text-align:left;color:#013c65;"><h3>
+                                                Story Title H3
+                                              </h3></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                Lorem ipsum dolor <a href="#" title="#">sit amet</a>, consectetur adipiscing elit. Sed do eiusmod tempor <a href="#" title="#">incididunt ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#" title="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <a href="#" title="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+                                              </p></div></td></tr><!-- UNC Standard Button Component --><tr><td align="center" style="font-size:0px;word-break:break-word;"><div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="center" class="button-primary" style="font-size:0px;padding:10px 20px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr><td align="center" bgcolor="#013c65" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65;" valign="middle"><a href="#" title="#" style="display:inline-block;background:#013c65;color:#ffffff !important;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">Read More </a></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><!-- Story 2 --><tr><td align="center" style="font-size:0px;padding:10px 0 0;word-break:break-word;"><p style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:100%;"></p><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:1040px;" role="presentation" width="1040px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td></tr><tr><td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="block-container-outlook light-section-outlook dark-mode-section-outlook mobile-stack-column-outlook" width="1040px" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.5;text-align:left;color:#013c65;"><h3>
+                                                Story Title H3
+                                              </h3></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                Lorem ipsum dolor <a href="#" title="#">sit amet</a>, consectetur adipiscing elit. Sed do eiusmod tempor <a href="#" title="#">incididunt ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#" title="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <a href="#" title="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+                                              </p></div></td></tr><!-- UNC Standard Button Component --><tr><td align="center" style="font-size:0px;word-break:break-word;"><div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="center" class="button-primary" style="font-size:0px;padding:10px 20px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr><td align="center" bgcolor="#013c65" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65;" valign="middle"><a href="#" title="#" style="display:inline-block;background:#013c65;color:#ffffff !important;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">Read More </a></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><!-- Story 3 --><tr><td align="center" style="font-size:0px;padding:10px 0 0;word-break:break-word;"><p style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:100%;"></p><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:1040px;" role="presentation" width="1040px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td></tr><tr><td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="block-container-outlook light-section-outlook dark-mode-section-outlook mobile-stack-column-outlook" width="1040px" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.5;text-align:left;color:#013c65;"><h3>
+                                                Story Title H3
+                                              </h3></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                Lorem ipsum dolor <a href="#" title="#">sit amet</a>, consectetur adipiscing elit. Sed do eiusmod tempor <a href="#" title="#">incididunt ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#" title="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <a href="#" title="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+                                              </p></div></td></tr><!-- UNC Standard Button Component --><tr><td align="center" style="font-size:0px;word-break:break-word;"><div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="center" class="button-primary" style="font-size:0px;padding:10px 20px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr><td align="center" bgcolor="#013c65" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65;" valign="middle"><a href="#" title="#" style="display:inline-block;background:#013c65;color:#ffffff !important;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">Read More </a></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><!-- Story 4 --><tr><td align="center" style="font-size:0px;padding:10px 0 0;word-break:break-word;"><p style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:100%;"></p><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:1040px;" role="presentation" width="1040px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td></tr><tr><td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="block-container-outlook light-section-outlook dark-mode-section-outlook mobile-stack-column-outlook" width="1040px" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.5;text-align:left;color:#013c65;"><h3>
+                                                Story Title H3
+                                              </h3></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                Lorem ipsum dolor <a href="#" title="#">sit amet</a>, consectetur adipiscing elit. Sed do eiusmod tempor <a href="#" title="#">incididunt ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#" title="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <a href="#" title="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+                                              </p></div></td></tr><!-- UNC Standard Button Component --><tr><td align="center" style="font-size:0px;word-break:break-word;"><div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="center" class="button-primary" style="font-size:0px;padding:10px 20px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr><td align="center" bgcolor="#013c65" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65;" valign="middle"><a href="#" title="#" style="display:inline-block;background:#013c65;color:#ffffff !important;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">Read More </a></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><!-- Story 5 --><tr><td align="center" style="font-size:0px;padding:10px 0 0;word-break:break-word;"><p style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:100%;"></p><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:1040px;" role="presentation" width="1040px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td></tr><tr><td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="block-container-outlook light-section-outlook dark-mode-section-outlook mobile-stack-column-outlook" width="1040px" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.5;text-align:left;color:#013c65;"><h3>
+                                                Story Title H3
+                                              </h3></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                Lorem ipsum dolor <a href="#" title="#">sit amet</a>, consectetur adipiscing elit. Sed do eiusmod tempor <a href="#" title="#">incididunt ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#" title="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <a href="#" title="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+                                              </p></div></td></tr><!-- UNC Standard Button Component --><tr><td align="center" style="font-size:0px;word-break:break-word;"><div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="center" class="button-primary" style="font-size:0px;padding:10px 20px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr><td align="center" bgcolor="#013c65" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65;" valign="middle"><a href="#" title="#" style="display:inline-block;background:#013c65;color:#ffffff !important;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">Read More </a></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><!-- Story 6 --><tr><td align="center" style="font-size:0px;padding:10px 0 0;word-break:break-word;"><p style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:100%;"></p><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 3px #FFB71B;font-size:1px;margin:0px auto;width:1040px;" role="presentation" width="1040px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td></tr><tr><td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="block-container-outlook light-section-outlook dark-mode-section-outlook mobile-stack-column-outlook" width="1040px" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.5;text-align:left;color:#013c65;"><h3>
+                                                Story Title H3
+                                              </h3></div></td></tr><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><p>
+                                                Lorem ipsum dolor <a href="#" title="#">sit amet</a>, consectetur adipiscing elit. Sed do eiusmod tempor <a href="#" title="#">incididunt ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#" title="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <a href="#" title="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+                                              </p></div></td></tr><!-- UNC Standard Button Component --><tr><td align="center" style="font-size:0px;word-break:break-word;"><div class="mj-column-per-33-333333333333336 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="center" class="button-primary" style="font-size:0px;padding:10px 20px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr><td align="center" bgcolor="#013c65" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65;" valign="middle"><a href="#" title="#" style="display:inline-block;background:#013c65;color:#ffffff !important;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">Read More </a></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--><!-- Section 4: Image Grid Section --><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1080px;" width="1080" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1080px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Grid Image Block --><!--[if mso | IE]><td class="block-container-outlook light-section-outlook dark-mode-section-outlook" style="vertical-align:top;width:1040px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><!-- Header Section with Gradient Background --><tr><td class="light-section dark-mode-section" style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- [if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+        <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
+      </v:background>
+    <![endif] --><!--[if mso | IE]><td align="center" class="images-header-outlook" style="" ><![endif]--><div style="font-family:'Eds Market', 'Zeija Pro', cursive, sans-serif;font-size:32px;line-height:1.5;text-align:center;color:#FFB71B;"><div style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)"><img alt="UNC" style="vertical-align: middle" width="100" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIbbYlshgHjJ46NQXdclZtLA" /><span style="vertical-align: middle"> in Pictures</span></div></div><!--[if mso | IE]></td><![endif]--><!-- Subtitle --><!--[if mso | IE]><td class="grey-section-outlook subtitle-section-outlook dark-mode-section-outlook dark-mode-text-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="grey-section-outlook subtitle-section-outlook dark-mode-section-outlook dark-mode-text-outlook" role="presentation" style="width:1040px;" width="1040" bgcolor="#EBEBEB" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="grey-section subtitle-section dark-mode-section dark-mode-text" style="background:#EBEBEB;background-color:#EBEBEB;margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#EBEBEB;background-color:#EBEBEB;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" class="" style="" ><![endif]--><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:center;color:#000000;"><p style="margin: 0">
+                                                The people, places and events at UNC
+                                              </p></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><!-- Image Grid - Row 1 --><tr><td class="light-section dark-mode-section" style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Left Image --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:509.6px;" ><![endif]--><div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:20px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="content-image image-centered" style="font-size:0px;padding:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" class="mj-full-width-mobile" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td class="mj-full-width-mobile" style="width:469px;"><img alt="Image alt text" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="469" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIWNGNrK50w_fbmnmkf8dtNw" /></td></tr></tbody></table></td></tr><tr><td align="center" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:center;color:#000000;"><p>
+                                                      Image caption
+                                                    </p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><![endif]--><!-- Right Image --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:509.6px;" ><![endif]--><div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:20px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="content-image image-centered" style="font-size:0px;padding:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" class="mj-full-width-mobile" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td class="mj-full-width-mobile" style="width:469px;"><img alt="Image alt text" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="469" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIWNGNrK50w_fbmnmkf8dtNw" /></td></tr></tbody></table></td></tr><tr><td align="center" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:center;color:#000000;"><p>
+                                                      Image caption
+                                                    </p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><!-- Image Grid - Row 2 (Additional rows can be added following this pattern) --><tr><td class="light-section dark-mode-section" style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Left Image --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:509.6px;" ><![endif]--><div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:20px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="content-image image-centered" style="font-size:0px;padding:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" class="mj-full-width-mobile" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td class="mj-full-width-mobile" style="width:469px;"><img alt="Image alt text" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="469" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIWNGNrK50w_fbmnmkf8dtNw" /></td></tr></tbody></table></td></tr><tr><td align="center" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:center;color:#000000;"><p>
+                                                      Image caption
+                                                    </p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><![endif]--><!-- Right Image --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:509.6px;" ><![endif]--><div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:20px;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="content-image image-centered" style="font-size:0px;padding:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" class="mj-full-width-mobile" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td class="mj-full-width-mobile" style="width:469px;"><img alt="Image alt text" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="469" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIWNGNrK50w_fbmnmkf8dtNw" /></td></tr></tbody></table></td></tr><tr><td align="center" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:center;color:#000000;"><p>
+                                                      Image caption
+                                                    </p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--><!-- Section 5: Faculty and Staff Section --><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1080px;" width="1080" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1080px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Students and Faculty Staff Block --><!--[if mso | IE]><td class="block-container-outlook light-section-outlook dark-mode-section-outlook" style="vertical-align:top;width:1040px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><!-- Section --><tr><td class="light-section dark-mode-section" style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Heading --><!--[if mso | IE]><td class="" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1040px;" width="1040" bgcolor="#FFB71B" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:#FFB71B;background-color:#FFB71B;margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFB71B;background-color:#FFB71B;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" class="dark-mode-text-outlook" width="1040px" ><![endif]--><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.5;text-align:center;color:#000000;">
+                                              Students
+                                            </div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td><![endif]--><!-- Mobile Stack Column --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:1040px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><ul><li>
+                                                  The UNC Center for Career Readiness is hosting the Spring 2025 Job, Internship, and Graduate School Fair on <strong>Thursday, Feb. 15, from 10:00 a.m. to 4:00 p.m. in the University Center Ballrooms</strong>. Employers will be recruiting for full-time jobs, part-time jobs, internships, and Graduate Schools will be providing information on their programs. Admission is free and students and alumni from all majors are encouraged to attend! <a href="#" title="#">Register to attend here</a>.
+                                                </li><li>
+                                                  Are you thinking about studying abroad? The deadline to apply for Summer and Fall 2025 study abroad programs is <strong>Wednesday, Feb. 28</strong>. For more information and to apply, contact the Education Abroad team at <a href="#" title="#">abroad@unco.edu</a> or <a href="#" title="#">visit their web page</a>.
+                                                </li></ul></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><!-- Section --><tr><td class="light-section dark-mode-section" style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Heading --><!--[if mso | IE]><td class="" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1040px;" width="1040" bgcolor="#FFB71B" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:#FFB71B;background-color:#FFB71B;margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFB71B;background-color:#FFB71B;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" class="dark-mode-text-outlook" width="1040px" ><![endif]--><div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.5;text-align:center;color:#000000;">
+                                              Faculty and Staff
+                                            </div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td><![endif]--><!-- Mobile Stack Column --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:1040px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><ul><li>
+                                                  Help UNC celebrate its most outstanding staff members by attending the 53rd Annual Staff Recognition Celebration on <strong>Thursday, March 7, at 1:00 p.m. in the University Center Ballrooms</strong>. The event will feature recognition of service milestones, a presentation of awards, and more. <a href="#" title="#">Register to attend</a>.
+                                                </li></ul></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--><!-- Section 6: In the News Section --><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1080px;" width="1080" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1080px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- In the News Block --><!--[if mso | IE]><td class="block-container-outlook light-section-outlook dark-mode-section-outlook" style="vertical-align:top;width:1040px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix block-container light-section dark-mode-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td class="light-section dark-mode-section" style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1040px;" width="1040" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- [if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+        <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
+      </v:background>
+    <![endif] --><!--[if mso | IE]><td align="center" class="images-header-outlook" style="" ><![endif]--><div style="font-family:'Eds Market', 'Zeija Pro', cursive, sans-serif;font-size:32px;line-height:1.5;text-align:center;color:#FFB71B;"><div style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)"><img alt="UNC" style="vertical-align: middle" width="100" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIbbYlshgHjJ46NQXdclZtLA" /><span style="vertical-align: middle"> in the News</span></div></div><!--[if mso | IE]></td><![endif]--><!-- Subtitle --><!--[if mso | IE]><td class="grey-section-outlook subtitle-section-outlook dark-mode-section-outlook dark-mode-text-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="grey-section-outlook subtitle-section-outlook dark-mode-section-outlook dark-mode-text-outlook" role="presentation" style="width:1040px;" width="1040" bgcolor="#EBEBEB" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="grey-section subtitle-section dark-mode-section dark-mode-text" style="background:#EBEBEB;background-color:#EBEBEB;margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#EBEBEB;background-color:#EBEBEB;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" class="" style="" ><![endif]--><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:center;color:#000000;"><p style="margin: 0">
+                                                A selection of featured headlines about the university
+                                              </p></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td><![endif]--><!-- Mobile Stack Column --><!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:1040px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.5;text-align:left;color:#000000;"><ul><li>
+                                                  The UNC Center for Career Readiness is hosting the Spring 2025 Job, Internship, and Graduate School Fair on <strong>Thursday, Feb. 15, from 10:00 a.m. to 4:00 p.m. in the University Center Ballrooms</strong>. Employers will be recruiting for full-time jobs, part-time jobs, internships, and Graduate Schools will be providing information on their programs. Admission is free and students and alumni from all majors are encouraged to attend! <a href="#" title="#">Register to attend here</a>.
+                                                </li><li>
+                                                  Are you thinking about studying abroad? The deadline to apply for Summer and Fall 2025 study abroad programs is <strong>Wednesday, Feb. 28</strong>. For more information and to apply, contact the Education Abroad team at <a href="#" title="#">abroad@unco.edu</a> or <a href="#" title="#">visit their web page</a>.
+                                                </li></ul></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--><!-- Section 8: Footer Section --><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook dark-mode-section-outlook" role="presentation" style="width:1080px;" width="1080" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="light-section dark-mode-section" style="margin:0px auto;max-width:1080px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]--><!-- Social Media Footer --><!--[if mso | IE]><td class="force-dark-outlook dark-mode-section-outlook mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="force-dark-outlook dark-mode-section-outlook mobile-stack-outlook" role="presentation" style="width:1040px;" width="1040" bgcolor="#f6b000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="force-dark dark-mode-section mobile-stack" style="background:#f6b000;background-color:#f6b000;margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f6b000;background-color:#f6b000;width:100%;"><tbody><tr><td style="border-bottom:1px solid #ffffff;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:1000px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"><tbody><tr><td align="center" style="font-size:0px;padding:10px 25px;padding-top:5px;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><![endif]--><!-- Social Media Footer --><!--[if mso | IE]><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tbody><tr><td style="padding:4px;vertical-align:middle;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;"><tbody><tr><td style="font-size:0;height:32px;vertical-align:middle;width:32px;"><a href="https://mx.technolutions.net/ss/c/u001.jxaZRujEt1lhE0WEp4QewFt-Xjd8vEyIQf0VhGguqDLcRGUvAZluodI5oxlFuDq6zENsmAYBwxLtWP3bcn58AA/4ep/Y7SudKDPRby73i_gUUpaZw/h4/h001.AFu-1qB7c9nQo3-AwwpR8oUCPdbekdQG7chVOz0TdTw" title="https://www.facebook.com/universitynortherncolorado" target="_blank"><img alt="" style="border-radius:3px;display:block;" height="32" width="32" src="https://mx.technolutions.net/proxy/TWOcmZtij9nFSUSZmxATu19lpoRyEhsbZ-4kpPpnMiUZ9FIaBLuDt1iFvQ83iHf_gpoBFGJ0CPzXDJnPxk1Zud00PYirGiR2CF4SI0R7t5PaGcJFnDH6kqMQ-XyBc1sP/USNtUZo1wDs-TdKhkBRAJw" /></a></td></tr></tbody></table></td></tr></tbody></table><!--[if mso | IE]></td><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tbody><tr><td style="padding:4px;vertical-align:middle;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;"><tbody><tr><td style="font-size:0;height:32px;vertical-align:middle;width:32px;"><a href="https://mx.technolutions.net/ss/c/u001.0to_dZRINTlWDHYa-1FPnhcb3mlFQg7VpgTZOfacaxDTmiUZZjksiMtgKDaVmlOm/4ep/Y7SudKDPRby73i_gUUpaZw/h5/h001.aBql35RHVgyHHvimKmSpxTxxwyIWyodIoYB7pXEarGA" title="https://instagram.com/unc_colorado" target="_blank"><img alt="" style="border-radius:3px;display:block;" height="32" width="32" src="https://mx.technolutions.net/proxy/TWOcmZtij9nFSUSZmxATu19lpoRyEhsbZ-4kpPpnMiUZ9FIaBLuDt1iFvQ83iHf_gpoBFGJ0CPzXDJnPxk1Zud00PYirGiR2CF4SI0R7t5Olbn_6CYUZ8G-BGJIDwWP6/kFY_SuZMypXDpb_FtYrsDg" /></a></td></tr></tbody></table></td></tr></tbody></table><!--[if mso | IE]></td><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tbody><tr><td style="padding:4px;vertical-align:middle;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;"><tbody><tr><td style="font-size:0;height:32px;vertical-align:middle;width:32px;"><a href="https://mx.technolutions.net/ss/c/u001.jxaZRujEt1lhE0WEp4QewP0BSOFx9sM6ZdO5ggLiKeHLPvk074uXcavACtTHfMwFY8THJg6nM4lQVjpro7eO8mECEK0RgFNDjyXyoAs2a3g/4ep/Y7SudKDPRby73i_gUUpaZw/h6/h001.2C6ewWNIf8JM2-aZuNZ-t6crnCd_iprXRWVj7IflJ8I" title="https://www.linkedin.com/school/university-of-northern-colorado" target="_blank"><img alt="" style="border-radius:3px;display:block;" height="32" width="32" src="https://mx.technolutions.net/proxy/TWOcmZtij9nFSUSZmxATu19lpoRyEhsbZ-4kpPpnMiUZ9FIaBLuDt1iFvQ83iHf_gpoBFGJ0CPzXDJnPxk1Zud00PYirGiR2CF4SI0R7t5Plg7WEgr8G0VmDDJ23L3Gf/ODdeNJ058AOSfjXOPYcTIw" /></a></td></tr></tbody></table></td></tr></tbody></table><!--[if mso | IE]></td><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tbody><tr><td style="padding:4px;vertical-align:middle;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;"><tbody><tr><td style="font-size:0;height:32px;vertical-align:middle;width:32px;"><a href="https://mx.technolutions.net/ss/c/u001.jHUdaz39nLWnSyuTlUQzaWMzrvXnXagJn_PKjZcIgZ93gQJfivfrXBhNca_N_3FY/4ep/Y7SudKDPRby73i_gUUpaZw/h7/h001.Ds8GLbpLCLFFgpb_Eo2CwMgG7X4U7w5EVw9qz-ro97Q" title="https://twitter.com/UNC_Colorado" target="_blank"><img alt="" style="border-radius:3px;display:block;" height="32" width="32" src="https://mx.technolutions.net/proxy/TWOcmZtij9nFSUSZmxATu19lpoRyEhsbZ-4kpPpnMiUZ9FIaBLuDt1iFvQ83iHf_gpoBFGJ0CPzXDJnPxk1Zud00PYirGiR2CF4SI0R7t5NUGiPIFCKB4OxVXZ1BPM9V/DBJLfoxoro-cSsZrGNidhg" /></a></td></tr></tbody></table></td></tr></tbody></table><!--[if mso | IE]></td><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tbody><tr><td style="padding:4px;vertical-align:middle;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;"><tbody><tr><td style="font-size:0;height:32px;vertical-align:middle;width:32px;"><a href="https://mx.technolutions.net/ss/c/u001.jxaZRujEt1lhE0WEp4QewECz0Dt6HQbafadTYFT70kgiI_w2Mv525fed5MWH58o6l7nshLZBgLc3os4MIpbEpA/4ep/Y7SudKDPRby73i_gUUpaZw/h8/h001.PszLbG9nCwYzxftTbrd-rcWJATJIjG8T9m0SinrNK9Y" title="https://www.youtube.com/user/UNorthernColorado" target="_blank"><img alt="" style="border-radius:3px;display:block;" height="32" width="32" src="https://mx.technolutions.net/proxy/TWOcmZtij9nFSUSZmxATu19lpoRyEhsbZ-4kpPpnMiUZ9FIaBLuDt1iFvQ83iHf_gpoBFGJ0CPzXDJnPxk1Zud00PYirGiR2CF4SI0R7t5OIja6DEQeKpJkgnsyOaKNj/ToWTeKz_fif5d2BjtbPxIQ" /></a></td></tr></tbody></table></td></tr></tbody></table><!--[if mso | IE]></td><td><![endif]--><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;"><tbody><tr><td style="padding:4px;vertical-align:middle;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;"><tbody><tr><td style="font-size:0;height:32px;vertical-align:middle;width:32px;"><a href="https://mx.technolutions.net/ss/c/u001.jxaZRujEt1lhE0WEp4QewOtJDu5MiMc_JWGApST3yrkg0X58SbGQJ2ro6-qQO63l/4ep/Y7SudKDPRby73i_gUUpaZw/h9/h001.pz7DJ5zJDyvBws4Qm1b271ViWlRcnzoO1Lj4VvFiJRA" title="https://www.tiktok.com/@unco_colorado" target="_blank"><img alt="" style="border-radius:3px;display:block;" height="32" width="32" src="https://mx.technolutions.net/proxy/TWOcmZtij9nFSUSZmxATu19lpoRyEhsbZ-4kpPpnMiUZ9FIaBLuDt1iFvQ83iHf_gpoBFGJ0CPzXDJnPxk1Zud00PYirGiR2CF4SI0R7t5O_xwN7OOfz9bRi2a5Y78_E/__7ZOphlPCKkOEUBX1pNJQ" /></a></td></tr></tbody></table></td></tr></tbody></table><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td><![endif]--><!-- Contact Footer --><!-- Two Column Footer with Logo --><!--[if mso | IE]><td class="force-dark-outlook dark-mode-section-outlook dark-bg-link-outlook mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="force-dark-outlook dark-mode-section-outlook dark-bg-link-outlook mobile-stack-outlook" role="presentation" style="width:1040px;" width="1040" bgcolor="#013c65" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="force-dark dark-mode-section dark-bg-link mobile-stack" style="background:#013c65;background-color:#013c65;margin:0px auto;max-width:1040px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#013c65;background-color:#013c65;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:20px;padding-right:20px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:1000px;" width="1000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:1000px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:20px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook" width="1000px" ><![endif]--><div class="mj-column-per-25 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"><tbody><tr><td align="left" class="light-img mobile-center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:127px;"><a href="https://mx.technolutions.net/ss/c/u001.-JLG6By4-20xZllkVwUz4cfYl2NK9n-XBNI0gWn9XB4/4ep/Y7SudKDPRby73i_gUUpaZw/h10/h001.XROLLrtXvb85f-xlzqVk7MQcVS-_JWLkIx5r-zlU2tc" title="https://unco.edu" target="_blank"><img alt="UNC logo" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="127" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIUVQXBZJAyK_bJSgjJmNaWw" /></a></td></tr></tbody></table></td></tr><tr><td align="left" class="dark-img mobile-center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:127px;"><a href="https://mx.technolutions.net/ss/c/u001.-JLG6By4-20xZllkVwUz4cfYl2NK9n-XBNI0gWn9XB4/4ep/Y7SudKDPRby73i_gUUpaZw/h11/h001.40W3lqoIm_eTODBMqqwoTUOh-g884ScQFaC1wrXK8xc" title="https://unco.edu" target="_blank"><img alt="UNC logo" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" height="auto" width="127" src="https://mx.technolutions.net/proxy/5L9rLpDoF_8gW7Jbo9LlMlIzSiRo3dndMbwCvaIZj0xg4cmA6Z1H6ijHYVV7tLgIrE4632ChSv5dO1uN1C8sJKC9alqjLjRrMDHRVDOptCM" /></a></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr><tr><td class="mobile-stack-column-outlook" width="1000px" ><![endif]--><div class="mj-column-per-75 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"><tbody><tr><td align="right" class="dark-mode-text mobile-center" style="font-size:0px;padding:0;padding-top:5px;padding-bottom:5px;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:right;color:#ffffff;"><a href="https://mx.technolutions.net/ss/c/u001.-JLG6By4-20xZllkVwUz4cfYl2NK9n-XBNI0gWn9XB4/4ep/Y7SudKDPRby73i_gUUpaZw/h12/h001.PsFJjRnKA-g9-pY0TrkUj0gVPdX7J9W_cNJLGfPGUvM" title="https://unco.edu" style="color: #ffffff; text-decoration: underline">University of Northern Colorado </a></div></td></tr><tr><td align="right" class="dark-mode-text mobile-center" style="font-size:0px;padding:0;padding-top:5px;padding-bottom:5px;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:right;color:#ffffff;"><a href="https://mx.technolutions.net/ss/c/u001.Jg_sqgPJs1lCjHcCRsBB8ZMA5yKcN2uk4KgN3WPxz4QaB8r4ZBWCci7V-OouCPvs/4ep/Y7SudKDPRby73i_gUUpaZw/h13/h001.aiswNa89sOZiQkat3DMaqW8RFmX1VdqbjQ88GEhZlj0" title="https://goo.gl/maps/GDztMJYnNjs8r8369" style="text-decoration: underline; color: #ffffff">1234 Address, Greeley, CO 12345</a></div></td></tr><tr><td align="right" class="dark-mode-text mobile-center" style="font-size:0px;padding:0;padding-top:5px;padding-bottom:5px;word-break:break-word;"><div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:right;color:#ffffff;"><a href="tel:970-351-XXXX" title="tel:970-351-XXXX" style="text-decoration: underline; color: #ffffff">970-351-XXXX</a> &nbsp;|&nbsp; <a href="mailto:lancemonotone@gmail.com?subject=Hello%20from%20Litmus&amp;body=You%20are%20receiving%20this%20message%20because..." title="mailto:lancemonotone@gmail.com?subject=Hello%20from%20Litmus&amp;body=You%20are%20receiving%20this%20message%20because...">lancemonotone@gmail.com</a></div></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></div></div></font><div class="deliver_unsubscribe" style="opacity: 0.75; clear: both; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 11px; margin: 25px auto; width: auto; max-width: 600px; background-color: #fafafa; text-align: center; padding: 5px;">This email was sent to  by "University of Northern Colorado" &lt;enrolled@unco.edu&gt;.<br />University of Northern Colorado, 501 20th Street, Greeley, CO 80639<br /><a href="https://mx.technolutions.net/ss/c/u001.yAWHLkb7QxrqAOlNdz1qpa-cq95Fc08A9fAp_9nMKuZf3C8_zzQpgD0QYcXC_fBd3KXui3cX5hAmX90-0Psh95gQ67IwfyUHvJHQ7k4p8TBPZHDV22J3u9-3pr5kJ4AY/4ep/Y7SudKDPRby73i_gUUpaZw/h14/h001.YmOzhyDUEBgXAk3tRsHQ29HJA8o9g2IfaCrHCf7CnlI">Unsubscribe</a> from University of Northern Colorado.</div>
+<img src="https://mx.technolutions.net/ss/o/u001.l7ggKG0fqQ6Gg4_ean_HcQ/4ep/Y7SudKDPRby73i_gUUpaZw/ho.gif" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/></body>
+</html>

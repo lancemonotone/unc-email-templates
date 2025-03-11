@@ -18,27 +18,10 @@
     vertical-align="top"
     css-class="mobile-stack-column">
     <!-- Left-aligned H1 header -->
-    <mj-text
-      font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
-      font-weight="bold"
-      font-size="32px"
-      color="#013C65"
-      align="left"
-      padding-top="10px">
-      This is H1 Header
-    </mj-text>
+    <mj-include path="../components/component-h1.mjml" />
 
     <!-- Left-aligned intro text -->
-    <mj-text
-      font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
-      font-size="14px"
-      color="#000000"
-      align="left">
-      This is an example of body content story.
-      <a href="#">Link here</a>. Keep short, and paragraphs to 2-3 sentences
-      each. For text-only emails, we recommend a total word count of 200 or
-      less.
-    </mj-text>
+    <mj-include path="../components/component-text.mjml" />
   </mj-column>
 </mj-section>
 
