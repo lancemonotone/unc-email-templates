@@ -57,7 +57,7 @@
   <mj-class
     name="button-primary"
     background-color="#013c65"
-    color="#ffffff"
+    color="#ffffff !important"
     font-weight="bold"
     border-radius="4px"
     padding="10px 20px"
@@ -67,10 +67,41 @@
     name="button-secondary"
     background-color="#f6b000"
     font-weight="bold"
-    color="#ffffff"
+    color="#ffffff !important"
     border-radius="4px"
     padding="10px 20px"
     css-class="button-secondary" />
+
+  <!-- Image styles -->
+  <mj-class
+    name="hero-half"
+    width="550px"
+    max-width="550px"
+    padding="0"
+    align="center"
+    css-class="hero-image-half-width" />
+
+  <mj-class
+    name="hero-full"
+    width="1080px"
+    max-width="1080px"
+    padding="0"
+    align="center"
+    css-class="hero-image-full-width" />
+
+  <mj-class
+    name="content"
+    width="350px"
+    max-width="350px"
+    padding="0"
+    align="center"
+    css-class="content-image" />
+
+  <mj-class
+    name="image-center"
+    align="center"
+    padding="0"
+    css-class="image-centered" />
 </mj-attributes>
 <mj-raw>
   <meta name="color-scheme" content="light dark" />

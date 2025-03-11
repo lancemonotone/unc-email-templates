@@ -1,4 +1,5 @@
 <!-- UNC Standard Button Component -->
-<mj-button mj-class="button-secondary" align="center" href="#">
+
+<mj-button mj-class="button-primary" align="center" href="#">
   Read More
 </mj-button>

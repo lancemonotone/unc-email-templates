@@ -8,5 +8,5 @@
 
   <mj-include path="../components/component-text.mjml" />
 
-  <mj-include path="../components/component-button-left.mjml" />
+  <mj-include path="../components/component-button-blue-left.mjml" />
 </mj-column>

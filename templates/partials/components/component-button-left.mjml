@@ -1,5 +1,0 @@
-<!-- UNC Standard Button Component -->
-
-<mj-button padding="0 0 20px" align="left" mj-class="button-primary" href="#">
-  Read More
-</mj-button>

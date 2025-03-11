@@ -38,6 +38,6 @@
     </mj-text>
 
     <!-- CTA Button -->
-    <mj-include path="../components/component-button-left.mjml" />
+    <mj-include path="../components/component-button-blue-left.mjml" />
   </mj-column>
 </mj-section>
