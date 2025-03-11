@@ -34,7 +34,7 @@
         <a
           href="{{ department_url | default: 'https://unco.edu' }}"
           style="color: #ffffff; text-decoration: underline">
-          {{ department_name | default: 'University of Northern Colorado' }}
+          University of Northern Colorado
         </a>
       </mj-text>
 

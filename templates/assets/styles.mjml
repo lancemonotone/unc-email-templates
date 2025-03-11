@@ -7,12 +7,14 @@
 <mj-attributes>
   <!-- Default body font stack - Ringside first -->
   <mj-all font-family="Ringside, Roboto, Tahoma, Arial, sans-serif" />
+
   <mj-text
     font-size="14px"
     color="#000000"
     line-height="1.5"
     padding="0"
     css-class="dark-mode-text" />
+
   <!-- Header styles - Questa Slab first -->
   <mj-class
     name="h1"
@@ -21,6 +23,7 @@
     font-weight="700"
     padding="0"
     color="#013C65" />
+
   <mj-class
     name="h2"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
@@ -29,6 +32,7 @@
     padding="0"
     color="#013c65"
     css-class="dark-mode-text mobile-center" />
+
   <mj-class
     name="h3"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
@@ -37,6 +41,7 @@
     padding="0"
     color="#013c65"
     css-class="dark-mode-text" />
+
   <mj-class
     name="h4"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
@@ -45,6 +50,46 @@
     padding="0"
     color="#013c65"
     css-class="dark-mode-text" />
+
+  <!-- Header title and subtitle styles -->
+  <mj-class
+    name="header-title-white"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="18px"
+    font-weight="700"
+    color="#ffffff"
+    line-height="120%"
+    padding="5px" />
+
+  <mj-class
+    name="header-title-blue"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="18px"
+    font-weight="700"
+    color="#013c65"
+    line-height="120%"
+    padding="5px" />
+
+  <mj-class
+    name="header-subtitle-white"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="14px"
+    font-weight="700"
+    color="#ffffff"
+    padding-top="0"
+    padding-bottom="5px"
+    css-class="dark-mode-text" />
+
+  <mj-class
+    name="header-subtitle-blue"
+    font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="14px"
+    font-weight="700"
+    color="#013c65"
+    padding-top="0"
+    padding-bottom="5px"
+    css-class="dark-mode-text" />
+
   <!-- Special highlight text - Eds Market first -->
   <mj-class
     name="highlight"

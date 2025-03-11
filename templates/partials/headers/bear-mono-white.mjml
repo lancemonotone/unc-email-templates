@@ -21,14 +21,10 @@
       vertical-align="middle"
       css-class="mobile-stack-column">
       <mj-text
-        css-class="dark-mode-text mobile-center"
-        color="#013c65"
-        font-family="'Arvo', 'Courier New', Courier, monospace"
-        font-size="16px"
-        font-weight="700"
+        mj-class="header-title-blue"
         align="right"
-        line-height="120%">
-        {{ department_name | default: 'University of Northern Colorado' }}
+        css-class="mobile-center">
+        University of Northern Colorado
       </mj-text>
     </mj-column>
   </mj-wrapper>
