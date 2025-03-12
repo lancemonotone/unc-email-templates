@@ -1,21 +1,17 @@
 <!-- Follow-Up Information Callout Box -->
-<mj-section
-  padding="20px"
-  background-color="#EBEBEB"
-  css-class="grey-section dark-mode-section dark-mode-text">
+<mj-section padding="20px" css-class="grey-section dark-mode-section">
   <mj-column css-class="mobile-stack-column">
     <!-- Headline -->
     <mj-text
       mj-class="h3"
       align="center"
       padding-top="10px"
-      padding-bottom="10px"
-      css-class="dark-mode-text">
+      padding-bottom="10px">
       Questions?
     </mj-text>
 
     <!-- Body Text -->
-    <mj-text mj-class="body-text" align="center" css-class="dark-mode-text">
+    <mj-text mj-class="body-text" align="center">
       Contact us for more information about this event or program. We're here to
       help you navigate your UNC experience.
     </mj-text>

@@ -22,7 +22,8 @@
     font-size="32px"
     font-weight="700"
     padding="0"
-    color="#013C65" />
+    color="#013C65"
+    css-class="dark-mode-text" />
 
   <mj-class
     name="h2"
@@ -68,7 +69,8 @@
     font-weight="700"
     color="#013c65"
     line-height="120%"
-    padding="5px" />
+    padding="5px"
+    css-class="dark-mode-text" />
 
   <mj-class
     name="header-subtitle-white"
@@ -93,10 +95,11 @@
   <!-- Special highlight text - Eds Market first -->
   <mj-class
     name="highlight"
+    font-family="'Eds Market', 'Zeija Pro', 'Bradley Hand', 'Apple Chancery', 'URW Chancery L', 'Dancing Script', cursive, sans-serif"
     font-size="32px"
     padding="0"
     align="center"
-    font-family="'Eds Market', 'Zeija Pro', 'Bradley Hand', 'Apple Chancery', 'URW Chancery L', 'Dancing Script', cursive, sans-serif" />
+    css-class="dark-mode-text" />
 
   <!-- Button styles -->
   <mj-style inline="inline">
