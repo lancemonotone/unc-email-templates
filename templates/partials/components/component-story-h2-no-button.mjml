@@ -1,6 +1,6 @@
-<mj-column
-  css-class="block-container light-section dark-mode-section mobile-stack-column"
-  width="100%">
-  <mj-include path="./component-h2.mjml" />
-  <mj-include path="./component-text.mjml" />
-</mj-column>
+<mj-section padding="10px">
+  <mj-column width="600px" css-class="mobile-stack-column">
+    <mj-include path="./component-h2.mjml" />
+    <mj-include path="./component-text.mjml" />
+  </mj-column>
+</mj-section>

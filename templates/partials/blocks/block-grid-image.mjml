@@ -50,7 +50,7 @@
   </mj-section>
 
   <!-- Image Grid - Row 1 -->
-  <mj-section padding="0">
+  <mj-section padding="10px">
     <!-- Left Image -->
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
       <mj-include path="../components/component-image-content-center.mjml" />

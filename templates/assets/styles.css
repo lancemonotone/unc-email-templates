@@ -102,14 +102,9 @@ p {
 
   /* Grey background in dark mode */
   .grey-section.dark-mode-section {
-    background: transparent !important;
-    background-color: transparent !important;
+    background: #333333 !important;
+    background-color: #333333 !important;
     border-bottom: 1px solid #ffffff !important;
-  }
-
-  .grey-section.dark-mode-section table {
-    background: transparent !important;
-    background-color: transparent !important;
   }
 
   .gold-border {
@@ -128,6 +123,14 @@ p {
   .dark-mode-text,
   .dark-mode-text * {
     color: #ffffff !important;
+  }
+
+  /* Keep text black on yellow backgrounds even in dark mode */
+  [style*="background-color:#FFB71B"] .dark-mode-text,
+  [style*="background-color:#FFB71B"] .dark-mode-text *,
+  [background-color="#FFB71B"] .dark-mode-text,
+  [background-color="#FFB71B"] .dark-mode-text * {
+    color: #000000 !important;
   }
 } /* Outlook Dark
       Mode */

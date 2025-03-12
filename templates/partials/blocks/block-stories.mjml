@@ -5,43 +5,25 @@
   width="100%">
   <!-- Story 1 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
-  <mj-wrapper padding="0">
-    <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
-  </mj-wrapper>
+  <mj-include path="../components/component-story-h3-button-blue-center.mjml" />
 
   <!-- Story 2 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
-  <mj-wrapper padding="0">
-    <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
-  </mj-wrapper>
+  <mj-include path="../components/component-story-h3-button-blue-center.mjml" />
 
   <!-- Story 3 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
-  <mj-wrapper padding="0">
-    <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
-  </mj-wrapper>
+  <mj-include path="../components/component-story-h3-button-blue-center.mjml" />
 
   <!-- Story 4 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
-  <mj-wrapper padding="0">
-    <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
-  </mj-wrapper>
+  <mj-include path="../components/component-story-h3-button-blue-center.mjml" />
 
   <!-- Story 5 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
-  <mj-wrapper padding="0">
-    <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
-  </mj-wrapper>
+  <mj-include path="../components/component-story-h3-button-blue-center.mjml" />
 
   <!-- Story 6 -->
   <mj-divider border-width="3px" border-color="#FFB71B" padding="10px 0 0" />
-  <mj-wrapper padding="0">
-    <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
-  </mj-wrapper>
+  <mj-include path="../components/component-story-h3-button-blue-center.mjml" />
 </mj-column>
