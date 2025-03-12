@@ -28,11 +28,11 @@ a {
   color: #ffffff !important;
 }
 /* Image adjustments */
-.mobile-stack img {
+/* .mobile-stack img {
   width: auto !important;
   max-height: 300px;
   max-width: 100%;
-}
+} */
 .mobile-stack-column {
   max-width: 600px !important;
 }

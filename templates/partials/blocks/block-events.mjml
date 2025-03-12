@@ -5,23 +5,33 @@
   <!-- Events Header -->
   <!--[if gte mso 9]>
     <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-      <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
+      <v:fill
+        type="gradient"
+        color="#013c65"
+        color2="#007dba"
+        method="linear"
+        angle="180" />
     </v:background>
   <![endif]-->
   <mj-text
     background-color="#013c65"
     mj-class="highlight"
+    color="#FFB71B"
     css-class="events-header dark-mode-text">
-    <div style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
-      <a
-        href="https://www.unco.edu/events-calendar/events.aspx"
-        style="
-          color: #ffb71b !important;
-          text-decoration: none;
-          display: block;
-        ">
+    <div
+      style="
+        background: linear-gradient(180deg, #013c65 0%, #007dba 100%);
+        background-color: #013c65;
+        padding-bottom: 10px;
+      ">
+      <img
+        src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+        alt="UNC"
+        width="100"
+        style="vertical-align: middle; line-height: 0" />
+      <span style="vertical-align: middle; line-height: 0; padding-left: 8px">
         Events
-      </a>
+      </span>
     </div>
   </mj-text>
 
