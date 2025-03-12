@@ -3,29 +3,27 @@
   background-color="#ffffff"
   padding="20px"
   css-class="force-dark dark-mode-section dark-bg-link mobile-stack">
-  <mj-wrapper padding-top="20px">
-    <mj-column
-      width="33.33%"
-      vertical-align="middle"
-      css-class="mobile-stack-column">
-      <mj-image
-        css-class="mobile-center"
-        src="https://ncd.test.technolutions.net/www/images/unc_logo_h_clr.png"
-        alt="UNC Bear Logo"
-        width="200px"
-        href="https://unco.edu"
-        align="left" />
-    </mj-column>
-    <mj-column
-      width="66.67%"
-      vertical-align="middle"
-      css-class="mobile-stack-column">
-      <mj-text
-        mj-class="header-title-blue"
-        align="right"
-        css-class="mobile-center">
-        University of Northern Colorado
-      </mj-text>
-    </mj-column>
-  </mj-wrapper>
+  <mj-column
+    width="33.33%"
+    vertical-align="middle"
+    css-class="mobile-stack-column">
+    <mj-image
+      css-class="mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/unc_logo_h_clr.png"
+      alt="UNC Bear Logo"
+      width="200px"
+      href="https://unco.edu"
+      align="left" />
+  </mj-column>
+  <mj-column
+    width="66.67%"
+    vertical-align="middle"
+    css-class="mobile-stack-column">
+    <mj-text
+      mj-class="header-title-blue"
+      align="right"
+      css-class="mobile-center">
+      University of Northern Colorado
+    </mj-text>
+  </mj-column>
 </mj-section>
