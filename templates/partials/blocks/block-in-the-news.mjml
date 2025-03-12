@@ -46,7 +46,9 @@
     </mj-section>
 
     <!-- Subtitle -->
-    <mj-section padding="0" css-class="grey-section dark-mode-section">
+    <mj-section
+      padding="0"
+      css-class="grey-section light-border dark-mode-section">
       <mj-column width="100%">
         <mj-text align="center" padding="15px 10px" mj-class="h5">
           A selection of featured headlines about the university

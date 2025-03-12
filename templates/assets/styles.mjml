@@ -88,8 +88,7 @@
     font-weight="700"
     color="#ffffff"
     padding-top="0"
-    padding-bottom="5px"
-    css-class="dark-mode-text" />
+    padding-bottom="5px" />
 
   <mj-class
     name="header-subtitle-blue"

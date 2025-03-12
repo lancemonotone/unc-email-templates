@@ -14,10 +14,10 @@
 }
 .light-border,
 .gold-border {
-  border-bottom: 1px solid transparent !important;
+  border-bottom: 2px solid transparent !important;
 }
 .blue-border {
-  border-bottom: 1px solid #013c65 !important;
+  border-bottom: 2px solid #013c65 !important;
 }
 /* Links */
 a {
@@ -90,19 +90,12 @@ p {
   /* Grey background in dark mode */
   .grey-section {
     background-color: #333333 !important;
-    border-bottom: 1px solid #ffffff !important;
   }
 
-  .gold-border {
-    border-bottom: 1px solid #f6b000 !important;
-  }
-
+  .light-border,
+  .gold-border,
   .blue-border {
-    border-bottom: 1px solid #ffffff !important;
-  }
-
-  .light-border {
-    border-bottom: 1px solid #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
   }
 
   /* Text */
