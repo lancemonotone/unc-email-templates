@@ -21,20 +21,11 @@
 }
 /* Links */
 a {
-  color: #013c65;
+  color: #013c65 !important;
   text-decoration: underline;
 }
 .dark-bg-link a {
-  color: #ffffff;
-}
-/* Button styles */
-.button-primary {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-}
-.button-secondary {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  color: #ffffff !important;
 }
 /* Image adjustments */
 .mobile-stack img {

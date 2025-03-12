@@ -53,10 +53,12 @@
     <p>Wednesday, Feb. 12, 7-9 p.m., Harrison Hall Den.</p>
   </mj-text>
 
+  <!-- UNC Standard Button Component Center -->
   <mj-button
     mj-class="button-primary"
     align="center"
-    href="https://www.unco.edu/events-calendar/events.aspx">
-    More Events
+    href="https://www.unco.edu/events-calendar/events.aspx"
+    color="#ffffff">
+    <span style="color: #ffffff">More Events</span>
   </mj-button>
 </mj-column>

@@ -1,4 +1,4 @@
-<!-- UNC Standard Button Component -->
-<mj-button mj-class="button-secondary" align="center" href="#">
-  Read More
+<!-- UNC Standard Button Component Center -->
+<mj-button mj-class="button-secondary" align="center" href="#" color="#000000">
+  <span style="color: #000000">Read More</span>
 </mj-button>

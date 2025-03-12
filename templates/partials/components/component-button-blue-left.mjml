@@ -1,5 +1,12 @@
-<!-- UNC Standard Button Component -->
-
-<mj-button mj-class="button-primary" align="center" href="#">
-  Read More
+<!-- UNC Standard Button Component Left -->
+<mj-button
+  mj-class="button-primary"
+  align="left"
+  href="#"
+  color="#ffffff"
+  padding-top="10px"
+  padding-bottom="10px"
+  padding-left="0"
+  padding-right="0">
+  <span style="color: #ffffff">Read More</span>
 </mj-button>
