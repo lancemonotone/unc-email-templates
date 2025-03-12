@@ -10,7 +10,7 @@
 
 <!-- Content Section -->
 <mj-section padding="20px">
-  <mj-column width="100%">
+  <mj-column width="600px">
     <mj-include path="../components/component-h1.mjml" />
     <mj-include path="../components/component-text.mjml" />
     <mj-include path="../components/component-h2.mjml" />
