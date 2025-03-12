@@ -39,6 +39,10 @@ a {
 
 /* Heading margin resets */
 /* Using classes directly in case tag selectors aren't supported in some clients */
+li {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
 p {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
