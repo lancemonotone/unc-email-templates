@@ -42,14 +42,10 @@
   </mj-section>
 
   <!-- Subtitle -->
-  <mj-section padding="0" background-color="#EBEBEB">
+  <mj-section padding="0" css-class="grey-section dark-mode-section">
     <mj-column width="100%">
-      <mj-text
-        align="center"
-        mj-class="h5"
-        css-class="grey-section subtitle-section dark-mode-section"
-        padding="15px 10px">
-        <p style="margin: 0">The people, places and events at UNC</p>
+      <mj-text align="center" padding="15px 10px" mj-class="h5">
+        The people, places and events at UNC
       </mj-text>
     </mj-column>
   </mj-section>

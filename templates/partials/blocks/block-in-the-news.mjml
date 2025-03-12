@@ -46,16 +46,10 @@
     </mj-section>
 
     <!-- Subtitle -->
-    <mj-section padding="0" background-color="#EBEBEB">
+    <mj-section padding="0" css-class="grey-section dark-mode-section">
       <mj-column width="100%">
-        <mj-text
-          align="center"
-          mj-class="h5"
-          css-class="grey-section subtitle-section dark-mode-section"
-          padding="15px 10px">
-          <p style="margin: 0">
-            A selection of featured headlines about the university
-          </p>
+        <mj-text align="center" padding="15px 10px" mj-class="h5">
+          A selection of featured headlines about the university
         </mj-text>
       </mj-column>
     </mj-section>
@@ -63,7 +57,7 @@
     <!-- Content -->
     <mj-section padding="10px">
       <mj-column width="600px" css-class="mobile-stack-column">
-        <mj-text css-class="dark-mode-text" padding="0">
+        <mj-text padding="0">
           <ul>
             <li>
               The UNC Center for Career Readiness is hosting the Spring 2025

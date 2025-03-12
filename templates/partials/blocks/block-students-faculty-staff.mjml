@@ -21,7 +21,7 @@
     <!-- Content -->
     <mj-section padding="10px">
       <mj-column width="600px" css-class="mobile-stack-column">
-        <mj-text css-class="dark-mode-text" padding="0">
+        <mj-text padding="0">
           <ul>
             <li>
               The UNC Center for Career Readiness is hosting the Spring 2025
@@ -66,7 +66,7 @@
     <!-- Content -->
     <mj-section padding="10px">
       <mj-column width="600px" css-class="mobile-stack-column">
-        <mj-text css-class="dark-mode-text" padding="0">
+        <mj-text padding="0">
           <ul>
             <li>
               Help UNC celebrate its most outstanding staff members by attending

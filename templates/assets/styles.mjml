@@ -32,7 +32,7 @@
     font-weight="700"
     padding="0"
     color="#013c65"
-    css-class="mobile-center" />
+    css-class="dark-mode-text mobile-center" />
 
   <mj-class
     name="h3"
@@ -46,6 +46,15 @@
   <mj-class
     name="h4"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+    font-size="16px"
+    font-weight="700"
+    padding="0"
+    color="#013c65"
+    css-class="dark-mode-text" />
+
+  <mj-class
+    name="h5"
+    font-family="Ringside, Roboto, Tahoma, Arial, sans-serif"
     font-size="16px"
     font-weight="700"
     padding="0"

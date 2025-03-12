@@ -38,20 +38,6 @@ a {
 }
 
 /* Heading margin resets */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5 {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-}
 /* Using classes directly in case tag selectors aren't supported in some clients */
 p {
   margin-top: 0.5em !important;
@@ -97,12 +83,12 @@ p {
   /* Sections */
   .dark-mode-section,
   .gold-section {
+    background: #333333 !important;
     background-color: #333333 !important;
   }
 
   /* Grey background in dark mode */
-  .grey-section.dark-mode-section {
-    background: #333333 !important;
+  .grey-section {
     background-color: #333333 !important;
     border-bottom: 1px solid #ffffff !important;
   }

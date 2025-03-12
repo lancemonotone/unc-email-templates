@@ -7,7 +7,6 @@
     <!-- Address Line -->
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text"
       font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
       font-size="12px"
       align="center"
@@ -19,7 +18,6 @@
     <!-- Contact Information Line -->
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text"
       font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
       font-size="12px"
       align="center"
