@@ -1,68 +1,89 @@
 <!-- In the News Block -->
-<mj-column
+<mj-section
   padding="0"
   css-class="block-container light-section dark-mode-section">
-  <!-- Header Section with Gradient Background -->
-  <mj-section padding="0">
-    <!--[if gte mso 9]>
-      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-        <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
-      </v:background>
-    <![endif]-->
-    <mj-text
-      background-color="#013c65"
-      mj-class="highlight"
-      color="#FFB71B">
-      <div
-        style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
-        <img
-          src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-          alt="UNC"
-          width="100"
-          style="vertical-align: middle" />
-        <span style="vertical-align: middle"> in the News</span>
-      </div>
-    </mj-text>
-
-    <!-- Subtitle -->
-    <mj-section
-      padding="0"
-      background-color="#EBEBEB"
-      css-class="grey-section subtitle-section dark-mode-section dark-mode-text">
-      <mj-text align="center" mj-class="h5" css-class="" padding="15px 10px">
-        <p style="margin: 0">
-          A selection of featured headlines about the university
-        </p>
-      </mj-text>
+  <mj-column width="100%">
+    <!-- Header Section with Gradient Background -->
+    <mj-section padding="0">
+      <mj-column width="100%">
+        <!--[if gte mso 9]>
+          <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+            <v:fill
+              type="gradient"
+              color="#013c65"
+              color2="#007dba"
+              method="linear"
+              angle="180" />
+          </v:background>
+        <![endif]-->
+        <mj-text
+          background-color="#013c65"
+          mj-class="highlight"
+          color="#FFB71B">
+          <div
+            style="
+              background: linear-gradient(180deg, #013c65 0%, #007dba 100%);
+              background-color: #013c65;
+              padding-bottom: 10px;
+            ">
+            <img
+              src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+              alt="UNC"
+              width="100"
+              style="vertical-align: middle; line-height: 0" />
+            <span
+              style="vertical-align: middle; line-height: 0; padding-left: 8px">
+              in the News</span
+            >
+          </div>
+        </mj-text>
+      </mj-column>
     </mj-section>
 
-    <!-- Mobile Stack Column -->
-    <mj-column css-class="mobile-stack-column" width="100%">
-      <mj-text css-class="dark-mode-text" padding="0">
-        <ul>
-          <li>
-            The UNC Center for Career Readiness is hosting the Spring 2025 Job,
-            Internship, and Graduate School Fair on
-            <strong
-              >Thursday, Feb. 15, from 10:00 a.m. to 4:00 p.m. in the University
-              Center Ballrooms</strong
-            >. Employers will be recruiting for full-time jobs, part-time jobs,
-            internships, and Graduate Schools will be providing information on
-            their programs. Admission is free and students and alumni from all
-            majors are encouraged to attend!
-            <a href="#">Register to attend here</a>.
-          </li>
-          <li>
-            Are you thinking about studying abroad? The deadline to apply for
-            Summer and Fall 2025 study abroad programs is
-            <strong>Wednesday, Feb. 28</strong>. For more information and to
-            apply, contact the Education Abroad team at
-            <a href="#">abroad@unco.edu</a>
-            or
-            <a href="#">visit their web page</a>.
-          </li>
-        </ul>
-      </mj-text>
-    </mj-column>
-  </mj-section>
-</mj-column>
+    <!-- Subtitle -->
+    <mj-section padding="0" background-color="#EBEBEB">
+      <mj-column width="100%">
+        <mj-text
+          align="center"
+          mj-class="h5"
+          css-class="grey-section subtitle-section dark-mode-section dark-mode-text"
+          padding="15px 10px">
+          <p style="margin: 0">
+            A selection of featured headlines about the university
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Content -->
+    <mj-section padding="10px">
+      <mj-column width="600px" css-class="mobile-stack-column">
+        <mj-text css-class="dark-mode-text" padding="0">
+          <ul>
+            <li>
+              The UNC Center for Career Readiness is hosting the Spring 2025
+              Job, Internship, and Graduate School Fair on
+              <strong
+                >Thursday, Feb. 15, from 10:00 a.m. to 4:00 p.m. in the
+                University Center Ballrooms</strong
+              >. Employers will be recruiting for full-time jobs, part-time
+              jobs, internships, and Graduate Schools will be providing
+              information on their programs. Admission is free and students and
+              alumni from all majors are encouraged to attend!
+              <a href="#">Register to attend here</a>.
+            </li>
+            <li>
+              Are you thinking about studying abroad? The deadline to apply for
+              Summer and Fall 2025 study abroad programs is
+              <strong>Wednesday, Feb. 28</strong>. For more information and to
+              apply, contact the Education Abroad team at
+              <a href="#">abroad@unco.edu</a>
+              or
+              <a href="#">visit their web page</a>.
+            </li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-column>
+</mj-section>

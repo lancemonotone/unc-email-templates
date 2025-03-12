@@ -4,35 +4,49 @@
   css-class="block-container light-section dark-mode-section">
   <!-- Header Section with Gradient Background -->
   <mj-section padding="0">
-    <!--[if gte mso 9]>
-      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-        <v:fill type="gradient" color="#003366" color2="#007dba" angle="270" />
-      </v:background>
-    <![endif]-->
-    <mj-text
-      background-color="#013c65"
-      mj-class="highlight"
-      color="#FFB71B">
-      <div
-        style="background: linear-gradient(180deg, #003366 0%, #007dba 100%)">
+    <mj-column width="100%">
+      <!--[if gte mso 9]>
+        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill
+            type="gradient"
+            color="#013c65"
+            color2="#007dba"
+            method="linear"
+            angle="180" />
+        </v:background>
+      <![endif]-->
+      <mj-text background-color="#013c65" mj-class="highlight" color="#FFB71B">
+        <div
+          style="
+            background: linear-gradient(180deg, #013c65 0%, #007dba 100%);
+            background-color: #013c65;
+            padding-bottom: 10px;
+          ">
           <img
             src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
             alt="UNC"
             width="100"
-            style="vertical-align: middle" />
-          <span style="vertical-align: middle"> in Pictures</span>
-      </div>
-    </mj-text>
+            style="vertical-align: middle; line-height: 0" />
+          <span
+            style="vertical-align: middle; line-height: 0; padding-left: 8px">
+            in Pictures</span
+          >
+        </div>
+      </mj-text>
+    </mj-column>
+  </mj-section>
 
-    <!-- Subtitle -->
-    <mj-section
-      padding="0"
-      background-color="#EBEBEB"
-      css-class="grey-section subtitle-section dark-mode-section dark-mode-text">
-      <mj-text align="center" mj-class="h5" css-class="" padding="15px 10px">
+  <!-- Subtitle -->
+  <mj-section padding="0" background-color="#EBEBEB">
+    <mj-column width="100%">
+      <mj-text
+        align="center"
+        mj-class="h5"
+        css-class="grey-section subtitle-section dark-mode-section dark-mode-text"
+        padding="15px 10px">
         <p style="margin: 0">The people, places and events at UNC</p>
       </mj-text>
-    </mj-section>
+    </mj-column>
   </mj-section>
 
   <!-- Image Grid - Row 1 -->
@@ -56,7 +70,6 @@
     <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
       <mj-include path="../components/component-image-content-center.mjml" />
       <mj-include path="../components/component-image-caption.mjml" />
-      </mj-text>
     </mj-column>
 
     <!-- Right Image -->
