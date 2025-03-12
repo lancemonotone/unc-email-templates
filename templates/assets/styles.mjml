@@ -32,7 +32,7 @@
     font-weight="700"
     padding="0"
     color="#013c65"
-    css-class="dark-mode-text mobile-center" />
+    css-class="mobile-center" />
 
   <mj-class
     name="h3"

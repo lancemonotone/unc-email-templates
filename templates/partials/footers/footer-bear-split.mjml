@@ -7,7 +7,7 @@
   <mj-column width="40%" vertical-align="middle">
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text mobile-center"
+      css-class="mobile-center"
       font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
       font-size="12px"
       align="left"
@@ -30,7 +30,7 @@
   <mj-column width="40%" vertical-align="middle">
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text mobile-center"
+      css-class="mobile-center"
       font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
       font-size="12px"
       align="right"

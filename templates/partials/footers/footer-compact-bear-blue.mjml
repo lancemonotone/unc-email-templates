@@ -23,7 +23,7 @@
       css-class="mobile-stack-column">
       <mj-text
         color="#ffffff"
-        css-class="dark-mode-text mobile-center"
+        css-class="mobile-center"
         font-size="11px"
         align="center"
         padding-bottom="20px"

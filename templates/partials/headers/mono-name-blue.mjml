@@ -22,7 +22,7 @@
     <mj-text
       mj-class="header-title-white"
       align="right"
-      css-class="dark-mode-text mobile-center">
+      css-class="mobile-center">
       University of Northern Colorado
     </mj-text>
   </mj-column>

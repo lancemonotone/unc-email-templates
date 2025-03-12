@@ -47,7 +47,7 @@
       <mj-text
         align="center"
         mj-class="h5"
-        css-class="grey-section subtitle-section dark-mode-section dark-mode-text"
+        css-class="grey-section subtitle-section dark-mode-section"
         padding="15px 10px">
         <p style="margin: 0">The people, places and events at UNC</p>
       </mj-text>

@@ -22,7 +22,7 @@
     css-class="mobile-stack-column">
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text mobile-center"
+      css-class="mobile-center"
       font-size="12px"
       align="right"
       padding-bottom="5px"
@@ -36,7 +36,7 @@
 
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text mobile-center"
+      css-class="mobile-center"
       font-size="12px"
       align="right"
       padding-bottom="5px"
@@ -50,7 +50,7 @@
 
     <mj-text
       color="#ffffff"
-      css-class="dark-mode-text mobile-center"
+      css-class="mobile-center"
       font-size="12px"
       align="right"
       padding-bottom="5px"
