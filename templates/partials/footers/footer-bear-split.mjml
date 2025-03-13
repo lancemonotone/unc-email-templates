@@ -1,14 +1,10 @@
 <!-- Split Footer with Centered Bear Head -->
-<mj-section
-  background-color="#013c65"
-  padding="20px"
-  css-class="force-dark dark-mode-section dark-bg-link mobile-stack">
+<mj-section background-color="#013c65" padding="20px" css-class="dark-bg-link">
   <!-- Left Column - Address -->
   <mj-column width="40%" vertical-align="middle">
     <mj-text
-      color="#ffffff"
+      mj-class="footer-text"
       css-class="mobile-center"
-      font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
       font-size="12px"
       align="left"
       padding-bottom="5px"
@@ -29,17 +25,15 @@
   <!-- Right Column - Contact Info -->
   <mj-column width="40%" vertical-align="middle">
     <mj-text
-      color="#ffffff"
+      mj-class="footer-text"
       css-class="mobile-center"
-      font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
       font-size="12px"
       align="right"
       padding-bottom="5px"
       padding-top="5px">
       {{ phone | default: '970-351-2721' }} &nbsp;|&nbsp;
       <a
-        href="{{ department_url | default: 'https://unco.edu/living-on-campus/housing' }}"
-        style="color: #ffffff; text-decoration: underline">
+        href="{{ department_url | default: 'https://unco.edu/living-on-campus/housing' }}">
         {{ department_website | default: 'unco.edu/living-on-campus/housing' }}
       </a>
     </mj-text>

@@ -27,17 +27,39 @@ a {
 .dark-bg-link a {
   color: #ffffff !important;
 }
+/* Gradient background */
+.gradient-bg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #013c65; /* Fallback for clients that don't support gradients */
+  background: linear-gradient(180deg, #013c65 0%, #007dba 100%);
+}
+
 /* Footer text overrides */
 .footer-text,
 .footer-text *,
 .footer-text a,
 div[class*="footer-text"] *,
-td[class*="footer-text"] * {
+td[class*="footer-text"] *,
+.mj-footer .mj-column *,
+.mj-footer a {
   color: #ffffff !important;
 }
-.footer-text a {
+.footer-text a,
+.mj-footer a {
   text-decoration: underline !important;
+  color: #ffffff !important;
 }
+
+/* Outlook-specific footer overrides */
+[owa] .footer-text,
+[owa] .footer-text *,
+[owa] .footer-text a {
+  color: #ffffff !important;
+}
+
 /* Image adjustments */
 /* .mobile-stack img {
   width: auto !important;
@@ -189,6 +211,7 @@ p {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box !important;
+    display: block !important;
   }
 
   /* Mobile center alignment */
@@ -204,10 +227,6 @@ p {
   }
 
   /* Mobile stacking */
-  .mobile-stack {
-    display: block !important;
-    width: 100% !important;
-  }
   .mobile-stack-column,
   .mobile-stack-column.mj-column-per-70,
   .mobile-stack-column.mj-column-per-30,

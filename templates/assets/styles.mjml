@@ -107,21 +107,17 @@
     font-size="32px"
     padding="0"
     align="center"
+    line-height="1"
     css-class="dark-mode-text" />
 
   <!-- Footer text styles -->
   <mj-class
     name="footer-text"
-    color="#ffffff"
+    color="#ffffff !important"
     font-family="Ringside, Roboto, Tahoma, Arial, sans-serif"
     font-size="14px"
     line-height="1.5"
-    padding="0">
-    <mj-style inline="inline">
-      .footer-text, .footer-text * { color: #ffffff !important; } .footer-text a
-      { color: #ffffff !important; text-decoration: underline; }
-    </mj-style>
-  </mj-class>
+    padding="0" />
 
   <!-- Button styles -->
   <mj-style inline="inline">
@@ -148,6 +144,10 @@
     border-radius="4px"
     padding="20px"
     css-class="button-secondary" />
+
+  <mj-class name="gradient-bg" background: #013c65; /* Fallback for clients that
+  don't support gradients */ background: linear-gradient(180deg, #013c65 0%,
+  #007dba 100%); method="linear" angle="180" />
 
   <!-- Image styles -->
   <mj-class
@@ -195,3 +195,10 @@
     </style>
   <![endif]-->
 </mj-raw>
+
+<mj-style inline="inline">
+  /* Force white footer text in all clients */ .footer-text, .footer-text p,
+  .footer-text div, .footer-text span, .footer-text a { color: #ffffff
+  !important; } /* Outlook-specific footer text color fix */ .ExternalClass
+  .footer-text, .ExternalClass .footer-text a { color: #ffffff !important; }
+</mj-style>

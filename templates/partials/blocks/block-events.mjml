@@ -1,76 +1,80 @@
 <!-- Events Block -->
-<mj-column
+<mj-section
   padding="0"
   css-class="block-container light-section dark-mode-section">
-  <!-- Events Header -->
-  <!--[if gte mso 9]>
-    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-      <v:fill
-        type="gradient"
-        color="#013c65"
-        color2="#007dba"
-        method="linear"
-        angle="180" />
-    </v:background>
-  <![endif]-->
-  <mj-text
-    background-color="#013c65"
-    mj-class="highlight"
-    color="#FFB71B"
-    css-class="events-header">
-    <div
-      style="
-        background: linear-gradient(180deg, #013c65 0%, #007dba 100%);
-        background-color: #013c65;
-        padding: 5px;
-        text-align: center;
-      ">
-      <img
-        src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-        alt="UNC"
-        width="100"
-        style="display: inline-block; vertical-align: middle" />
-      <span
-        style="
-          display: inline-block;
-          vertical-align: middle;
-        ">
-        Events
-      </span>
-    </div>
-  </mj-text>
+  <mj-column width="100%">
+    <!-- Header Section with Gradient Background -->
+    <mj-section padding="0" width="100%" css-class="gradient-bg mobile-stack">
+      <!--[if gte mso 9]>
+        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill
+            type="gradient"
+            color="#013c65"
+            color2="#007dba"
+            method="linear"
+            angle="180" />
+        </v:background>
+      <![endif]-->
 
-  <mj-section padding="10px">
-    <mj-column css-class="mobile-stack-column">
-    <!-- Event Items -->
-    <mj-text>
-      <strong><a href="#">Free Movie Night</a></strong>
-    </mj-text>
-    <mj-text padding-bottom="20px">
-      Monday, Feb. 10, 5-7 p.m., Kress Cinema.
-    </mj-text>
+      <mj-column
+        width="50%"
+        vertical-align="middle"
+        css-class="mobile-stack-column">
+        <mj-image
+          width="100px"
+          css-class="mobile-center"
+          src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+          alt="UNC"
+          align="right"
+          padding="0"
+          padding-right="10px" />
+      </mj-column>
 
-    <mj-text>
-      <strong><a href="#">Valentine's Bash</a></strong>
-    </mj-text>
-    <mj-text padding-bottom="20px">
-      Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
-    </mj-text>
+      <mj-column
+        width="50%"
+        vertical-align="middle"
+        css-class="mobile-stack-column">
+        <mj-text
+          css-class="mobile-center"
+          mj-class="highlight"
+          color="#FFB71B"
+          font-family="'Eds Market', 'Zeija Pro', cursive, sans-serif"
+          align="left"
+          padding="0">
+          Events
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-    <mj-text>
-      <strong><a href="#">Valentine's Bash</a></strong>
-    </mj-text>
-    <mj-text padding-bottom="20px">
-      Wednesday, Feb. 12, 7-9 p.m., Harrison Hall Den.
-    </mj-text>
-  </mj-section>
+    <mj-section padding="5px" css-class="dark-mode-text">
+      <mj-text>
+        <strong><a href="#">Free Movie Night</a></strong>
+      </mj-text>
+      <mj-text> Monday, Feb. 10, 5-7 p.m., Kress Cinema. </mj-text>
+    </mj-section>
 
-  <!-- UNC Standard Button Component Center -->
-  <mj-button
-    mj-class="button-primary"
-    align="center"
-    href="https://www.unco.edu/events-calendar/events.aspx"
-    color="#ffffff">
-    <span style="color: #ffffff">More Events</span>
-  </mj-button>
-</mj-column>
+    <mj-section padding="5px" css-class="dark-mode-text">
+      <mj-text>
+        <strong><a href="#">Valentine's Bash</a></strong>
+      </mj-text>
+      <mj-text>
+        Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
+      </mj-text>
+    </mj-section>
+
+    <mj-section padding="5px" css-class="dark-mode-text">
+      <mj-text>
+        <strong><a href="#">Valentine's Bash</a></strong>
+      </mj-text>
+      <mj-text> Wednesday, Feb. 12, 7-9 p.m., Harrison Hall Den. </mj-text>
+    </mj-section>
+
+    <mj-button
+      mj-class="button-primary"
+      align="center"
+      href="https://www.unco.edu/events-calendar/events.aspx"
+      color="#ffffff">
+      <span style="color: #ffffff">More Events</span>
+    </mj-button>
+  </mj-column>
+</mj-section>
