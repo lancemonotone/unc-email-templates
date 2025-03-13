@@ -70,6 +70,7 @@
   <mj-button
     mj-class="button-primary"
     align="center"
+    padding="0"
     href="https://www.unco.edu/events-calendar/events.aspx"
     color="#ffffff">
     <span style="color: #ffffff">More Events</span>
