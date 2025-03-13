@@ -17,28 +17,27 @@
     background-color="#013c65"
     mj-class="highlight"
     color="#FFB71B"
-    css-class="events-header"
-    padding="0">
-    <table role="presentation" style="width: 100%; border-collapse: collapse; background: linear-gradient(180deg, #013c65 0%, #007dba 100%);">
-      <tr>
-        <td align="center" style="padding: 5px">
-          <table role="presentation" style="width: auto; margin: 0 auto; border-collapse: collapse;">
-            <tr>
-              <td style="padding-right: 15px;">
-                <img
-                  src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-                  alt="UNC"
-                  width="100"
-                  style="display: block;" />
-              </td>
-              <td style="vertical-align: middle; color: #FFB71B; font-family: 'Eds Market', 'Zeija Pro', cursive, sans-serif;">
-                Events
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
+    css-class="events-header">
+    <div
+      style="
+        background: linear-gradient(180deg, #013c65 0%, #007dba 100%);
+        background-color: #013c65;
+        padding: 5px;
+        text-align: center;
+      ">
+      <img
+        src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+        alt="UNC"
+        width="100"
+        style="display: inline-block; vertical-align: middle" />
+      <span
+        style="
+          display: inline-block;
+          vertical-align: middle;
+        ">
+        Events
+      </span>
+    </div>
   </mj-text>
 
   <mj-section padding="10px">
@@ -70,7 +69,6 @@
   <mj-button
     mj-class="button-primary"
     align="center"
-    padding="0"
     href="https://www.unco.edu/events-calendar/events.aspx"
     color="#ffffff">
     <span style="color: #ffffff">More Events</span>
