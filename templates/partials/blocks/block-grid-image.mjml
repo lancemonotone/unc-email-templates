@@ -3,60 +3,55 @@
   padding="0"
   css-class="block-container light-section dark-mode-section">
   <!-- Header Section with Gradient Background -->
-  <mj-section padding="0">
-    <mj-column width="100%">
-      <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-          <v:fill
-            type="gradient"
-            color="#013c65"
-            color2="#007dba"
-            method="linear"
-            angle="180" />
-        </v:background>
-      <![endif]-->
-      <mj-text
-        background-color="#013c65"
-        mj-class="highlight"
-        color="#FFB71B"
-        padding="0">
-        <table
-          role="presentation"
-          style="
-            width: 100%;
-            border-collapse: collapse;
-            background: linear-gradient(180deg, #013c65 0%, #007dba 100%);
-          ">
-          <tr>
-            <td align="center" style="padding: 5px">
-              <table
-                role="presentation"
-                style="width: auto; margin: 0 auto; border-collapse: collapse">
-                <tr>
-                  <td style="padding-right: 15px">
-                    <img
-                      src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-                      alt="UNC"
-                      width="100"
-                      style="display: block" />
-                  </td>
-                  <td
-                    style="
-                      vertical-align: middle;
-                      color: #ffb71b;
-                      font-family: 'Eds Market', 'Zeija Pro', cursive,
-                        sans-serif;
-                    ">
-                    in Pictures
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-      </mj-text>
-    </mj-column>
-  </mj-section>
+  <!--[if gte mso 9]>
+    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+      <v:fill
+        type="gradient"
+        color="#013c65"
+        color2="#007dba"
+        method="linear"
+        angle="180" />
+    </v:background>
+  <![endif]-->
+  <mj-text
+    background-color="#013c65"
+    mj-class="highlight"
+    color="#FFB71B"
+    padding="0">
+    <table
+      role="presentation"
+      style="
+        width: 100%;
+        border-collapse: collapse;
+        background: linear-gradient(180deg, #013c65 0%, #007dba 100%);
+      ">
+      <tr>
+        <td align="center" style="padding: 5px">
+          <table
+            role="presentation"
+            style="width: auto; margin: 0 auto; border-collapse: collapse">
+            <tr>
+              <td style="padding-right: 15px">
+                <img
+                  src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+                  alt="UNC"
+                  width="100"
+                  style="display: block" />
+              </td>
+              <td
+                style="
+                  vertical-align: middle;
+                  color: #ffb71b;
+                  font-family: 'Eds Market', 'Zeija Pro', cursive, sans-serif;
+                ">
+                in Pictures
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </mj-text>
 
   <!-- Subtitle -->
   <mj-section

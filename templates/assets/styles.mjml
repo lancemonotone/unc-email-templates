@@ -109,6 +109,20 @@
     align="center"
     css-class="dark-mode-text" />
 
+  <!-- Footer text styles -->
+  <mj-class
+    name="footer-text"
+    color="#ffffff"
+    font-family="Ringside, Roboto, Tahoma, Arial, sans-serif"
+    font-size="14px"
+    line-height="1.5"
+    padding="0">
+    <mj-style inline="inline">
+      .footer-text, .footer-text * { color: #ffffff !important; } .footer-text a
+      { color: #ffffff !important; text-decoration: underline; }
+    </mj-style>
+  </mj-class>
+
   <!-- Button styles -->
   <mj-style inline="inline">
     /* Ensure Outlook respects the text color */ .button-primary a { color:

@@ -27,6 +27,17 @@ a {
 .dark-bg-link a {
   color: #ffffff !important;
 }
+/* Footer text overrides */
+.footer-text,
+.footer-text *,
+.footer-text a,
+div[class*="footer-text"] *,
+td[class*="footer-text"] * {
+  color: #ffffff !important;
+}
+.footer-text a {
+  text-decoration: underline !important;
+}
 /* Image adjustments */
 /* .mobile-stack img {
   width: auto !important;
