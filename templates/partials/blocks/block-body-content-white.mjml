@@ -1,7 +1,7 @@
 <!-- Body Content Block with Left Image, Right Content (White Background) -->
 <mj-section
   padding="20px"
-  css-class="block-container light-section light-border dark-mode-section">
+  css-class="block-container light-section blue-border">
   <!-- Left Column - Image -->
   <mj-column
     width="45%"
@@ -18,22 +18,10 @@
     vertical-align="top"
     css-class="mobile-stack-column">
     <!-- H2 Header -->
-    <mj-text
-      font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
-      font-weight="bold"
-      font-size="14px"
-      color="#000000"
-      align="left"
-      padding-top="10px">
-      Explore UNC: October 25, 2024
-    </mj-text>
+    <mj-text mj-class="h2"> Explore UNC: October 25, 2024 </mj-text>
 
     <!-- Body Text -->
-    <mj-text
-      font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
-      font-size="14px"
-      color="#000000"
-      align="left">
+    <mj-text>
       This is an example of body content. Keep it concise and engaging.
     </mj-text>
 

@@ -1,9 +1,8 @@
 <!-- Split Footer with Centered Bear Head -->
-<mj-section background-color="#013c65" padding="20px" css-class="dark-bg-link">
+<mj-section background-color="#013c65" padding="20px" css-class="blue-section">
   <!-- Left Column - Address -->
   <mj-column width="40%" vertical-align="middle">
     <mj-text
-      mj-class="footer-text"
       css-class="mobile-center"
       font-size="12px"
       align="left"
@@ -25,7 +24,6 @@
   <!-- Right Column - Contact Info -->
   <mj-column width="40%" vertical-align="middle">
     <mj-text
-      mj-class="footer-text"
       css-class="mobile-center"
       font-size="12px"
       align="right"

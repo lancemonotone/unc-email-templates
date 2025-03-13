@@ -3,7 +3,7 @@
   <mj-section
     background-color="#013C65"
     padding="20px"
-    css-class="dark-bg-link">
+    css-class="blue-section">
     <mj-column
       width="15%"
       vertical-align="middle"
@@ -23,7 +23,6 @@
       css-class="mobile-stack-column">
       <mj-text
         color="#ffffff"
-        mj-class="footer-text"
         css-class="mobile-center"
         font-size="11px"
         align="center"

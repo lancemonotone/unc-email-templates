@@ -1,7 +1,5 @@
 <!-- Two Column Hero Section with Left Image, Right Text -->
-<mj-section
-  padding="0"
-  css-class="block-container light-section dark-mode-section">
+<mj-section padding="0" css-class="block-container light-section">
   <!-- Left Column - Image -->
   <mj-column
     width="45%"
@@ -22,18 +20,5 @@
 
     <!-- Left-aligned intro text -->
     <mj-include path="../components/component-text.mjml" />
-  </mj-column>
-</mj-section>
-
-<!-- Solid blue line separator (full width) -->
-<mj-section padding="0">
-  <mj-column width="100%" padding="0">
-    <mj-divider
-      border-width="2px"
-      border-color="#013C65"
-      padding-left="0"
-      padding-right="0"
-      padding-top="10px"
-      padding-bottom="10px" />
   </mj-column>
 </mj-section>

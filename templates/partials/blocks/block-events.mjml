@@ -1,7 +1,5 @@
 <!-- Events Block -->
-<mj-section
-  padding="0"
-  css-class="block-container light-section dark-mode-section">
+<mj-section padding="0" css-class="block-container light-section">
   <mj-column width="100%">
     <!-- Header Section with Gradient Background -->
     <mj-section padding="0" width="100%" css-class="gradient-bg mobile-stack">
@@ -46,27 +44,35 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding="5px" css-class="dark-mode-text">
+    <mj-section padding="5px">
       <mj-text>
-        <strong><a href="#">Free Movie Night</a></strong>
-      </mj-text>
-      <mj-text> Monday, Feb. 10, 5-7 p.m., Kress Cinema. </mj-text>
-    </mj-section>
-
-    <mj-section padding="5px" css-class="dark-mode-text">
-      <mj-text>
-        <strong><a href="#">Valentine's Bash</a></strong>
-      </mj-text>
-      <mj-text>
-        Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
+        <p>
+          <strong><a href="#">Free Movie Night</a></strong>
+        </p>
+        <p>Monday, Feb. 10, 5-7 p.m., Kress Cinema.</p>
       </mj-text>
     </mj-section>
 
-    <mj-section padding="5px" css-class="dark-mode-text">
+    <mj-section padding="5px">
       <mj-text>
-        <strong><a href="#">Valentine's Bash</a></strong>
+        <p>
+          <strong><a href="#">Valentine's Bash</a></strong>
+        </p>
+        <p>
+          Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
+        </p>
       </mj-text>
-      <mj-text> Wednesday, Feb. 12, 7-9 p.m., Harrison Hall Den. </mj-text>
+    </mj-section>
+
+    <mj-section padding="5px">
+      <mj-text>
+        <p>
+          <strong><a href="#">Valentine's Bash</a></strong>
+        </p>
+        <p>
+          Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
+        </p>
+      </mj-text>
     </mj-section>
 
     <mj-button

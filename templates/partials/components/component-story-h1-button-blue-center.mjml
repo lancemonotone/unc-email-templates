@@ -1,5 +1,5 @@
 <mj-section padding="10px">
-  <mj-column width="600px" css-class="mobile-stack-column">
+  <mj-column width="600px" css-class="mobile-stack-column light-section">
     <mj-include path="./component-h1.mjml" />
     <mj-include path="./component-text.mjml" />
     <mj-include path="./component-button-blue-center.mjml" />

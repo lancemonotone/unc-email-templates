@@ -10,10 +10,10 @@
 
   <mj-text
     font-size="14px"
-    color="#000000"
+    css-class="dark-mode-text"
     line-height="1.5"
-    padding="0"
-    css-class="dark-mode-text" />
+    color="inherit"
+    padding="0" />
 
   <!-- Header styles - Questa Slab first -->
   <mj-class
@@ -22,8 +22,8 @@
     font-size="32px"
     font-weight="700"
     padding="0"
-    color="#013C65"
-    css-class="dark-mode-text" />
+    css-class="dark-mode-text"
+    color="#013C65" />
 
   <mj-class
     name="h2"
@@ -31,8 +31,8 @@
     font-size="24px"
     font-weight="700"
     padding="0"
-    color="#013c65"
-    css-class="dark-mode-text mobile-center" />
+    css-class="dark-mode-text mobile-center"
+    color="#013c65" />
 
   <mj-class
     name="h3"
@@ -40,8 +40,8 @@
     font-size="18px"
     font-weight="700"
     padding="0"
-    color="#013c65"
-    css-class="dark-mode-text" />
+    css-class="dark-mode-text"
+    color="#013c65" />
 
   <mj-class
     name="h4"
@@ -49,8 +49,8 @@
     font-size="16px"
     font-weight="700"
     padding="0"
-    color="#013c65"
-    css-class="dark-mode-text" />
+    css-class="dark-mode-text"
+    color="#013c65" />
 
   <mj-class
     name="h5"
@@ -58,8 +58,8 @@
     font-size="16px"
     font-weight="700"
     padding="0"
-    color="#013c65"
-    css-class="dark-mode-text" />
+    css-class="dark-mode-text"
+    color="#013c65" />
 
   <!-- Header title and subtitle styles -->
   <mj-class
@@ -78,8 +78,7 @@
     font-weight="700"
     color="#013c65"
     line-height="120%"
-    padding="5px"
-    css-class="dark-mode-text" />
+    padding="5px" />
 
   <mj-class
     name="header-subtitle-white"
@@ -97,8 +96,7 @@
     font-weight="700"
     color="#013c65"
     padding-top="0"
-    padding-bottom="5px"
-    css-class="dark-mode-text" />
+    padding-bottom="5px" />
 
   <!-- Special highlight text - Eds Market first -->
   <mj-class
@@ -107,17 +105,7 @@
     font-size="32px"
     padding="0"
     align="center"
-    line-height="1"
-    css-class="dark-mode-text" />
-
-  <!-- Footer text styles -->
-  <mj-class
-    name="footer-text"
-    color="#ffffff !important"
-    font-family="Ringside, Roboto, Tahoma, Arial, sans-serif"
-    font-size="14px"
-    line-height="1.5"
-    padding="0" />
+    line-height="1" />
 
   <!-- Button styles -->
   <mj-style inline="inline">
@@ -131,7 +119,8 @@
 
   <mj-class
     name="button-primary"
-    background-color="#013c65"
+    background-color="#013c65 !important"
+    color="#ffffff !important"
     font-weight="bold"
     border-radius="4px"
     padding="20px"
@@ -139,11 +128,17 @@
 
   <mj-class
     name="button-secondary"
-    background-color="#f6b000"
+    background-color="#f6b000 !important"
+    color="#000000 !important"
     font-weight="bold"
     border-radius="4px"
     padding="20px"
     css-class="button-secondary" />
+
+  <mj-class
+    name="white-text"
+    color="#ffffff !important"
+    css-class="white-text" />
 
   <mj-class name="gradient-bg" background: #013c65; /* Fallback for clients that
   don't support gradients */ background: linear-gradient(180deg, #013c65 0%,
@@ -195,10 +190,3 @@
     </style>
   <![endif]-->
 </mj-raw>
-
-<mj-style inline="inline">
-  /* Force white footer text in all clients */ .footer-text, .footer-text p,
-  .footer-text div, .footer-text span, .footer-text a { color: #ffffff
-  !important; } /* Outlook-specific footer text color fix */ .ExternalClass
-  .footer-text, .ExternalClass .footer-text a { color: #ffffff !important; }
-</mj-style>

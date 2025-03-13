@@ -1,6 +1,4 @@
 <!-- Hero Block with Full-Width Image (No Text Overlay) -->
-<mj-column
-  padding="0"
-  css-class="block-container light-section dark-mode-section">
+<mj-column padding="0" css-class="block-container light-section">
   <mj-include path="../components/component-image-hero-full-width.mjml" />
 </mj-column>

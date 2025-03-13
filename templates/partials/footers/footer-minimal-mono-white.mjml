@@ -3,7 +3,7 @@
   <mj-section
     background-color="#f4f4f4"
     padding="20px"
-    css-class="force-dark dark-mode-section dark-bg-link mobile-stack">
+    css-class="force-dark blue-section mobile-stack">
     <mj-column
       width="15%"
       vertical-align="middle"
@@ -23,7 +23,7 @@
       css-class="mobile-stack-column">
       <mj-text
         color="#013C65"
-        css-class="mobile-center dark-mode-text"
+        css-class="mobile-center"
         font-size="11px"
         align="center"
         padding-bottom="20px"

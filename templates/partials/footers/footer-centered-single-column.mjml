@@ -1,9 +1,8 @@
 <!-- Single Column Centered Footer -->
-<mj-section background-color="#013c65" padding="20px" css-class="dark-bg-link">
+<mj-section background-color="#013c65" padding="20px" css-class="blue-section">
   <mj-column width="100%" vertical-align="middle">
     <!-- Address Line -->
     <mj-text
-      mj-class="footer-text"
       font-size="12px"
       align="center"
       padding-bottom="5px"
@@ -13,7 +12,6 @@
 
     <!-- Contact Information Line -->
     <mj-text
-      mj-class="footer-text"
       font-size="12px"
       align="center"
       padding-bottom="5px"

@@ -5,7 +5,6 @@
     <!-- Set global width to 1080px -->
     <mj-attributes>
       <mj-body width="1080px" />
-      <mj-section css-class="light-section dark-mode-section" />
     </mj-attributes>
 
     <mj-raw>

@@ -2,7 +2,7 @@
 <mj-section
   background-color="#013c65"
   padding="20px"
-  css-class="dark-bg-link mobile-stack">
+  css-class="blue-section mobile-stack">
   <mj-column
     width="25%"
     vertical-align="middle"
@@ -21,49 +21,46 @@
     vertical-align="middle"
     css-class="mobile-stack-column">
     <mj-text
-      mj-class="footer-text"
-      css-class="mobile-center"
+      css-class="mobile-center white-text"
       font-size="12px"
       align="right"
-      color="#ffffff"
-      padding-bottom="5px">
+      padding-bottom="5px"
+      color="#ffffff !important">
       <a
         href="{{ department_url | default: 'https://unco.edu' }}"
-        style="color: #ffffff; text-decoration: none">
+        color="#ffffff !important">
         University of Northern Colorado
       </a>
     </mj-text>
 
     <mj-text
-      mj-class="footer-text"
-      css-class="mobile-center"
+      css-class="mobile-center white-text"
       font-size="12px"
       align="right"
-      color="#ffffff"
-      padding-bottom="5px">
+      padding-bottom="5px"
+      color="#ffffff !important">
       <a
         href="https://goo.gl/maps/GDztMJYnNjs8r8369"
-        style="color: #ffffff; text-decoration: none">
+        color="#ffffff !important">
         {{ address | default: '1234 Address, Greeley, CO 12345' }}
       </a>
     </mj-text>
 
     <mj-text
-      mj-class="footer-text"
-      css-class="mobile-center"
+      css-class="mobile-center white-text"
       font-size="12px"
       align="right"
-      color="#ffffff"
-      padding-bottom="5px">
+      padding-bottom="5px"
+      color="#ffffff !important">
       <a
         href="tel:{{ phone | default: '970-351-XXXX' }}"
-        style="color: #ffffff; text-decoration: none">
+        color="#ffffff !important">
         {{ phone | default: '970-351-XXXX' }}</a
       >
       &nbsp;|&nbsp;
       <a
         href="mailto:{{ email | default: 'your.email@unco.edu' }}"
-        style="color: #ffffff; text-decoration: none">
+        color="#ffffff !important">
         {{ email | default: 'your.email@unco.edu' }}
       </a>
     </mj-text>

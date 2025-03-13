@@ -1,7 +1,5 @@
 <!-- Follow-Up Information Callout Box -->
-<mj-section
-  padding="20px"
-  css-class="grey-section light-border dark-mode-section">
+<mj-section padding="20px" css-class="grey-section light-border">
   <mj-column css-class="mobile-stack-column">
     <!-- Headline -->
     <mj-text
@@ -17,7 +15,5 @@
       Contact us for more information about this event or program. We're here to
       help you navigate your UNC experience.
     </mj-text>
-
-    <mj-include path="../components/component-button-blue-center.mjml" />
   </mj-column>
 </mj-section>

@@ -1,5 +1,5 @@
 <!-- CONTENT Heading Two Column -->
-<mj-section padding="0" css-class="dark-mode-section mobile-stack">
+<mj-section padding="0" css-class="mobile-stack">
   <!-- Left Column -->
   <mj-column
     width="60%"

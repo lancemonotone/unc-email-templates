@@ -2,7 +2,7 @@
 <mj-section
   background-color="#013c65"
   padding="20px"
-  css-class="force-dark dark-mode-section dark-bg-link mobile-stack">
+  css-class="force-dark blue-section mobile-stack">
   <mj-column
     width="33.33%"
     vertical-align="middle"

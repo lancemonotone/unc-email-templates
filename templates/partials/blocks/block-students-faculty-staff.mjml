@@ -1,18 +1,15 @@
 <!-- Students and Faculty Staff Block -->
-<mj-section
-  padding="0"
-  css-class="block-container light-section dark-mode-section">
+<mj-section padding="0" css-class="block-container light-section">
   <!-- Students Section -->
   <mj-column width="100%">
     <!-- Header -->
     <mj-section padding="0" background-color="#FFB71B">
       <mj-column width="100%">
         <mj-text
-          font-size="32px"
-          padding="0"
+          mj-class="h1"
           align="center"
-          mj-class="h4"
-          color="#000000">
+          color="#013C65"
+          css-class="no-dark-mode-text">
           Students
         </mj-text>
       </mj-column>
@@ -20,7 +17,7 @@
 
     <!-- Content -->
     <mj-section padding="10px">
-      <mj-column width="600px" css-class="mobile-stack-column">
+      <mj-column width="600px" css-class="mobile-stack-column light-section">
         <mj-text padding="0">
           <ul>
             <li>
@@ -53,11 +50,10 @@
     <mj-section padding="0" background-color="#FFB71B">
       <mj-column width="100%">
         <mj-text
-          font-size="32px"
-          padding="0"
+          mj-class="h1"
           align="center"
-          mj-class="h4"
-          color="#000000">
+          color="#013C65"
+          css-class="no-dark-mode-text">
           Faculty and Staff
         </mj-text>
       </mj-column>
@@ -65,7 +61,7 @@
 
     <!-- Content -->
     <mj-section padding="10px">
-      <mj-column width="600px" css-class="mobile-stack-column">
+      <mj-column width="600px" css-class="mobile-stack-column light-section">
         <mj-text padding="0">
           <ul>
             <li>
