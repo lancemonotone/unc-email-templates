@@ -82,7 +82,13 @@
       padding-right="20px">
       <!-- Social Media Footer -->
       <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
 
+    <mj-section
+      padding-top="0"
+      padding-bottom="0"
+      padding-left="20px"
+      padding-right="20px">
       <!-- Contact Footer -->
       <mj-include
         path="./partials/footers/footer-centered-single-column.mjml" />

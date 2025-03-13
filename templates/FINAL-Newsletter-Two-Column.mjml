@@ -73,15 +73,21 @@
       <mj-include path="./partials/blocks/block-in-the-news.mjml" />
     </mj-section>
 
-    <!-- Section 8: Footer Section -->
+    <!-- Social Media Footer -->
     <mj-section
       padding-top="0"
       padding-bottom="0"
       padding-left="20px"
       padding-right="20px">
-      <!-- Social Media Footer -->
+      <!-- Section 8: Footer Section -->
       <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
 
+    <mj-section
+      padding-top="0"
+      padding-bottom="0"
+      padding-left="20px"
+      padding-right="20px">
       <!-- Contact Footer -->
       <mj-include path="./partials/footers/footer-logo-two-column.mjml" />
     </mj-section>
