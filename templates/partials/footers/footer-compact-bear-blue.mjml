@@ -29,16 +29,16 @@
       padding-right="40px"
       padding-top="5px"
       color="#ffffff">
-      <a
-        href="https://unco.edu"
-        style="color: #ffffff !important; mso-style-priority: 99">
-        University of Northern Colorado
+      <a href="https://unco.edu" style="color: #ffffff; mso-style-priority: 99">
+        <span style="color: white !important"
+          >University of Northern Colorado</span
+        >
       </a>
       | 970-351-1890 | 1234 Address, Greeley, CO 12345 |
       <a
         href="mailto:info@unco.edu"
-        style="color: #ffffff !important; mso-style-priority: 99">
-        info@unco.edu
+        style="color: #ffffff; mso-style-priority: 99">
+        <span style="color: white !important">info@unco.edu</span>
       </a>
     </mj-text>
   </mj-column>
@@ -50,3 +50,11 @@
     <mj-include path="./social/footer-social-20.mjml" />
   </mj-column>
 </mj-section>
+
+<!--[if mso]>
+  <style>
+    .blue-section a {
+      color: white !important;
+    }
+  </style>
+<![endif]-->
