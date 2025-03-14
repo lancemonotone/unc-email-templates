@@ -18,6 +18,8 @@ a {
 }
 .gold-section {
   background: #ffb71b;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .gold-section a {
   color: #013c65 !important;
@@ -53,6 +55,10 @@ a {
 /* Mobile stack column */
 .mobile-stack-column {
   max-width: 600px !important;
+}
+
+.header-column.mobile-stack-column {
+  max-width: 100% !important;
 }
 
 /* Heading margin resets */
@@ -175,6 +181,15 @@ p {
   display: block !important;
 }
 
+/* Column centering class */
+.column-centered {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+}
+
+/* Headermobile-stack-column column padding */
+
 /* Mobile Responsive Rules */
 @media only screen and (max-width: 700px) {
   /* Container width control */
@@ -198,6 +213,24 @@ p {
     margin: 0 auto;
   }
 
+  .header-column .mobile-center {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Mobile hide class */
+  .mobile-hide {
+    display: none !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    mso-hide: all !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+  }
+
   /* Mobile stacking */
   .mobile-stack-column,
   .mobile-stack-column.mj-column-per-70,
@@ -218,18 +251,21 @@ p {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  .mobile-stack-padding {
-    padding-bottom: 20px !important;
+
+  /* Header column mobile padding */
+  .header-column {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 
   td.mj-full-width-mobile {
-    width: auto !important;
+    width: a uto !important;
   }
 
   /* Override MJML default column behavior */
   .mj-column-per-30,
   .mj-column-per-70 {
-    width: 100% !important;
+    width: 100% !important  ;
     max-width: 100% !important;
   }
 }

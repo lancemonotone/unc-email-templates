@@ -53,7 +53,9 @@
 
     <!-- Content -->
     <mj-section padding="10px">
-      <mj-column width="600px" css-class="mobile-stack-column light-section">
+      <mj-column
+        width="600px"
+        css-class="column-centered mobile-stack-column light-section">
         <mj-text padding="0">
           <ul>
             <li>

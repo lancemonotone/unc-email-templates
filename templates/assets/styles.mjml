@@ -33,7 +33,7 @@
     font-weight="700"
     padding="0"
     line-height="1.2"
-    css-class="dark-mode-text"
+    css-class="dark-mode-text mobile-center"
     color="#013C65" />
 
   <mj-class
@@ -156,9 +156,7 @@
     color="#ffffff !important"
     css-class="white-text" />
 
-  <mj-class name="gradient-bg" background: #013c65; /* Fallback for clients that
-  don't support gradients */ background: linear-gradient(180deg, #013c65 0%,
-  #007dba 100%); method="linear" angle="180" />
+  <mj-class name="gradient-bg" css-class="gradient-bg" />
 
   <!-- Image styles -->
   <mj-class
