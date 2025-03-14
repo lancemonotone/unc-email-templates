@@ -1,9 +1,9 @@
 <!-- Students and Faculty Staff Block -->
-<mj-section padding="0" css-class="block-container light-section">
+<mj-section padding="0" css-class="block-container">
   <!-- Students Section -->
   <mj-column width="100%">
     <!-- Header -->
-    <mj-section padding="0" background-color="#FFB71B">
+    <mj-section padding="0" css-class="gold-section">
       <mj-column width="100%">
         <mj-text
           mj-class="h1"
@@ -47,7 +47,7 @@
     </mj-section>
 
     <!-- Faculty and Staff Section -->
-    <mj-section padding="0" background-color="#FFB71B">
+    <mj-section padding="0" css-class="gold-section">
       <mj-column width="100%">
         <mj-text
           mj-class="h1"

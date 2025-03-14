@@ -3,7 +3,7 @@
   <mj-section
     background-color="#f4f4f4"
     padding="20px"
-    css-class="force-dark blue-section mobile-stack">
+    css-class="blue-section mobile-stack">
     <mj-column
       width="15%"
       vertical-align="middle"
@@ -14,7 +14,7 @@
         alt="UNC Monogram"
         width="50px"
         align="left"
-        href="{{ department_url | default: 'https://unco.edu' }}" />
+        href="https://unco.edu" />
     </mj-column>
 
     <mj-column
@@ -31,16 +31,15 @@
         padding-right="40px"
         padding-top="5px">
         <a
-          href="{{ department_url | default: 'https://unco.edu' }}"
+          href="https://unco.edu"
           style="color: #013c65; text-decoration: underline">
           University of Northern Colorado
         </a>
-        | {{ phone | default: '970-351-1890' }} | {{ address | default: '1234
-        Address, Greeley, CO 12345' }} |
+        | 970-351-1890 | 1234 Address, Greeley, CO 12345 |
         <a
-          href="mailto:{{ email | default: 'info@unco.edu' }}"
+          href="mailto:info@unco.edu"
           style="color: #013c65; text-decoration: underline">
-          {{ email | default: 'info@unco.edu' }}
+          info@unco.edu
         </a>
       </mj-text>
     </mj-column>

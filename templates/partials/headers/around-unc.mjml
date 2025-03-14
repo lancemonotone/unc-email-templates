@@ -1,0 +1,43 @@
+<!-- Around UNC Header - Half Bear Head and Around UNC Logo -->
+<mj-section
+  padding="0"
+  align="left"
+  css-class="blue-section mobile-stack gradient-bg">
+  <mj-column
+    padding-left="0"
+    padding-right="0"
+    padding-top="0"
+    padding-bottom="0"
+    align="left"
+    width="45%"
+    vertical-align="middle"
+    css-class="mobile-hide mobile-stack-column">
+    <mj-image
+      padding-left="0"
+      padding-right="0"
+      padding-top="10px"
+      padding-bottom="10px"
+      css-class="mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/banner-around-unc-half-bear.png"
+      alt="UNC Bear Logo"
+      width="63px"
+      href="https://unco.edu"
+      align="left" />
+  </mj-column>
+  <mj-column
+    width="55%"
+    vertical-align="middle"
+    css-class="mobile-stack-column">
+    <mj-image
+      padding-left="0"
+      padding-right="60px"
+      padding-top="10px"
+      padding-bottom="10px"
+      css-class="mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/banner-around-unc-logo.png"
+      alt="Around UNC Logo"
+      width="450px"
+      href="https://unco.edu"
+      align="right" />
+  </mj-column>
+</mj-section>

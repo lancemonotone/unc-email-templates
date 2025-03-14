@@ -13,7 +13,7 @@
       alt="UNC logo"
       width="127px"
       align="left"
-      href="{{ department_url | default: 'https://unco.edu' }}" />
+      href="https://unco.edu" />
   </mj-column>
 
   <mj-column
@@ -25,10 +25,10 @@
       font-size="12px"
       align="right"
       padding-bottom="5px"
-      color="#ffffff !important">
+      color="#ffffff">
       <a
-        href="{{ department_url | default: 'https://unco.edu' }}"
-        color="#ffffff !important">
+        href="https://unco.edu"
+        style="color: #ffffff; text-decoration: underline">
         University of Northern Colorado
       </a>
     </mj-text>
@@ -38,11 +38,11 @@
       font-size="12px"
       align="right"
       padding-bottom="5px"
-      color="#ffffff !important">
+      color="#ffffff">
       <a
         href="https://goo.gl/maps/GDztMJYnNjs8r8369"
-        color="#ffffff !important">
-        {{ address | default: '1234 Address, Greeley, CO 12345' }}
+        style="color: #ffffff; text-decoration: underline">
+        1234 Address, Greeley, CO 12345
       </a>
     </mj-text>
 
@@ -51,17 +51,17 @@
       font-size="12px"
       align="right"
       padding-bottom="5px"
-      color="#ffffff !important">
+      color="#ffffff">
       <a
-        href="tel:{{ phone | default: '970-351-XXXX' }}"
-        color="#ffffff !important">
-        {{ phone | default: '970-351-XXXX' }}</a
+        href="tel:970-351-1890"
+        style="color: #ffffff; text-decoration: underline">
+        970-351-1890</a
       >
       &nbsp;|&nbsp;
       <a
-        href="mailto:{{ email | default: 'your.email@unco.edu' }}"
-        color="#ffffff !important">
-        {{ email | default: 'your.email@unco.edu' }}
+        href="mailto:info@unco.edu"
+        style="color: #ffffff; text-decoration: underline">
+        info@unco.edu
       </a>
     </mj-text>
   </mj-column>

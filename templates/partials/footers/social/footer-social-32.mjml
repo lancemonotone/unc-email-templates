@@ -4,7 +4,7 @@
   padding-bottom="0"
   padding-left="20px"
   padding-right="20px"
-  css-class="force-dark mobile-stack">
+  css-class="mobile-stack">
   <mj-column>
     <mj-social
       font-size="13px"

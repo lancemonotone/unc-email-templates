@@ -1,27 +1,15 @@
 <mjml>
   <mj-head>
-    <mj-breakpoint width="700px" />
-    <mj-breakpoint width="480px" />
-    <!-- Set global width to 1080px -->
-    <mj-attributes>
-      <mj-body width="1080px" />
-    </mj-attributes>
-
-    <mj-raw>
-      <meta name="color-scheme" content="light dark" />
-      <meta name="supported-color-schemes" content="light dark" />
-    </mj-raw>
-
-    <mj-include path="./assets/styles.mjml" />
-
+    <mj-title>University of Northern Colorado</mj-title>
     <mj-include path="./assets/styles.css" type="css" />
+    <mj-include path="./assets/styles.mjml" />
   </mj-head>
 
   <mj-body>
     <!-- Section 1: Header/Logo Section -->
     <mj-section
       padding-top="0"
-      padding-bottom="20px"
+      padding-bottom="0"
       padding-left="20px"
       padding-right="20px">
       <mj-include path="./partials/headers/bear-mono-blue.mjml" />
@@ -30,7 +18,7 @@
     <!-- Body Story H1 -->
     <mj-section
       padding-top="0"
-      padding-bottom="20px"
+      padding-bottom="0"
       padding-left="20px"
       padding-right="20px">
       <mj-include
@@ -40,7 +28,7 @@
     <!-- Body Story H2 -->
     <mj-section
       padding-top="0"
-      padding-bottom="20px"
+      padding-bottom="0"
       padding-left="20px"
       padding-right="20px">
       <mj-include
@@ -50,7 +38,7 @@
     <!-- Body Story H3 -->
     <mj-section
       padding-top="0"
-      padding-bottom="20px"
+      padding-bottom="0"
       padding-left="20px"
       padding-right="20px">
       <mj-include

@@ -1,5 +1,7 @@
 <!-- Body Content Block with Left Image, Right Content (Gold Background) -->
-<mj-section padding="20px" css-class="block-container gold-section gold-border">
+<mj-section
+  padding="20px"
+  css-class="block-container gold-section-light gold-border">
   <!-- Left Column - Image -->
   <mj-column
     width="45%"
@@ -16,14 +18,10 @@
     vertical-align="top"
     css-class="mobile-stack-column">
     <!-- H2 Header -->
-    <mj-text mj-class="h2">Explore UNC: October 25, 2024</mj-text>
-      Explore UNC: October 25, 2024
-    </mj-text>
+    <mj-include path="../components/component-h2.mjml" />
 
     <!-- Body Text -->
-    <mj-text>
-      This is an example of body content. Keep it concise and engaging.
-    </mj-text>
+    <mj-include path="../components/component-text.mjml" />
 
     <!-- CTA Button -->
     <mj-include path="../components/component-button-blue-left.mjml" />

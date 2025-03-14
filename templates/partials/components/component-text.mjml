@@ -1,10 +1,21 @@
 <mj-text>
   <p>
-    Lorem ipsum dolor <a href="#">sit amet</a>, consectetur adipiscing elit. Sed
-    do eiusmod tempor <a href="#">incididunt ut labore</a> et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud
-    <a href="#">exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in
-    <a href="#">voluptate velit</a> esse cillum dolore eu fugiat nulla pariatur.
+    Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
+    <em>adipiscing elit</em> sed do. Eiusmod tempor
+    <a href="#">incididunt ut labore</a>
+    et dolore magna aliqua ut enim ad
+    <b style="font-size: 16px">minim veniam</b>.
   </p>
+  <p>
+    Quis nostrud
+    <u>exercitation ullamco</u> laboris nisi ut <b>aliquip ex ea</b>. Commodo
+    consequat
+    <a href="mailto:lorem@ipsum.com">duis aute irure dolor</a>
+    in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+  </p>
+  <ul>
+    <li>Excepteur sint occaecat</li>
+    <li>Cupidatat non proident</li>
+    <li>Sunt in culpa qui officia</li>
+  </ul>
 </mj-text>

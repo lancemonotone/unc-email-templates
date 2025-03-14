@@ -18,12 +18,10 @@
     vertical-align="top"
     css-class="mobile-stack-column">
     <!-- H2 Header -->
-    <mj-text mj-class="h2"> Explore UNC: October 25, 2024 </mj-text>
+    <mj-include path="../components/component-h2.mjml" />
 
     <!-- Body Text -->
-    <mj-text>
-      This is an example of body content. Keep it concise and engaging.
-    </mj-text>
+    <mj-include path="../components/component-text.mjml" />
 
     <!-- CTA Button -->
     <mj-include path="../components/component-button-blue-left.mjml" />

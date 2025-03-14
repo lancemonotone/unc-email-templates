@@ -11,16 +11,22 @@ a {
   color: #ffffff !important;
 }
 .light-section {
-  background-color: #ffffff;
+  background: #ffffff;
 }
 .light-section a {
   color: #013c65 !important;
 }
 .gold-section {
-  background-color: #fce2a3;
+  background: #ffb71b;
+}
+.gold-section a {
+  color: #013c65 !important;
+}
+.gold-section-light {
+  background: #fce2a3;
 }
 .grey-section {
-  background-color: #ebebeb;
+  background: #ebebeb;
 }
 /* Subtitle section styles */
 .subtitle-section {
@@ -83,26 +89,31 @@ p {
 @media (prefers-color-scheme: dark) {
   /* Page Background */
   body {
-    background-color: #333333 !important;
+    background: #333333 !important;
   }
 
   /* Sections */
+  .gold-section {
+    background: #ffb71b !important;
+  }
+  .gold-section a {
+    color: #013c65 !important;
+  }
 
   .light-section,
-  .gold-section {
+  .gold-section-light {
     color: #ffffff !important;
     background: #333333 !important;
-    background-color: #333333 !important;
   }
 
   .light-section a,
-  .gold-section a {
+  .gold-section-light a {
     color: #f6b000 !important;
   }
 
   /* Grey background in dark mode */
   .grey-section {
-    background-color: #3b3b3b !important;
+    background: #3b3b3b !important;
   }
 
   .light-border,
@@ -122,7 +133,7 @@ p {
 } /* Outlook Dark
       Mode */
 [data-ogsc] body {
-  background-color: #333333 !important;
+  background: #333333 !important;
 }
 
 /* Hero image dimensions */
@@ -199,6 +210,8 @@ p {
     box-sizing: border-box !important;
   }
   .mobile-stack-column div {
+    max-width: 100% !important;
+    width: 100% !important;
     margin: 0 !important;
   }
   .mobile-stack-column td {
