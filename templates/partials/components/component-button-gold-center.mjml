@@ -1,4 +1,9 @@
 <!-- UNC Standard Button Component Center -->
-<mj-button mj-class="button-secondary" align="center" href="#" color="#000000">
+<mj-button
+  mj-class="button-secondary"
+  align="center"
+  href="javascript:void(0);"
+  color="#000000"
+  padding-top="10px">
   <span style="color: #000000">Read More</span>
 </mj-button>

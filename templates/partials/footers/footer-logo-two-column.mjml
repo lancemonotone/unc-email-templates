@@ -3,10 +3,15 @@
   background-color="#013c65"
   padding="20px"
   css-class="blue-section mobile-stack">
+  <!--[if gte mso 9]>
+    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+      <v:fill type="solid" color="#013c65" />
+    </v:background>
+  <![endif]-->
   <!--[if mso]>
-  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #013c65;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #013c65; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
   <tr>
-  <td>
+  <td style="padding: 20px; background-color: #013c65; font-size: 0; line-height: 0;">
   <![endif]-->
   <mj-column
     width="25%"
@@ -18,7 +23,8 @@
       alt="UNC logo"
       width="127px"
       align="left"
-      href="https://unco.edu" />
+      href="https://unco.edu"
+      padding="0" />
   </mj-column>
 
   <mj-column
@@ -30,8 +36,11 @@
       font-size="12px"
       align="right"
       padding-bottom="5px"
+      padding-top="0"
       color="#ffffff">
-      <a href="https://unco.edu" style="color: #ffffff; mso-style-priority: 99">
+      <a
+        href="https://unco.edu"
+        style="color: #ffffff; mso-style-priority: 99; text-decoration: none">
         <font color="#ffffff">University of Northern Colorado</font>
       </a>
     </mj-text>
@@ -41,10 +50,11 @@
       font-size="12px"
       align="right"
       padding-bottom="5px"
+      padding-top="0"
       color="#ffffff">
       <a
         href="https://goo.gl/maps/GDztMJYnNjs8r8369"
-        style="color: #ffffff; mso-style-priority: 99">
+        style="color: #ffffff; mso-style-priority: 99; text-decoration: none">
         <span style="color: white !important"
           >1234 Address, Greeley, CO 12345</span
         >
@@ -56,14 +66,17 @@
       font-size="12px"
       align="right"
       padding-bottom="5px"
+      padding-top="0"
       color="#ffffff">
-      <a href="tel:970-351-1890" style="color: #ffffff; mso-style-priority: 99">
+      <a
+        href="tel:970-351-1890"
+        style="color: #ffffff; mso-style-priority: 99; text-decoration: none">
         <span style="color: white !important">970-351-1890</span></a
       >
       &nbsp;|&nbsp;
       <a
         href="mailto:info@unco.edu"
-        style="color: #ffffff; mso-style-priority: 99">
+        style="color: #ffffff; mso-style-priority: 99; text-decoration: none">
         <span style="color: white !important">info@unco.edu</span>
       </a>
     </mj-text>
@@ -77,20 +90,46 @@
 
 <!--[if mso]>
   <style>
+    /* Fix for white lines in Outlook */
+    .blue-section {
+      background-color: #013c65 !important;
+    }
     .blue-section a {
       color: white !important;
     }
-    /* Fix for white lines in Outlook */
     table {
-      border-collapse: collapse;
-      mso-table-lspace: 0pt;
-      mso-table-rspace: 0pt;
+      border-collapse: collapse !important;
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
     }
     .blue-section table {
       border-collapse: collapse !important;
+      background-color: #013c65 !important;
     }
     .blue-section td {
       line-height: 0 !important;
+      font-size: 0 !important;
+      background-color: #013c65 !important;
+    }
+    .blue-section div {
+      background-color: #013c65 !important;
+    }
+    .blue-section p {
+      line-height: normal !important;
+      font-size: 12px !important;
+    }
+    .blue-section a {
+      line-height: normal !important;
+      font-size: 12px !important;
+    }
+    .blue-section span {
+      line-height: normal !important;
+      font-size: 12px !important;
+    }
+    /* Fix for image spacing */
+    .blue-section img {
+      display: block !important;
+      border: 0 !important;
     }
   </style>
 <![endif]-->

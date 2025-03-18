@@ -2,9 +2,8 @@
 <mj-button
   mj-class="button-primary"
   align="left"
-  href="#"
+  href="javascript:void(0);"
   color="#ffffff"
-  background-color="#013c65"
   padding-top="10px"
   padding-bottom="10px"
   padding-left="0"

@@ -3,133 +3,194 @@ description: MJML Block Partial Structure Rules
 globs: .mjml
 alwaysApply: false
 ---
-
 # MJML Block Partial Structure Rules
 
 ## 1. Basic Container Structure
 - Always start with an HTML comment describing the block's purpose
-- Use `<mj-column>` as the root container
-- Add appropriate CSS classes for dark mode and mobile responsiveness:
+- Use `<mj-section>` as the root container with `padding="0"` or `padding="20px"`
+- Add appropriate CSS classes for styling and responsiveness:
   ```mjml
-  css-class="block-container light-section dark-mode-section"
+  css-class="block-container light-section"
   ```
+- First child of `mj-section` should be `mj-column` with these standard characteristics:
+  ```mjml
+  <mj-column 
+    width="100%" 
+    padding="0"
+    vertical-align="top">
+    <!-- Content or nested sections go here -->
+  </mj-column>
+  ```
+- Optional section modifiers: `blue-border`, `gradient-bg`
 
-## 2. Padding & Spacing
-- Root sections: `padding="20px"`
-- Inner columns: `padding="0"` or `padding="20px"` depending on design
-- Content elements (text, buttons): Use consistent padding
-  - Top/bottom padding: 10px
-  - Side padding: 0px or 20px
+## 2. Column Layout Patterns
 
-## 3. Typography System
-### Headers
+### Single Column Container
 ```mjml
-<mj-text
-  font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
-  font-weight="bold"
-  font-size="14px"
-  color="#000000"
->
+<mj-section padding="0" css-class="block-container light-section">
+  <mj-column width="100%" padding="0">
+    <!-- Content sections or components -->
+    <mj-section padding="20px">
+      <mj-column width="100%">
+        <!-- Content components -->
+      </mj-column>
+    </mj-section>
+  </mj-column>
+</mj-section>
 ```
 
-### Body Text
+### Two Columns (Side by Side)
 ```mjml
-<mj-text
-  font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
-  font-size="14px"
-  color="#000000"
->
+<mj-section padding="20px" css-class="block-container light-section">
+  <!-- Left Column -->
+  <mj-column
+    width="45%"
+    padding="20px"
+    vertical-align="top"
+    css-class="mobile-stack-column">
+    <mj-include path="../components/component-image-content-left.mjml" />
+  </mj-column>
+
+  <!-- Right Column -->
+  <mj-column
+    width="55%"
+    padding="20px"
+    vertical-align="top"
+    css-class="mobile-stack-column">
+    <!-- Content components -->
+  </mj-column>
+</mj-section>
 ```
 
-## 4. Column Layout Rules
-- Single column: Use full width
-- Two columns: 
-  - Image column: `width="45%"`
-  - Content column: `width="55%"`
-- Always add `css-class="mobile-stack-column"` for responsive design
-
-## 5. Images
+### Nested Sections (Complex Layouts)
 ```mjml
-<mj-image
-  padding="0"
-  fluid-on-mobile="true"
-  css-class="content-image"
-  src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
-  align="left"
-/>
+<mj-section padding="0" css-class="block-container light-section">
+  <mj-column width="100%" padding="0">
+    <!-- Header Section -->
+    <mj-wrapper padding="0" css-class="gradient-bg">
+      <mj-section padding="0">
+        <!-- Nested columns here -->
+      </mj-section>
+    </mj-wrapper>
+    
+    <!-- Content Section -->
+    <mj-section padding="20px">
+      <!-- Content columns here -->
+    </mj-section>
+  </mj-column>
+</mj-section>
 ```
 
-## 6. CTA Buttons
+## 4. Special Sections
+
+### Gradient Headers
 ```mjml
-<mj-button
-  background-color="#013C65"
-  color="#FFFFFF"
-  font-family="'Ringside', Roboto, Tahoma, Arial, sans-serif"
-  font-weight="bold"
-  font-size="14px"
-  align="center"
-  border-radius="4px"
->
+<mj-wrapper padding="0" css-class="gradient-bg mobile-stack">
+  <!--[if gte mso 9]>
+    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+      <v:fill
+        type="gradient"
+        color="#013c65"
+        color2="#007dba"
+        method="linear"
+        angle="180" />
+    </v:background>
+  <![endif]-->
+  <!-- Content -->
+</mj-wrapper>
 ```
 
-## 7. Dark Mode Support
-- Add these classes to sections that need dark mode:
-  - `dark-mode-section`: For background color switching
-  - `dark-mode-text`: For text color switching
-  - `dark-bg-link`: For link color adaptation
-
-## 8. Mobile Responsiveness
+## 5. Mobile Responsiveness
 Required classes:
 - `mobile-stack-column`: For columns that should stack on mobile
 - `mobile-center`: For content that should center align on mobile
-- `content-image`: For images that need mobile optimization
+- `mobile-stack`: For sections that need special mobile stacking behavior
 
-## 9. Background Colors
-Common background colors:
-- White (default): No background color specified
-- Blue: `#013C65`
-- Gold: `#F6B000`
-- Grey: `#EBEBEB`
+## 6. Background Colors & Themes
+- Default (White): `light-section`
+- Blue Border: Add `blue-border` class
+- Gradient: Use `gradient-bg` class with Outlook VML fallback
+- Gold: Add `gold-section` class
 
-## 10. File Naming Convention
+## 7. File Naming Convention
 - Prefix: Always use `block-`
-- Descriptive name: Describe the main purpose
-- Example: `block-body-content-white.mjml`
+- Pattern: `block-[type]-[variant].mjml`
+Examples:
+- `block-body-content-white.mjml`
+- `block-two-column-hero.mjml`
+- `block-events.mjml`
 
-## 11. Class Usage Guidelines
-### mj-class vs css-class
-- `mj-class`: 
-  - Applied directly to the MJML element as inline styles
-  - Use for core styling that must work in all email clients
-  - Ideal for font properties, colors, and spacing
-  - Example:
-    ```mjml
-    <mj-class name="header" 
-      font-size="24px" 
-      color="#013C65" 
-      padding="10px" />
-    ```
+## 8. Component Integration
+- Components are stored in `../components/`
+- Use semantic naming: `component-[element-type]-[variant].mjml`
+- Common components:
+  - `component-h1.mjml`
+  - `component-h2.mjml`
+  - `component-text.mjml`
+  - `component-button-blue-left.mjml`
+  - `component-image-hero-half-width.mjml`
+  - `component-image-content-left.mjml`
 
-- `css-class`:
-  - Applied to the outer wrapper element in generated HTML
-  - Use for responsive design and progressive enhancement
-  - Required for dark mode and mobile adaptations
-  - When styling, target inner elements if needed:
-    ```css
-    .dark-mode-text div {
-      color: #ffffff !important;
-    }
-    ```
+## 9. Best Practices
+- Use components for reusable elements
+- Maintain consistent padding (0px or 20px)
+- Always include mobile responsiveness classes
+- Use semantic class names
+- Include descriptive HTML comments
+- Provide Outlook fallbacks for advanced styling 
 
-### Best Practices
-- Use `mj-class` for:
-  - Typography base styles
-  - Colors that must work everywhere
-  - Consistent spacing
-  - Core layout properties
+### Gradient Headers
+```mjml
+<mj-wrapper padding="0" css-class="gradient-bg mobile-stack">
+  <!--[if gte mso 9]>
+    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+      <v:fill
+        type="gradient"
+        color="#013c65"
+        color2="#007dba"
+        method="linear"
+        angle="180" />
+    </v:background>
+  <![endif]-->
+  <!-- Content -->
+</mj-wrapper>
+```
 
-- Use `css-class` for:
-  - Dark mode toggles
-  - Mobile responsiveness
-  - Progressive enhancements
-  - Dynamic styling that's okay to fail gracefully
+## 5. Mobile Responsiveness
+Required classes:
+- `mobile-stack-column`: For columns that should stack on mobile
+- `mobile-center`: For content that should center align on mobile
+- `mobile-stack`: For sections that need special mobile stacking behavior
+
+## 6. Background Colors & Themes
+- Default (White): `light-section`
+- Blue Border: Add `blue-border` class
+- Gradient: Use `gradient-bg` class with Outlook VML fallback
+- Gold: Add `gold-section` class
+
+## 7. File Naming Convention
+- Prefix: Always use `block-`
+- Pattern: `block-[type]-[variant].mjml`
+Examples:
+- `block-body-content-white.mjml`
+- `block-two-column-hero.mjml`
+- `block-events.mjml`
+
+## 8. Component Integration
+- Components are stored in `../components/`
+- Use semantic naming: `component-[element-type]-[variant].mjml`
+- Common components:
+  - `component-h1.mjml`
+  - `component-h2.mjml`
+  - `component-text.mjml`
+  - `component-button-blue-left.mjml`
+  - `component-image-hero-half-width.mjml`
+  - `component-image-content-left.mjml`
+
+## 9. Best Practices
+- Use components for reusable elements
+- Maintain consistent padding (0px or 20px)
+- Always include mobile responsiveness classes
+- Use semantic class names
+- Include descriptive HTML comments
+- Provide Outlook fallbacks for advanced styling

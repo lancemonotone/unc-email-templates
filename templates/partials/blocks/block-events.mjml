@@ -81,7 +81,7 @@
           align="center"
           href="https://www.unco.edu/events-calendar/events.aspx"
           color="#ffffff"
-          padding-top="10px">
+          padding="10px">
           <span style="color: #ffffff">More Events</span>
         </mj-button>
       </mj-column>
