@@ -1,0 +1,9 @@
+<mjml>
+  <mj-head>
+    <mj-title>University of Northern Colorado - Event</mj-title>
+    <mj-include path="./assets/styles.css" type="css" />
+    <mj-include path="./assets/styles.mjml" />
+  </mj-head>
+
+  <mj-body> </mj-body>
+</mjml>
