@@ -206,6 +206,7 @@ p {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
   .mobile-center table,
   .mobile-center div {
     text-align: center !important;
@@ -242,11 +243,13 @@ p {
     padding: 0 !important;
     box-sizing: border-box !important;
   }
+
   .mobile-stack-column div {
     max-width: 100% !important;
     width: 100% !important;
     margin: 0 !important;
   }
+
   .mobile-stack-column td {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -258,8 +261,13 @@ p {
     padding-right: 20px !important;
   }
 
+  .padding-sides td {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
   td.mj-full-width-mobile {
-    width: a uto !important;
+    width: auto !important;
   }
 
   /* Override MJML default column behavior */
@@ -280,5 +288,43 @@ p {
   /* Mobile text alignments */
   .mobile-text-center {
     text-align: center !important;
+  }
+}
+
+/* Mobile column order reversal */
+@media screen and (max-width: 480px) {
+  .reverse-order-mobile > table > tbody > tr > td > div {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .reverse-order-mobile > table > tbody > tr > td > div > .mj-column-per-50 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Ensure proper text alignment when order is reversed */
+  .reverse-order-mobile .mobile-center {
+    text-align: center !important;
+  }
+
+  /* Add spacing between reversed columns */
+  .reverse-order-mobile
+    > table
+    > tbody
+    > tr
+    > td
+    > div
+    > .mj-column-per-50:first-child {
+    padding-top: 20px !important;
+  }
+}
+
+/* Outlook-specific column order fix */
+@media screen and (min-width: 0\0) and (max-width: 480px) {
+  /* Target Outlook specifically */
+  .reverse-order-mobile table.mj-outlook-group-fix {
+    width: 100% !important;
   }
 }
