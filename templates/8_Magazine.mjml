@@ -1,9 +1,109 @@
 <mjml>
   <mj-head>
-    <mj-title>University of Northern Colorado - Event</mj-title>
+    <mj-title>University of Northern Colorado - Magazine</mj-title>
     <mj-include path="./assets/styles.css" type="css" />
     <mj-include path="./assets/styles.mjml" />
   </mj-head>
 
-  <mj-body> </mj-body>
+  <mj-body>
+    <!-- Header Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/headers/bear-name-blue.mjml" />
+    </mj-section>
+
+    <!-- Navigation Section (Anchored Links) -->
+    <mj-section
+      padding="0"
+      padding-top="10px"
+      padding-bottom="10px"
+      css-class="light-section">
+      <mj-include path="./partials/blocks/block-anchored-links.mjml" />
+    </mj-section>
+
+    <!-- Hero Image Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+    </mj-section>
+
+    <!-- Featured Story Section -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-story-h2-button-gold-left.mjml" />
+    </mj-section>
+
+    <!-- Story Spotlight (Three Column) Section -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include path="./partials/blocks/block-three-column-no-button.mjml" />
+    </mj-section>
+
+    <mj-section padding="0" padding-bottom="30px" css-class="light-section">
+      <mj-column>
+        <!-- UNC Standard Button Component Center -->
+        <mj-button
+          mj-class="button-secondary"
+          align="center"
+          href="javascript:void(0);"
+          color="#013C65"
+          padding-top="10px"
+          padding-bottom="0">
+          <span style="color: #013c65">Read the Magazine</span>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Alumni Spotlights Section -->
+    <mj-section padding="0" padding-bottom="30px" css-class="light-section">
+      <mj-column
+        width="45%"
+        padding="20px"
+        vertical-align="top"
+        css-class="mobile-stack-column">
+        <mj-include
+          path="./partials/components/component-image-hero-half-width.mjml" />
+      </mj-column>
+
+      <!-- Right Column - Content -->
+      <mj-column
+        width="55%"
+        padding="20px"
+        vertical-align="top"
+        css-class="mobile-stack-column">
+        <!-- Left-aligned H1 header -->
+        <mj-include path="./partials/components/component-h2.mjml" />
+
+        <!-- Left-aligned intro text -->
+        <mj-include path="./partials/components/component-text.mjml" />
+
+        <!-- UNC Standard Button Component Left -->
+        <mj-button
+          mj-class="button-secondary"
+          align="left"
+          href="javascript:void(0);"
+          color="#013C65"
+          padding-top="10px"
+          padding-bottom="10px"
+          padding-left="0"
+          padding-right="0">
+          <span style="color: #013c65">Read Their Story</span>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Upcoming Events Section -->
+    <mj-section padding="0" padding-bottom="30px" css-class="light-section">
+      <mj-include path="./partials/blocks/block-events-600.mjml" />
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section padding="0">
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
+
+    <mj-section padding="0">
+      <!-- Contact Footer -->
+      <mj-include
+        path="./partials/footers/footer-centered-single-column.mjml" />
+    </mj-section>
+  </mj-body>
 </mjml>

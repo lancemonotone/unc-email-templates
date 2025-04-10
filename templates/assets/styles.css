@@ -1,5 +1,7 @@
 /* Default (Light Mode) */
-
+body {
+  background-color: #f0f0f0 !important;
+}
 /* Links */
 a {
   color: #013c65 !important;
@@ -34,6 +36,7 @@ a {
 .subtitle-section {
   margin-bottom: 20px !important;
 }
+/* Border styles */
 .light-border {
   border-top: 1px solid #ffffff !important;
 }
@@ -95,7 +98,7 @@ p {
 @media (prefers-color-scheme: dark) {
   /* Page Background */
   body {
-    background: #333333 !important;
+    background: #242424 !important;
   }
 
   /* Sections */
@@ -262,8 +265,8 @@ p {
   }
 
   .padding-sides td {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 
   td.mj-full-width-mobile {

@@ -1,12 +1,12 @@
 <!-- UNC Standard Button Component Left -->
 <mj-button
-  mj-class="button-primary"
+  mj-class="button-secondary"
   align="left"
   href="javascript:void(0);"
-  color="#ffffff"
-  padding-top="20px"
+  color="#013C65"
+  padding-top="10px"
   padding-bottom="10px"
   padding-left="0"
   padding-right="0">
-  <span style="color: #ffffff">Read More</span>
+  <span style="color: #013c65">Read More</span>
 </mj-button>

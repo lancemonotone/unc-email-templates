@@ -7,67 +7,39 @@
 
   <mj-body>
     <!-- Section 1: Header/Logo Section -->
-    <mj-section
-      padding-top="0"
-      padding-bottom="0"
-      padding-left="20px"
-      padding-right="20px">
+    <mj-section padding="0" css-class="light-section">
       <mj-include path="./partials/headers/presidential-academic-blue.mjml" />
     </mj-section>
 
     <!-- H1 Intro Section - Hero Story -->
-    <mj-section
-      padding-top="0"
-      padding-bottom="20px"
-      padding-left="20px"
-      padding-right="20px">
+    <mj-section padding="0" css-class="light-section">
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
     </mj-section>
 
     <!-- Body Story H1 -->
-    <mj-section
-      padding-top="0"
-      padding-bottom="0"
-      padding-left="20px"
-      padding-right="20px">
+    <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Body Story H2 -->
-    <mj-section
-      padding-top="0"
-      padding-bottom="0"
-      padding-left="20px"
-      padding-right="20px">
+    <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Presidential Signature Area -->
-    <mj-section
-      padding-top="0"
-      padding-bottom="20px"
-      padding-left="20px"
-      padding-right="20px">
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
       <mj-include path="./partials/blocks/block-signature.mjml" />
     </mj-section>
 
     <!-- Footer Section -->
-    <mj-section
-      padding-top="0"
-      padding-bottom="0"
-      padding-left="20px"
-      padding-right="20px">
+    <mj-section padding="0">
       <!-- Social Media Footer -->
       <mj-include path="./partials/footers/social/footer-social-32.mjml" />
     </mj-section>
 
-    <mj-section
-      padding-top="0"
-      padding-bottom="0"
-      padding-left="20px"
-      padding-right="20px">
+    <mj-section padding="0">
       <!-- Contact Footer -->
       <mj-include
         path="./partials/footers/footer-centered-single-column.mjml" />

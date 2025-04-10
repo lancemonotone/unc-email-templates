@@ -1,0 +1,86 @@
+<mjml>
+  <mj-head>
+    <mj-title>University of Northern Colorado</mj-title>
+    <mj-include path="./assets/styles.css" type="css" />
+    <mj-include path="./assets/styles.mjml" />
+  </mj-head>
+
+  <mj-body>
+    <!-- Section 1: Header/Logo Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/headers/bear-name-blue.mjml" />
+    </mj-section>
+
+    <!-- H1 Intro Section - Hero Story -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/blocks/block-bg-white-image-left-h1-text-no-button.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 1 -->
+    <mj-section padding="0" css-class="light-section blue-border">
+      <mj-include
+        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 2 -->
+    <mj-section padding="0" css-class="light-section light-border">
+      <mj-include
+        path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 3 -->
+    <mj-section padding="0" css-class="light-section light-border">
+      <mj-include
+        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 4 -->
+    <mj-section padding="0" css-class="light-section light-border">
+      <mj-include
+        path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 5 -->
+    <mj-section padding="0" css-class="light-section light-border">
+      <mj-include
+        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 6 -->
+    <mj-section padding="0" css-class="light-section light-border">
+      <mj-include
+        path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 7 -->
+    <mj-section padding="0" css-class="light-section light-border">
+      <mj-include
+        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Body Content Blocks 8 -->
+    <mj-section padding="0" css-class="light-section light-border">
+      <mj-include
+        path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Follow-up Information (Callout Box) -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section padding="0">
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
+
+    <mj-section padding="0">
+      <!-- Contact Footer -->
+      <mj-include
+        path="./partials/footers/footer-centered-single-column.mjml" />
+    </mj-section>
+  </mj-body>
+</mjml>

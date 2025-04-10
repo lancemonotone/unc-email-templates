@@ -137,6 +137,7 @@
     name="button-primary"
     background-color="#013c65 !important"
     color="#ffffff !important"
+    text-transform="uppercase"
     font-weight="bold"
     border-radius="4px"
     padding="20px"
@@ -146,6 +147,7 @@
     name="button-secondary"
     background-color="#f6b000 !important"
     color="#000000 !important"
+    text-transform="uppercase"
     font-weight="bold"
     border-radius="4px"
     padding="20px"
@@ -176,7 +178,7 @@
     css-class="hero-image-full-width" />
 
   <mj-class
-    name="content"
+    name="content-image"
     width="350px"
     max-width="350px"
     padding="0"

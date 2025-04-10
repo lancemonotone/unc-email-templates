@@ -1,7 +1,5 @@
 <!-- Body Content Block with Left Image, Right Content (White Background) -->
-<mj-section
-  padding="20px"
-  css-class="block-container light-section blue-border">
+<mj-section padding="20px" css-class="block-container light-section">
   <!-- Left Column - Image -->
   <mj-column
     width="45%"
@@ -24,6 +22,6 @@
     <mj-include path="../components/component-text.mjml" />
 
     <!-- CTA Button -->
-    <mj-include path="../components/component-button-blue-left.mjml" />
+    <mj-include path="../components/component-button-gold-left.mjml" />
   </mj-column>
 </mj-section>

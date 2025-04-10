@@ -1,0 +1,11 @@
+<!-- Three Column Block -->
+<mj-section css-class="content-section" padding="0">
+  <!-- Column 1 -->
+  <mj-include path="../components/component-column-image-text-no-button.mjml" />
+
+  <!-- Column 2 -->
+  <mj-include path="../components/component-column-image-text-no-button.mjml" />
+
+  <!-- Column 3 -->
+  <mj-include path="../components/component-column-image-text-no-button.mjml" />
+</mj-section>

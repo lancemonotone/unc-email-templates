@@ -3,7 +3,8 @@
   mj-class="button-secondary"
   align="center"
   href="javascript:void(0);"
-  color="#000000"
-  padding-top="10px">
-  <span style="color: #000000">Read More</span>
+  color="#013C65"
+  padding-top="10px"
+  padding-bottom="0">
+  <span style="color: #013c65">Read More</span>
 </mj-button>

@@ -1,7 +1,5 @@
-<!-- Body Content Block with Left Image, Right Content (Gold Background) -->
-<mj-section
-  padding="20px"
-  css-class="block-container gold-section-light gold-border">
+<!-- Body Content Block with Left Image, Right Content (White Background) -->
+<mj-section padding="20px" css-class="block-container light-section">
   <!-- Left Column - Image -->
   <mj-column
     width="45%"

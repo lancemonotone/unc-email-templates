@@ -15,6 +15,6 @@
     padding="20px"
     vertical-align="top"
     css-class="mobile-stack-column">
-    <mj-include path="./block-events.mjml" />
+    <mj-include path="./block-events-full.mjml" />
   </mj-column>
 </mj-section>

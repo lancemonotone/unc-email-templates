@@ -45,7 +45,7 @@
     </mj-wrapper>
 
     <!-- Event Items -->
-    <mj-section padding="10px 0">
+    <mj-section padding="0" padding-top="10px" css-class="padding-sides">
       <mj-column width="100%">
         <!-- Event 1 -->
         <mj-text padding="10px 15px">
@@ -81,8 +81,9 @@
           align="center"
           href="https://www.unco.edu/events-calendar/events.aspx"
           color="#ffffff"
-          padding="10px">
-          <span style="color: #ffffff">More Events</span>
+          padding-top="20px"
+          padding-bottom="0">
+          <span style="color: #ffffff">See All Events</span>
         </mj-button>
       </mj-column>
     </mj-section>
