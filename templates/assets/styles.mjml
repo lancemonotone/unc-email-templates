@@ -179,8 +179,8 @@
 
   <mj-class
     name="content-image"
-    width="350px"
-    max-width="350px"
+    width="600px"
+    max-width="600px"
     padding="0"
     align="center"
     css-class="content-image" />

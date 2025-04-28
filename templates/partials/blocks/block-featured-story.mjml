@@ -1,6 +1,6 @@
 <!-- Featured Story Block -->
 <mj-column padding="0" css-class="block-container light-section padding-sides">
-  <mj-include path="../components/component-image-content-left.mjml" />
+  <mj-include path="../components/component-image-content-center.mjml" />
 
   <mj-include path="../components/component-h3.mjml" />
 
