@@ -1,16 +1,20 @@
 <mj-text>
+  <!-- Ensure all placeholder text and links below are replaced with real content -->
+  <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
   <p>
     Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
     <em>adipiscing elit</em> sed do. Eiusmod tempor
-    <a href="#">incididunt ut labore</a>
+    <!-- Ensure link describes destination -->
+    <a href="javascript:void(0);">placeholder link text</a>
     et dolore magna aliqua ut enim ad
-    <b style="font-size: 16px">minim veniam</b>.
+    <strong style="font-size: 16px">minim veniam</strong>.
   </p>
   <p>
     Quis nostrud
-    <u>exercitation ullamco</u> laboris nisi ut <b>aliquip ex ea</b>. Commodo
-    consequat
-    <a href="mailto:lorem@ipsum.com">duis aute irure dolor</a>
+    <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>.
+    Commodo consequate
+    <!-- Ensure link text clearly indicates it's an email link -->
+    <a href="mailto:lorem@ipsum.com">placeholder email link</a>
     in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
   </p>
   <ul>

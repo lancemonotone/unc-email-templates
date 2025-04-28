@@ -9,6 +9,7 @@
       padding-top="5px"
       css-class="white-text"
       color="#ffffff">
+      <!-- Ensure placeholder address is updated -->
       1234 Address, Greeley, CO 12345
     </mj-text>
 
@@ -20,6 +21,7 @@
       padding-top="5px"
       css-class="white-text"
       color="#ffffff">
+      <!-- Ensure placeholder phone/email are updated -->
       <a href="tel:970-351-1890" style="color: #ffffff; mso-style-priority: 99">
         <span style="color: white !important">970-351-1890</span></a
       >
