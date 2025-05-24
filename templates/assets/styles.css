@@ -78,7 +78,7 @@ a {
 }
 /* Mobile stack column */
 .mobile-stack-column {
-  max-width: 600px !important;
+  max-width: 100% !important;
 }
 
 .header-column.mobile-stack-column {

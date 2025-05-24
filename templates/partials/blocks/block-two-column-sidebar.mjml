@@ -3,7 +3,10 @@
   <!-- Left Column -->
   <mj-column
     width="60%"
-    padding="20px"
+    padding-left="20px"
+    padding-right="0px"
+    padding-top="20px"
+    padding-bottom="20px"
     vertical-align="top"
     css-class="mobile-stack-column">
     <mj-include path="./block-featured-story.mjml" />
