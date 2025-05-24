@@ -2,7 +2,7 @@
 <mj-section padding="0" css-class="block-container light-section">
   <!-- Header Section with Gradient Background -->
   <mj-column width="100%" padding="0">
-    <mj-wrapper padding="0" css-class="gradient-bg mobile-stack">
+    <mj-wrapper padding="0" css-class="blue-header mobile-stack">
       <!--[if gte mso 9]>
         <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
           <v:fill
