@@ -4,7 +4,7 @@ body {
 }
 /* Links */
 a {
-  color: #013c65 !important;
+  color: #007dba !important;
   text-decoration: underline;
 }
 .blue-section,
@@ -16,7 +16,7 @@ a {
   background: #ffffff;
 }
 .light-section a {
-  color: #013c65 !important;
+  color: #007dba !important;
 }
 .gold-section {
   background: #ffb71b;
@@ -127,7 +127,7 @@ p {
     background: #ffb71b !important;
   }
   .gold-section a {
-    color: #013c65 !important;
+    color: #007dba !important;
   }
 
   .light-section,
