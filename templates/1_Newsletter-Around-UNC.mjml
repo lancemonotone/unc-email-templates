@@ -12,7 +12,7 @@
     </mj-section>
 
     <!-- Section 2: Featured Story/Events Section inside Two Column Sidebar -->
-    <mj-section padding="0" css-class="light-section" css-id="events">
+    <mj-section padding="0" css-class="light-section">
       <mj-include path="./partials/blocks/block-two-column-sidebar.mjml" />
     </mj-section>
 
@@ -22,21 +22,17 @@
     </mj-section>
 
     <!-- Section 4: UNC in Pictures Section -->
-    <mj-section
-      padding="0"
-      padding-top="20px"
-      css-class="light-section"
-      css-id="pictures">
+    <mj-section padding="0" padding-top="20px" css-class="light-section">
       <mj-include path="./partials/blocks/block-in-pictures.mjml" />
     </mj-section>
 
     <!-- Section 5: Faculty and Staff Section -->
-    <mj-section padding="0" css-class="light-section" css-id="students">
+    <mj-section padding="0" css-class="light-section">
       <mj-include path="./partials/blocks/block-students-faculty-staff.mjml" />
     </mj-section>
 
     <!-- Section 6: UNC in the News Section -->
-    <mj-section padding="0" css-class="light-section" css-id="news">
+    <mj-section padding="0" css-class="light-section">
       <mj-include path="./partials/blocks/block-in-the-news.mjml" />
     </mj-section>
 
