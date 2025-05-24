@@ -55,6 +55,27 @@ a {
   background: #013c65 !important; /* Fallback for clients that don't support gradients */
   background: linear-gradient(180deg, #013c65 0%, #007dba 100%) !important;
 }
+/* Blue header background with gold text */
+.blue-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #013c65 !important;
+}
+.blue-header,
+.blue-header a,
+.blue-header * {
+  color: #f6b000 !important;
+}
+/* Blue background */
+.blue-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #013c65 !important;
+}
 /* Mobile stack column */
 .mobile-stack-column {
   max-width: 600px !important;

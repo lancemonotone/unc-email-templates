@@ -1,19 +1,8 @@
 <!-- Events Block -->
 <mj-section padding="0" css-class="block-container light-section">
-  <!-- Header Section with Gradient Background -->
+  <!-- Header Section with Blue Background -->
   <mj-column width="100%" padding="0">
-    <mj-wrapper padding="0" css-class="gradient-bg mobile-stack">
-      <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-          <v:fill
-            type="gradient"
-            color="#013c65"
-            color2="#007dba"
-            method="linear"
-            angle="180" />
-        </v:background>
-      <![endif]-->
-
+    <mj-wrapper padding="0" css-class="blue-header mobile-stack">
       <mj-section padding="0">
         <mj-column
           width="50%"
@@ -24,9 +13,11 @@
             css-class="mobile-center"
             src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
             alt="UNC"
-            align="right"
-            padding="0"
-            padding-right="10px" />
+            align="center"
+            padding-top="0"
+            padding-right="0"
+            padding-bottom="0"
+            padding-left="5px" />
         </mj-column>
 
         <mj-column
@@ -36,8 +27,11 @@
           <mj-text
             css-class="mobile-center"
             mj-class="highlight"
-            align="left"
-            padding="0">
+            align="center"
+            padding-top="0"
+            padding-right="5px"
+            padding-bottom="0"
+            padding-left="0">
             Events
           </mj-text>
         </mj-column>
