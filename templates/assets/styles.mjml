@@ -13,8 +13,8 @@
   name="Roboto"
   href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700" />
 <mj-attributes>
-  <!-- Set global width to 1080px -->
-  <mj-body width="1080px" max-width="100%" />
+  <!-- Set global width to 680px -->
+  <mj-body width="680px" max-width="100%" />
   <!-- Default body font stack - Ringside first -->
   <mj-all font-family="Ringside, Roboto, Tahoma, Arial, sans-serif" />
 
@@ -171,8 +171,8 @@
 
   <mj-class
     name="hero-full"
-    width="1080px"
-    max-width="1080px"
+    width="680px"
+    max-width="680px"
     padding="0"
     align="center"
     css-class="hero-image-full-width" />

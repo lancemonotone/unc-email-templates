@@ -56,3 +56,30 @@
     </mj-section>
   </mj-column>
 </mj-section>
+
+<!-- Navigation Bar Section -->
+<mj-section css-class="gold-section" padding="10px 0">
+  <mj-column width="100%" padding="0">
+    <mj-text
+      align="center"
+      font-size="14px"
+      font-weight="bold"
+      color="#013c65"
+      padding="5px 20px"
+      css-class="navigation-bar">
+      <a href="#events" style="color: #013c65; text-decoration: none">EVENTS</a>
+      <span style="margin: 0 10px">•</span>
+      <a href="#pictures" style="color: #013c65; text-decoration: none"
+        >UNC IN THE PICTURES</a
+      >
+      <span style="margin: 0 10px">•</span>
+      <a href="#students" style="color: #013c65; text-decoration: none"
+        >FOR STUDENTS</a
+      >
+      <span style="margin: 0 10px">•</span>
+      <a href="#news" style="color: #013c65; text-decoration: none"
+        >UNC IN THE NEWS</a
+      >
+    </mj-text>
+  </mj-column>
+</mj-section>
