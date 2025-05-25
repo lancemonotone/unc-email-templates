@@ -48,7 +48,11 @@
     <mj-section padding="0" padding-top="10px" css-class="padding-sides">
       <mj-column width="600px">
         <!-- Event 1 -->
-        <mj-text padding="10px 15px">
+        <mj-text
+          padding-top="10px"
+          padding-left="15px"
+          padding-right="15px"
+          padding-bottom="2px">
           <p style="margin-bottom: 5px">
             <strong><a href="#">Free Movie Night</a></strong>
           </p>
@@ -56,7 +60,11 @@
         </mj-text>
 
         <!-- Event 2 -->
-        <mj-text padding="10px 15px">
+        <mj-text
+          padding-top="2px"
+          padding-left="15px"
+          padding-right="15px"
+          padding-bottom="2px">
           <p style="margin-bottom: 5px">
             <strong><a href="#">Valentine's Bash</a></strong>
           </p>
@@ -66,7 +74,11 @@
         </mj-text>
 
         <!-- Event 3 -->
-        <mj-text padding="10px 15px">
+        <mj-text
+          padding-top="2px"
+          padding-left="15px"
+          padding-right="15px"
+          padding-bottom="10px">
           <p style="margin-bottom: 5px">
             <strong><a href="#">Valentine's Bash</a></strong>
           </p>
