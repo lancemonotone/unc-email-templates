@@ -365,3 +365,13 @@ p {
     width: 100% !important;
   }
 }
+
+/* Change social media icons from white to bear blue */
+.mobile-stack img[src*="social-networks-icon-sets"],
+.mobile-stack img[width="32"],
+.mobile-stack img[height="32"] {
+  filter: brightness(0) saturate(100%) invert(8%) sepia(80%) saturate(1800%)
+    hue-rotate(205deg) brightness(85%) contrast(90%);
+}
+
+/* Utility */
