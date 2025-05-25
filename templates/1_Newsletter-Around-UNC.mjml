@@ -61,7 +61,7 @@
 
     <mj-section padding="0">
       <!-- Contact Footer -->
-      <mj-include path="./partials/footers/footer-logo-two-column.mjml" />
+      <mj-include path="./partials/footers/footer-primary-bear-left.mjml" />
     </mj-section>
   </mj-body>
 </mjml>
