@@ -1,4 +1,12 @@
 <!-- Social Media Footer -->
+<!-- Former white icon URLs (getbee.io):
+     Facebook: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png
+     Instagram: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/instagram@2x.png
+     LinkedIn: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/linkedin@2x.png
+     Twitter: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/twitter@2x.png
+     YouTube: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/youtube@2x.png
+     TikTok: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/tiktok@2x.png
+-->
 <mj-social-element
   name="Facebook"
   href="https://www.facebook.com/universitynortherncolorado"
