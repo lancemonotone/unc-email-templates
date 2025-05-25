@@ -23,25 +23,28 @@
         <mj-text padding="0">
           <ul>
             <li>
-              The UNC Center for Career Readiness is hosting the Spring 2025
-              Job, Internship, and Graduate School Fair on
-              <strong
-                >Thursday, Feb. 15, from 10:00 a.m. to 4:00 p.m. in the
-                University Center Ballrooms</strong
-              >. Employers will be recruiting for full-time jobs, part-time
-              jobs, internships, and Graduate Schools will be providing
-              information on their programs. Admission is free and students and
-              alumni from all majors are encouraged to attend!
-              <a href="#">Register to attend here</a>.
+              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+              ><br />
+              This content will explain the above bullet point topic above.
+              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
+              <em>adipiscing elit</em> sed do. Eiusmod tempor
+              <a href="#">placeholder link text</a> et dolore magna.
             </li>
             <li>
-              Are you thinking about studying abroad? The deadline to apply for
-              Summer and Fall 2025 study abroad programs is
-              <strong>Wednesday, Feb. 28</strong>. For more information and to
-              apply, contact the Education Abroad team at
-              <a href="#">abroad@unco.edu</a>
-              or
-              <a href="#">visit their web page</a>.
+              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+              ><br />
+              This content will explain the above bullet point topic above.
+              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
+              <em>adipiscing elit</em> sed do. Eiusmod tempor
+              <a href="#">placeholder link text</a> et dolore magna.
+            </li>
+            <li>
+              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+              ><br />
+              This content will explain the above bullet point topic above.
+              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
+              <em>adipiscing elit</em> sed do. Eiusmod tempor
+              <a href="#">placeholder link text</a> et dolore magna.
             </li>
           </ul>
         </mj-text>
@@ -69,14 +72,28 @@
         <mj-text padding="0">
           <ul>
             <li>
-              Help UNC celebrate its most outstanding staff members by attending
-              the 53rd Annual Staff Recognition Celebration on
-              <strong
-                >Thursday, March 7, at 1:00 p.m. in the University Center
-                Ballrooms</strong
-              >. The event will feature recognition of service milestones, a
-              presentation of awards, and more.
-              <a href="#">Register to attend</a>.
+              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+              ><br />
+              This content will explain the above bullet point topic above.
+              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
+              <em>adipiscing elit</em> sed do. Eiusmod tempor
+              <a href="#">placeholder link text</a> et dolore magna.
+            </li>
+            <li>
+              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+              ><br />
+              This content will explain the above bullet point topic above.
+              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
+              <em>adipiscing elit</em> sed do. Eiusmod tempor
+              <a href="#">placeholder link text</a> et dolore magna.
+            </li>
+            <li>
+              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+              ><br />
+              This content will explain the above bullet point topic above.
+              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
+              <em>adipiscing elit</em> sed do. Eiusmod tempor
+              <a href="#">placeholder link text</a> et dolore magna.
             </li>
           </ul>
         </mj-text>
