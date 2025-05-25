@@ -52,15 +52,27 @@
     </mj-section>
 
     <!-- Image Grid - Row 1 -->
-    <mj-section padding="10px">
+    <mj-section padding="0">
       <!-- Left Image -->
-      <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
+      <mj-column
+        width="49%"
+        padding-top="20px"
+        padding-left="20px"
+        padding-right="20px"
+        padding-bottom="10px"
+        css-class="mobile-stack-column">
         <mj-include path="../components/component-image-content-center.mjml" />
         <mj-include path="../components/component-image-caption.mjml" />
       </mj-column>
 
       <!-- Right Image -->
-      <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
+      <mj-column
+        width="49%"
+        padding-top="20px"
+        padding-left="20px"
+        padding-right="20px"
+        padding-bottom="10px"
+        css-class="mobile-stack-column">
         <mj-include path="../components/component-image-content-center.mjml" />
         <mj-include path="../components/component-image-caption.mjml" />
       </mj-column>
@@ -69,13 +81,25 @@
     <!-- Image Grid - Row 2 (Additional rows can be added following this pattern) -->
     <mj-section padding="0">
       <!-- Left Image -->
-      <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
+      <mj-column
+        width="49%"
+        padding-top="10px"
+        padding-left="20px"
+        padding-right="20px"
+        padding-bottom="20px"
+        css-class="mobile-stack-column">
         <mj-include path="../components/component-image-content-center.mjml" />
         <mj-include path="../components/component-image-caption.mjml" />
       </mj-column>
 
       <!-- Right Image -->
-      <mj-column width="49%" padding="20px" css-class="mobile-stack-column">
+      <mj-column
+        width="49%"
+        padding-top="10px"
+        padding-left="20px"
+        padding-right="20px"
+        padding-bottom="20px"
+        css-class="mobile-stack-column">
         <mj-include path="../components/component-image-content-center.mjml" />
         <mj-include path="../components/component-image-caption.mjml" />
       </mj-column>
