@@ -1,7 +1,11 @@
-<mj-section padding="10px">
+<mj-section padding="0">
   <mj-column
-    width="600px"
-    css-class="column-centered mobile-stack-column light-section">
+    width="100%"
+    css-class="mobile-stack-column light-section"
+    padding-top="10px"
+    padding-right="20px"
+    padding-bottom="10px"
+    padding-left="20px">
     <mj-include path="./component-h2.mjml" />
     <mj-include path="./component-text.mjml" />
     <mj-include path="./component-button-gold-center.mjml" />
