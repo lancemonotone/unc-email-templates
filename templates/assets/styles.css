@@ -26,6 +26,15 @@ a {
 .gold-section a {
   color: #013c65 !important;
 }
+/* Gold header background (for section headings) */
+.gold-header {
+  background: #ffb71b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.gold-header a {
+  color: #013c65 !important;
+}
 .gold-section-light {
   background: #fce2a3;
 }
@@ -57,16 +66,20 @@ a {
 }
 /* Blue header background with gold text */
 .blue-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #013c65 !important;
 }
 .blue-header,
 .blue-header a,
 .blue-header * {
   color: #f6b000 !important;
+}
+/* Blue header with mixed text colors */
+.blue-mixed-text-color-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #013c65 !important;
 }
 /* Blue background */
 .blue-section {

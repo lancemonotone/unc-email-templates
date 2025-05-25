@@ -40,7 +40,12 @@
       <mj-include path="./partials/blocks/block-students-faculty-staff.mjml" />
     </mj-section>
 
-    <!-- Section 6: UNC in the News Section -->
+    <!-- Section 6: TRUE NORTH Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/blocks/block-true-north.mjml" />
+    </mj-section>
+
+    <!-- Section 7: UNC in the News Section -->
     <mj-section padding="0" css-class="light-section">
       <mj-column width="100%">
         <mj-raw><a id="news"></a></mj-raw>

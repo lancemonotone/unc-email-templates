@@ -30,7 +30,6 @@
     name="h1"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
     font-size="28px"
-    font-weight="700"
     padding="0"
     line-height="1.2"
     css-class="dark-mode-text mobile-center"

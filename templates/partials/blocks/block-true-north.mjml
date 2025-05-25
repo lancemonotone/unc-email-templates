@@ -1,0 +1,59 @@
+<!-- TRUE NORTH Block -->
+<mj-section padding="0" css-class="block-container light-section">
+  <mj-column width="100%">
+    <!-- Header Section with Blue Background -->
+    <mj-section
+      padding="0"
+      css-class="blue-mixed-text-color-header mobile-stack">
+      <mj-column
+        width="100%"
+        vertical-align="middle"
+        css-class="mobile-stack-column">
+        <mj-text
+          css-class="mobile-center"
+          align="center"
+          mj-class="h1"
+          font-weight="700">
+          <span style="color: #ffffff">TRUE</span>
+          <span style="color: #f6b000">NORTH</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Subtitle -->
+    <mj-section padding="0" css-class="grey-section">
+      <mj-column width="100%">
+        <mj-text align="center" padding="15px 10px" mj-class="h5">
+          A selection of featured headlines about the university
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image Grid - Two Images Side by Side -->
+    <mj-section padding="0">
+      <!-- Left Image -->
+      <mj-column
+        width="49%"
+        padding-top="10px"
+        padding-right="5px"
+        padding-bottom="10px"
+        padding-left="20px"
+        css-class="mobile-stack-column">
+        <mj-include path="../components/component-image-content-center.mjml" />
+        <mj-include path="../components/component-image-caption.mjml" />
+      </mj-column>
+
+      <!-- Right Image -->
+      <mj-column
+        width="49%"
+        padding-top="10px"
+        padding-right="20px"
+        padding-bottom="10px"
+        padding-left="5px"
+        css-class="mobile-stack-column">
+        <mj-include path="../components/component-image-content-center.mjml" />
+        <mj-include path="../components/component-image-caption.mjml" />
+      </mj-column>
+    </mj-section>
+  </mj-column>
+</mj-section>
