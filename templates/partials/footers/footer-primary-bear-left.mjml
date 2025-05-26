@@ -16,7 +16,8 @@
   <mj-column
     width="25%"
     vertical-align="middle"
-    css-class="mobile-stack-column">
+    css-class="mobile-stack-column"
+    padding-bottom="20px">
     <mj-image
       css-class="mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
