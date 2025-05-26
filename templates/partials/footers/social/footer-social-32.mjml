@@ -8,10 +8,10 @@
   <mj-column>
     <mj-social
       font-size="13px"
-      icon-size="28px"
+      icon-size="25px"
       mode="horizontal"
-      padding-top="5px"
-      inner-padding="8px">
+      padding="0px"
+      inner-padding="10px">
       <mj-include path="./social-elements.mjml" />
     </mj-social>
   </mj-column>
