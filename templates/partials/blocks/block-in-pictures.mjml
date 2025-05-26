@@ -15,7 +15,7 @@
       <![endif]-->
 
       <mj-column
-        width="50%"
+        width="46%"
         vertical-align="middle"
         css-class="mobile-stack-column">
         <mj-image
@@ -29,7 +29,7 @@
       </mj-column>
 
       <mj-column
-        width="50%"
+        width="54%"
         vertical-align="middle"
         css-class="mobile-stack-column">
         <mj-text
