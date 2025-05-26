@@ -1,0 +1,19 @@
+<!-- Navigation Bar Component - Gold Background -->
+<mj-section css-class="navigation-bar-gold" padding="0">
+  <mj-column width="100%" padding="0">
+    <mj-text
+      align="center"
+      font-size="14px"
+      font-weight="bold"
+      color="#013c65"
+      padding="0 20px">
+      <a href="#events">EVENTS</a>
+      <span style="margin: 0 10px">•</span>
+      <a href="#pictures">UNC IN THE PICTURES</a>
+      <span style="margin: 0 10px">•</span>
+      <a href="#students">FOR STUDENTS</a>
+      <span style="margin: 0 10px">•</span>
+      <a href="#news">UNC IN THE NEWS</a>
+    </mj-text>
+  </mj-column>
+</mj-section>

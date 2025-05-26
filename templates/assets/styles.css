@@ -26,6 +26,25 @@ a {
 .gold-section a {
   color: #013c65 !important;
 }
+/* Navigation bar classes */
+.navigation-bar-gold {
+  background: #ffb71b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navigation-bar-gold a {
+  color: #013c65 !important;
+  text-decoration: none !important;
+}
+.navigation-bar-blue {
+  background: #013c65;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navigation-bar-blue a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
 /* Gold header background (for section headings) */
 .gold-header {
   background: #ffb71b;

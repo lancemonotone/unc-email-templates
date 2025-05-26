@@ -1,0 +1,19 @@
+<!-- Navigation Bar Component - Blue Background -->
+<mj-section css-class="navigation-bar-blue" padding="0">
+  <mj-column width="100%" padding="0">
+    <mj-text
+      align="center"
+      font-size="14px"
+      font-weight="bold"
+      color="#ffffff"
+      padding="0 20px">
+      <a href="#events">EVENTS</a>
+      <span style="margin: 0 10px">•</span>
+      <a href="#pictures">UNC IN THE PICTURES</a>
+      <span style="margin: 0 10px">•</span>
+      <a href="#students">FOR STUDENTS</a>
+      <span style="margin: 0 10px">•</span>
+      <a href="#news">UNC IN THE NEWS</a>
+    </mj-text>
+  </mj-column>
+</mj-section>
