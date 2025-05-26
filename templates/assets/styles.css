@@ -332,6 +332,8 @@ p {
 
   td.mj-full-width-mobile {
     width: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   /* Override MJML default column behavior */
