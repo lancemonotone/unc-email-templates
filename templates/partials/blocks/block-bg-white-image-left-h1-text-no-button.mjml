@@ -5,7 +5,7 @@
     width="45%"
     padding="20px"
     vertical-align="top"
-    css-class="mobile-stack-column">
+    css-class="mobile-stack-column padding-sides">
     <mj-include path="../components/component-image-hero-half-width.mjml" />
   </mj-column>
 
@@ -14,7 +14,7 @@
     width="55%"
     padding="20px"
     vertical-align="top"
-    css-class="mobile-stack-column">
+    css-class="mobile-stack-column padding-sides">
     <!-- H2 Header -->
     <mj-include path="../components/component-h1.mjml" />
 

@@ -2,7 +2,7 @@
 <mj-section padding="10px">
   <mj-column
     width="600px"
-    css-class="column-centered mobile-stack-column light-section">
+    css-class="column-centered mobile-stack-column light-section padding-sides">
     <mj-text> Sincerely, </mj-text>
     <mj-image
       width="28px"

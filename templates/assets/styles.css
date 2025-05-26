@@ -45,6 +45,14 @@ a {
   color: #ffffff !important;
   text-decoration: none !important;
 }
+
+/* Desktop navigation - inline display */
+.mobile-nav-item {
+  display: inline-block !important;
+  text-align: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
 /* Gold header background (for section headings) */
 .gold-header {
   background: #ffb71b;
@@ -331,6 +339,28 @@ p {
   .mj-column-per-70 {
     width: 100% !important  ;
     max-width: 100% !important;
+  }
+
+  /* Mobile navigation stacking */
+  .mobile-nav-item {
+    display: block !important;
+    text-align: center !important;
+    padding: 5px 0 !important;
+    margin: 0 !important;
+  }
+
+  .mobile-nav-separator {
+    display: none !important;
+  }
+
+  .navigation-bar-blue .mobile-nav-item,
+  .navigation-bar-gold .mobile-nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .navigation-bar-blue .mobile-nav-item:last-child,
+  .navigation-bar-gold .mobile-nav-item:last-child {
+    border-bottom: none !important;
   }
 }
 

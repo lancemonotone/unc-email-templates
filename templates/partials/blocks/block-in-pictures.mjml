@@ -60,7 +60,7 @@
         padding-left="20px"
         padding-right="20px"
         padding-bottom="10px"
-        css-class="mobile-stack-column">
+        css-class="mobile-stack-column padding-sides">
         <mj-include path="../components/component-image-content-center.mjml" />
         <mj-include path="../components/component-image-caption.mjml" />
       </mj-column>
@@ -72,7 +72,7 @@
         padding-left="20px"
         padding-right="20px"
         padding-bottom="10px"
-        css-class="mobile-stack-column">
+        css-class="mobile-stack-column padding-sides">
         <mj-include path="../components/component-image-content-center.mjml" />
         <mj-include path="../components/component-image-caption.mjml" />
       </mj-column>
@@ -87,7 +87,7 @@
         padding-left="20px"
         padding-right="20px"
         padding-bottom="20px"
-        css-class="mobile-stack-column">
+        css-class="mobile-stack-column padding-sides">
         <mj-include path="../components/component-image-content-center.mjml" />
         <mj-include path="../components/component-image-caption.mjml" />
       </mj-column>
@@ -99,7 +99,7 @@
         padding-left="20px"
         padding-right="20px"
         padding-bottom="20px"
-        css-class="mobile-stack-column">
+        css-class="mobile-stack-column padding-sides">
         <mj-include path="../components/component-image-content-center.mjml" />
         <mj-include path="../components/component-image-caption.mjml" />
       </mj-column>

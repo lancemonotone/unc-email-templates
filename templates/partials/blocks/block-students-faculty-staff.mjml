@@ -17,7 +17,8 @@
 
     <!-- Content -->
     <mj-section padding="10px">
-      <mj-column css-class="column-centered mobile-stack-column light-section">
+      <mj-column
+        css-class="column-centered mobile-stack-column light-section padding-sides">
         <mj-text padding="0">
           <ul>
             <li>
@@ -64,7 +65,8 @@
 
     <!-- Content -->
     <mj-section padding="10px">
-      <mj-column css-class="column-centered mobile-stack-column light-section">
+      <mj-column
+        css-class="column-centered mobile-stack-column light-section padding-sides">
         <mj-text padding="0">
           <ul>
             <li>
