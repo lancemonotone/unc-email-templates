@@ -56,6 +56,3 @@
     </mj-section>
   </mj-column>
 </mj-section>
-
-<!-- Navigation Bar Section -->
-<mj-include path="../components/component-navigation-bar-gold.mjml" />

@@ -7,8 +7,10 @@
 
   <mj-body>
     <!-- Section 1: Header/Logo Section -->
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
-      <mj-include path="./partials/headers/around-unc.mjml" />
+    <mj-section padding="0">
+      <mj-include path="./partials/headers/header-around-unc.mjml" />
+      <!-- Navigation Bar Section -->
+      <mj-include path="../components/component-navigation-bar-gold.mjml" />
     </mj-section>
 
     <!-- Section 2: Featured Story/Events Section inside Two Column Sidebar -->

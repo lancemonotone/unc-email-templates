@@ -98,9 +98,14 @@
         max-width: 50%;
       }
 
-      .mj-column-px-600 {
-        width: 600px !important;
-        max-width: 600px;
+      .mj-column-per-46 {
+        width: 46% !important;
+        max-width: 46%;
+      }
+
+      .mj-column-per-54 {
+        width: 54% !important;
+        max-width: 54%;
       }
 
       .mj-column-per-49 {
@@ -151,9 +156,14 @@
       max-width: 50%;
     }
 
-    .moz-text-html .mj-column-px-600 {
-      width: 600px !important;
-      max-width: 600px;
+    .moz-text-html .mj-column-per-46 {
+      width: 46% !important;
+      max-width: 46%;
+    }
+
+    .moz-text-html .mj-column-per-54 {
+      width: 54% !important;
+      max-width: 54%;
     }
 
     .moz-text-html .mj-column-per-49 {
@@ -192,7 +202,7 @@
 
     /* Links */
     a {
-      color: #013c65 !important;
+      color: #007dba !important;
       text-decoration: underline;
     }
 
@@ -207,7 +217,7 @@
     }
 
     .light-section a {
-      color: #013c65 !important;
+      color: #007dba !important;
     }
 
     .gold-section {
@@ -217,6 +227,48 @@
     }
 
     .gold-section a {
+      color: #013c65 !important;
+    }
+
+    /* Navigation bar classes */
+    .navigation-bar-gold {
+      background: #ffb71b;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .navigation-bar-gold a {
+      color: #013c65 !important;
+      text-decoration: none !important;
+    }
+
+    .navigation-bar-blue {
+      background: #013c65;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .navigation-bar-blue a {
+      color: #ffffff !important;
+      text-decoration: none !important;
+    }
+
+    /* Desktop navigation - inline display */
+    .mobile-nav-item {
+      display: inline-block !important;
+      text-align: center !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    /* Gold header background (for section headings) */
+    .gold-header {
+      background: #ffb71b;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .gold-header a {
       color: #013c65 !important;
     }
 
@@ -257,9 +309,38 @@
       background: linear-gradient(180deg, #013c65 0%, #007dba 100%) !important;
     }
 
+    /* Blue header background with gold text */
+    .blue-header {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background: #013c65 !important;
+    }
+
+    .blue-header,
+    .blue-header a,
+    .blue-header * {
+      color: #f6b000 !important;
+    }
+
+    /* Blue header with mixed text colors */
+    .blue-mixed-text-color-header {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background: #013c65 !important;
+    }
+
+    /* Blue background */
+    .blue-section {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 0;
+      padding-right: 0;
+      background: #013c65 !important;
+    }
+
     /* Mobile stack column */
     .mobile-stack-column {
-      max-width: 600px !important;
+      max-width: 100% !important;
     }
 
     .header-column.mobile-stack-column {
@@ -316,7 +397,7 @@
       }
 
       .gold-section a {
-        color: #013c65 !important;
+        color: #007dba !important;
       }
 
       .light-section,
@@ -483,6 +564,8 @@
 
       td.mj-full-width-mobile {
         width: auto !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
       }
 
       /* Override MJML default column behavior */
@@ -490,6 +573,28 @@
       .mj-column-per-70 {
         width: 100% !important;
         max-width: 100% !important;
+      }
+
+      /* Mobile navigation stacking */
+      .mobile-nav-item {
+        display: block !important;
+        text-align: center !important;
+        padding: 5px 0 !important;
+        margin: 0 !important;
+      }
+
+      .mobile-nav-separator {
+        display: none !important;
+      }
+
+      .navigation-bar-blue .mobile-nav-item,
+      .navigation-bar-gold .mobile-nav-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+      }
+
+      .navigation-bar-blue .mobile-nav-item:last-child,
+      .navigation-bar-gold .mobile-nav-item:last-child {
+        border-bottom: none !important;
       }
     }
 
@@ -561,12 +666,12 @@
 <body style="word-spacing:normal;">
   <div style="" lang="und" dir="auto">
     <!-- Section 1: Header/Logo Section -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="light-section" style="margin:0px auto;max-width:680px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style="margin:0px auto;max-width:680px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
               <!-- Around UNC Header - Half Bear Head and Around UNC Logo -->
               <!--[if mso | IE]><td class="block-container-outlook light-section-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="block-container-outlook light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
@@ -690,13 +795,13 @@
                 </table>
               </div>
               <!--[if mso | IE]></td></tr></table></td><![endif]-->
-              <!-- Navigation Bar Section -->
-              <!--[if mso | IE]><td class="gold-section-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="gold-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div class="gold-section" style="margin:0px auto;max-width:680px;">
+              <!-- Navigation Bar Section --><!-- Navigation Bar Component - Gold Background -->
+              <!--[if mso | IE]><td class="navigation-bar-gold-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="navigation-bar-gold-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div class="navigation-bar-gold" style="margin:0px auto;max-width:680px;">
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="direction:ltr;font-size:0px;padding:10px 0;text-align:center;">
+                      <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
                         <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
@@ -706,14 +811,14 @@
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td align="center" class="navigation-bar" style="font-size:0px;padding:5px 20px;word-break:break-word;">
-                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:1.2;text-align:center;color:#013c65;"><a href="#events" style="color: #013c65; text-decoration: none">EVENTS</a>
+                                        <td align="center" class="dark-mode-text" style="font-size:0px;padding:0 20px;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:1.2;text-align:center;color:#013c65;"><a href="#events">EVENTS</a>
                                             <span style="margin: 0 10px">•</span>
-                                            <a href="#pictures" style="color: #013c65; text-decoration: none">UNC IN THE PICTURES</a>
+                                            <a href="#pictures">UNC IN PICTURES</a>
                                             <span style="margin: 0 10px">•</span>
-                                            <a href="#students" style="color: #013c65; text-decoration: none">FOR STUDENTS</a>
+                                            <a href="#students">FOR STUDENTS</a>
                                             <span style="margin: 0 10px">•</span>
-                                            <a href="#news" style="color: #013c65; text-decoration: none">UNC IN THE NEWS</a>
+                                            <a href="#news">UNC IN THE NEWS</a>
                                           </div>
                                         </td>
                                       </tr>
@@ -767,7 +872,7 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding:20px;">
+                                <td style="vertical-align:top;padding-top:20px;padding-right:0px;padding-bottom:20px;padding-left:20px;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <!-- Featured Story Block -->
@@ -785,8 +890,8 @@
                                                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
                                                               <tbody>
                                                                 <tr>
-                                                                  <td style="width:368px;" class="mj-full-width-mobile">
-                                                                    <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="368" height="auto" />
+                                                                  <td style="width:388px;" class="mj-full-width-mobile">
+                                                                    <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="388" height="auto" />
                                                                   </td>
                                                                 </tr>
                                                               </tbody>
@@ -870,7 +975,7 @@
                                                 <tr>
                                                   <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
                                                     <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
-                                                    <!-- Header Section with Gradient Background -->
+                                                    <!-- Header Section with Blue Background -->
                                                     <!--[if mso | IE]><td class="" style="vertical-align:top;width:232px;" ><![endif]-->
                                                     <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                                                       <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
@@ -880,25 +985,14 @@
                                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                                 <tbody>
                                                                   <tr>
-                                                                    <td class="gradient-bg mobile-stack" style="font-size:0px;padding:0;word-break:break-word;">
-                                                                      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="gradient-bg-outlook mobile-stack-outlook" role="presentation" style="width:232px;" width="232" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-                                                                      <div class="gradient-bg mobile-stack" style="margin:0px auto;max-width:232px;">
+                                                                    <td class="blue-header mobile-stack" style="font-size:0px;padding:0;word-break:break-word;">
+                                                                      <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-header-outlook mobile-stack-outlook" role="presentation" style="width:232px;" width="232" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                                                      <div class="blue-header mobile-stack" style="margin:0px auto;max-width:232px;">
                                                                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                                                           <tbody>
                                                                             <tr>
                                                                               <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-                                                                                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><![endif]-->
-                                                                                <!-- [if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-          <v:fill
-            type="gradient"
-            color="#013c65"
-            color2="#007dba"
-            method="linear"
-            angle="180" />
-        </v:background>
-      <![endif] -->
-                                                                                <!--[if mso | IE]><tr><td class="" width="232px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:232px;" width="232" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                                                                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="232px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:232px;" width="232" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
                                                                                 <div style="margin:0px auto;max-width:232px;">
                                                                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                                                                     <tbody>
@@ -909,7 +1003,7 @@
                                                                                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                                                                                               <tbody>
                                                                                                 <tr>
-                                                                                                  <td align="right" class="mobile-center" style="font-size:0px;padding:0;padding-right:10px;word-break:break-word;">
+                                                                                                  <td align="center" class="mobile-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:5px;word-break:break-word;">
                                                                                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                                                                                       <tbody>
                                                                                                         <tr>
@@ -929,8 +1023,8 @@
                                                                                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                                                                                               <tbody>
                                                                                                 <tr>
-                                                                                                  <td align="left" class="mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
-                                                                                                    <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:32px;line-height:1;text-align:left;color:#f6b000;">Events</div>
+                                                                                                  <td align="center" class="mobile-center" style="font-size:0px;padding:0;padding-top:0;padding-right:5px;padding-bottom:0;padding-left:0;word-break:break-word;">
+                                                                                                    <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:32px;line-height:1;text-align:center;color:#f6b000;">Events</div>
                                                                                                   </td>
                                                                                                 </tr>
                                                                                               </tbody>
@@ -966,7 +1060,7 @@
                                                                                     <tbody>
                                                                                       <!-- Event 1 -->
                                                                                       <tr>
-                                                                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:10px 15px;word-break:break-word;">
+                                                                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;padding-top:2px;padding-right:15px;padding-bottom:2px;padding-left:15px;word-break:break-word;">
                                                                                           <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                                                                             <p style="margin-bottom: 5px">
                                                                                               <strong><a href="#">Free Movie Night</a></strong>
@@ -977,7 +1071,7 @@
                                                                                       </tr>
                                                                                       <!-- Event 2 -->
                                                                                       <tr>
-                                                                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:10px 15px;word-break:break-word;">
+                                                                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;padding-top:2px;padding-right:15px;padding-bottom:2px;padding-left:15px;word-break:break-word;">
                                                                                           <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                                                                             <p style="margin-bottom: 5px">
                                                                                               <strong><a href="#">Valentine's Bash</a></strong>
@@ -988,7 +1082,7 @@
                                                                                       </tr>
                                                                                       <!-- Event 3 -->
                                                                                       <tr>
-                                                                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:10px 15px;word-break:break-word;">
+                                                                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;padding-top:2px;padding-right:15px;padding-bottom:2px;padding-left:15px;word-break:break-word;">
                                                                                           <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                                                                             <p style="margin-bottom: 5px">
                                                                                               <strong><a href="#">Valentine's Bash</a></strong>
@@ -1088,52 +1182,60 @@
                               </td>
                             </tr>
                             <tr>
-                              <td style="font-size:0px;padding:10px;word-break:break-word;">
+                              <td style="font-size:0px;padding:0;word-break:break-word;">
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
                                 <div style="margin:0px auto;max-width:680px;">
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                     <tbody>
                                       <tr>
-                                        <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                          <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
+                                          <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                               <tbody>
                                                 <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
-                                                      <h3>Story Title H3</h3>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
-                                                      <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
-                                                      <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                                        <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                                      </p>
-                                                      <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                                        <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                                      </p>
-                                                      <ul>
-                                                        <li>Excepteur sint occaecat</li>
-                                                        <li>Cupidatat non proident</li>
-                                                        <li>Sunt in culpa qui officia</li>
-                                                      </ul>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <!-- UNC Standard Button Component Center -->
-                                                <tr>
-                                                  <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
-                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                  <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                       <tbody>
                                                         <tr>
-                                                          <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
-                                                            <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
-                                                              <span style="color: #ffffff">Read More</span>
-                                                            </a>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
+                                                              <h3>Story Title H3</h3>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
+                                                              <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
+                                                              <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                                                <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                                              </p>
+                                                              <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                                                <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                                              </p>
+                                                              <ul>
+                                                                <li>Excepteur sint occaecat</li>
+                                                                <li>Cupidatat non proident</li>
+                                                                <li>Sunt in culpa qui officia</li>
+                                                              </ul>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <!-- UNC Standard Button Component Center -->
+                                                        <tr>
+                                                          <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
+                                                                    <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
+                                                                      <span style="color: #ffffff">Read More</span>
+                                                                    </a>
+                                                                  </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
                                                           </td>
                                                         </tr>
                                                       </tbody>
@@ -1162,52 +1264,60 @@
                               </td>
                             </tr>
                             <tr>
-                              <td style="font-size:0px;padding:10px;word-break:break-word;">
+                              <td style="font-size:0px;padding:0;word-break:break-word;">
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
                                 <div style="margin:0px auto;max-width:680px;">
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                     <tbody>
                                       <tr>
-                                        <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                          <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
+                                          <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                               <tbody>
                                                 <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
-                                                      <h3>Story Title H3</h3>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
-                                                      <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
-                                                      <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                                        <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                                      </p>
-                                                      <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                                        <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                                      </p>
-                                                      <ul>
-                                                        <li>Excepteur sint occaecat</li>
-                                                        <li>Cupidatat non proident</li>
-                                                        <li>Sunt in culpa qui officia</li>
-                                                      </ul>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <!-- UNC Standard Button Component Center -->
-                                                <tr>
-                                                  <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
-                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                  <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                       <tbody>
                                                         <tr>
-                                                          <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
-                                                            <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
-                                                              <span style="color: #ffffff">Read More</span>
-                                                            </a>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
+                                                              <h3>Story Title H3</h3>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
+                                                              <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
+                                                              <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                                                <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                                              </p>
+                                                              <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                                                <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                                              </p>
+                                                              <ul>
+                                                                <li>Excepteur sint occaecat</li>
+                                                                <li>Cupidatat non proident</li>
+                                                                <li>Sunt in culpa qui officia</li>
+                                                              </ul>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <!-- UNC Standard Button Component Center -->
+                                                        <tr>
+                                                          <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
+                                                                    <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
+                                                                      <span style="color: #ffffff">Read More</span>
+                                                                    </a>
+                                                                  </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
                                                           </td>
                                                         </tr>
                                                       </tbody>
@@ -1236,52 +1346,60 @@
                               </td>
                             </tr>
                             <tr>
-                              <td style="font-size:0px;padding:10px;word-break:break-word;">
+                              <td style="font-size:0px;padding:0;word-break:break-word;">
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
                                 <div style="margin:0px auto;max-width:680px;">
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                     <tbody>
                                       <tr>
-                                        <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                          <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
+                                          <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                               <tbody>
                                                 <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
-                                                      <h3>Story Title H3</h3>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
-                                                      <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
-                                                      <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                                        <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                                      </p>
-                                                      <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                                        <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                                      </p>
-                                                      <ul>
-                                                        <li>Excepteur sint occaecat</li>
-                                                        <li>Cupidatat non proident</li>
-                                                        <li>Sunt in culpa qui officia</li>
-                                                      </ul>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <!-- UNC Standard Button Component Center -->
-                                                <tr>
-                                                  <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
-                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                  <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                       <tbody>
                                                         <tr>
-                                                          <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
-                                                            <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
-                                                              <span style="color: #ffffff">Read More</span>
-                                                            </a>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
+                                                              <h3>Story Title H3</h3>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
+                                                              <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
+                                                              <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                                                <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                                              </p>
+                                                              <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                                                <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                                              </p>
+                                                              <ul>
+                                                                <li>Excepteur sint occaecat</li>
+                                                                <li>Cupidatat non proident</li>
+                                                                <li>Sunt in culpa qui officia</li>
+                                                              </ul>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <!-- UNC Standard Button Component Center -->
+                                                        <tr>
+                                                          <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
+                                                                    <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
+                                                                      <span style="color: #ffffff">Read More</span>
+                                                                    </a>
+                                                                  </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
                                                           </td>
                                                         </tr>
                                                       </tbody>
@@ -1310,52 +1428,60 @@
                               </td>
                             </tr>
                             <tr>
-                              <td style="font-size:0px;padding:10px;word-break:break-word;">
+                              <td style="font-size:0px;padding:0;word-break:break-word;">
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
                                 <div style="margin:0px auto;max-width:680px;">
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                     <tbody>
                                       <tr>
-                                        <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                          <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
+                                          <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                               <tbody>
                                                 <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
-                                                      <h3>Story Title H3</h3>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
-                                                      <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
-                                                      <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                                        <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                                      </p>
-                                                      <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                                        <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                                      </p>
-                                                      <ul>
-                                                        <li>Excepteur sint occaecat</li>
-                                                        <li>Cupidatat non proident</li>
-                                                        <li>Sunt in culpa qui officia</li>
-                                                      </ul>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <!-- UNC Standard Button Component Center -->
-                                                <tr>
-                                                  <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
-                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                  <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                       <tbody>
                                                         <tr>
-                                                          <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
-                                                            <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
-                                                              <span style="color: #ffffff">Read More</span>
-                                                            </a>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
+                                                              <h3>Story Title H3</h3>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
+                                                              <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
+                                                              <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                                                <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                                              </p>
+                                                              <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                                                <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                                              </p>
+                                                              <ul>
+                                                                <li>Excepteur sint occaecat</li>
+                                                                <li>Cupidatat non proident</li>
+                                                                <li>Sunt in culpa qui officia</li>
+                                                              </ul>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <!-- UNC Standard Button Component Center -->
+                                                        <tr>
+                                                          <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
+                                                                    <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
+                                                                      <span style="color: #ffffff">Read More</span>
+                                                                    </a>
+                                                                  </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
                                                           </td>
                                                         </tr>
                                                       </tbody>
@@ -1384,52 +1510,60 @@
                               </td>
                             </tr>
                             <tr>
-                              <td style="font-size:0px;padding:10px;word-break:break-word;">
+                              <td style="font-size:0px;padding:0;word-break:break-word;">
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
                                 <div style="margin:0px auto;max-width:680px;">
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                     <tbody>
                                       <tr>
-                                        <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                          <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
+                                          <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                               <tbody>
                                                 <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
-                                                      <h3>Story Title H3</h3>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
-                                                      <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
-                                                      <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                                        <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                                      </p>
-                                                      <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                                        <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                                      </p>
-                                                      <ul>
-                                                        <li>Excepteur sint occaecat</li>
-                                                        <li>Cupidatat non proident</li>
-                                                        <li>Sunt in culpa qui officia</li>
-                                                      </ul>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <!-- UNC Standard Button Component Center -->
-                                                <tr>
-                                                  <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
-                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                  <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                       <tbody>
                                                         <tr>
-                                                          <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
-                                                            <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
-                                                              <span style="color: #ffffff">Read More</span>
-                                                            </a>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
+                                                              <h3>Story Title H3</h3>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
+                                                              <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
+                                                              <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                                                <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                                              </p>
+                                                              <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                                                <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                                              </p>
+                                                              <ul>
+                                                                <li>Excepteur sint occaecat</li>
+                                                                <li>Cupidatat non proident</li>
+                                                                <li>Sunt in culpa qui officia</li>
+                                                              </ul>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <!-- UNC Standard Button Component Center -->
+                                                        <tr>
+                                                          <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
+                                                                    <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
+                                                                      <span style="color: #ffffff">Read More</span>
+                                                                    </a>
+                                                                  </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
                                                           </td>
                                                         </tr>
                                                       </tbody>
@@ -1458,52 +1592,60 @@
                               </td>
                             </tr>
                             <tr>
-                              <td style="font-size:0px;padding:10px;word-break:break-word;">
+                              <td style="font-size:0px;padding:0;word-break:break-word;">
                                 <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
                                 <div style="margin:0px auto;max-width:680px;">
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                     <tbody>
                                       <tr>
-                                        <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                          <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                        <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                          <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
+                                          <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                               <tbody>
                                                 <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
-                                                      <h3>Story Title H3</h3>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <tr>
-                                                  <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                                    <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
-                                                      <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
-                                                      <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                                        <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                                      </p>
-                                                      <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                                        <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                                      </p>
-                                                      <ul>
-                                                        <li>Excepteur sint occaecat</li>
-                                                        <li>Cupidatat non proident</li>
-                                                        <li>Sunt in culpa qui officia</li>
-                                                      </ul>
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                <!-- UNC Standard Button Component Center -->
-                                                <tr>
-                                                  <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
-                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                  <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                       <tbody>
                                                         <tr>
-                                                          <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
-                                                            <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
-                                                              <span style="color: #ffffff">Read More</span>
-                                                            </a>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
+                                                              <h3>Story Title H3</h3>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;"><!-- Ensure all placeholder text and links below are replaced with real content -->
+                                                              <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
+                                                              <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                                                <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                                              </p>
+                                                              <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                                                <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                                              </p>
+                                                              <ul>
+                                                                <li>Excepteur sint occaecat</li>
+                                                                <li>Cupidatat non proident</li>
+                                                                <li>Sunt in culpa qui officia</li>
+                                                              </ul>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <!-- UNC Standard Button Component Center -->
+                                                        <tr>
+                                                          <td align="center" class="button-primary" style="font-size:0px;padding:20px;padding-top:20px;padding-bottom:0;word-break:break-word;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td align="center" bgcolor="#013c65 !important" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#013c65 !important;" valign="middle">
+                                                                    <a href="javascript:void(0);" style="display:inline-block;background:#013c65 !important;color:#ffffff;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;font-weight:bold;line-height:120%;margin:0;text-decoration:none;text-transform:uppercase;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank">
+                                                                      <span style="color: #ffffff">Read More</span>
+                                                                    </a>
+                                                                  </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
                                                           </td>
                                                         </tr>
                                                       </tbody>
@@ -1565,9 +1707,9 @@
                             <tbody>
                               <!-- Header Section with Gradient Background -->
                               <tr>
-                                <td class="gradient-bg mobile-stack" style="font-size:0px;padding:0;word-break:break-word;">
-                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="gradient-bg-outlook mobile-stack-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-                                  <div class="gradient-bg mobile-stack" style="margin:0px auto;max-width:680px;">
+                                <td class="blue-header mobile-stack" style="font-size:0px;padding:0;word-break:break-word;">
+                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-header-outlook mobile-stack-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                  <div class="blue-header mobile-stack" style="margin:0px auto;max-width:680px;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                       <tbody>
                                         <tr>
@@ -1583,8 +1725,8 @@
             angle="180" />
         </v:background>
       <![endif] -->
-                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:340px;" ><![endif]-->
-                                            <div class="mj-column-per-50 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:312.8px;" ><![endif]-->
+                                            <div class="mj-column-per-46 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                                                 <tbody>
                                                   <tr>
@@ -1603,8 +1745,8 @@
                                                 </tbody>
                                               </table>
                                             </div>
-                                            <!--[if mso | IE]></td><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:340px;" ><![endif]-->
-                                            <div class="mj-column-per-50 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                                            <!--[if mso | IE]></td><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:367.2px;" ><![endif]-->
+                                            <div class="mj-column-per-54 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                                                 <tbody>
                                                   <tr>
@@ -1656,21 +1798,21 @@
                               </tr>
                               <!-- Image Grid - Row 1 -->
                               <tr>
-                                <td style="font-size:0px;padding:10px;word-break:break-word;">
+                                <td style="font-size:0px;padding:0;word-break:break-word;">
                                   <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
                                   <div style="margin:0px auto;max-width:680px;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                       <tbody>
                                         <tr>
-                                          <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
+                                          <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
                                             <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
                                             <!-- Left Image -->
-                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:323.4px;" ><![endif]-->
-                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook padding-sides-outlook" style="vertical-align:top;width:333.2px;" ><![endif]-->
+                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                                 <tbody>
                                                   <tr>
-                                                    <td style="vertical-align:top;padding:20px;">
+                                                    <td style="vertical-align:top;padding-top:20px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
                                                       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                         <tbody>
                                                           <tr>
@@ -1678,8 +1820,8 @@
                                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
                                                                 <tbody>
                                                                   <tr>
-                                                                    <td style="width:283px;" class="mj-full-width-mobile">
-                                                                      <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="283" height="auto" />
+                                                                    <td style="width:293px;" class="mj-full-width-mobile">
+                                                                      <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="293" height="auto" />
                                                                     </td>
                                                                   </tr>
                                                                 </tbody>
@@ -1687,9 +1829,9 @@
                                                             </td>
                                                           </tr>
                                                           <tr>
-                                                            <td align="center" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
-                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:center;color:inherit;">
-                                                                <p>Image caption</p>
+                                                            <td align="left" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
+                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                                                <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod <a href="#">link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>. </p>
                                                               </div>
                                                             </td>
                                                           </tr>
@@ -1702,12 +1844,12 @@
                                             </div>
                                             <!--[if mso | IE]></td><![endif]-->
                                             <!-- Right Image -->
-                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:323.4px;" ><![endif]-->
-                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook padding-sides-outlook" style="vertical-align:top;width:333.2px;" ><![endif]-->
+                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                                 <tbody>
                                                   <tr>
-                                                    <td style="vertical-align:top;padding:20px;">
+                                                    <td style="vertical-align:top;padding-top:20px;padding-right:20px;padding-bottom:10px;padding-left:20px;">
                                                       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                         <tbody>
                                                           <tr>
@@ -1715,8 +1857,8 @@
                                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
                                                                 <tbody>
                                                                   <tr>
-                                                                    <td style="width:283px;" class="mj-full-width-mobile">
-                                                                      <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="283" height="auto" />
+                                                                    <td style="width:293px;" class="mj-full-width-mobile">
+                                                                      <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="293" height="auto" />
                                                                     </td>
                                                                   </tr>
                                                                 </tbody>
@@ -1724,9 +1866,9 @@
                                                             </td>
                                                           </tr>
                                                           <tr>
-                                                            <td align="center" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
-                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:center;color:inherit;">
-                                                                <p>Image caption</p>
+                                                            <td align="left" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
+                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                                                <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod <a href="#">link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>. </p>
                                                               </div>
                                                             </td>
                                                           </tr>
@@ -1757,12 +1899,12 @@
                                           <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
                                             <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
                                             <!-- Left Image -->
-                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:333.2px;" ><![endif]-->
-                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook padding-sides-outlook" style="vertical-align:top;width:333.2px;" ><![endif]-->
+                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                                 <tbody>
                                                   <tr>
-                                                    <td style="vertical-align:top;padding:20px;">
+                                                    <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:20px;padding-left:20px;">
                                                       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                         <tbody>
                                                           <tr>
@@ -1779,9 +1921,9 @@
                                                             </td>
                                                           </tr>
                                                           <tr>
-                                                            <td align="center" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
-                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:center;color:inherit;">
-                                                                <p>Image caption</p>
+                                                            <td align="left" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
+                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                                                <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod <a href="#">link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>. </p>
                                                               </div>
                                                             </td>
                                                           </tr>
@@ -1794,12 +1936,12 @@
                                             </div>
                                             <!--[if mso | IE]></td><![endif]-->
                                             <!-- Right Image -->
-                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:333.2px;" ><![endif]-->
-                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook padding-sides-outlook" style="vertical-align:top;width:333.2px;" ><![endif]-->
+                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                                 <tbody>
                                                   <tr>
-                                                    <td style="vertical-align:top;padding:20px;">
+                                                    <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:20px;padding-left:20px;">
                                                       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                                         <tbody>
                                                           <tr>
@@ -1816,9 +1958,9 @@
                                                             </td>
                                                           </tr>
                                                           <tr>
-                                                            <td align="center" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
-                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:center;color:inherit;">
-                                                                <p>Image caption</p>
+                                                            <td align="left" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
+                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                                                <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod <a href="#">link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>. </p>
                                                               </div>
                                                             </td>
                                                           </tr>
@@ -1885,9 +2027,9 @@
                             <tbody>
                               <!-- Header -->
                               <tr>
-                                <td class="gold-section" style="font-size:0px;padding:0;word-break:break-word;">
-                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="gold-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-                                  <div class="gold-section" style="margin:0px auto;max-width:680px;">
+                                <td class="gold-header" style="font-size:0px;padding:0;word-break:break-word;">
+                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="gold-header-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                  <div class="gold-header" style="margin:0px auto;max-width:680px;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                       <tbody>
                                         <tr>
@@ -1922,16 +2064,23 @@
                                       <tbody>
                                         <tr>
                                           <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                            <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:660px;" ><![endif]-->
+                                            <div class="mj-column-per-100 mj-outlook-group-fix column-centered mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                                 <tbody>
                                                   <tr>
                                                     <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
                                                       <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                                         <ul>
-                                                          <li> The UNC Center for Career Readiness is hosting the Spring 2025 Job, Internship, and Graduate School Fair on <strong>Thursday, Feb. 15, from 10:00 a.m. to 4:00 p.m. in the University Center Ballrooms</strong>. Employers will be recruiting for full-time jobs, part-time jobs, internships, and Graduate Schools will be providing information on their programs. Admission is free and students and alumni from all majors are encouraged to attend! <a href="#">Register to attend here</a>. </li>
-                                                          <li> Are you thinking about studying abroad? The deadline to apply for Summer and Fall 2025 study abroad programs is <strong>Wednesday, Feb. 28</strong>. For more information and to apply, contact the Education Abroad team at <a href="#">abroad@unco.edu</a> or <a href="#">visit their web page</a>. </li>
+                                                          <li>
+                                                            <strong><u>Section Topic (Bold Underline with Bullet):</u></strong><br /> This content will explain the above bullet point topic above. Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <a href="#">placeholder link text</a> et dolore magna.
+                                                          </li>
+                                                          <li>
+                                                            <strong><u>Section Topic (Bold Underline with Bullet):</u></strong><br /> This content will explain the above bullet point topic above. Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <a href="#">placeholder link text</a> et dolore magna.
+                                                          </li>
+                                                          <li>
+                                                            <strong><u>Section Topic (Bold Underline with Bullet):</u></strong><br /> This content will explain the above bullet point topic above. Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <a href="#">placeholder link text</a> et dolore magna.
+                                                          </li>
                                                         </ul>
                                                       </div>
                                                     </td>
@@ -1950,9 +2099,9 @@
                               </tr>
                               <!-- Faculty and Staff Section -->
                               <tr>
-                                <td class="gold-section" style="font-size:0px;padding:0;word-break:break-word;">
-                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="gold-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-                                  <div class="gold-section" style="margin:0px auto;max-width:680px;">
+                                <td class="gold-header" style="font-size:0px;padding:0;word-break:break-word;">
+                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="gold-header-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                  <div class="gold-header" style="margin:0px auto;max-width:680px;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                       <tbody>
                                         <tr>
@@ -1987,15 +2136,23 @@
                                       <tbody>
                                         <tr>
                                           <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                            <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:660px;" ><![endif]-->
+                                            <div class="mj-column-per-100 mj-outlook-group-fix column-centered mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                                 <tbody>
                                                   <tr>
                                                     <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
                                                       <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                                         <ul>
-                                                          <li> Help UNC celebrate its most outstanding staff members by attending the 53rd Annual Staff Recognition Celebration on <strong>Thursday, March 7, at 1:00 p.m. in the University Center Ballrooms</strong>. The event will feature recognition of service milestones, a presentation of awards, and more. <a href="#">Register to attend</a>. </li>
+                                                          <li>
+                                                            <strong><u>Section Topic (Bold Underline with Bullet):</u></strong><br /> This content will explain the above bullet point topic above. Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <a href="#">placeholder link text</a> et dolore magna.
+                                                          </li>
+                                                          <li>
+                                                            <strong><u>Section Topic (Bold Underline with Bullet):</u></strong><br /> This content will explain the above bullet point topic above. Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <a href="#">placeholder link text</a> et dolore magna.
+                                                          </li>
+                                                          <li>
+                                                            <strong><u>Section Topic (Bold Underline with Bullet):</u></strong><br /> This content will explain the above bullet point topic above. Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <a href="#">placeholder link text</a> et dolore magna.
+                                                          </li>
                                                         </ul>
                                                       </div>
                                                     </td>
@@ -2028,7 +2185,196 @@
       </table>
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Section 6: UNC in the News Section -->
+    <!-- Section 6: TRUE NORTH Section -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="light-section" style="margin:0px auto;max-width:680px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
+              <!-- TRUE NORTH Block -->
+              <!--[if mso | IE]><td class="block-container-outlook light-section-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="block-container-outlook light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div class="block-container light-section" style="margin:0px auto;max-width:680px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
+                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                            <tbody>
+                              <!-- Header Section with Blue Background -->
+                              <tr>
+                                <td class="blue-mixed-text-color-header mobile-stack" style="font-size:0px;padding:0;word-break:break-word;">
+                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-mixed-text-color-header-outlook mobile-stack-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                  <div class="blue-mixed-text-color-header mobile-stack" style="margin:0px auto;max-width:680px;">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:680px;" ><![endif]-->
+                                            <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td align="center" class="mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
+                                                      <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:28px;font-weight:700;line-height:1.2;text-align:center;color:#013C65;"><span style="color: #ffffff">TRUE</span>
+                                                        <span style="color: #f6b000">NORTH</span>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                            <!--[if mso | IE]></td></tr></table><![endif]-->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                                </td>
+                              </tr>
+                              <!-- Subtitle -->
+                              <tr>
+                                <td class="grey-section" style="font-size:0px;padding:0;word-break:break-word;">
+                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="grey-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                  <div class="grey-section" style="margin:0px auto;max-width:680px;">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
+                                            <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td align="center" class="dark-mode-text" style="font-size:0px;padding:15px 10px;word-break:break-word;">
+                                                      <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:16px;font-weight:700;line-height:1.2;text-align:center;color:#013c65;">A selection of featured headlines about the university</div>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                            <!--[if mso | IE]></td></tr></table><![endif]-->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                                </td>
+                              </tr>
+                              <!-- Image Grid - Two Images Side by Side -->
+                              <tr>
+                                <td style="font-size:0px;padding:0;word-break:break-word;">
+                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                  <div style="margin:0px auto;max-width:680px;">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                                            <!-- Left Image -->
+                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook padding-sides-outlook" style="vertical-align:top;width:333.2px;" ><![endif]-->
+                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="vertical-align:top;padding-top:10px;padding-right:5px;padding-bottom:10px;padding-left:20px;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                                        <tbody>
+                                                          <tr>
+                                                            <td align="center" class="content-image image-centered" style="font-size:0px;padding:0;word-break:break-word;">
+                                                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td style="width:308px;" class="mj-full-width-mobile">
+                                                                      <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="308" height="auto" />
+                                                                    </td>
+                                                                  </tr>
+                                                                </tbody>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td align="left" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
+                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                                                <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod <a href="#">link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>. </p>
+                                                              </div>
+                                                            </td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                            <!--[if mso | IE]></td><![endif]-->
+                                            <!-- Right Image -->
+                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook padding-sides-outlook" style="vertical-align:top;width:333.2px;" ><![endif]-->
+                                            <div class="mj-column-per-49 mj-outlook-group-fix mobile-stack-column padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                                <tbody>
+                                                  <tr>
+                                                    <td style="vertical-align:top;padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:5px;">
+                                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                                        <tbody>
+                                                          <tr>
+                                                            <td align="center" class="content-image image-centered" style="font-size:0px;padding:0;word-break:break-word;">
+                                                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td style="width:308px;" class="mj-full-width-mobile">
+                                                                      <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="308" height="auto" />
+                                                                    </td>
+                                                                  </tr>
+                                                                </tbody>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td align="left" class="dark-mode-text" style="font-size:0px;padding:5px 0 0;word-break:break-word;">
+                                                              <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                                                <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod <a href="#">link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>. </p>
+                                                              </div>
+                                                            </td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                            <!--[if mso | IE]></td></tr></table><![endif]-->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!-- Section 7: UNC in the News Section -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div class="light-section" style="margin:0px auto;max-width:680px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
@@ -2057,9 +2403,9 @@
                             <tbody>
                               <!-- Header Section with Gradient Background -->
                               <tr>
-                                <td class="gradient-bg mobile-stack" style="font-size:0px;padding:0;word-break:break-word;">
-                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="gradient-bg-outlook mobile-stack-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-                                  <div class="gradient-bg mobile-stack" style="margin:0px auto;max-width:680px;">
+                                <td class="blue-header mobile-stack" style="font-size:0px;padding:0;word-break:break-word;">
+                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-header-outlook mobile-stack-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                  <div class="blue-header mobile-stack" style="margin:0px auto;max-width:680px;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                                       <tbody>
                                         <tr>
@@ -2075,8 +2421,8 @@
             angle="180" />
         </v:background>
       <![endif] -->
-                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:340px;" ><![endif]-->
-                                            <div class="mj-column-per-50 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                                            <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:312.8px;" ><![endif]-->
+                                            <div class="mj-column-per-46 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                                                 <tbody>
                                                   <tr>
@@ -2095,8 +2441,8 @@
                                                 </tbody>
                                               </table>
                                             </div>
-                                            <!--[if mso | IE]></td><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:340px;" ><![endif]-->
-                                            <div class="mj-column-per-50 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                                            <!--[if mso | IE]></td><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:367.2px;" ><![endif]-->
+                                            <div class="mj-column-per-54 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                                                 <tbody>
                                                   <tr>
@@ -2155,8 +2501,8 @@
                                       <tbody>
                                         <tr>
                                           <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                                            <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:660px;" ><![endif]-->
+                                            <div class="mj-column-per-100 mj-outlook-group-fix column-centered mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                                 <tbody>
                                                   <tr>
@@ -2217,20 +2563,26 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                             <tbody>
                               <tr>
-                                <td align="center" style="font-size:0px;padding:10px 25px;padding-top:5px;word-break:break-word;">
+                                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
                                   <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><![endif]-->
-                                  <!-- Social Media Footer -->
+                                  <!-- Social Media Footer --><!-- Former white icon URLs (getbee.io):
+     Facebook: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png
+     Instagram: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/instagram@2x.png
+     LinkedIn: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/linkedin@2x.png
+     Twitter: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/twitter@2x.png
+     YouTube: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/youtube@2x.png
+     TikTok: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/tiktok@2x.png -->
                                   <!--[if mso | IE]><td><![endif]-->
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                                     <tbody>
                                       <tr>
-                                        <td style="padding:4px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;">
+                                        <td style="padding:10px;vertical-align:middle;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:0;height:32px;vertical-align:middle;width:32px;">
+                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
                                                   <a href="https://www.facebook.com/universitynortherncolorado" target="_blank">
-                                                    <img alt="" height="32" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png" style="border-radius:3px;display:block;" width="32" />
+                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-facebook.png" style="border-radius:3px;display:block;" width="25" />
                                                   </a>
                                                 </td>
                                               </tr>
@@ -2244,13 +2596,13 @@
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                                     <tbody>
                                       <tr>
-                                        <td style="padding:4px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;">
+                                        <td style="padding:10px;vertical-align:middle;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:0;height:32px;vertical-align:middle;width:32px;">
+                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
                                                   <a href="https://instagram.com/unc_colorado" target="_blank">
-                                                    <img alt="" height="32" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/instagram@2x.png" style="border-radius:3px;display:block;" width="32" />
+                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-instagram.png" style="border-radius:3px;display:block;" width="25" />
                                                   </a>
                                                 </td>
                                               </tr>
@@ -2264,13 +2616,13 @@
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                                     <tbody>
                                       <tr>
-                                        <td style="padding:4px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;">
+                                        <td style="padding:10px;vertical-align:middle;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:0;height:32px;vertical-align:middle;width:32px;">
+                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
                                                   <a href="https://www.linkedin.com/school/university-of-northern-colorado" target="_blank">
-                                                    <img alt="" height="32" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/linkedin@2x.png" style="border-radius:3px;display:block;" width="32" />
+                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-linkedin.png" style="border-radius:3px;display:block;" width="25" />
                                                   </a>
                                                 </td>
                                               </tr>
@@ -2284,13 +2636,13 @@
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                                     <tbody>
                                       <tr>
-                                        <td style="padding:4px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;">
+                                        <td style="padding:10px;vertical-align:middle;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:0;height:32px;vertical-align:middle;width:32px;">
+                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
                                                   <a href="https://twitter.com/UNC_Colorado" target="_blank">
-                                                    <img alt="" height="32" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/twitter@2x.png" style="border-radius:3px;display:block;" width="32" />
+                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-twitter-x.png" style="border-radius:3px;display:block;" width="25" />
                                                   </a>
                                                 </td>
                                               </tr>
@@ -2304,13 +2656,13 @@
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                                     <tbody>
                                       <tr>
-                                        <td style="padding:4px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;">
+                                        <td style="padding:10px;vertical-align:middle;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:0;height:32px;vertical-align:middle;width:32px;">
+                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
                                                   <a href="https://www.youtube.com/user/UNorthernColorado" target="_blank">
-                                                    <img alt="" height="32" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/youtube@2x.png" style="border-radius:3px;display:block;" width="32" />
+                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-youtube.png" style="border-radius:3px;display:block;" width="25" />
                                                   </a>
                                                 </td>
                                               </tr>
@@ -2324,13 +2676,13 @@
                                   <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                                     <tbody>
                                       <tr>
-                                        <td style="padding:4px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;">
+                                        <td style="padding:10px;vertical-align:middle;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:0;height:32px;vertical-align:middle;width:32px;">
+                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
                                                   <a href="https://www.tiktok.com/@unco_colorado" target="_blank">
-                                                    <img alt="" height="32" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/tiktok@2x.png" style="border-radius:3px;display:block;" width="32" />
+                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-tiktok.png" style="border-radius:3px;display:block;" width="25" />
                                                   </a>
                                                 </td>
                                               </tr>
@@ -2365,7 +2717,7 @@
           <tr>
             <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
-              <!-- Contact Footer --><!-- Two Column Footer with Logo -->
+              <!-- Contact Footer --><!-- Primary Footer with Bear Head Left -->
               <!--[if mso | IE]><td class="blue-section-outlook mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-section-outlook mobile-stack-outlook" role="presentation" style="width:680px;" width="680" bgcolor="#013c65" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
               <div class="blue-section mobile-stack" style="background:#013c65;background-color:#013c65;margin:0px auto;max-width:680px;">
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#013c65;background-color:#013c65;width:100%;">
@@ -2384,17 +2736,25 @@
   <![endif] -->
                         <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:160px;" ><![endif]-->
                         <div class="mj-column-per-25 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td align="left" class="mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                <td style="vertical-align:middle;padding-bottom:20px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td style="width:127px;">
-                                          <a href="https://unco.edu" target="_blank">
-                                            <img alt="UNC logo" src="https://ncd.test.technolutions.net/www/images/unc_logo_h_rv.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="127" height="auto" />
-                                          </a>
+                                        <td align="left" class="mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                            <tbody>
+                                              <tr>
+                                                <td style="width:60px;">
+                                                  <a href="https://unco.edu" target="_blank">
+                                                    <img alt="UNC Bear Head" src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="60" height="auto" />
+                                                  </a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -2408,26 +2768,22 @@
                         <div class="mj-column-per-75 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                             <tbody>
+                              <!-- Row 1: Name -->
                               <tr>
                                 <td align="right" class="mobile-center white-text" style="font-size:0px;padding:0;padding-top:0;padding-bottom:5px;word-break:break-word;">
-                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.2;text-align:right;color:#ffffff;"><a href="https://unco.edu" style="color: #ffffff; mso-style-priority: 99; text-decoration: none">
-                                      <font color="#ffffff">University of Northern Colorado</font>
-                                    </a></div>
+                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.2;text-align:right;color:#ffffff;">Name</div>
                                 </td>
                               </tr>
+                              <!-- Row 2: Email | Phone -->
                               <tr>
                                 <td align="right" class="mobile-center white-text" style="font-size:0px;padding:0;padding-top:0;padding-bottom:5px;word-break:break-word;">
-                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.2;text-align:right;color:#ffffff;"><a href="https://goo.gl/maps/GDztMJYnNjs8r8369" style="color: #ffffff; mso-style-priority: 99; text-decoration: none">
-                                      <span style="color: white !important">1234 Address, Greeley, CO 12345</span>
-                                    </a></div>
+                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.2;text-align:right;color:#ffffff;"><a href="mailto:email@unco.edu" style="color: #ffffff; text-decoration: underline">Email</a> | Phone</div>
                                 </td>
                               </tr>
+                              <!-- Row 3: Address -->
                               <tr>
                                 <td align="right" class="mobile-center white-text" style="font-size:0px;padding:0;padding-top:0;padding-bottom:5px;word-break:break-word;">
-                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.2;text-align:right;color:#ffffff;"><a href="tel:970-351-1890" style="color: #ffffff; mso-style-priority: 99; text-decoration: none">
-                                      <span style="color: white !important">970-351-1890</span></a> &nbsp;|&nbsp; <a href="mailto:info@unco.edu" style="color: #ffffff; mso-style-priority: 99; text-decoration: none">
-                                      <span style="color: white !important">info@unco.edu</span>
-                                    </a></div>
+                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:12px;line-height:1.2;text-align:right;color:#ffffff;">Address</div>
                                 </td>
                               </tr>
                             </tbody>
