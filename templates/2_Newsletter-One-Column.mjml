@@ -8,17 +8,25 @@
   <mj-body>
     <!-- Section 1: Header/Logo Section -->
     <mj-section padding="0" css-class="light-section">
-      <mj-include path="./partials/headers/bear-name-blue.mjml" />
+      <mj-include path="./partials/headers/header-secondary.mjml" />
+      <!-- Newsletter Header Section -->
+      <mj-include
+        path="./partials/components/component-newsletter-header-gold.mjml" />
     </mj-section>
 
-    <!-- H1 Intro Section - Hero Story -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/blocks/block-bg-white-image-left-h1-text-no-button.mjml" />
+        path="./partials/blocks/block-bg-white-image-left-h2-text-button-gold-center.mjml" />
+    </mj-section>
+
+    <!-- Section Title Bar -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-section-title-blue.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 1 -->
-    <mj-section padding="0" css-class="light-section blue-border">
+    <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
     </mj-section>

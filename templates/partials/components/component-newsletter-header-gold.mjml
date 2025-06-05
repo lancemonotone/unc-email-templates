@@ -1,0 +1,32 @@
+<!-- Newsletter Header Component - Gold Background -->
+<mj-section css-class="navigation-bar-gold" padding="0">
+  <mj-column width="70%" padding="0" vertical-align="middle">
+    <mj-text
+      font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
+      font-weight="700"
+      align="left"
+      color="#013c65"
+      font-size="20px"
+      css-class="no-dark-mode-text"
+      padding-left="20px"
+      padding-right="20px"
+      padding-top="0"
+      padding-bottom="0">
+      NEWSLETTER NAME
+    </mj-text>
+  </mj-column>
+  <mj-column width="30%" padding="0" vertical-align="middle">
+    <mj-text
+      align="right"
+      font-size="14px"
+      font-weight="700"
+      color="#013c65"
+      css-class="no-dark-mode-text"
+      padding-left="20px"
+      padding-right="20px"
+      padding-top="0"
+      padding-bottom="0">
+      Date / Issue #
+    </mj-text>
+  </mj-column>
+</mj-section>

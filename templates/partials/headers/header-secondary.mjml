@@ -4,7 +4,7 @@
   padding="20px"
   css-class="blue-section mobile-stack">
   <mj-column
-    width="33.33%"
+    width="40%"
     vertical-align="middle"
     css-class="mobile-stack-column">
     <mj-image
@@ -16,14 +16,14 @@
       align="left" />
   </mj-column>
   <mj-column
-    width="66.67%"
+    width="60%"
     vertical-align="middle"
     css-class="mobile-stack-column">
     <mj-text
       mj-class="header-title-white"
       align="right"
       css-class="mobile-center">
-      University of Northern Colorado
+      Department Name
     </mj-text>
   </mj-column>
 </mj-section>
