@@ -1,0 +1,17 @@
+<!-- Section Title Bar Component - Blue Background -->
+<mj-section css-class="blue-section" padding="0">
+  <mj-column width="100%" padding="0">
+    <mj-text
+      mj-class="h5"
+      align="left"
+      color="#ffffff"
+      css-class="no-dark-mode-text"
+      text-transform="uppercase"
+      font-size="14px"
+      padding="0"
+      padding-left="20px"
+      padding-right="20px">
+      EVENTS
+    </mj-text>
+  </mj-column>
+</mj-section>

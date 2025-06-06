@@ -19,7 +19,7 @@
     <mj-include path="../components/component-h2.mjml" />
 
     <!-- Body Text -->
-    <mj-include path="../components/component-text.mjml" />
+    <mj-include path="../components/component-text-no-bullets.mjml" />
 
     <!-- CTA Button -->
     <mj-include path="../components/component-button-blue-left.mjml" />

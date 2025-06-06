@@ -72,7 +72,8 @@
         <mj-include path="./partials/components/component-h2.mjml" />
 
         <!-- Left-aligned intro text -->
-        <mj-include path="./partials/components/component-text.mjml" />
+        <mj-include
+          path="./partials/components/component-text-no-bullets.mjml" />
 
         <!-- UNC Standard Button Component Left -->
         <mj-button

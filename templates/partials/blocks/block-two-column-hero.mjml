@@ -19,6 +19,6 @@
     <mj-include path="../components/component-h1.mjml" />
 
     <!-- Left-aligned intro text -->
-    <mj-include path="../components/component-text.mjml" />
+    <mj-include path="../components/component-text-no-bullets.mjml" />
   </mj-column>
 </mj-section>

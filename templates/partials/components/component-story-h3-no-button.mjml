@@ -7,6 +7,6 @@
     padding-bottom="10px"
     padding-left="20px">
     <mj-include path="./component-h3.mjml" />
-    <mj-include path="./component-text.mjml" />
+    <mj-include path="./component-text-no-bullets.mjml" />
   </mj-column>
 </mj-section>

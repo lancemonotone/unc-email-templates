@@ -11,7 +11,7 @@
     padding="20px"
     css-class="grey-section mobile-stack-column padding-sides">
     <mj-include path="../components/component-h2.mjml" />
-    <mj-include path="../components/component-text.mjml" />
+    <mj-include path="../components/component-text-no-bullets.mjml" />
     <mj-include path="../components/component-button-blue-center.mjml" />
   </mj-column>
 </mj-section>

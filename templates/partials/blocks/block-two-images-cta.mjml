@@ -9,7 +9,7 @@
   <!-- Right Column - Text with Button -->
   <mj-column width="50%" padding="20px" css-class="grey-section">
     <mj-include path="../components/component-h2.mjml" />
-    <mj-include path="../components/component-text.mjml" />
+    <mj-include path="../components/component-text-no-bullets.mjml" />
     <mj-include path="../components/component-button-blue-center.mjml" />
   </mj-column>
 </mj-section>
@@ -19,7 +19,7 @@
   <!-- Left Column - Text with Button -->
   <mj-column width="50%" padding="20px" css-class="grey-section">
     <mj-include path="../components/component-h2.mjml" />
-    <mj-include path="../components/component-text.mjml" />
+    <mj-include path="../components/component-text-no-bullets.mjml" />
     <mj-include path="../components/component-button-blue-center.mjml" />
   </mj-column>
 

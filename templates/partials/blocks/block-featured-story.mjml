@@ -4,7 +4,7 @@
 
   <mj-include path="../components/component-h3.mjml" />
 
-  <mj-include path="../components/component-text.mjml" />
+  <mj-include path="../components/component-text-no-bullets.mjml" />
 
   <mj-include path="../components/component-button-blue-left.mjml" />
 </mj-column>
