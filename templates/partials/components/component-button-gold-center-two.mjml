@@ -1,0 +1,16 @@
+<mj-section padding="0">
+  <!-- Button Columns -->
+  <mj-column
+    width="50%"
+    css-class="mobile-stack-column light-section padding-sides"
+    padding="0px">
+    <mj-include path="./component-button-gold-center.mjml" />
+  </mj-column>
+
+  <mj-column
+    width="50%"
+    css-class="mobile-stack-column mobile-stack-padding-lg light-section padding-sides"
+    padding="0px">
+    <mj-include path="./component-button-gold-center.mjml" />
+  </mj-column>
+</mj-section>

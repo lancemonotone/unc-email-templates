@@ -6,5 +6,5 @@
   padding-right="40px"
   padding-left="40px">
   <mj-include path="./component-text-no-bullets.mjml" />
-  <mj-include path="./component-button-blue-center-two.mjml" />
+  <mj-include path="./component-button-gold-center-two.mjml" />
 </mj-column>

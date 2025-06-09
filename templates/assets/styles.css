@@ -200,6 +200,10 @@ p {
   .no-dark-mode-text {
     color: inherit !important;
   }
+
+  .blue-dots-divider {
+    border-top-color: #ffb71b !important;
+  }
 } /* Outlook Dark
       Mode */
 [data-ogsc] body {

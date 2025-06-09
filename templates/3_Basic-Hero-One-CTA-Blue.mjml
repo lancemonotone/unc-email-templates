@@ -20,9 +20,8 @@
     <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
-      <mj-column width="100%" padding="0" padding-top="20px">
-        <mj-divider border-width="10px" border-color="#FFB71B" padding="0" />
-      </mj-column>
+      <mj-include
+        path="./partials/components/component-divider-gold-thick.mjml" />
     </mj-section>
 
     <!-- Body Story H2 -->

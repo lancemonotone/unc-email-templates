@@ -1,0 +1,127 @@
+<mjml>
+  <mj-head>
+    <mj-title>University of Northern Colorado</mj-title>
+    <mj-include path="./assets/styles.css" type="css" />
+    <mj-include path="./assets/styles.mjml" />
+  </mj-head>
+
+  <mj-body>
+    <!-- Section 1: Header/Logo Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/headers/header-primary.mjml" />
+    </mj-section>
+
+    <!-- Body Story H1 -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-column
+        width="100%"
+        padding="0"
+        padding-right="40px"
+        padding-left="40px"
+        padding-bottom="20px">
+        <mj-include path="./partials/components/component-h1.mjml" />
+        <mj-include path="./partials/components/component-text.mjml" />
+        <mj-include
+          path="./partials/components/component-text-no-bullets.mjml" />
+        <mj-include
+          path="./partials/components/component-button-gold-center.mjml" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Two Button Blue Centered -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-text-no-bullets-button-gold-center-two.mjml" />
+    </mj-section>
+
+    <!-- Three Button Blue Centered -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-text-no-bullets-button-gold-center-three.mjml" />
+    </mj-section>
+
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-divider-gold-dots.mjml" />
+    </mj-section>
+
+    <!-- Body Story H2 -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-column
+        width="100%"
+        padding="0"
+        padding-right="40px"
+        padding-left="40px"
+        padding-bottom="20px">
+        <mj-include path="./partials/components/component-h2.mjml" />
+        <mj-include path="./partials/components/component-text.mjml" />
+        <mj-include
+          path="./partials/components/component-text-no-bullets.mjml" />
+        <mj-include
+          path="./partials/components/component-button-gold-center.mjml" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Two Button Blue Centered -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-text-no-bullets-button-gold-center-two.mjml" />
+    </mj-section>
+
+    <!-- Three Button Blue Centered -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-text-no-bullets-button-gold-center-three.mjml" />
+    </mj-section>
+
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-divider-blue-dots.mjml" />
+    </mj-section>
+
+    <!-- Body Story H3 -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-column
+        width="100%"
+        padding="0"
+        padding-right="40px"
+        padding-left="40px"
+        padding-bottom="20px">
+        <mj-include path="./partials/components/component-h3.mjml" />
+        <mj-include path="./partials/components/component-text.mjml" />
+        <mj-include
+          path="./partials/components/component-text-no-bullets.mjml" />
+        <mj-include
+          path="./partials/components/component-button-gold-center.mjml" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Two Button Blue Centered -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-text-no-bullets-button-gold-center-two.mjml" />
+    </mj-section>
+
+    <!-- Three Button Blue Centered -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-text-no-bullets-button-gold-center-three.mjml" />
+    </mj-section>
+
+    <!-- Follow-up Information (Callout Box) -->
+    <mj-section padding="0">
+      <mj-include path="./partials/blocks/block-callout-box-no-button.mjml" />
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section padding="0">
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
+
+    <mj-section padding="0">
+      <!-- Contact Footer -->
+      <mj-include path="./partials/footers/footer-secondary.mjml" />
+    </mj-section>
+  </mj-body>
+</mjml>
