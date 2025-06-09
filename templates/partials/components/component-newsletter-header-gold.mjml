@@ -1,29 +1,32 @@
 <!-- Newsletter Header Component - Gold Background -->
 <mj-section css-class="navigation-bar-gold" padding="0">
-  <mj-column width="70%" padding="0" vertical-align="middle">
+  <mj-column
+    width="70%"
+    padding="0"
+    vertical-align="middle"
+    css-class="mobile-stack-column">
     <mj-text
-      font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
-      font-weight="700"
+      mj-class="h3"
       align="left"
-      color="#013c65"
-      font-size="20px"
-      css-class="no-dark-mode-text"
-      padding-left="20px"
-      padding-right="20px"
+      css-class="no-dark-mode-text mobile-center"
+      padding-left="40px"
+      padding-right="40px"
       padding-top="0"
       padding-bottom="0">
       NEWSLETTER NAME
     </mj-text>
   </mj-column>
-  <mj-column width="30%" padding="0" vertical-align="middle">
+  <mj-column
+    width="30%"
+    padding="0"
+    vertical-align="middle"
+    css-class="mobile-stack-column mobile-stack-padding-sm">
     <mj-text
+      mj-class="header-subtitle-blue"
       align="right"
-      font-size="14px"
-      font-weight="700"
-      color="#013c65"
-      css-class="no-dark-mode-text"
-      padding-left="20px"
-      padding-right="20px"
+      css-class="no-dark-mode-text mobile-center"
+      padding-left="40px"
+      padding-right="40px"
       padding-top="0"
       padding-bottom="0">
       Date / Issue #

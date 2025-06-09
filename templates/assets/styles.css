@@ -319,6 +319,15 @@ p {
     padding-right: 0 !important;
   }
 
+  /* Mobile stack padding for elements that need spacing */
+  .mobile-stack-column.mobile-stack-padding-lg {
+    padding-top: 20px !important;
+  }
+
+  .mobile-stack-column.mobile-stack-padding-sm {
+    padding-top: 10px !important;
+  }
+
   /* Header column mobile padding */
   .header-column {
     padding-left: 20px !important;
