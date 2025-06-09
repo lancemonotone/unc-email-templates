@@ -3,11 +3,10 @@
     width="100%"
     css-class="mobile-stack-column light-section padding-sides"
     padding="10px"
-    padding-bottom="0px"
+    padding-bottom="20px"
     padding-right="40px"
     padding-left="40px">
-    <mj-include path="./component-h2.mjml" />
     <mj-include path="./component-text-no-bullets.mjml" />
-    <mj-include path="./component-button-blue-center.mjml" />
+    <mj-include path="./component-button-blue-center-two.mjml" />
   </mj-column>
 </mj-section>

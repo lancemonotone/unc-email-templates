@@ -8,7 +8,7 @@
   <mj-body>
     <!-- Section 1: Header/Logo Section -->
     <mj-section padding="0" css-class="light-section">
-      <mj-include path="./partials/headers/bear-mono-blue.mjml" />
+      <mj-include path="./partials/headers/header-primary.mjml" />
     </mj-section>
 
     <!-- H1 Intro Section - Hero Story -->
@@ -20,12 +20,27 @@
     <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
+      <mj-column width="100%" padding="0" padding-top="20px">
+        <mj-divider border-width="10px" border-color="#FFB71B" padding="0" />
+      </mj-column>
     </mj-section>
 
     <!-- Body Story H2 -->
     <mj-section padding="0" padding-bottom="20px" css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-button-blue-center.mjml" />
+    </mj-section>
+
+    <!-- Two Button Blue Centered -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-text-no-bullets-button-blue-center-two.mjml" />
+    </mj-section>
+
+    <!-- Three Button Blue Centered -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-text-no-bullets-button-blue-center-three.mjml" />
     </mj-section>
 
     <!-- Follow-up Information (Callout Box) -->
@@ -42,7 +57,7 @@
 
     <mj-section padding="0">
       <!-- Contact Footer -->
-      <mj-include path="./partials/footers/footer-bear-split.mjml" />
+      <mj-include path="./partials/footers/footer-secondary.mjml" />
     </mj-section>
   </mj-body>
 </mjml>
