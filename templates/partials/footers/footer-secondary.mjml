@@ -1,20 +1,27 @@
 <!-- Split Footer with Centered Bear Head -->
-<mj-section background-color="#013c65" padding="20px" css-class="blue-section">
+<mj-section
+  background-color="#013c65"
+  padding="0px"
+  padding-left="40px"
+  padding-right="40px"
+  css-class="blue-section">
   <!-- Left Column - Address -->
-  <mj-column width="40%" vertical-align="top">
+  <mj-column width="40%" vertical-align="top" css-class="mobile-stack-column">
     <mj-text
       css-class="mobile-center white-text"
-      font-size="12px"
       align="left"
-      padding-bottom="5px"
-      padding-top="5px"
+      padding-bottom="0"
+      padding-top="0"
       color="#ffffff">
       1234 Address, Greeley, CO 12345
     </mj-text>
   </mj-column>
 
   <!-- Center Column - Bear Head Logo -->
-  <mj-column width="20%" vertical-align="top">
+  <mj-column
+    width="20%"
+    vertical-align="top"
+    css-class="mobile-stack-column mobile-stack-padding-sm">
     <mj-image
       src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
       alt="UNC Bear Head"
@@ -24,13 +31,15 @@
   </mj-column>
 
   <!-- Right Column - Contact Info -->
-  <mj-column width="40%" vertical-align="top">
+  <mj-column
+    width="40%"
+    vertical-align="top"
+    css-class="mobile-stack-column mobile-stack-padding-sm">
     <mj-text
       css-class="mobile-center white-text"
-      font-size="12px"
       align="right"
-      padding-bottom="5px"
-      padding-top="5px"
+      padding-bottom="0"
+      padding-top="0"
       color="#ffffff">
       <a href="tel:970-351-1890" style="color: #ffffff; mso-style-priority: 99">
         <span style="color: white !important">970-351-1890</span></a

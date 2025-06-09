@@ -1,6 +1,9 @@
 <!-- Follow-Up Information Callout Box -->
 <mj-section padding="20px" css-class="grey-section light-border">
-  <mj-column css-class="mobile-stack-column padding-sides">
+  <mj-column
+    css-class="mobile-stack-column padding-sides"
+    padding-left="20px"
+    padding-right="20px">
     <!-- Headline -->
     <mj-text
       mj-class="h3"

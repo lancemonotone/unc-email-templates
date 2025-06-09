@@ -1,9 +1,9 @@
 <!-- Primary Footer with Bear Head Left -->
 <mj-section
   background-color="#013c65"
-  padding="40px"
-  padding-top="20px"
-  padding-bottom="20px"
+  padding="0px"
+  padding-left="40px"
+  padding-right="40px"
   css-class="blue-section mobile-stack">
   <!--[if gte mso 9]>
     <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
@@ -32,7 +32,7 @@
   <mj-column
     width="75%"
     vertical-align="middle"
-    css-class="mobile-stack-column mobile-stack-padding-lg">
+    css-class="mobile-stack-column mobile-stack-padding-sm">
     <!-- Row 1: Name -->
     <mj-text
       css-class="mobile-center white-text"

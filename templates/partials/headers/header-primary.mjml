@@ -1,30 +1,36 @@
 <!-- Bear + UNC Monogram on Blue Background Header -->
 <mj-section
   background-color="#013c65"
-  padding="20px"
+  padding="40px"
+  padding-top="20px"
+  padding-bottom="20px"
   css-class="blue-section mobile-stack">
   <mj-column
-    width="33.33%"
+    width="40%"
+    padding="0"
     vertical-align="middle"
     css-class="mobile-stack-column">
     <mj-image
       css-class="mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_logo_h_rv.png"
       alt="UNC Bear Logo"
-      width="200px"
+      width="250px"
+      padding="0"
       href="https://unco.edu"
       align="left" />
   </mj-column>
 
   <mj-column
-    width="66.67%"
+    width="60%"
+    padding="0"
     vertical-align="middle"
-    css-class="mobile-stack-column">
+    css-class="mobile-stack-column mobile-stack-padding-lg">
     <mj-text
       mj-class="header-title-white"
       align="right"
+      padding="0"
       css-class="mobile-center">
-      University of Northern Colorado
+      Department Name
     </mj-text>
   </mj-column>
 </mj-section>

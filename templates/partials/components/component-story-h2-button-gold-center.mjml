@@ -3,9 +3,9 @@
     width="100%"
     css-class="mobile-stack-column light-section padding-sides"
     padding-top="10px"
-    padding-right="20px"
+    padding-right="40px"
     padding-bottom="10px"
-    padding-left="20px">
+    padding-left="40px">
     <mj-include path="./component-h2.mjml" />
     <mj-include path="./component-text-no-bullets.mjml" />
     <mj-include path="./component-button-gold-center.mjml" />
