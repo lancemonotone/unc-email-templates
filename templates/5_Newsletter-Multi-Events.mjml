@@ -56,7 +56,8 @@
       padding-top="20px"
       padding-bottom="20px"
       css-class="light-section">
-      <mj-include path="./partials/blocks/block-two-column.mjml" />
+      <mj-include
+        path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Gold Section Title after third h2 story -->
@@ -71,7 +72,8 @@
       padding-top="20px"
       padding-bottom="20px"
       css-class="light-section">
-      <mj-include path="./partials/blocks/block-three-column.mjml" />
+      <mj-include
+        path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Section Title Bar -->
