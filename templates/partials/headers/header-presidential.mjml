@@ -1,0 +1,29 @@
+<!-- Presidential Header with Vertical Logo and Gold Office Bar -->
+<mj-section background-color="#013c65" padding="20px" css-class="blue-section">
+  <mj-column width="100%" vertical-align="middle">
+    <mj-image
+      css-class="mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/unc_logoSig_v_rv.png"
+      alt="University of Northern Colorado"
+      width="150px"
+      href="https://unco.edu"
+      align="center"
+      padding="0" />
+  </mj-column>
+</mj-section>
+
+<!-- Gold Office Bar -->
+<mj-section css-class="gold-header" padding="0">
+  <mj-column width="100%" padding="0">
+    <mj-text
+      align="center"
+      color="#013c65"
+      mj-class="h3"
+      css-class="no-dark-mode-text"
+      padding="0"
+      padding-left="40px"
+      padding-right="40px">
+      Office of the President
+    </mj-text>
+  </mj-column>
+</mj-section>

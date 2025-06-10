@@ -204,7 +204,19 @@ p {
   .blue-dots-divider {
     border-top-color: #ffb71b !important;
   }
-} /* Outlook Dark
+} /* Force Questa Slab font for all elements inside .force-questa */
+.force-questa,
+.force-questa *,
+.force-questa p,
+.force-questa span,
+.force-questa div,
+.force-questa td,
+.force-questa th,
+.force-questa a {
+  font-family: "Questa Slab", Arvo, Rockwell, Verdana, Arial, sans-serif !important;
+}
+
+/* Outlook Dark
       Mode */
 [data-ogsc] body {
   background: #333333 !important;

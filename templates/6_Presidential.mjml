@@ -1,0 +1,53 @@
+<mjml>
+  <mj-head>
+    <mj-title>University of Northern Colorado - Presidential</mj-title>
+    <mj-include path="./assets/styles.css" type="css" />
+    <mj-include path="./assets/styles.mjml" />
+  </mj-head>
+
+  <mj-body>
+    <!-- Section 1: Header/Logo Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/headers/header-presidential.mjml" />
+    </mj-section>
+
+    <!-- Body Story H1 -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-column
+        width="100%"
+        css-class="mobile-stack-column light-section padding-sides force-questa"
+        padding="10px"
+        padding-bottom="0px"
+        padding-right="40px"
+        padding-left="40px">
+        <mj-include path="./partials/components/component-h2.mjml" />
+        <!-- Text With Bullets Component -->
+        <mj-include path="./partials/components/component-text.mjml" />
+        <mj-include
+          path="./partials/components/component-text-no-bullets.mjml" />
+        <mj-include
+          path="./partials/components/component-text-no-bullets.mjml" />
+        <mj-include
+          path="./partials/components/component-text-no-bullets.mjml" />
+        <mj-include
+          path="./partials/components/component-text-no-bullets.mjml" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Presidential Signature Area -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include path="./partials/blocks/block-signature.mjml" />
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section padding="0">
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
+
+    <mj-section padding="0">
+      <!-- Contact Footer -->
+      <mj-include path="./partials/footers/footer-presidential.mjml" />
+    </mj-section>
+  </mj-body>
+</mjml>
