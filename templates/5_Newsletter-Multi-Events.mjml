@@ -51,11 +51,7 @@
     </mj-section>
 
     <!-- Two Column Section -->
-    <mj-section
-      padding="0"
-      padding-top="20px"
-      padding-bottom="20px"
-      css-class="light-section">
+    <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
     </mj-section>
@@ -67,11 +63,7 @@
     </mj-section>
 
     <!-- Three Column Section -->
-    <mj-section
-      padding="0"
-      padding-top="20px"
-      padding-bottom="20px"
-      css-class="light-section">
+    <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
     </mj-section>

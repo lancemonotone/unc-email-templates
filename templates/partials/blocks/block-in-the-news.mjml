@@ -17,7 +17,8 @@
       <mj-column
         width="46%"
         vertical-align="middle"
-        css-class="mobile-stack-column">
+        css-class="mobile-stack-column"
+        padding-bottom="0">
         <mj-image
           width="100px"
           css-class="mobile-center"
@@ -31,7 +32,8 @@
       <mj-column
         width="54%"
         vertical-align="middle"
-        css-class="mobile-stack-column">
+        css-class="mobile-stack-column"
+        padding-bottom="0">
         <mj-text
           css-class="mobile-center"
           mj-class="highlight"
@@ -54,7 +56,8 @@
     <!-- Content -->
     <mj-section padding="10px">
       <mj-column
-        css-class="column-centered mobile-stack-column light-section padding-sides">
+        css-class="column-centered mobile-stack-column light-section padding-sides"
+        padding-bottom="0">
         <mj-text padding="0">
           <ul>
             <li>

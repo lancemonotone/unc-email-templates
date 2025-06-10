@@ -2,7 +2,7 @@
 <mj-section padding="0" css-class="block-container light-section">
   <!-- Header Section with Gradient Background -->
   <mj-column width="100%" padding="0">
-    <mj-wrapper padding="0" css-class="blue-header mobile-stack">
+    <mj-wrapper padding="0" css-class="blue-header mobile-stack" width="600px">
       <!--[if gte mso 9]>
         <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
           <v:fill
@@ -16,11 +16,12 @@
 
       <mj-section padding="0">
         <mj-column
-          width="50%"
+          width="46%"
           vertical-align="middle"
-          css-class="mobile-stack-column">
+          css-class="mobile-stack-column"
+          padding-bottom="0">
           <mj-image
-            width="100px"
+            width="80px"
             css-class="mobile-center"
             src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
             alt="UNC"
@@ -30,9 +31,10 @@
         </mj-column>
 
         <mj-column
-          width="50%"
+          width="54%"
           vertical-align="middle"
-          css-class="mobile-stack-column">
+          css-class="mobile-stack-column"
+          padding-bottom="0">
           <mj-text
             css-class="mobile-center"
             mj-class="highlight"
