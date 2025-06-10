@@ -81,7 +81,8 @@
 
     <!-- Events Block - 2 Column Layout -->
     <mj-section padding="0">
-      <mj-include path="./partials/blocks/block-events-2column.mjml" />
+      <mj-include
+        path="./partials/blocks/block-events-2column-button-gold-center.mjml" />
     </mj-section>
 
     <!-- Footer Section -->

@@ -1,0 +1,80 @@
+<!-- Events Block - H1 Title + 2 Column Layout -->
+<mj-section
+  padding="0"
+  padding-left="40px"
+  padding-right="40px"
+  css-class="light-section">
+  <mj-column width="100%" padding="0" padding-bottom="0">
+    <!-- Include existing H1 component -->
+    <mj-include path="../components/component-h2.mjml" />
+  </mj-column>
+</mj-section>
+
+<mj-section
+  padding="0"
+  padding-left="40px"
+  padding-right="40px"
+  css-class="light-section">
+  <mj-column width="50%" padding="0">
+    <!-- Event 1: Free Movie Night -->
+    <mj-text
+      padding-left="0"
+      padding-right="0"
+      padding-top="10px"
+      padding-bottom="2px">
+      <p style="margin-bottom: 5px">
+        <strong><a href="#">Free Movie Night</a></strong>
+      </p>
+      <p style="margin-top: 0">Monday, Feb. 10, 5-7 p.m., Kress Cinema.</p>
+    </mj-text>
+
+    <!-- Event 3: Valentine's Bash -->
+    <mj-text
+      padding-left="0"
+      padding-right="0"
+      padding-top="2px"
+      padding-bottom="2px">
+      <p style="margin-bottom: 5px">
+        <strong><a href="#">Valentine's Bash</a></strong>
+      </p>
+      <p style="margin-top: 0">
+        Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
+      </p>
+    </mj-text>
+  </mj-column>
+
+  <mj-column width="50%" padding="0">
+    <!-- Event 2: Free Movie Night -->
+    <mj-text
+      padding-left="0"
+      padding-right="0"
+      padding-top="10px"
+      padding-bottom="2px">
+      <p style="margin-bottom: 5px">
+        <strong><a href="#">Free Movie Night</a></strong>
+      </p>
+      <p style="margin-top: 0">Monday, Feb. 10, 5-7 p.m., Kress Cinema.</p>
+    </mj-text>
+
+    <!-- Event 4: Valentine's Bash -->
+    <mj-text
+      padding-left="0"
+      padding-right="0"
+      padding-top="2px"
+      padding-bottom="2px">
+      <p style="margin-bottom: 5px">
+        <strong><a href="#">Valentine's Bash</a></strong>
+      </p>
+      <p style="margin-top: 0">
+        Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- Centered Gold Button -->
+<mj-section padding="0" css-class="light-section">
+  <mj-column width="100%" padding-top="20px" padding-bottom="40px">
+    <mj-include path="../components/component-button-blue-center.mjml" />
+  </mj-column>
+</mj-section>

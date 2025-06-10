@@ -1,0 +1,17 @@
+<!-- Section Title Bar Component - Gold Background -->
+<mj-section css-class="gold-section" padding="0">
+  <mj-column width="100%" padding="0">
+    <mj-text
+      mj-class="h5"
+      align="center"
+      color="#013c65"
+      css-class="no-dark-mode-text"
+      text-transform="uppercase"
+      font-size="14px"
+      padding="0"
+      padding-left="40px"
+      padding-right="40px">
+      SECTION TITLE
+    </mj-text>
+  </mj-column>
+</mj-section>

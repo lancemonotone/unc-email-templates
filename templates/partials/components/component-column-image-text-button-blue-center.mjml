@@ -1,10 +1,8 @@
-<!-- Single Column with Image, Text, and Button -->
-<mj-column padding="30px" css-class="mobile-stack-column">
-  <mj-include path="./component-image-content-center.mjml" />
+<!-- Column Content: Image, Text, and Button -->
+<mj-include path="./component-image-content-center.mjml" />
 
-  <mj-include path="./component-h3.mjml" />
+<mj-include path="./component-h3.mjml" />
 
-  <mj-include path="./component-text-no-bullets.mjml" />
+<mj-include path="./component-text-no-bullets.mjml" />
 
-  <mj-include path="./component-button-blue-center.mjml" />
-</mj-column>
+<mj-include path="./component-button-blue-center.mjml" />

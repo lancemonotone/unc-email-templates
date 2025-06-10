@@ -1,0 +1,106 @@
+<mjml>
+  <mj-head>
+    <mj-title>University of Northern Colorado</mj-title>
+    <mj-include path="./assets/styles.css" type="css" />
+    <mj-include path="./assets/styles.mjml" />
+  </mj-head>
+
+  <mj-body>
+    <!-- Section 1: Header/Logo Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/headers/header-secondary.mjml" />
+      <mj-include
+        path="./partials/components/component-newsletter-header-gold.mjml" />
+    </mj-section>
+
+    <!-- Hero Image with No Text -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+    </mj-section>
+
+    <!-- H2 Story with Text Right, Button Blue Left, No Image -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-story-h2-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Gold Section Title after first h2 story -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-section-title-gold.mjml" />
+    </mj-section>
+
+    <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+      <!-- Thin Gold Divider -->
+      <mj-divider border-width="1px" border-color="#FFB71B" padding="0" />
+    </mj-section>
+
+    <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Gold Section Title after third h2 story -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-section-title-gold.mjml" />
+    </mj-section>
+
+    <!-- Two Column Section -->
+    <mj-section
+      padding="0"
+      padding-top="20px"
+      padding-bottom="20px"
+      css-class="light-section">
+      <mj-include path="./partials/blocks/block-two-column.mjml" />
+    </mj-section>
+
+    <!-- Gold Section Title after third h2 story -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-section-title-gold.mjml" />
+    </mj-section>
+
+    <!-- Three Column Section -->
+    <mj-section
+      padding="0"
+      padding-top="20px"
+      padding-bottom="20px"
+      css-class="light-section">
+      <mj-include path="./partials/blocks/block-three-column.mjml" />
+    </mj-section>
+
+    <!-- Section Title Bar -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-section-title-gold.mjml" />
+    </mj-section>
+
+    <!-- Events Block - 2 Column Layout -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/blocks/block-events-2column-button-blue-center.mjml" />
+    </mj-section>
+
+    <!-- Follow-up Information (Callout Box) -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section padding="0">
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
+
+    <mj-section padding="0">
+      <!-- Contact Footer -->
+      <mj-include path="./partials/footers/footer-primary.mjml" />
+    </mj-section>
+  </mj-body>
+</mjml>
