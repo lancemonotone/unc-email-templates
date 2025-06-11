@@ -33,7 +33,7 @@
     <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
       <!-- Thin Gold Divider -->
       <mj-include
         path="./partials/components/component-divider-gold-thin.mjml" />
@@ -42,7 +42,7 @@
     <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Gold Section Title after third h2 story -->

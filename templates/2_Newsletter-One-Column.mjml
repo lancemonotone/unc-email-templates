@@ -16,7 +16,7 @@
 
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/blocks/block-bg-white-image-left-h2-text-button-gold-center.mjml" />
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-gold-center.mjml" />
     </mj-section>
 
     <!-- Section Title Bar -->
@@ -28,43 +28,43 @@
     <!-- Body Content Blocks 1 -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 2 -->
     <mj-section padding="0" css-class="light-section light-border">
       <mj-include
-        path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 3 -->
     <mj-section padding="0" css-class="light-section light-border">
       <mj-include
-        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 4 -->
     <mj-section padding="0" css-class="light-section light-border">
       <mj-include
-        path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 5 -->
     <mj-section padding="0" css-class="light-section light-border">
       <mj-include
-        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 6 -->
     <mj-section padding="0" css-class="light-section light-border">
       <mj-include
-        path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 7 -->
     <mj-section padding="0" css-class="light-section light-border">
       <mj-include
-        path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 8 -->
