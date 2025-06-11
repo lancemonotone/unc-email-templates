@@ -1,5 +1,5 @@
 <!-- Blue Dots Divider Component -->
-<mj-column width="100%" padding="0" padding-top="20px">
+<mj-column width="100%" padding="0">
   <mj-text padding="0">
     <div
       class="blue-dots-divider"

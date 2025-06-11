@@ -1,12 +1,10 @@
-<mj-section padding="0">
-  <mj-column
-    width="100%"
-    css-class="mobile-stack-column light-section padding-sides"
-    padding="0"
-    padding-left="40px"
-    padding-right="40px">
-    <mj-include path="./component-h3.mjml" />
-    <mj-include path="./component-text-no-bullets.mjml" />
-    <mj-include path="./component-button-gold-center.mjml" />
-  </mj-column>
-</mj-section>
+<mj-column
+  width="100%"
+  css-class="mobile-stack-column light-section padding-sides"
+  padding="0"
+  padding-left="40px"
+  padding-right="40px">
+  <mj-include path="./component-h3.mjml" />
+  <mj-include path="./component-text-no-bullets.mjml" />
+  <mj-include path="./component-button-gold-center.mjml" />
+</mj-column>

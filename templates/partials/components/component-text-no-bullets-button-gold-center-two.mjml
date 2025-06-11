@@ -1,7 +1,7 @@
 <mj-column
   width="100%"
   css-class="mobile-stack-column light-section padding-sides"
-  padding="10px"
+  padding="0"
   padding-bottom="20px"
   padding-right="40px"
   padding-left="40px">

@@ -1,7 +1,4 @@
 <!-- Hero Block with Full-Width Image (No Text Overlay) -->
-<mj-section padding="0">
-  <!-- Hero Image -->
-  <mj-column width="100%" padding="0">
-    <mj-include path="../components/component-image-hero-full-width.mjml" />
-  </mj-column>
-</mj-section>
+<mj-column width="100%" padding="0">
+  <mj-include path="../components/component-image-hero-full-width.mjml" />
+</mj-column>

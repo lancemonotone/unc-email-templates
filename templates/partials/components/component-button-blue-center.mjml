@@ -4,7 +4,7 @@
   align="center"
   href="javascript:void(0);"
   color="#ffffff"
-  padding-top="20px"
-  padding-bottom="10px">
+  padding="0"
+  padding-top="20px">
   <span style="color: #ffffff">Read More</span>
 </mj-button>

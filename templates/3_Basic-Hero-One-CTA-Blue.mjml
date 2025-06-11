@@ -12,14 +12,21 @@
     </mj-section>
 
     <!-- H1 Intro Section - Hero Story -->
-    <mj-section padding="0" css-class="light-section">
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
     </mj-section>
 
-    <!-- Body Story H1 -->
-    <mj-section padding="0" css-class="light-section">
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
+
+      <!-- Spacer Section -->
+      <mj-section
+        padding="0"
+        padding-top="20px"
+        css-class="light-section"></mj-section>
+
+      <!-- Body Story H1 -->
       <mj-include
         path="./partials/components/component-divider-gold-thick.mjml" />
     </mj-section>
@@ -41,6 +48,12 @@
       <mj-include
         path="./partials/components/component-text-no-bullets-button-blue-center-three.mjml" />
     </mj-section>
+
+    <!-- Spacer Section -->
+    <mj-section
+      padding="0"
+      padding-top="20px"
+      css-class="light-section"></mj-section>
 
     <!-- Follow-up Information (Callout Box) -->
     <mj-section padding="0">
