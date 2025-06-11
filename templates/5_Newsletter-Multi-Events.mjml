@@ -35,7 +35,8 @@
       <mj-include
         path="./partials/blocks/block-bg-white-image-left-h2-text-button-blue-left.mjml" />
       <!-- Thin Gold Divider -->
-      <mj-divider border-width="1px" border-color="#FFB71B" padding="0" />
+      <mj-include
+        path="./partials/components/component-divider-gold-thin.mjml" />
     </mj-section>
 
     <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
@@ -50,7 +51,7 @@
         path="./partials/components/component-section-title-gold.mjml" />
     </mj-section>
 
-    <!-- Two Column Section -->
+    <!-- Two Column H2 Section -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
@@ -62,7 +63,7 @@
         path="./partials/components/component-section-title-gold.mjml" />
     </mj-section>
 
-    <!-- Three Column Section -->
+    <!-- Three Column H3 Section -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />

@@ -1,14 +1,15 @@
 <!-- Body Content Block with Left Image, Right Content (White Background) -->
 <mj-section
-  padding="0"
+  padding="20px"
   padding-left="40px"
   padding-right="40px"
   css-class="block-container light-section">
   <!-- Left Column - Image -->
   <mj-column
     width="45%"
-    padding="20px"
+    padding="10px"
     padding-left="0"
+    padding-bottom="0"
     vertical-align="top"
     css-class="mobile-stack-column">
     <mj-include path="../components/component-image-content-left.mjml" />
@@ -17,8 +18,9 @@
   <!-- Right Column - Content -->
   <mj-column
     width="55%"
-    padding="20px"
+    padding="10px"
     padding-right="0"
+    padding-bottom="0"
     vertical-align="top"
     css-class="mobile-stack-column">
     <!-- H2 Header -->

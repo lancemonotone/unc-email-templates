@@ -8,16 +8,7 @@
   <mj-body>
     <!-- Header Section -->
     <mj-section padding="0" css-class="light-section">
-      <mj-include path="./partials/headers/bear-name-blue.mjml" />
-    </mj-section>
-
-    <!-- Navigation Section (Anchored Links) -->
-    <mj-section
-      padding="0"
-      padding-top="10px"
-      padding-bottom="10px"
-      css-class="light-section">
-      <mj-include path="./partials/blocks/block-anchored-links.mjml" />
+      <mj-include path="./partials/headers/header-secondary.mjml" />
     </mj-section>
 
     <!-- Hero Image Section -->
@@ -25,10 +16,16 @@
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
     </mj-section>
 
+    <!-- Navigation Section (Blue Navigation Bar) -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-navigation-bar-blue.mjml" />
+    </mj-section>
+
     <!-- Featured Story Section -->
     <mj-section padding="0" padding-bottom="20px" css-class="light-section">
       <mj-include
-        path="./partials/components/component-story-h2-button-gold-left.mjml" />
+        path="./partials/components/component-story-h1-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Story Spotlight (Three Column) Section -->

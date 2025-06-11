@@ -1,110 +1,105 @@
+<mj-column width="100%">
+  <!-- Header Section with Gradient Background -->
+  <mj-section padding="0" width="100%" css-class="blue-header mobile-stack">
+    <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+        <v:fill
+          type="gradient"
+          color="#013c65"
+          color2="#007dba"
+          method="linear"
+          angle="180" />
+      </v:background>
+    <![endif]-->
+
+    <mj-column
+      width="46%"
+      vertical-align="middle"
+      padding-bottom="0"
+      css-class="mobile-stack-column">
+      <mj-image
+        width="100px"
+        css-class="mobile-center"
+        src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+        alt="UNC"
+        align="right"
+        padding="0"
+        padding-right="10px" />
+    </mj-column>
+
+    <mj-column
+      width="54%"
+      vertical-align="middle"
+      padding-bottom="0"
+      css-class="mobile-stack-column">
+      <mj-text
+        css-class="mobile-center"
+        mj-class="highlight"
+        align="left"
+        padding="0">
+        in Pictures
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Subtitle -->
+  <mj-section padding="0" css-class="grey-section">
+    <mj-column width="100%">
+      <mj-text align="center" padding="15px 10px" mj-class="h5">
+        The people, places and events at UNC
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-column>
+
+<!-- Don't update above this line -->
 <!-- Grid Image Block -->
-<mj-section padding="0" css-class="block-container light-section">
-  <mj-column width="100%">
-    <!-- Header Section with Gradient Background -->
-    <mj-section padding="0" width="100%" css-class="blue-header mobile-stack">
-      <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-          <v:fill
-            type="gradient"
-            color="#013c65"
-            color2="#007dba"
-            method="linear"
-            angle="180" />
-        </v:background>
-      <![endif]-->
+<!-- Image Grid - Row 1 -->
+<mj-section padding="20px" padding-left="40px" padding-right="40px">
+  <!-- Left Image -->
+  <mj-column
+    width="50%"
+    padding="10px"
+    padding-bottom="0"
+    padding-left="0"
+    css-class="mobile-stack-column">
+    <mj-include path="../components/component-image-content-center.mjml" />
+    <mj-include path="../components/component-image-caption.mjml" />
+  </mj-column>
 
-      <mj-column
-        width="46%"
-        vertical-align="middle"
-        padding-bottom="0"
-        css-class="mobile-stack-column">
-        <mj-image
-          width="100px"
-          css-class="mobile-center"
-          src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-          alt="UNC"
-          align="right"
-          padding="0"
-          padding-right="10px" />
-      </mj-column>
+  <!-- Right Image -->
+  <mj-column
+    width="50%"
+    padding="10px"
+    padding-bottom="0"
+    padding-right="0"
+    css-class="mobile-stack-column">
+    <mj-include path="../components/component-image-content-center.mjml" />
+    <mj-include path="../components/component-image-caption.mjml" />
+  </mj-column>
+</mj-section>
 
-      <mj-column
-        width="54%"
-        vertical-align="middle"
-        padding-bottom="0"
-        css-class="mobile-stack-column">
-        <mj-text
-          css-class="mobile-center"
-          mj-class="highlight"
-          align="left"
-          padding="0">
-          in Pictures
-        </mj-text>
-      </mj-column>
-    </mj-section>
+<!-- Image Grid - Row 2 -->
+<mj-section padding="20px" padding-left="40px" padding-right="40px">
+  <!-- Left Image -->
+  <mj-column
+    width="50%"
+    padding="10px"
+    padding-bottom="0"
+    padding-left="0"
+    css-class="mobile-stack-column">
+    <mj-include path="../components/component-image-content-center.mjml" />
+    <mj-include path="../components/component-image-caption.mjml" />
+  </mj-column>
 
-    <!-- Subtitle -->
-    <mj-section padding="0" css-class="grey-section">
-      <mj-column width="100%">
-        <mj-text align="center" padding="15px 10px" mj-class="h5">
-          The people, places and events at UNC
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- Image Grid - Row 1 -->
-    <mj-section padding="0">
-      <!-- Left Image -->
-      <mj-column
-        width="49%"
-        padding-top="20px"
-        padding-left="20px"
-        padding-right="20px"
-        padding-bottom="0"
-        css-class="mobile-stack-column padding-sides">
-        <mj-include path="../components/component-image-content-center.mjml" />
-        <mj-include path="../components/component-image-caption.mjml" />
-      </mj-column>
-
-      <!-- Right Image -->
-      <mj-column
-        width="49%"
-        padding-top="20px"
-        padding-left="20px"
-        padding-right="20px"
-        padding-bottom="0"
-        css-class="mobile-stack-column padding-sides">
-        <mj-include path="../components/component-image-content-center.mjml" />
-        <mj-include path="../components/component-image-caption.mjml" />
-      </mj-column>
-    </mj-section>
-
-    <!-- Image Grid - Row 2 (Additional rows can be added following this pattern) -->
-    <mj-section padding="0">
-      <!-- Left Image -->
-      <mj-column
-        width="49%"
-        padding-top="10px"
-        padding-left="20px"
-        padding-right="20px"
-        padding-bottom="0"
-        css-class="mobile-stack-column padding-sides">
-        <mj-include path="../components/component-image-content-center.mjml" />
-        <mj-include path="../components/component-image-caption.mjml" />
-      </mj-column>
-
-      <!-- Right Image -->
-      <mj-column
-        width="49%"
-        padding-top="10px"
-        padding-left="20px"
-        padding-right="20px"
-        padding-bottom="0"
-        css-class="mobile-stack-column padding-sides">
-        <mj-include path="../components/component-image-content-center.mjml" />
-        <mj-include path="../components/component-image-caption.mjml" />
-      </mj-column>
-    </mj-section>
+  <!-- Right Image -->
+  <mj-column
+    width="50%"
+    padding="10px"
+    padding-bottom="0"
+    padding-right="0"
+    css-class="mobile-stack-column">
+    <mj-include path="../components/component-image-content-center.mjml" />
+    <mj-include path="../components/component-image-caption.mjml" />
   </mj-column>
 </mj-section>

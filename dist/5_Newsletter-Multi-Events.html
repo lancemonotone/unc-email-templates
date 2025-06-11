@@ -200,6 +200,14 @@
       background-color: #f0f0f0 !important;
     }
 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      margin-top: 0 !important;
+    }
+
     /* Links */
     a {
       color: #007dba !important;
@@ -352,6 +360,16 @@
     li {
       margin-top: 0.5em !important;
       margin-bottom: 0.5em !important;
+    }
+
+    /* Centered list styles */
+    ul.center-list {
+      list-style-position: inside !important;
+      text-align: center !important;
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+      padding-right: 0 !important;
+      margin-right: 0 !important;
     }
 
     p {
@@ -913,7 +931,7 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding-top:10px;padding-right:40px;padding-bottom:40px;padding-left:40px;">
+                                <td style="vertical-align:top;padding:0;padding-right:40px;padding-left:40px;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <tr>
@@ -938,7 +956,7 @@
                                       </tr>
                                       <!-- UNC Standard Button Component Left -->
                                       <tr>
-                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:20px;padding-top:20px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
+                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:0;padding-top:20px;word-break:break-word;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                             <tbody>
                                               <tr>
@@ -1034,7 +1052,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="direction:ltr;font-size:0px;padding:0;padding-left:40px;padding-right:40px;text-align:center;">
+                      <td style="direction:ltr;font-size:0px;padding:20px;padding-left:40px;padding-right:40px;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
                         <!-- Left Column - Image -->
                         <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:270px;" ><![endif]-->
@@ -1042,16 +1060,16 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding:20px;padding-left:0;">
+                                <td style="vertical-align:top;padding:10px;padding-bottom:0;padding-left:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td align="center" class="content-image" style="font-size:0px;padding:0;padding-top:30px;word-break:break-word;">
+                                        <td align="center" class="content-image" style="font-size:0px;padding:0;word-break:break-word;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
                                             <tbody>
                                               <tr>
-                                                <td style="width:250px;" class="mj-full-width-mobile">
-                                                  <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="250" height="auto" />
+                                                <td style="width:260px;" class="mj-full-width-mobile">
+                                                  <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="260" height="auto" />
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -1072,7 +1090,7 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding:20px;padding-right:0;">
+                                <td style="vertical-align:top;padding:10px;padding-right:0;padding-bottom:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <!-- H2 Header -->
@@ -1099,7 +1117,7 @@
                                       </tr>
                                       <!-- CTA Button --><!-- UNC Standard Button Component Left -->
                                       <tr>
-                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:20px;padding-top:20px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
+                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:0;padding-top:20px;word-break:break-word;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                             <tbody>
                                               <tr>
@@ -1127,12 +1145,31 @@
                 </table>
               </div>
               <!--[if mso | IE]></td></tr></table></td><![endif]-->
-              <!-- Thin Gold Divider -->
-              <!--[if mso | IE]><td align="center" class="" style="" ><![endif]-->
-              <p style="border-top:solid 1px #FFB71B;font-size:1px;margin:0px auto;width:100%;">
-              </p>
-              <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #FFB71B;font-size:1px;margin:0px auto;width:680px;" role="presentation" width="680px" ><tr><td style="height:0;line-height:0;"> &nbsp;
-</td></tr></table></td></tr></table><![endif]-->
+              <!-- Thin Gold Divider --><!-- Thin Gold Divider Component -->
+              <!--[if mso | IE]><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                <p style="border-top:solid 1px #FFB71B;font-size:1px;margin:0px auto;width:100%;">
+                                </p>
+                                <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #FFB71B;font-size:1px;margin:0px auto;width:680px;" role="presentation" width="680px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
@@ -1153,7 +1190,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="direction:ltr;font-size:0px;padding:0;padding-left:40px;padding-right:40px;text-align:center;">
+                      <td style="direction:ltr;font-size:0px;padding:20px;padding-left:40px;padding-right:40px;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
                         <!-- Left Column - Image -->
                         <!--[if mso | IE]><td class="mobile-stack-column-outlook" style="vertical-align:top;width:270px;" ><![endif]-->
@@ -1161,16 +1198,16 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding:20px;padding-left:0;">
+                                <td style="vertical-align:top;padding:10px;padding-bottom:0;padding-left:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td align="center" class="content-image" style="font-size:0px;padding:0;padding-top:30px;word-break:break-word;">
+                                        <td align="center" class="content-image" style="font-size:0px;padding:0;word-break:break-word;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
                                             <tbody>
                                               <tr>
-                                                <td style="width:250px;" class="mj-full-width-mobile">
-                                                  <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="250" height="auto" />
+                                                <td style="width:260px;" class="mj-full-width-mobile">
+                                                  <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="260" height="auto" />
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -1191,7 +1228,7 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding:20px;padding-right:0;">
+                                <td style="vertical-align:top;padding:10px;padding-right:0;padding-bottom:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <!-- H2 Header -->
@@ -1218,7 +1255,7 @@
                                       </tr>
                                       <!-- CTA Button --><!-- UNC Standard Button Component Left -->
                                       <tr>
-                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:20px;padding-top:20px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
+                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:0;padding-top:20px;word-break:break-word;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                             <tbody>
                                               <tr>
@@ -1300,7 +1337,7 @@
       </table>
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Two Column Section -->
+    <!-- Two Column H2 Section -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div class="light-section" style="margin:0px auto;max-width:680px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
@@ -1322,7 +1359,7 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding:20px;padding-bottom:0;padding-left:0;">
+                                <td style="vertical-align:top;padding:10px;padding-bottom:0;padding-left:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <!-- Column Content: Image, Text, and Button -->
@@ -1331,8 +1368,8 @@
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
                                             <tbody>
                                               <tr>
-                                                <td style="width:280px;" class="mj-full-width-mobile">
-                                                  <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="280" height="auto" />
+                                                <td style="width:290px;" class="mj-full-width-mobile">
+                                                  <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="290" height="auto" />
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -1361,7 +1398,7 @@
                                       </tr>
                                       <!-- UNC Standard Button Component Left -->
                                       <tr>
-                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:20px;padding-top:20px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
+                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:0;padding-top:20px;word-break:break-word;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                             <tbody>
                                               <tr>
@@ -1389,7 +1426,7 @@
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding:20px;padding-right:0;padding-bottom:0;">
+                                <td style="vertical-align:top;padding:10px;padding-right:0;padding-bottom:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <!-- Column Content: Image, Text, and Button -->
@@ -1398,8 +1435,8 @@
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
                                             <tbody>
                                               <tr>
-                                                <td style="width:280px;" class="mj-full-width-mobile">
-                                                  <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="280" height="auto" />
+                                                <td style="width:290px;" class="mj-full-width-mobile">
+                                                  <img alt="Image alt text" src="https://enrolled.unco.edu/www/images/_NC_4362.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="290" height="auto" />
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -1428,7 +1465,7 @@
                                       </tr>
                                       <!-- UNC Standard Button Component Left -->
                                       <tr>
-                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:20px;padding-top:20px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
+                                        <td align="left" class="mobile-center-button" style="font-size:0px;padding:0;padding-top:20px;word-break:break-word;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                             <tbody>
                                               <tr>
@@ -1510,7 +1547,7 @@
       </table>
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Three Column Section -->
+    <!-- Three Column H3 Section -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div class="light-section" style="margin:0px auto;max-width:680px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">

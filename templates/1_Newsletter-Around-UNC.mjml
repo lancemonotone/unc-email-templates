@@ -27,7 +27,7 @@
     </mj-section>
 
     <!-- Section 4: UNC in Pictures Section -->
-    <mj-section padding="0" padding-top="20px" css-class="light-section">
+    <mj-section padding="0" css-class="light-section">
       <mj-column width="100%">
         <mj-raw><a id="pictures"></a></mj-raw>
       </mj-column>

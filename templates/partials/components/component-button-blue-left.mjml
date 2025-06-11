@@ -4,10 +4,8 @@
   align="left"
   href="javascript:void(0);"
   color="#ffffff"
+  padding="0"
   padding-top="20px"
-  padding-bottom="10px"
-  padding-left="0"
-  padding-right="0"
   css-class="mobile-center-button">
   <span style="color: #ffffff">Read More</span>
 </mj-button>
