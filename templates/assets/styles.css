@@ -124,6 +124,23 @@ a {
   padding-right: 0;
   background: #013c65 !important;
 }
+
+.blue-section-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #013c65 !important;
+}
+
+.gold-section-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #ffb71b !important;
+}
+
 /* Mobile stack column */
 .mobile-stack-column {
   max-width: 100% !important;

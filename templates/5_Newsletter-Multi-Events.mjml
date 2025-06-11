@@ -90,7 +90,7 @@
     <!-- Events Block - 2 Column Layout -->
     <mj-section padding="0">
       <mj-include
-        path="./partials/blocks/block-two-column-events-button-gold-center.mjml" />
+        path="./partials/blocks/block-two-column-events-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Follow-up Information (Callout Box) -->

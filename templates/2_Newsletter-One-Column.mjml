@@ -80,7 +80,7 @@
     </mj-section>
 
     <!-- Events Block - 2 Column Layout -->
-    <mj-section padding="0">
+    <mj-section padding="0" padding-bottom="20px">
       <mj-include
         path="./partials/blocks/block-two-column-events-button-gold-center.mjml" />
     </mj-section>

@@ -5,12 +5,8 @@
     padding-left="20px"
     padding-right="20px">
     <!-- Headline -->
-    <mj-text
-      mj-class="h3"
-      align="center"
-      padding-top="10px"
-      padding-bottom="10px">
-      Questions?
+    <mj-text mj-class="h4" align="center">
+      <h4>Questions?</h4>
     </mj-text>
 
     <!-- Body Text -->

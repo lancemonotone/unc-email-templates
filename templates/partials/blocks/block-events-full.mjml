@@ -10,13 +10,13 @@
           padding-bottom="0"
           css-class="mobile-stack-column">
           <mj-image
-            width="100px"
+            width="75px"
             css-class="mobile-center"
             src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
             alt="UNC"
-            align="center"
+            align="right"
             padding-top="0"
-            padding-right="0"
+            padding-right="0.5rem"
             padding-bottom="0"
             padding-left="5px" />
         </mj-column>
@@ -29,7 +29,8 @@
           <mj-text
             css-class="mobile-center"
             mj-class="highlight"
-            align="center"
+            align="left"
+            font-size="28px"
             padding-top="0"
             padding-right="5px"
             padding-bottom="0"

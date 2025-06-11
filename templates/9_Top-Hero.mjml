@@ -1,0 +1,78 @@
+<mjml>
+  <mj-head>
+    <mj-title>University of Northern Colorado - Magazine</mj-title>
+    <mj-include path="./assets/styles.css" type="css" />
+    <mj-include path="./assets/styles.mjml" />
+  </mj-head>
+
+  <mj-body>
+    <!-- Hero Image Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+    </mj-section>
+
+    <!-- Header Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/headers/header-secondary.mjml" />
+    </mj-section>
+
+    <!-- Featured Story Section -->
+    <mj-section
+      padding="0"
+      padding-top="20px"
+      padding-bottom="20px"
+      css-class="light-section">
+      <mj-include
+        path="./partials/components/component-story-h1-button-blue-center.mjml" />
+    </mj-section>
+
+    <!-- Gold Dots Divider -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-divider-gold-dots.mjml" />
+    </mj-section>
+
+    <!-- Two Column H2 Section -->
+    <mj-section
+      css-class="content-section light-section"
+      padding="0"
+      padding-top="20px"
+      padding-bottom="20px">
+      <mj-include
+        path="./partials/components/component-story-h2-no-button.mjml" />
+
+      <mj-include
+        path="./partials/components/component-button-blue-center-three.mjml" />
+    </mj-section>
+
+    <!-- Gold Dots Divider -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-divider-gold-dots.mjml" />
+    </mj-section>
+
+    <!-- Two Column H2 Section -->
+    <mj-section
+      css-class="content-section light-section"
+      padding="0"
+      padding-top="20px"
+      padding-bottom="40px">
+      <mj-include
+        path="./partials/components/component-story-h2-no-button.mjml" />
+
+      <mj-include
+        path="./partials/components/component-button-blue-center-three.mjml" />
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section padding="0">
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
+
+    <mj-section padding="0">
+      <!-- Contact Footer -->
+      <mj-include path="./partials/footers/footer-primary.mjml" />
+    </mj-section>
+  </mj-body>
+</mjml>
