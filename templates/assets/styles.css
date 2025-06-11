@@ -131,6 +131,16 @@ li {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
+
+/* Centered list styles */
+ul.center-list {
+  list-style-position: inside !important;
+  text-align: center !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
 p {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;

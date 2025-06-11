@@ -8,13 +8,27 @@
   <mj-body>
     <!-- Section 1: Header/Logo Section (Left-aligned) -->
     <mj-section padding="0" css-class="light-section">
-      <mj-include path="./partials/headers/bear-name-blue.mjml" />
+      <mj-include path="./partials/headers/header-centered.mjml" />
     </mj-section>
 
     <!-- Event Title and Description Section -->
     <mj-section padding="0" padding-bottom="20px" css-class="light-section">
-      <mj-include
-        path="./partials/components/component-story-h1-button-blue-center.mjml" />
+      <mj-section padding="0">
+        <mj-column
+          width="100%"
+          css-class="mobile-stack-column light-section padding-sides"
+          padding-top="10px"
+          padding-right="40px"
+          padding-bottom="10px"
+          padding-left="40px">
+          <mj-text mj-class="h1" align="center">
+            <h1>Story Title H1</h1>
+          </mj-text>
+          <mj-include path="./partials/components/component-text-center.mjml" />
+          <mj-include
+            path="./partials/components/component-button-blue-center.mjml" />
+        </mj-column>
+      </mj-section>
     </mj-section>
 
     <!-- Event Image -->
@@ -25,6 +39,12 @@
       </mj-column>
     </mj-section>
 
+    <!-- Callout Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
+    </mj-section>
+
     <!-- Footer Section -->
     <mj-section padding="0">
       <!-- Social Media Footer -->
@@ -33,8 +53,7 @@
 
     <mj-section padding="0">
       <!-- Contact Footer -->
-      <mj-include
-        path="./partials/footers/footer-centered-single-column.mjml" />
+      <mj-include path="./partials/footers/footer-secondary.mjml" />
     </mj-section>
   </mj-body>
 </mjml>
