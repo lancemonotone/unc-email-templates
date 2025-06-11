@@ -20,76 +20,59 @@
     <mj-section padding="0">
       <mj-include
         path="./partials/components/component-navigation-bar-blue.mjml" />
+      <mj-column width="100%" background-color="#DD4545" padding="5px">
+        <mj-text color="#ffffff" font-size="14px" align="center">
+          These links don't match anything in the document
+        </mj-text>
+      </mj-column>
     </mj-section>
 
     <!-- Featured Story Section -->
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+    <mj-section
+      padding="0"
+      padding-top="20px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
     </mj-section>
 
-    <!-- Story Spotlight (Three Column) Section -->
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
-      <mj-include path="./partials/blocks/block-three-column-no-button.mjml" />
+    <!-- Thin Gold Divider -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-divider-gold-thin.mjml" />
     </mj-section>
 
-    <mj-section padding="0" padding-bottom="30px" css-class="light-section">
-      <mj-column>
-        <!-- UNC Standard Button Component Center -->
-        <mj-button
-          mj-class="button-secondary"
-          align="center"
-          href="javascript:void(0);"
-          color="#013C65"
-          padding-top="10px"
-          padding-bottom="0">
-          <span style="color: #013c65">Read the Magazine</span>
-        </mj-button>
-      </mj-column>
+    <!-- Two Column H2 Section -->
+    <mj-section
+      css-class="content-section light-section"
+      padding="20px"
+      padding-left="40px"
+      padding-right="40px">
+      <mj-include
+        path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
     </mj-section>
 
-    <!-- Alumni Spotlights Section -->
-    <mj-section padding="0" padding-bottom="30px" css-class="light-section">
-      <mj-column
-        width="45%"
-        padding="20px"
-        vertical-align="top"
-        css-class="mobile-stack-column">
-        <mj-include
-          path="./partials/components/component-image-hero-half-width.mjml" />
-      </mj-column>
-
-      <!-- Right Column - Content -->
-      <mj-column
-        width="55%"
-        padding="20px"
-        vertical-align="top"
-        css-class="mobile-stack-column">
-        <!-- Left-aligned H1 header -->
-        <mj-include path="./partials/components/component-h2.mjml" />
-
-        <!-- Left-aligned intro text -->
-        <mj-include
-          path="./partials/components/component-text-no-bullets.mjml" />
-
-        <!-- UNC Standard Button Component Left -->
-        <mj-button
-          mj-class="button-secondary"
-          align="left"
-          href="javascript:void(0);"
-          color="#013C65"
-          padding-top="10px"
-          padding-bottom="10px"
-          padding-left="0"
-          padding-right="0">
-          <span style="color: #013c65">Read Their Story</span>
-        </mj-button>
-      </mj-column>
+    <!-- Thin Gold Divider -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-divider-gold-thin.mjml" />
     </mj-section>
 
-    <!-- Upcoming Events Section -->
-    <mj-section padding="0" padding-bottom="30px" css-class="light-section">
-      <mj-include path="./partials/blocks/block-events-600.mjml" />
+    <!-- Three Column H3 Section (this needs different padding for the left and right columns)-->
+    <mj-section
+      css-class="content-section light-section"
+      padding="20px"
+      padding-left="0"
+      padding-right="0">
+      <mj-include
+        path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
+    </mj-section>
+
+    <!-- Callout Box Button Blue -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Footer Section -->
@@ -100,8 +83,7 @@
 
     <mj-section padding="0">
       <!-- Contact Footer -->
-      <mj-include
-        path="./partials/footers/footer-centered-single-column.mjml" />
+      <mj-include path="./partials/footers/footer-primary.mjml" />
     </mj-section>
   </mj-body>
 </mjml>

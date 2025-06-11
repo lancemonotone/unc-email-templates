@@ -56,7 +56,11 @@
     </mj-section>
 
     <!-- Two Column H2 Section -->
-    <mj-section padding="0" css-class="light-section">
+    <mj-section
+      css-class="content-section light-section"
+      padding="20px"
+      padding-left="40px"
+      padding-right="40px">
       <mj-include
         path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
     </mj-section>
@@ -67,8 +71,12 @@
         path="./partials/components/component-section-title-gold.mjml" />
     </mj-section>
 
-    <!-- Three Column H3 Section -->
-    <mj-section padding="0" css-class="light-section">
+    <!-- Three Column H3 Section (this needs different padding for the left and right columns)-->
+    <mj-section
+      css-class="content-section light-section"
+      padding="20px"
+      padding-left="0"
+      padding-right="0">
       <mj-include
         path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
     </mj-section>

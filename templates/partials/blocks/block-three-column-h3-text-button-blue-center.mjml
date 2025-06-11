@@ -1,42 +1,37 @@
 <!-- Three Column Block -->
-<mj-section
-  css-class="content-section mobile-container-40px"
-  padding="20px"
+
+<!-- Column 1 -->
+<mj-column
+  width="33.33%"
+  padding="10px"
+  padding-bottom="0"
+  padding-left="40px"
+  padding-right="0"
+  css-class="mobile-stack-column">
+  <mj-include
+    path="../components/component-column-image-h3-text-button-blue-center.mjml" />
+</mj-column>
+
+<!-- Column 2 -->
+<mj-column
+  width="33.33%"
+  padding="10px"
+  padding-bottom="0"
+  padding-left="20px"
+  padding-right="20px"
+  css-class="mobile-stack-column">
+  <mj-include
+    path="../components/component-column-image-h3-text-button-blue-center.mjml" />
+</mj-column>
+
+<!-- Column 3 -->
+<mj-column
+  width="33.33%"
+  padding="10px"
+  padding-bottom="0"
   padding-left="0"
-  padding-right="0">
-  <!-- Column 1 -->
-  <mj-column
-    width="33.33%"
-    padding="10px"
-    padding-bottom="0"
-    padding-left="40px"
-    padding-right="0"
-    css-class="mobile-stack-column">
-    <mj-include
-      path="../components/component-column-image-h3-text-button-blue-center.mjml" />
-  </mj-column>
-
-  <!-- Column 2 -->
-  <mj-column
-    width="33.33%"
-    padding="10px"
-    padding-bottom="0"
-    padding-left="20px"
-    padding-right="20px"
-    css-class="mobile-stack-column">
-    <mj-include
-      path="../components/component-column-image-h3-text-button-blue-center.mjml" />
-  </mj-column>
-
-  <!-- Column 3 -->
-  <mj-column
-    width="33.33%"
-    padding="10px"
-    padding-bottom="0"
-    padding-left="0"
-    padding-right="40px"
-    css-class="mobile-stack-column">
-    <mj-include
-      path="../components/component-column-image-h3-text-button-blue-center.mjml" />
-  </mj-column>
-</mj-section>
+  padding-right="40px"
+  css-class="mobile-stack-column">
+  <mj-include
+    path="../components/component-column-image-h3-text-button-blue-center.mjml" />
+</mj-column>

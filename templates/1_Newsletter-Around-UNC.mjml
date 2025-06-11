@@ -10,7 +10,8 @@
     <mj-section padding="0">
       <mj-include path="./partials/headers/header-around-unc.mjml" />
       <!-- Navigation Bar Section -->
-      <mj-include path="../components/component-navigation-bar-gold.mjml" />
+      <mj-include
+        path="./partials/components/component-navigation-bar-gold.mjml" />
     </mj-section>
 
     <!-- Section 2: Featured Story/Events Section inside Two Column Sidebar -->

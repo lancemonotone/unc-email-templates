@@ -1,28 +1,23 @@
 <!-- Two Column Block -->
-<mj-section
-  css-class="content-section"
-  padding="20px"
-  padding-left="40px"
-  padding-right="40px">
-  <!-- Column 1 -->
-  <mj-column
-    width="50%"
-    padding="10px"
-    padding-bottom="0"
-    padding-left="0"
-    css-class="mobile-stack-column">
-    <mj-include
-      path="../components/component-column-image-h2-text-button-blue-left.mjml" />
-  </mj-column>
 
-  <!-- Column 2 -->
-  <mj-column
-    width="50%"
-    padding="10px"
-    padding-bottom="0"
-    padding-right="0"
-    css-class="mobile-stack-column">
-    <mj-include
-      path="../components/component-column-image-h2-text-button-blue-left.mjml" />
-  </mj-column>
-</mj-section>
+<!-- Column 1 -->
+<mj-column
+  width="50%"
+  padding="10px"
+  padding-bottom="0"
+  padding-left="0"
+  css-class="mobile-stack-column">
+  <mj-include
+    path="../components/component-column-image-h2-text-button-blue-left.mjml" />
+</mj-column>
+
+<!-- Column 2 -->
+<mj-column
+  width="50%"
+  padding="10px"
+  padding-bottom="0"
+  padding-right="0"
+  css-class="mobile-stack-column">
+  <mj-include
+    path="../components/component-column-image-h2-text-button-blue-left.mjml" />
+</mj-column>
