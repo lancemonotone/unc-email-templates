@@ -2,9 +2,8 @@
   <mj-column
     width="100%"
     css-class="light-section"
-    padding-top="10px"
+    padding="0"
     padding-right="40px"
-    padding-bottom="40px"
     padding-left="40px">
     <mj-include path="./component-h2.mjml" />
     <mj-include path="./component-text-no-bullets.mjml" />
