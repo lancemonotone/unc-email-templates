@@ -16,8 +16,7 @@
       <mj-column
         width="100%"
         css-class="mobile-stack-column light-section padding-sides force-questa"
-        padding="10px"
-        padding-bottom="0px"
+        padding="20px"
         padding-right="40px"
         padding-left="40px">
         <mj-include path="./partials/components/component-h2.mjml" />
