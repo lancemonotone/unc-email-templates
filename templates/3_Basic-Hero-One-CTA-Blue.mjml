@@ -20,12 +20,12 @@
       padding="0"
       padding-left="40px"
       padding-right="40px"
-      padding-bottom="20px"
+      padding-bottom="40px"
       css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
 
-      <!-- Body Story H1 -->
+      <!-- Gold Divider -->
       <mj-include
         path="./partials/components/component-divider-gold-thick.mjml" />
     </mj-section>
@@ -57,7 +57,7 @@
       padding="0"
       padding-left="40px"
       padding-right="40px"
-      padding-bottom="20px"
+      padding-bottom="40px"
       css-class="light-section">
       <mj-include
         path="./partials/components/component-text-no-bullets-button-blue-center-three.mjml" />
