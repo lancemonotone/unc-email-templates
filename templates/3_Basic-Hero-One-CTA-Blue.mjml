@@ -16,15 +16,14 @@
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
     </mj-section>
 
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+    <mj-section
+      padding="0"
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
-
-      <!-- Spacer Section -->
-      <mj-section
-        padding="0"
-        padding-top="20px"
-        css-class="light-section"></mj-section>
 
       <!-- Body Story H1 -->
       <mj-include
@@ -32,28 +31,37 @@
     </mj-section>
 
     <!-- Body Story H2 -->
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+    <mj-section
+      padding="0"
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Two Button Blue Centered -->
-    <mj-section padding="0">
+    <mj-section
+      padding="0"
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-text-no-bullets-button-blue-center-two.mjml" />
     </mj-section>
 
     <!-- Three Button Blue Centered -->
-    <mj-section padding="0">
+    <mj-section
+      padding="0"
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-text-no-bullets-button-blue-center-three.mjml" />
     </mj-section>
-
-    <!-- Spacer Section -->
-    <mj-section
-      padding="0"
-      padding-top="20px"
-      css-class="light-section"></mj-section>
 
     <!-- Follow-up Information (Callout Box) -->
     <mj-section padding="0">

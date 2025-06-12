@@ -10,7 +10,7 @@
       css-class="mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_logo_v_rv.png"
       alt="University of Northern Colorado"
-      width="100px"
+      width="90px"
       href="https://unco.edu"
       align="center"
       padding="0" />
@@ -18,7 +18,7 @@
     <mj-text
       align="center"
       color="#ffffff"
-      mj-class="h2"
+      mj-class="header-title-white"
       css-class="no-dark-mode-text"
       padding="20px"
       padding-bottom="0"

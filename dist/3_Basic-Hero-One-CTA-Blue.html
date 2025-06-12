@@ -666,6 +666,9 @@
     }
 
     @media only screen and (max-width: 480px) {
+      h1 {
+        font-size: 44px !important;
+      }
 
       /* Ensure all columns stack properly */
       [class*="mj-column-per-"] {
@@ -676,39 +679,6 @@
       /* Mobile text alignments */
       .mobile-text-center {
         text-align: center !important;
-      }
-    }
-
-    /* Mobile column order reversal */
-    @media screen and (max-width: 480px) {
-      .reverse-order-mobile>table>tbody>tr>td>div {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        flex-direction: column-reverse !important;
-      }
-
-      .reverse-order-mobile>table>tbody>tr>td>div>.mj-column-per-50 {
-        width: 100% !important;
-        max-width: 100% !important;
-      }
-
-      /* Ensure proper text alignment when order is reversed */
-      .reverse-order-mobile .mobile-center {
-        text-align: center !important;
-      }
-
-      /* Add spacing between reversed columns */
-      .reverse-order-mobile>table>tbody>tr>td>div>.mj-column-per-50:first-child {
-        padding-top: 20px !important;
-      }
-    }
-
-    /* Outlook-specific column order fix */
-    @media screen and (min-width: 0\0) and (max-width: 480px) {
-
-      /* Target Outlook specifically */
-      .reverse-order-mobile table.mj-outlook-group-fix {
-        width: 100% !important;
       }
     }
 
@@ -787,7 +757,7 @@
                                     <tbody>
                                       <tr>
                                         <td align="right" class="mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
-                                          <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:25px;font-weight:500;line-height:120%;text-align:right;color:#ffffff;">Department Name</div>
+                                          <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;text-align:right;color:#ffffff;">Department Name</div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -858,13 +828,13 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;padding-left:40px;padding-right:40px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:0;padding-right:40px;padding-left:40px;">
+                      <td style="vertical-align:top;padding:0;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
@@ -911,22 +881,8 @@
                 </table>
               </div>
               <!--[if mso | IE]></td><![endif]-->
-              <!-- Spacer Section -->
-              <!--[if mso | IE]><td class="light-section-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div class="light-section" style="margin:0px auto;max-width:680px;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-                  <tbody>
-                    <tr>
-                      <td style="direction:ltr;font-size:0px;padding:0;padding-top:20px;text-align:center;">
-                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr></tr></table><![endif]-->
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table></td><![endif]-->
               <!-- Body Story H1 --><!-- Thick Gold Divider Component -->
-              <!--[if mso | IE]><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
+              <!--[if mso | IE]><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
@@ -938,7 +894,7 @@
                               <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                                 <p style="border-top:solid 10px #FFB71B;font-size:1px;margin:0px auto;width:100%;">
                                 </p>
-                                <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 10px #FFB71B;font-size:1px;margin:0px auto;width:680px;" role="presentation" width="680px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+                                <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 10px #FFB71B;font-size:1px;margin:0px auto;width:600px;" role="presentation" width="600px" ><tr><td style="height:0;line-height:0;"> &nbsp;
 </td></tr></table><![endif]-->
                               </td>
                             </tr>
@@ -962,13 +918,13 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;padding-left:40px;padding-right:40px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:0;padding-right:40px;padding-left:40px;">
+                      <td style="vertical-align:top;padding:0;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
@@ -1022,18 +978,18 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Two Button Blue Centered -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:680px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="light-section" style="margin:0px auto;max-width:680px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;padding-left:40px;padding-right:40px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:10px;padding-right:40px;padding-bottom:20px;padding-left:40px;">
+                      <td style="vertical-align:top;padding:0;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
@@ -1145,18 +1101,18 @@
     </div>
     <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Three Button Blue Centered -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:680px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="light-section" style="margin:0px auto;max-width:680px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;padding-left:40px;padding-right:40px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:0;padding-right:40px;padding-bottom:20px;padding-left:40px;">
+                      <td style="vertical-align:top;padding:0;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
@@ -1292,20 +1248,6 @@
                 </table>
               </div>
               <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Spacer Section -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="light-section" style="margin:0px auto;max-width:680px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;padding-top:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>

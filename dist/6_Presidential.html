@@ -73,11 +73,6 @@
         max-width: 100%;
       }
 
-      .mj-column-px-600 {
-        width: 600px !important;
-        max-width: 600px;
-      }
-
       .mj-column-per-25 {
         width: 25% !important;
         max-width: 25%;
@@ -94,11 +89,6 @@
     .moz-text-html .mj-column-per-100 {
       width: 100% !important;
       max-width: 100%;
-    }
-
-    .moz-text-html .mj-column-px-600 {
-      width: 600px !important;
-      max-width: 600px;
     }
 
     .moz-text-html .mj-column-per-25 {
@@ -636,6 +626,9 @@
     }
 
     @media only screen and (max-width: 480px) {
+      h1 {
+        font-size: 44px !important;
+      }
 
       /* Ensure all columns stack properly */
       [class*="mj-column-per-"] {
@@ -646,39 +639,6 @@
       /* Mobile text alignments */
       .mobile-text-center {
         text-align: center !important;
-      }
-    }
-
-    /* Mobile column order reversal */
-    @media screen and (max-width: 480px) {
-      .reverse-order-mobile>table>tbody>tr>td>div {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        flex-direction: column-reverse !important;
-      }
-
-      .reverse-order-mobile>table>tbody>tr>td>div>.mj-column-per-50 {
-        width: 100% !important;
-        max-width: 100% !important;
-      }
-
-      /* Ensure proper text alignment when order is reversed */
-      .reverse-order-mobile .mobile-center {
-        text-align: center !important;
-      }
-
-      /* Add spacing between reversed columns */
-      .reverse-order-mobile>table>tbody>tr>td>div>.mj-column-per-50:first-child {
-        padding-top: 20px !important;
-      }
-    }
-
-    /* Outlook-specific column order fix */
-    @media screen and (min-width: 0\0) and (max-width: 480px) {
-
-      /* Target Outlook specifically */
-      .reverse-order-mobile table.mj-outlook-group-fix {
-        width: 100% !important;
       }
     }
 
@@ -726,9 +686,9 @@
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                     <tbody>
                                       <tr>
-                                        <td style="width:150px;">
+                                        <td style="width:100px;">
                                           <a href="https://unco.edu" target="_blank">
-                                            <img alt="University of Northern Colorado" src="https://ncd.test.technolutions.net/www/images/unc_logoSig_v_rv.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150" height="auto" />
+                                            <img alt="University of Northern Colorado" src="https://ncd.test.technolutions.net/www/images/unc_logoSig_v_rv.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="100" height="auto" />
                                           </a>
                                         </td>
                                       </tr>
@@ -762,8 +722,8 @@
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:10px;padding-right:40px;padding-left:40px;word-break:break-word;">
-                                          <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:1.2;text-align:center;color:#013c65;">Office of the President</div>
+                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:5px;padding-right:40px;padding-left:40px;word-break:break-word;">
+                                          <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:20px;font-weight:700;line-height:120%;text-align:center;color:#013c65;">Office of the President</div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -792,13 +752,13 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook padding-sides-outlook force-questa-outlook" style="vertical-align:top;width:680px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section padding-sides force-questa" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+            <td style="direction:ltr;font-size:0px;padding:40px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook force-questa-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section force-questa" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:20px;padding-right:40px;padding-left:40px;">
+                      <td style="vertical-align:top;padding:0;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
@@ -886,72 +846,55 @@
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Presidential Signature Area -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="light-section" style="margin:0px auto;max-width:680px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
-              <!-- Presidential Signature Block -->
-              <!--[if mso | IE]><td class="" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div style="margin:0px auto;max-width:680px;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+              <!--[if mso | IE]></td><![endif]-->
+              <!-- Presidential Signature Area -->
+              <!--[if mso | IE]><td class="force-questa-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix force-questa" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
-                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="column-centered-outlook mobile-stack-column-outlook light-section-outlook padding-sides-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-                        <div class="mj-column-px-600 mj-outlook-group-fix column-centered mobile-stack-column light-section padding-sides" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                            <tbody>
-                              <tr>
-                                <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">Sincerely,</div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="left" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                                    <tbody>
-                                      <tr>
-                                        <td style="width:28px;">
-                                          <img alt="President's Signature" src="https://ncd.test.technolutions.net/www/images/signature-af-transparent.png" style="border:0;display:block;outline:none;text-decoration:none;height:67px;width:100%;font-size:13px;" width="28" height="67" />
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">Andy Feinstein <a href="http://twitter.com/presfeinstein" target="_blank" style="text-decoration: none">
-                                      <img src="https://mx.technolutions.net/proxy/D0IpGC_Ew3Sg7Fn_oPyv5nz1VZ1sgOc1p3ZeLUsI3t7hFG6qYEHd9PpQbis6u3VE49LM4HVfm7O_20QhD1Yuj_xyh-cnMzEDL6Sj0zC8hhw" width="20" height="20" border="0" alt="Twitter" style="vertical-align: middle; padding-left: 5px" />
-                                    </a></div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">President</div>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      <td style="vertical-align:top;padding:0;padding-top:40px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tbody>
+                            <!-- Presidential Signature Block -->
+                            <tr>
+                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">Sincerely,</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="width:28px;">
+                                        <img alt="President's Signature" src="https://ncd.test.technolutions.net/www/images/signature-af-transparent.png" style="border:0;display:block;outline:none;text-decoration:none;height:67px;width:100%;font-size:13px;" width="28" height="67" />
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">Andy Feinstein <a href="http://twitter.com/presfeinstein" target="_blank" style="text-decoration: none">
+                                    <img src="https://mx.technolutions.net/proxy/D0IpGC_Ew3Sg7Fn_oPyv5nz1VZ1sgOc1p3ZeLUsI3t7hFG6qYEHd9PpQbis6u3VE49LM4HVfm7O_20QhD1Yuj_xyh-cnMzEDL6Sj0zC8hhw" width="20" height="20" border="0" alt="Twitter" style="vertical-align: middle; padding-left: 5px" />
+                                  </a></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">President</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>

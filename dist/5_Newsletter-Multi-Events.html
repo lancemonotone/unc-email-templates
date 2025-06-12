@@ -706,6 +706,9 @@
     }
 
     @media only screen and (max-width: 480px) {
+      h1 {
+        font-size: 44px !important;
+      }
 
       /* Ensure all columns stack properly */
       [class*="mj-column-per-"] {
@@ -716,39 +719,6 @@
       /* Mobile text alignments */
       .mobile-text-center {
         text-align: center !important;
-      }
-    }
-
-    /* Mobile column order reversal */
-    @media screen and (max-width: 480px) {
-      .reverse-order-mobile>table>tbody>tr>td>div {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        flex-direction: column-reverse !important;
-      }
-
-      .reverse-order-mobile>table>tbody>tr>td>div>.mj-column-per-50 {
-        width: 100% !important;
-        max-width: 100% !important;
-      }
-
-      /* Ensure proper text alignment when order is reversed */
-      .reverse-order-mobile .mobile-center {
-        text-align: center !important;
-      }
-
-      /* Add spacing between reversed columns */
-      .reverse-order-mobile>table>tbody>tr>td>div>.mj-column-per-50:first-child {
-        padding-top: 20px !important;
-      }
-    }
-
-    /* Outlook-specific column order fix */
-    @media screen and (min-width: 0\0) and (max-width: 480px) {
-
-      /* Target Outlook specifically */
-      .reverse-order-mobile table.mj-outlook-group-fix {
-        width: 100% !important;
       }
     }
 
@@ -827,7 +797,7 @@
                                     <tbody>
                                       <tr>
                                         <td align="right" class="mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
-                                          <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:25px;font-weight:500;line-height:120%;text-align:right;color:#ffffff;">Department Name</div>
+                                          <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;text-align:right;color:#ffffff;">Department Name</div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -1374,7 +1344,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:10px;padding-bottom:0;padding-left:0;">
+                      <td style="vertical-align:top;padding:10px;padding-bottom:10px;padding-left:0;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <!-- Column Content: Image, Text, and Button -->
@@ -1459,7 +1429,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:10px;padding-right:0;padding-bottom:0;">
+                      <td style="vertical-align:top;padding:10px;padding-right:0;padding-bottom:10px;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <!-- Column Content: Image, Text, and Button -->
@@ -1598,7 +1568,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;padding-bottom:20px;padding-left:40px;padding-right:40px;padding-top:20px;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:20px;padding-left:40px;padding-right:40px;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
               <!-- Three Column Block --><!-- Column 1 -->
               <!--[if mso | IE]><td class="mobile-stack-column-three-outlook" style="vertical-align:top;width:199.98px;" ><![endif]-->

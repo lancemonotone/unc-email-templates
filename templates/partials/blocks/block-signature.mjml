@@ -1,34 +1,28 @@
 <!-- Presidential Signature Block -->
-<mj-section padding="10px">
-  <mj-column
-    width="600px"
-    css-class="column-centered mobile-stack-column light-section padding-sides">
-    <mj-text> Sincerely, </mj-text>
-    <mj-image
-      width="28px"
-      height="67px"
-      align="left"
-      padding-left="0"
-      padding-right="0"
-      padding-top="10px"
-      padding-bottom="10px"
-      src="https://ncd.test.technolutions.net/www/images/signature-af-transparent.png"
-      alt="President's Signature" />
-    <mj-text>
-      Andy Feinstein
-      <a
-        href="http://twitter.com/presfeinstein"
-        target="_blank"
-        style="text-decoration: none">
-        <img
-          src="https://mx.technolutions.net/proxy/D0IpGC_Ew3Sg7Fn_oPyv5nz1VZ1sgOc1p3ZeLUsI3t7hFG6qYEHd9PpQbis6u3VE49LM4HVfm7O_20QhD1Yuj_xyh-cnMzEDL6Sj0zC8hhw"
-          width="20"
-          height="20"
-          border="0"
-          alt="Twitter"
-          style="vertical-align: middle; padding-left: 5px" />
-      </a>
-    </mj-text>
-    <mj-text>President</mj-text>
-  </mj-column>
-</mj-section>
+<mj-text> Sincerely, </mj-text>
+<mj-image
+  width="28px"
+  height="67px"
+  align="left"
+  padding-left="0"
+  padding-right="0"
+  padding-top="10px"
+  padding-bottom="10px"
+  src="https://ncd.test.technolutions.net/www/images/signature-af-transparent.png"
+  alt="President's Signature" />
+<mj-text>
+  Andy Feinstein
+  <a
+    href="http://twitter.com/presfeinstein"
+    target="_blank"
+    style="text-decoration: none">
+    <img
+      src="https://mx.technolutions.net/proxy/D0IpGC_Ew3Sg7Fn_oPyv5nz1VZ1sgOc1p3ZeLUsI3t7hFG6qYEHd9PpQbis6u3VE49LM4HVfm7O_20QhD1Yuj_xyh-cnMzEDL6Sj0zC8hhw"
+      width="20"
+      height="20"
+      border="0"
+      alt="Twitter"
+      style="vertical-align: middle; padding-left: 5px" />
+  </a>
+</mj-text>
+<mj-text>President</mj-text>
