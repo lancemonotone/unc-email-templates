@@ -1,4 +1,4 @@
-<!-- Primary Footer with Bear Head Left -->
+<!-- Primary - Bear Head Left -->
 <mj-section
   background-color="#013c65"
   padding="0px"
@@ -36,7 +36,7 @@
     <!-- Row 1: Name -->
     <mj-text
       css-class="mobile-center white-text"
-      font-size="12px"
+      font-size="11px"
       align="right"
       padding-bottom="5px"
       padding-top="0"
@@ -47,23 +47,30 @@
     <!-- Row 2: Email | Phone -->
     <mj-text
       css-class="mobile-center white-text"
-      font-size="12px"
+      font-size="11px"
       align="right"
       padding-bottom="5px"
       padding-top="0"
       color="#ffffff">
+      <!-- IMPORTANT: UPDATE HREF! Change mailto: address to match your email -->
       <a
         href="mailto:email@unco.edu"
         style="color: #ffffff; text-decoration: underline"
         >Email</a
       >
-      | Phone
+      |
+      <!-- IMPORTANT: UPDATE HREF! Change tel: number to match your phone number -->
+      <a
+        href="tel:970-351-1890"
+        style="color: #ffffff; text-decoration: underline"
+        >Phone</a
+      >
     </mj-text>
 
     <!-- Row 3: Address -->
     <mj-text
       css-class="mobile-center white-text"
-      font-size="12px"
+      font-size="11px"
       align="right"
       padding-bottom="5px"
       padding-top="0"

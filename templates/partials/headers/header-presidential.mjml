@@ -1,4 +1,4 @@
-<!-- Presidential Header with Vertical Logo and Gold Office Bar -->
+<!-- Presidential - Vertical Logo and Gold Office Bar -->
 <mj-section background-color="#013c65" padding="20px" css-class="blue-section">
   <mj-column width="100%" vertical-align="middle">
     <mj-image

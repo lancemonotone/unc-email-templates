@@ -55,11 +55,16 @@
 <!-- Don't update above this line -->
 <!-- Grid Image Block -->
 <!-- Image Grid - Row 1 -->
-<mj-section padding="20px" padding-left="40px" padding-right="40px">
+<mj-section
+  padding="0"
+  padding-top="20px"
+  padding-left="40px"
+  padding-right="40px">
   <!-- Left Image -->
   <mj-column
     width="50%"
-    padding="10px"
+    padding-right="10px"
+    padding-top="0"
     padding-bottom="0"
     padding-left="0"
     css-class="mobile-stack-column">
@@ -70,7 +75,8 @@
   <!-- Right Image -->
   <mj-column
     width="50%"
-    padding="10px"
+    padding-left="10px"
+    padding-top="0"
     padding-bottom="0"
     padding-right="0"
     css-class="mobile-stack-column">
@@ -80,11 +86,16 @@
 </mj-section>
 
 <!-- Image Grid - Row 2 -->
-<mj-section padding="20px" padding-left="40px" padding-right="40px">
+<mj-section
+  padding="0"
+  padding-bottom="20px"
+  padding-left="40px"
+  padding-right="40px">
   <!-- Left Image -->
   <mj-column
     width="50%"
-    padding="10px"
+    padding-right="10px"
+    padding-top="0"
     padding-bottom="0"
     padding-left="0"
     css-class="mobile-stack-column">
@@ -95,7 +106,8 @@
   <!-- Right Image -->
   <mj-column
     width="50%"
-    padding="10px"
+    padding-left="10px"
+    padding-top="0"
     padding-bottom="0"
     padding-right="0"
     css-class="mobile-stack-column">

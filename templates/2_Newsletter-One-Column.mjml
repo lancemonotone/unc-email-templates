@@ -68,7 +68,7 @@
     </mj-section>
 
     <!-- Body Content Blocks 8 -->
-    <mj-section padding="0" css-class="light-section light-border">
+    <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
     </mj-section>
@@ -80,7 +80,7 @@
     </mj-section>
 
     <!-- Events Block - 2 Column Layout -->
-    <mj-section padding="0" padding-bottom="20px">
+    <mj-section padding="0">
       <mj-include
         path="./partials/blocks/block-two-column-events-button-gold-center.mjml" />
     </mj-section>

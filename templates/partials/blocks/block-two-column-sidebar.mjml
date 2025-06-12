@@ -2,13 +2,14 @@
 <mj-section
   css-class="content-section"
   padding="20px"
+  padding-bottom="0"
   padding-left="40px"
   padding-right="40px">
   <!-- Left Column -->
   <mj-column
     width="60%"
     padding="10px"
-    padding-bottom="0"
+    padding-bottom="20px"
     padding-left="0"
     vertical-align="top"
     css-class="mobile-stack-column">
@@ -19,7 +20,7 @@
   <mj-column
     width="40%"
     padding="10px"
-    padding-bottom="0"
+    padding-bottom="20px"
     padding-right="0"
     vertical-align="top"
     css-class="mobile-stack-column">

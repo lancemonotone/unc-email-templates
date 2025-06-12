@@ -79,8 +79,8 @@
   <mj-class
     name="header-title-white"
     font-family="'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif"
-    font-size="18px"
-    font-weight="700"
+    font-size="25px"
+    font-weight="500"
     color="#ffffff"
     line-height="120%"
     padding="5px" />

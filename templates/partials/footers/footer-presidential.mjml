@@ -27,7 +27,7 @@
     <!-- Address Line -->
     <mj-text
       css-class="mobile-center white-text"
-      font-size="12px"
+      font-size="11px"
       align="center"
       padding-bottom="5px"
       padding-top="0"
@@ -39,7 +39,7 @@
     <!-- Contact Information Line -->
     <mj-text
       css-class="mobile-center white-text"
-      font-size="12px"
+      font-size="11px"
       align="center"
       padding-bottom="5px"
       padding-top="0"

@@ -1,4 +1,4 @@
-<!-- Split Footer with Centered Bear Head -->
+<!-- Secondary - Split with Centered Bear Head -->
 <mj-section
   background-color="#013c65"
   padding="0px"
@@ -9,6 +9,7 @@
   <mj-column width="40%" vertical-align="top" css-class="mobile-stack-column">
     <mj-text
       css-class="mobile-center white-text"
+      font-size="11px"
       align="left"
       padding-bottom="0"
       padding-top="0"
@@ -37,19 +38,22 @@
     css-class="mobile-stack-column mobile-stack-padding-sm">
     <mj-text
       css-class="mobile-center white-text"
+      font-size="11px"
       align="right"
       padding-bottom="0"
       padding-top="0"
       color="#ffffff">
-      <a href="tel:970-351-1890" style="color: #ffffff; mso-style-priority: 99">
-        <span style="color: white !important">970-351-1890</span></a
-      >
-      &nbsp;|&nbsp;
+      <!-- IMPORTANT: UPDATE HREF! Change mailto address to match your email -->
       <a
         href="mailto:info@unco.edu"
         style="color: #ffffff; mso-style-priority: 99">
-        <span style="color: white !important">info@unco.edu</span>
-      </a>
+        <span style="color: white !important">Email</span></a
+      >
+      &nbsp;|&nbsp;
+      <!-- IMPORTANT: UPDATE HREF! Change phone number to match your phone number -->
+      <a href="tel:970-351-1890" style="color: #ffffff; mso-style-priority: 99">
+        <span style="color: white !important">Phone</span></a
+      >
     </mj-text>
   </mj-column>
 </mj-section>

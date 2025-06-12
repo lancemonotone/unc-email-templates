@@ -1,0 +1,116 @@
+<mjml>
+  <mj-head>
+    <mj-title>University of Northern Colorado - Magazine</mj-title>
+    <mj-include path="./assets/styles.css" type="css" />
+    <mj-include path="./assets/styles.mjml" />
+  </mj-head>
+
+  <mj-body>
+    <!-- Header Section -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include path="./partials/headers/header-primary.mjml" />
+
+      <!-- Gold Office Bar -->
+      <mj-section background-color="#007dba" padding="5px"> </mj-section>
+    </mj-section>
+
+    <!-- Hero Image Section -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+    </mj-section>
+
+    <!-- H1 Intro Section - Hero Story -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-story-h1-button-gold-left.mjml" />
+    </mj-section>
+
+    <!-- Hero Image Section -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+    </mj-section>
+
+    <!-- H2 Intro Section - Hero Story -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-story-h2-button-gold-left.mjml" />
+    </mj-section>
+
+    <!-- Hero Image Section -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+    </mj-section>
+
+    <!-- H2 Intro Section - Hero Story -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-story-h2-button-gold-left.mjml" />
+    </mj-section>
+
+    <!-- Hero Image Section -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+    </mj-section>
+
+    <!-- H2 Intro Section - Hero Story -->
+    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-story-h2-button-gold-left.mjml" />
+    </mj-section>
+
+    <!-- Bluebird Section Title -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-section-title-bluebird-center.mjml" />
+    </mj-section>
+
+    <!-- Two Column H2 Section -->
+    <mj-section
+      css-class="content-section light-section"
+      padding="20px"
+      padding-left="40px"
+      padding-right="40px">
+      <mj-include
+        path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
+    </mj-section>
+
+    <!-- Bluebird Section Title -->
+    <mj-section padding="0" css-class="light-section">
+      <mj-include
+        path="./partials/components/component-section-title-bluebird-center.mjml" />
+    </mj-section>
+
+    <!-- Three Column H3 Section (this needs different padding for the left and right columns)-->
+    <mj-section
+      css-class="content-section light-section"
+      padding="20px"
+      padding-left="0"
+      padding-right="0">
+      <mj-include
+        path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
+    </mj-section>
+
+    <!-- Bluebird Section Title -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/components/component-section-title-bluebird-center.mjml" />
+    </mj-section>
+
+    <!-- Events Block - 2 Column Layout -->
+    <mj-section padding="0">
+      <mj-include
+        path="./partials/blocks/block-two-column-events-button-blue-center.mjml" />
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section padding="0">
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+    </mj-section>
+
+    <mj-section padding="0">
+      <!-- Contact Footer -->
+      <mj-include path="./partials/footers/footer-primary.mjml" />
+    </mj-section>
+  </mj-body>
+</mjml>
