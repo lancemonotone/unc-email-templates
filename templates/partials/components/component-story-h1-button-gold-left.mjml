@@ -1,9 +1,7 @@
 <mj-column
   width="100%"
-  css-class="mobile-stack-column light-section padding-sides"
-  padding="0"
-  padding-left="40px"
-  padding-right="40px">
+  css-class="mobile-stack-column light-section"
+  padding="0">
   <mj-include path="./component-h1.mjml" />
   <mj-include path="./component-text-no-bullets.mjml" />
   <mj-include path="./component-button-gold-left.mjml" />

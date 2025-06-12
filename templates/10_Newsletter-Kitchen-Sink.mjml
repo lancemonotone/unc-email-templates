@@ -20,7 +20,12 @@
     </mj-section>
 
     <!-- H1 Intro Section - Hero Story -->
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+    <mj-section
+      padding="0"
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-gold-left.mjml" />
     </mj-section>
@@ -31,7 +36,12 @@
     </mj-section>
 
     <!-- H2 Intro Section - Hero Story -->
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+    <mj-section
+      padding="0"
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-button-gold-left.mjml" />
     </mj-section>
@@ -42,7 +52,12 @@
     </mj-section>
 
     <!-- H2 Intro Section - Hero Story -->
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+    <mj-section
+      padding="0"
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-button-gold-left.mjml" />
     </mj-section>
@@ -53,7 +68,12 @@
     </mj-section>
 
     <!-- H2 Intro Section - Hero Story -->
-    <mj-section padding="0" padding-bottom="20px" css-class="light-section">
+    <mj-section
+      padding="0"
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="20px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-button-gold-left.mjml" />
     </mj-section>
@@ -84,14 +104,14 @@
     <mj-section
       css-class="content-section light-section"
       padding="20px"
-      padding-left="0"
-      padding-right="0">
+      padding-left="40px"
+      padding-right="40px">
       <mj-include
         path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Bluebird Section Title -->
-    <mj-section padding="0">
+    <mj-section padding="0" css-class="light-section">
       <mj-include
         path="./partials/components/component-section-title-bluebird-center.mjml" />
     </mj-section>
