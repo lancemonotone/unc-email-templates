@@ -17,27 +17,24 @@
     </mj-section>
 
     <!-- Featured Story Section -->
-    <mj-section
-      padding="0"
-      padding-top="20px"
-      padding-bottom="20px"
-      css-class="light-section">
+    <mj-section padding="40px" css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Gold Dots Divider -->
-    <mj-section padding="0">
+    <mj-section padding="0" padding-bottom="40px" css-class="light-section">
       <mj-include
         path="./partials/components/component-divider-gold-dots.mjml" />
     </mj-section>
 
     <!-- Two Column H2 Section -->
     <mj-section
-      css-class="content-section light-section"
       padding="0"
-      padding-top="20px"
-      padding-bottom="20px">
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="40px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-no-button.mjml" />
 
@@ -46,17 +43,18 @@
     </mj-section>
 
     <!-- Gold Dots Divider -->
-    <mj-section padding="0">
+    <mj-section padding="0" padding-bottom="40px" css-class="light-section">
       <mj-include
         path="./partials/components/component-divider-gold-dots.mjml" />
     </mj-section>
 
     <!-- Two Column H2 Section -->
     <mj-section
-      css-class="content-section light-section"
       padding="0"
-      padding-top="20px"
-      padding-bottom="40px">
+      padding-left="40px"
+      padding-right="40px"
+      padding-bottom="40px"
+      css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-no-button.mjml" />
 
