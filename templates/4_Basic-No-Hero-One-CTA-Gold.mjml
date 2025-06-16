@@ -16,99 +16,55 @@
       <mj-column width="100%" padding="0" padding-bottom="20px">
         <mj-include path="./partials/components/component-h1.mjml" />
       </mj-column>
-      <mj-column width="100%" padding="0" padding-bottom="20px">
+      <!-- Text -->
+      <mj-column width="100%" padding="0">
         <mj-include path="./partials/components/component-text.mjml" />
       </mj-column>
+      <!-- No Bullets -->
       <mj-column width="100%" padding="0" padding-bottom="20px">
         <mj-include
           path="./partials/components/component-text-no-bullets.mjml" />
       </mj-column>
+      <!-- Button -->
       <mj-column width="100%" padding="0">
         <mj-include
           path="./partials/components/component-button-gold-center.mjml" />
       </mj-column>
     </mj-section>
 
-    <!-- Two Button Gold Centered -->
-    <mj-section
-      padding="0"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px"
-      css-class="light-section">
-      <mj-include
-        path="./partials/components/component-text-no-bullets-button-gold-center-two.mjml" />
-    </mj-section>
-
-    <!-- Three Button Gold Centered -->
-    <mj-section
-      padding="0"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px"
-      css-class="light-section">
-      <mj-include
-        path="./partials/components/component-text-no-bullets-button-gold-center-three.mjml" />
-    </mj-section>
-
     <mj-section
       padding="0"
       padding-top="20px"
-      padding-bottom="40px"
+      padding-bottom="20px"
       css-class="light-section">
       <mj-include
-        path="./partials/components/component-divider-gold-dots.mjml" />
+        path="./partials/components/component-divider-blue-dots.mjml" />
     </mj-section>
 
     <!-- Body Story H2 -->
     <mj-section
-      padding="0"
-      padding-left="40px"
-      padding-right="40px"
+      padding="40px"
+      padding-top="20px"
       padding-bottom="20px"
       css-class="light-section">
       <mj-column width="100%" padding="0" padding-bottom="20px">
         <mj-include path="./partials/components/component-h2.mjml" />
       </mj-column>
-      <mj-column width="100%" padding="0" padding-bottom="20px">
+      <!-- Text -->
+      <mj-column width="100%" padding="0">
         <mj-include path="./partials/components/component-text.mjml" />
       </mj-column>
-      <mj-column width="100%" padding="0" padding-bottom="20px">
-        <mj-include
-          path="./partials/components/component-text-no-bullets.mjml" />
-      </mj-column>
+      <!-- Two Button Gold Centered -->
       <mj-column width="100%" padding="0">
         <mj-include
-          path="./partials/components/component-button-gold-center.mjml" />
+          path="./partials/components/component-text-no-bullets-button-gold-center-two.mjml" />
       </mj-column>
-    </mj-section>
-
-    <!-- Two Button Gold Centered -->
-    <mj-section
-      padding="0"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px"
-      css-class="light-section">
-      <mj-include
-        path="./partials/components/component-text-no-bullets-button-gold-center-two.mjml" />
-    </mj-section>
-
-    <!-- Three Button Gold Centered -->
-    <mj-section
-      padding="0"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px"
-      css-class="light-section">
-      <mj-include
-        path="./partials/components/component-text-no-bullets-button-gold-center-three.mjml" />
     </mj-section>
 
     <mj-section
       padding="0"
       padding-top="20px"
-      padding-bottom="40px"
+      padding-bottom="20px"
       css-class="light-section">
       <mj-include
         path="./partials/components/component-divider-blue-dots.mjml" />
@@ -116,47 +72,22 @@
 
     <!-- Body Story H3 -->
     <mj-section
-      padding="0"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px"
+      padding="40px"
+      padding-top="20px"
+      padding-bottom="40px"
       css-class="light-section">
       <mj-column width="100%" padding="0" padding-bottom="20px">
         <mj-include path="./partials/components/component-h3.mjml" />
       </mj-column>
+      <!-- Text -->
       <mj-column width="100%" padding="0" padding-bottom="20px">
         <mj-include path="./partials/components/component-text.mjml" />
       </mj-column>
-      <mj-column width="100%" padding="0" padding-bottom="20px">
-        <mj-include
-          path="./partials/components/component-text-no-bullets.mjml" />
-      </mj-column>
+      <!-- Three Button Gold Centered -->
       <mj-column width="100%" padding="0">
         <mj-include
-          path="./partials/components/component-button-gold-center.mjml" />
+          path="./partials/components/component-text-no-bullets-button-gold-center-three.mjml" />
       </mj-column>
-    </mj-section>
-
-    <!-- Two Button Gold Centered -->
-    <mj-section
-      padding="0"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px"
-      css-class="light-section">
-      <mj-include
-        path="./partials/components/component-text-no-bullets-button-gold-center-two.mjml" />
-    </mj-section>
-
-    <!-- Three Button Gold Centered -->
-    <mj-section
-      padding="0"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="40px"
-      css-class="light-section">
-      <mj-include
-        path="./partials/components/component-text-no-bullets-button-gold-center-three.mjml" />
     </mj-section>
 
     <!-- Follow-up Information (Callout Box) -->
