@@ -20,11 +20,13 @@
       padding="0"
       padding-left="40px"
       padding-right="40px"
-      padding-bottom="40px"
+      padding-bottom="20px"
       css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h1-button-blue-center.mjml" />
+    </mj-section>
 
+    <mj-section padding="0" css-class="light-section">
       <!-- Gold Divider -->
       <mj-include
         path="./partials/components/component-divider-gold-thick.mjml" />
@@ -32,29 +34,41 @@
 
     <!-- Body Story H2 -->
     <mj-section
-      padding="0"
+      padding="20px"
       padding-left="40px"
       padding-right="40px"
-      padding-bottom="20px"
+      padding-bottom="40px"
       css-class="light-section">
       <mj-include
         path="./partials/components/component-story-h2-button-blue-center.mjml" />
     </mj-section>
 
+    <mj-section padding="0" css-class="light-section">
+      <!-- Thin Gold Divider -->
+      <mj-include
+        path="./partials/components/component-divider-gold-thin.mjml" />
+    </mj-section>
+
     <!-- Two Button Blue Centered -->
     <mj-section
-      padding="0"
+      padding="20px"
       padding-left="40px"
       padding-right="40px"
-      padding-bottom="20px"
+      padding-bottom="40px"
       css-class="light-section">
       <mj-include
         path="./partials/components/component-text-no-bullets-button-blue-center-two.mjml" />
     </mj-section>
 
+    <mj-section padding="0" css-class="light-section">
+      <!-- Thin Gold Divider -->
+      <mj-include
+        path="./partials/components/component-divider-gold-thin.mjml" />
+    </mj-section>
+
     <!-- Three Button Blue Centered -->
     <mj-section
-      padding="0"
+      padding="20px"
       padding-left="40px"
       padding-right="40px"
       padding-bottom="40px"
