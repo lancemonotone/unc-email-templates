@@ -16,6 +16,6 @@
     </mj-text>
 
     <!-- Button -->
-    <mj-include path="../components/component-button-blue-center.mjml" />
+    <mj-include path="../components/component-button-gold-center.mjml" />
   </mj-column>
 </mj-section>
