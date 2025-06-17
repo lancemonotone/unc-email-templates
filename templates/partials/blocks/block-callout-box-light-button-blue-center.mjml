@@ -1,0 +1,21 @@
+<!-- Follow-Up Information Callout Box -->
+<mj-section padding="20px" css-class="grey-section light-border">
+  <mj-column
+    css-class="mobile-stack-column padding-sides"
+    padding-left="20px"
+    padding-right="20px">
+    <!-- Headline -->
+    <mj-text mj-class="h4" align="center">
+      <h4>Questions?</h4>
+    </mj-text>
+
+    <!-- Body Text -->
+    <mj-text mj-class="body-text" align="center">
+      Contact us for more information about this event or program. We're here to
+      help you navigate your UNC experience.
+    </mj-text>
+
+    <!-- Button -->
+    <mj-include path="../components/component-button-blue-center.mjml" />
+  </mj-column>
+</mj-section>

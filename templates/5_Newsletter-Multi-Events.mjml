@@ -97,7 +97,7 @@
     <!-- Follow-up Information (Callout Box) -->
     <mj-section padding="0">
       <mj-include
-        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
+        path="./partials/blocks/block-callout-box-dark-button-gold-center.mjml" />
     </mj-section>
 
     <!-- Social Media Footer -->

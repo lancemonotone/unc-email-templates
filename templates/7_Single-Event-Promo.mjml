@@ -35,7 +35,7 @@
     <!-- Callout Section -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
+        path="./partials/blocks/block-callout-box-bluebird-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Footer Section -->

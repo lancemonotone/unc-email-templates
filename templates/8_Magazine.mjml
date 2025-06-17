@@ -8,23 +8,12 @@
   <mj-body>
     <!-- Header Section -->
     <mj-section padding="0" css-class="light-section">
-      <mj-include path="./partials/headers/header-secondary.mjml" />
+      <mj-include path="./partials/headers/header-bluebird.mjml" />
     </mj-section>
 
     <!-- Hero Image Section -->
     <mj-section padding="0" css-class="light-section">
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
-    </mj-section>
-
-    <!-- Navigation Section (Blue Navigation Bar) -->
-    <mj-section padding="0">
-      <mj-include
-        path="./partials/components/component-navigation-bar-blue.mjml" />
-      <mj-column width="100%" background-color="#DD4545" padding="5px">
-        <mj-text color="#ffffff" font-size="14px" align="center">
-          These links don't match anything in the document
-        </mj-text>
-      </mj-column>
     </mj-section>
 
     <!-- Featured Story Section -->
@@ -54,7 +43,7 @@
     <!-- Three Column H3 Section (this needs different padding for the left and right columns)-->
     <mj-section
       css-class="content-section light-section"
-      padding="20px"
+      padding="30px"
       padding-left="40px"
       padding-right="40px">
       <mj-include
@@ -64,7 +53,7 @@
     <!-- Callout Box Button Blue -->
     <mj-section padding="0">
       <mj-include
-        path="./partials/blocks/block-callout-box-button-blue-center.mjml" />
+        path="./partials/blocks/block-callout-box-light-button-blue-center.mjml" />
     </mj-section>
 
     <!-- Footer Section -->
