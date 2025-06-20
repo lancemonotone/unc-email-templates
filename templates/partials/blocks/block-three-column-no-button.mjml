@@ -10,7 +10,7 @@
   css-class="mobile-stack-column">
   <mj-include
     <mj-include
-    path="../components/component-column-image-text-no-button.mjml" />
+    path="../components/layout/component-column-image-text-no-button.mjml" />
 </mj-column>
 
 <!-- Column 2 -->
@@ -21,7 +21,7 @@
   padding-left="20px"
   padding-right="20px"
   css-class="mobile-stack-column">
-  <mj-include path="../components/component-column-image-text-no-button.mjml" />
+  <mj-include path="../components/layout/component-column-image-text-no-button.mjml" />
 </mj-column>
 
 <!-- Column 3 -->
@@ -32,5 +32,5 @@
   padding-left="0"
   padding-right="40px"
   css-class="mobile-stack-column">
-  <mj-include path="../components/component-column-image-text-no-button.mjml" />
+  <mj-include path="../components/layout/component-column-image-text-no-button.mjml" />
 </mj-column>

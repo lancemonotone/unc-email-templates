@@ -1,11 +1,12 @@
 <!-- Featured Story Block -->
 <mj-column padding="0" css-class="block-container light-section">
   <mj-section padding="0" padding-bottom="10px">
-    <mj-include path="../components/component-image-content-center.mjml" />
+    <mj-include
+      path="../components/images/component-image-content-center.mjml" />
   </mj-section>
-  <mj-include path="../components/component-h3.mjml" />
+  <mj-include path="../components/text/component-h3.mjml" />
 
-  <mj-include path="../components/component-text-no-bullets.mjml" />
+  <mj-include path="../components/text/component-text-no-bullets.mjml" />
 
-  <mj-include path="../components/component-button-blue-left.mjml" />
+  <mj-include path="../components/buttons/component-button-blue-left.mjml" />
 </mj-column>

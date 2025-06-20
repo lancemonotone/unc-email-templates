@@ -6,44 +6,44 @@
   css-class="block-container light-section"
   width="100%">
   <!-- Story 1 -->
-  <mj-include path="../components/component-divider-gold-thin.mjml" />
+  <mj-include path="../components/dividers/component-divider-gold-thin.mjml" />
   <mj-section padding="0" padding-top="10px" padding-bottom="10px">
     <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
+      path="../components/stories/component-story-h3-button-blue-center.mjml" />
   </mj-section>
 
   <!-- Story 2 -->
-  <mj-include path="../components/component-divider-gold-thin.mjml" />
+  <mj-include path="../components/dividers/component-divider-gold-thin.mjml" />
   <mj-section padding="0" padding-top="10px" padding-bottom="10px">
     <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
+      path="../components/stories/component-story-h3-button-blue-center.mjml" />
   </mj-section>
 
   <!-- Story 3 -->
-  <mj-include path="../components/component-divider-gold-thin.mjml" />
+  <mj-include path="../components/dividers/component-divider-gold-thin.mjml" />
   <mj-section padding="0" padding-top="10px" padding-bottom="10px">
     <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
+      path="../components/stories/component-story-h3-button-blue-center.mjml" />
   </mj-section>
 
   <!-- Story 4 -->
-  <mj-include path="../components/component-divider-gold-thin.mjml" />
+  <mj-include path="../components/dividers/component-divider-gold-thin.mjml" />
   <mj-section padding="0" padding-top="10px" padding-bottom="10px">
     <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
+      path="../components/stories/component-story-h3-button-blue-center.mjml" />
   </mj-section>
 
   <!-- Story 5 -->
-  <mj-include path="../components/component-divider-gold-thin.mjml" />
+  <mj-include path="../components/dividers/component-divider-gold-thin.mjml" />
   <mj-section padding="0" padding-top="10px" padding-bottom="10px">
     <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
+      path="../components/stories/component-story-h3-button-blue-center.mjml" />
   </mj-section>
 
   <!-- Story 6 -->
-  <mj-include path="../components/component-divider-gold-thin.mjml" />
+  <mj-include path="../components/dividers/component-divider-gold-thin.mjml" />
   <mj-section padding="0" padding-top="10px" padding-bottom="10px">
     <mj-include
-      path="../components/component-story-h3-button-blue-center.mjml" />
+      path="../components/stories/component-story-h3-button-blue-center.mjml" />
   </mj-section>
 </mj-column>

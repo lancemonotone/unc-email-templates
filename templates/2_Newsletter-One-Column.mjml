@@ -11,7 +11,7 @@
       <mj-include path="./partials/headers/header-secondary.mjml" />
       <!-- Newsletter Header Section -->
       <mj-include
-        path="./partials/components/component-newsletter-header-gold.mjml" />
+        path="./partials/components/navigation/component-newsletter-header-gold.mjml" />
     </mj-section>
 
     <mj-section padding="0" css-class="light-section">
@@ -22,7 +22,7 @@
     <!-- Section Title Bar -->
     <mj-section padding="0">
       <mj-include
-        path="./partials/components/component-section-title-stories.mjml" />
+        path="./partials/components/layout/component-section-title-stories.mjml" />
     </mj-section>
 
     <!-- Body Content Blocks 1 -->
@@ -76,7 +76,7 @@
     <!-- Section Title Bar -->
     <mj-section padding="0">
       <mj-include
-        path="./partials/components/component-section-title-events.mjml" />
+        path="./partials/components/layout/component-section-title-events.mjml" />
     </mj-section>
 
     <!-- Events Block - 2 Column Layout -->

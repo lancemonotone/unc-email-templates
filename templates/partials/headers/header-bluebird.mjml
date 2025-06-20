@@ -3,7 +3,7 @@
   background-color="#013c65"
   padding="40px"
   padding-top="20px"
-  padding-bottom="0"
+  padding-bottom="20px"
   css-class="blue-section mobile-stack">
   <mj-column
     width="40%"
@@ -35,5 +35,5 @@
 </mj-section>
 <mj-section padding="0">
   <mj-include
-    path="../../partials/components/component-divider-bluebird-thick.mjml" />
+    path="../../partials/components/dividers/component-divider-bluebird-thick.mjml" />
 </mj-section>

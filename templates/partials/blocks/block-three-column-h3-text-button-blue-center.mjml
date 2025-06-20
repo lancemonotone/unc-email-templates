@@ -7,7 +7,7 @@
   padding-right="10px"
   css-class="mobile-stack-column-three first-column">
   <mj-include
-    path="../components/component-column-image-h3-text-button-blue-center.mjml" />
+    path="../components/layout/component-column-image-h3-text-button-blue-center.mjml" />
 </mj-column>
 
 <!-- Column 2 -->
@@ -18,7 +18,7 @@
   padding-right="5px"
   css-class="mobile-stack-column-three">
   <mj-include
-    path="../components/component-column-image-h3-text-button-blue-center.mjml" />
+    path="../components/layout/component-column-image-h3-text-button-blue-center.mjml" />
 </mj-column>
 
 <!-- Column 3 -->
@@ -28,5 +28,5 @@
   padding-left="10px"
   css-class="mobile-stack-column-three">
   <mj-include
-    path="../components/component-column-image-h3-text-button-blue-center.mjml" />
+    path="../components/layout/component-column-image-h3-text-button-blue-center.mjml" />
 </mj-column>

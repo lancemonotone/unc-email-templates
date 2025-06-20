@@ -1,0 +1,8 @@
+<mj-column
+  width="100%"
+  css-class="mobile-stack-column light-section"
+  padding="0">
+  <mj-include path="../text/component-h3.mjml" />
+  <mj-include path="../text/component-text-no-bullets.mjml" />
+  <mj-include path="../buttons/component-button-blue-center.mjml" />
+</mj-column>

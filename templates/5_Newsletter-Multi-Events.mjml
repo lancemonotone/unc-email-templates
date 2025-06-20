@@ -10,7 +10,7 @@
     <mj-section padding="0" css-class="light-section">
       <mj-include path="./partials/headers/header-secondary.mjml" />
       <mj-include
-        path="./partials/components/component-newsletter-header-gold.mjml" />
+        path="./partials/components/navigation/component-newsletter-header-gold.mjml" />
     </mj-section>
 
     <!-- Hero Image with No Text -->
@@ -25,13 +25,13 @@
       padding-bottom="20px"
       css-class="light-section">
       <mj-include
-        path="./partials/components/component-story-h2-button-blue-left.mjml" />
+        path="./partials/components/stories/component-story-h2-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Gold Section Title after first h2 story -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/components/component-section-title-gold-center.mjml" />
+        path="./partials/components/layout/component-section-title-gold-center.mjml" />
     </mj-section>
 
     <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
@@ -40,7 +40,7 @@
         path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
       <!-- Thin Gold Divider -->
       <mj-include
-        path="./partials/components/component-divider-gold-thin.mjml" />
+        path="./partials/components/dividers/component-divider-gold-thin.mjml" />
     </mj-section>
 
     <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
@@ -52,7 +52,7 @@
     <!-- Gold Section Title after third h2 story -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/components/component-section-title-gold-center.mjml" />
+        path="./partials/components/layout/component-section-title-gold-center.mjml" />
     </mj-section>
 
     <!-- Two Column H2 Section -->
@@ -68,7 +68,7 @@
     <!-- Gold Section Title after third h2 story -->
     <mj-section padding="0" css-class="light-section">
       <mj-include
-        path="./partials/components/component-section-title-gold-center.mjml" />
+        path="./partials/components/layout/component-section-title-gold-center.mjml" />
     </mj-section>
 
     <!-- Three Column H3 Section (this needs different padding for the left and right columns)-->
@@ -84,7 +84,7 @@
     <!-- Section Title Bar -->
     <mj-section padding="0">
       <mj-include
-        path="./partials/components/component-section-title-gold-center.mjml" />
+        path="./partials/components/layout/component-section-title-gold-center.mjml" />
     </mj-section>
 
     <!-- Events Block - 2 Column Layout -->

@@ -12,7 +12,7 @@
     padding-left="0"
     css-class="mobile-stack-column">
     <mj-include
-      path="../components/component-column-image-h3-text-button-blue-center.mjml" />
+      path="../components/layout/component-column-image-h3-text-button-blue-center.mjml" />
   </mj-column>
 
   <!-- Column 2 -->
@@ -23,6 +23,6 @@
     padding-right="0"
     css-class="mobile-stack-column">
     <mj-include
-      path="../components/component-column-image-h3-text-button-blue-center.mjml" />
+      path="../components/layout/component-column-image-h3-text-button-blue-center.mjml" />
   </mj-column>
 </mj-section>

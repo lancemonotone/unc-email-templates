@@ -17,17 +17,17 @@
         width="100%"
         css-class="mobile-stack-column light-section force-questa"
         padding="0">
-        <mj-include path="./partials/components/component-h2.mjml" />
+        <mj-include path="./partials/components/text/component-h2.mjml" />
         <!-- Text With Bullets Component -->
-        <mj-include path="./partials/components/component-text.mjml" />
+        <mj-include path="./partials/components/text/component-text.mjml" />
         <mj-include
-          path="./partials/components/component-text-no-bullets.mjml" />
+          path="./partials/components/text/component-text-no-bullets.mjml" />
         <mj-include
-          path="./partials/components/component-text-no-bullets.mjml" />
+          path="./partials/components/text/component-text-no-bullets.mjml" />
         <mj-include
-          path="./partials/components/component-text-no-bullets.mjml" />
+          path="./partials/components/text/component-text-no-bullets.mjml" />
         <mj-include
-          path="./partials/components/component-text-no-bullets.mjml" />
+          path="./partials/components/text/component-text-no-bullets.mjml" />
       </mj-column>
 
       <!-- Presidential Signature Area -->

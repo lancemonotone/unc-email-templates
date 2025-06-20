@@ -20,15 +20,15 @@
         <mj-text mj-class="h1" align="center">
           <h1>Story Title H1</h1>
         </mj-text>
-        <mj-include path="./partials/components/component-text-center.mjml" />
+        <mj-include path="./partials/components/text/component-text-center.mjml" />
         <mj-include
-          path="./partials/components/component-button-blue-center.mjml" />
+          path="./partials/components/buttons/component-button-blue-center.mjml" />
       </mj-column>
 
       <!-- Event Image -->
       <mj-column width="100%" padding="0" padding-top="20px">
         <mj-include
-          path="./partials/components/component-image-content-center.mjml" />
+          path="./partials/components/images/component-image-content-center.mjml" />
       </mj-column>
     </mj-section>
 

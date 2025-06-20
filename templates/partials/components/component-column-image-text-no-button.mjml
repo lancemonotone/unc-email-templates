@@ -1,6 +1,0 @@
-<!-- Single Column with Image, Text, and Button -->
-<mj-include path="./component-image-content-center.mjml" />
-
-<mj-include path="./component-h3.mjml" />
-
-<mj-include path="./component-text-no-bullets.mjml" />

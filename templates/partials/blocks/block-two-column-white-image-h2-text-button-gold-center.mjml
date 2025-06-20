@@ -11,7 +11,7 @@
     padding-left="0"
     vertical-align="top"
     css-class="mobile-stack-column">
-    <mj-include path="../components/component-image-content-left.mjml" />
+    <mj-include path="../components/images/component-image-content-left.mjml" />
   </mj-column>
 
   <!-- Right Column - Content -->
@@ -22,10 +22,10 @@
     vertical-align="top"
     css-class="mobile-stack-column">
     <!-- H2 Header -->
-    <mj-include path="../components/component-h2.mjml" />
+    <mj-include path="../components/text/component-h2.mjml" />
 
     <!-- Body Text -->
-    <mj-include path="../components/component-text-no-bullets.mjml" />
+    <mj-include path="../components/text/component-text-no-bullets.mjml" />
 
     <!-- CTA Button -->
   </mj-column>
@@ -35,6 +35,6 @@
     padding="0"
     vertical-align="top"
     css-class="mobile-stack-column padding-sides">
-    <mj-include path="../components/component-button-gold-center.mjml" />
+    <mj-include path="../components/buttons/component-button-gold-center.mjml" />
   </mj-column>
 </mj-section>

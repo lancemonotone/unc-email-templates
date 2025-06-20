@@ -23,13 +23,13 @@
       padding-bottom="20px"
       css-class="light-section">
       <mj-include
-        path="./partials/components/component-story-h1-button-blue-center.mjml" />
+        path="./partials/components/stories/component-story-h1-button-blue-center.mjml" />
     </mj-section>
 
     <mj-section padding="0" css-class="light-section">
       <!-- Gold Divider -->
       <mj-include
-        path="./partials/components/component-divider-gold-thick.mjml" />
+        path="./partials/components/dividers/component-divider-gold-thick.mjml" />
     </mj-section>
 
     <!-- Body Story H2 -->
@@ -40,13 +40,13 @@
       padding-bottom="40px"
       css-class="light-section">
       <mj-include
-        path="./partials/components/component-story-h2-button-blue-center.mjml" />
+        path="./partials/components/stories/component-story-h2-button-blue-center.mjml" />
     </mj-section>
 
     <mj-section padding="0" css-class="light-section">
       <!-- Thin Gold Divider -->
       <mj-include
-        path="./partials/components/component-divider-gold-thin.mjml" />
+        path="./partials/components/dividers/component-divider-gold-thin.mjml" />
     </mj-section>
 
     <!-- Two Button Blue Centered -->
@@ -57,13 +57,13 @@
       padding-bottom="40px"
       css-class="light-section">
       <mj-include
-        path="./partials/components/component-text-no-bullets-button-blue-center-two.mjml" />
+        path="./partials/components/stories/component-text-no-bullets-button-blue-center-two.mjml" />
     </mj-section>
 
     <mj-section padding="0" css-class="light-section">
       <!-- Thin Gold Divider -->
       <mj-include
-        path="./partials/components/component-divider-gold-thin.mjml" />
+        path="./partials/components/dividers/component-divider-gold-thin.mjml" />
     </mj-section>
 
     <!-- Three Button Blue Centered -->
@@ -74,7 +74,7 @@
       padding-bottom="40px"
       css-class="light-section">
       <mj-include
-        path="./partials/components/component-text-no-bullets-button-blue-center-three.mjml" />
+        path="./partials/components/stories/component-text-no-bullets-button-blue-center-three.mjml" />
     </mj-section>
 
     <!-- Follow-up Information (Callout Box) -->

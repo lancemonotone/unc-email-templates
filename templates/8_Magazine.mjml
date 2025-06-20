@@ -20,7 +20,7 @@
     <mj-section padding="40px" padding-bottom="0" css-class="light-section">
       <mj-column width="100%" padding="0" padding-bottom="20px">
         <mj-include
-          path="./partials/components/component-story-h1-button-blue-center.mjml" />
+          path="./partials/components/stories/component-story-h1-button-blue-center.mjml" />
       </mj-column>
     </mj-section>
 
@@ -28,7 +28,7 @@
       <!-- Thin Gold Divider -->
       <mj-column width="100%" padding="0" padding-bottom="20px">
         <mj-include
-          path="./partials/components/component-divider-gold-thin.mjml" />
+          path="./partials/components/dividers/component-divider-gold-thin.mjml" />
       </mj-column>
     </mj-section>
 
@@ -46,7 +46,7 @@
     <mj-section padding="0" css-class="light-section">
       <mj-column width="100%" padding="0" padding-top="20px">
         <mj-include
-          path="./partials/components/component-divider-gold-thin.mjml" />
+          path="./partials/components/dividers/component-divider-gold-thin.mjml" />
       </mj-column>
     </mj-section>
 

@@ -7,7 +7,7 @@
   css-class="light-section">
   <mj-column width="100%" padding="0" padding-bottom="0">
     <!-- Include existing H1 component -->
-    <mj-include path="../components/component-h2.mjml" />
+    <mj-include path="../components/text/component-h2.mjml" />
   </mj-column>
 </mj-section>
 
@@ -72,6 +72,6 @@
 <!-- Centered Gold Button -->
 <mj-section padding="0" css-class="light-section">
   <mj-column width="100%" padding-top="20px" padding-bottom="20px">
-    <mj-include path="../components/component-button-blue-center.mjml" />
+    <mj-include path="../components/buttons/component-button-blue-center.mjml" />
   </mj-column>
 </mj-section>

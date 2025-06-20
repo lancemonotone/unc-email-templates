@@ -1,0 +1,10 @@
+<mj-column
+  width="100%"
+  css-class="light-section"
+  padding="0"
+  padding-right="40px"
+  padding-left="40px">
+  <mj-include path="../text/component-h2.mjml" />
+  <mj-include path="../text/component-text-no-bullets.mjml" />
+  <mj-include path="../buttons/component-button-blue-left.mjml" />
+</mj-column>
