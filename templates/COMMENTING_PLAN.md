@@ -184,9 +184,40 @@ mjml template.mjml -o output.html --config.validationLevel=strict
 
 ## File-by-File Implementation Plan
 
-### Phase 1: Main Templates (10 files) - HIGH PRIORITY
+### Phase 1: Content Components (26 files) - HIGH PRIORITY
 
-**Estimated Time: 3-4 hours**
+**Focus Areas:**
+
+- Text components (headlines, body text)
+- Button components (text and URLs)
+- Image components (src and alt attributes)
+- Story components (headlines and content)
+
+### Phase 2: Block Templates (24 files) - HIGH PRIORITY
+
+**Focus Areas:**
+
+- Any direct content not covered by components
+- Event listings and details
+- Callout box content
+
+### Phase 3: Header Templates (6 files) - MEDIUM PRIORITY
+
+**Focus Areas:**
+
+- Department/office names
+- Logo alt text
+- Header navigation links
+
+### Phase 4: Footer Templates (6 files) - MEDIUM PRIORITY
+
+**Focus Areas:**
+
+- Contact information (phone, email, address)
+- Social media links
+- Footer text content
+
+### Phase 5: Main Templates (10 files) - MEDIUM PRIORITY
 
 1. `1_Newsletter-Around-UNC.mjml`
 2. `2_Newsletter-One-Column.mjml`
@@ -202,50 +233,9 @@ mjml template.mjml -o output.html --config.validationLevel=strict
 **Focus Areas:**
 
 - Section headers and navigation
-- Story headlines and content
-- CTA buttons and links
-- Contact information in footers
-
-### Phase 2: Header Templates (6 files) - MEDIUM PRIORITY
-
-**Estimated Time: 1.5 hours**
-
-**Focus Areas:**
-
-- Department/office names
-- Logo alt text
-- Header navigation links
-
-### Phase 3: Footer Templates (6 files) - MEDIUM PRIORITY
-
-**Estimated Time: 1.5 hours**
-
-**Focus Areas:**
-
-- Contact information (phone, email, address)
-- Social media links
-- Footer text content
-
-### Phase 4: Content Components (26 files) - MEDIUM PRIORITY
-
-**Estimated Time: 4-5 hours**
-
-**Focus Areas:**
-
-- Text components (headlines, body text)
-- Button components (text and URLs)
-- Image components (src and alt attributes)
-- Story components (headlines and content)
-
-### Phase 5: Block Templates (24 files) - LOW PRIORITY
-
-**Estimated Time: 2-3 hours**
-
-**Focus Areas:**
-
-- Any direct content not covered by components
-- Event listings and details
-- Callout box content
+- Any remaining story headlines and content not covered by components
+- Any remaining CTA buttons and links not covered by components
+- Template-specific content
 
 ## Quality Assurance Process
 
@@ -275,18 +265,6 @@ mjml template.mjml -o output.html --config.validationLevel=strict
 - ✅ **Email client rendering is unaffected**
 - ✅ **Responsive behavior is preserved**
 - ✅ Non-technical users can easily identify editable content
-
-## Timeline Estimate (Updated)
-
-- **Phase 1 (Main Templates):** 3-4 hours
-- **Phase 2 (Headers):** 1.5 hours
-- **Phase 3 (Footers):** 1.5 hours
-- **Phase 4 (Components):** 4-5 hours
-- **Phase 5 (Blocks):** 2-3 hours
-- **Testing & Validation:** 2 hours
-- **Documentation:** 1 hour
-
-**Total Estimated Time:** 15-18 hours
 
 ## MJML-Specific Notes
 
