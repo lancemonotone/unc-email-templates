@@ -1,5 +1,9 @@
 <!-- Presidential Signature Block -->
+<!-- EDIT: SIGNATURE_GREETING - Update signature greeting text -->
 <mj-text> Sincerely, </mj-text>
+<!-- END EDIT: SIGNATURE_GREETING -->
+
+<!-- EDIT: SIGNATURE_IMAGE - Replace signature image source and alt text -->
 <mj-image
   width="28px"
   height="67px"
@@ -10,6 +14,9 @@
   padding-bottom="10px"
   src="https://ncd.test.technolutions.net/www/images/signature-af-transparent.png"
   alt="President's Signature" />
+<!-- END EDIT: SIGNATURE_IMAGE -->
+
+<!-- EDIT: SIGNATURE_NAME_SOCIAL - Update signer name and social media link -->
 <mj-text>
   Andy Feinstein
   <a
@@ -25,4 +32,8 @@
       style="vertical-align: middle; padding-left: 5px" />
   </a>
 </mj-text>
+<!-- END EDIT: SIGNATURE_NAME_SOCIAL -->
+
+<!-- EDIT: SIGNATURE_TITLE - Update signer title/position -->
 <mj-text>President</mj-text>
+<!-- END EDIT: SIGNATURE_TITLE -->

@@ -184,68 +184,166 @@ mjml template.mjml -o output.html --config.validationLevel=strict
 
 ## File-by-File Implementation Plan
 
-### Phase 1: Content Components (26 files) - ✅ COMPLETED
+### Phase 1: Content Components (38 files) - ✅ COMPLETED
 
 **Status:** All content components have been successfully commented with MJML-compatible edit markers.
 
-**Completed Files:**
+**New Organized Structure:**
 
-- Text Components: `component-h1.mjml`, `component-h2.mjml`, `component-h3.mjml`, `component-text.mjml`, `component-text-no-bullets.mjml`, `component-text-center.mjml`
-- Button Components: `component-button-blue-center.mjml`, `component-button-blue-left.mjml`, `component-button-gold-center.mjml`, `component-button-gold-left.mjml`
-- Image Components: `component-image-content-center.mjml`, `component-image-content-left.mjml`, `component-image-hero-full-width.mjml`, `component-image-hero-half-width.mjml`, `component-image-caption.mjml`
-- Navigation Components: `component-navigation-bar-gold.mjml`, `component-newsletter-header-gold.mjml`
-- Section Components: `component-section-title-gold-center.mjml`, `component-section-title-bluebird-center.mjml`
+- **Text Components (4 files):** `component-h1.mjml`, `component-h2.mjml`, `component-h3.mjml`, `component-text.mjml`, `component-text-no-bullets.mjml`, `component-text-center.mjml`
+- **Button Components (8 files):** All single, two-column, and three-column button variants (blue/gold, center/left)
+- **Image Components (5 files):** Hero, content, and caption image components
+- **Navigation Components (2 files):** Navigation bar and newsletter header
+- **Section Components (4 files):** Section titles and layout components
+- **Story Components (10 files):** Various story layout combinations with headers and buttons
+- **Divider Components (5 files):** Blue, gold, thick, thin, and dotted dividers
 
-**Focus Areas:**
+**✅ Completed Focus Areas:**
 
 - ✅ Text components (headlines, body text)
 - ✅ Button components (text and URLs)
 - ✅ Image components (src and alt attributes)
 - ✅ Story components (headlines and content)
+- ✅ Navigation components (links and titles)
+- ✅ Layout components (section titles)
 
-### Phase 2: Block Templates (24 files) - HIGH PRIORITY
+**Impact of Restructuring:** The new organized directory structure (`/buttons`, `/dividers`, `/images`, `/layout`, `/navigation`, `/stories`, `/text`) **improves** the plan by making components easier to locate and maintain. All commenting work remains valid and follows MJML-compatible standards.
 
-**Focus Areas:**
+### Phase 2: Block Templates (26 files) - ✅ COMPLETED
 
-- Any direct content not covered by components
-- Event listings and details
-- Callout box content
+**Status:** Phase 2 completed! All blocks with direct editable content have been commented with MJML-compatible edit markers.
 
-### Phase 3: Header Templates (6 files) - MEDIUM PRIORITY
+**✅ BLOCKS WITH DIRECT CONTENT - COMMENTED (12 files):**
 
-**Focus Areas:**
+- ✅ `block-callout-box-light-button-blue-center.mjml` - Callout headline and text
+- ✅ `block-callout-box-dark-button-gold-center.mjml` - Dark callout headline and text
+- ✅ `block-callout-box-bluebird-button-blue-center.mjml` - Bluebird callout headline and text
+- ✅ `block-callout-box-no-button.mjml` - Simple callout headline and text
+- ✅ `block-signature.mjml` - Signature greeting, image, name/social, and title
+- ✅ `block-events-full.mjml` - Events section title and individual event details
+- ✅ `block-two-column-events-button-blue-center.mjml` - Left/right column event details
+- ✅ `block-two-column-events-button-gold-center.mjml` - Gold version event details
+- ✅ `block-in-pictures.mjml` - Section title and subtitle
+- ✅ `block-in-the-news.mjml` - Section title, subtitle, and news content
+- ✅ `block-true-north.mjml` - Section title and subtitle
+- ✅ `block-students-faculty-staff.mjml` - Section titles and content areas
 
-- Department/office names
-- Logo alt text
-- Header navigation links
+**✅ BLOCKS USING ONLY COMPONENTS - NO ADDITIONAL COMMENTS NEEDED (14 files):**
 
-### Phase 4: Footer Templates (6 files) - MEDIUM PRIORITY
+- ✅ `block-body-hero-content.mjml` - Uses only pre-commented components
+- ✅ `block-hero-no-text.mjml` - Simple image include only
+- ✅ `block-featured-story.mjml` - Uses only components (image, h3, text, button)
+- ✅ `block-stories.mjml` - Uses only components and dividers
+- ✅ `block-three-column-h3-text-button-blue-center.mjml` - Uses only components
+- ✅ `block-three-column-no-button.mjml` - Uses only components
+- ✅ `block-two-column.mjml` - Uses only components
+- ✅ `block-two-column-sidebar.mjml` - Uses only block includes
+- ✅ `block-two-column-h2-text-button-blue-left.mjml` - Uses only components
+- ✅ `block-two-column-white-image-h1-text-no-button.mjml` - Uses only components
+- ✅ `block-two-column-white-image-h2-text-button-blue-left.mjml` - Uses only components
+- ✅ `block-two-column-white-image-h2-text-button-gold-center.mjml` - Uses only components
+- ✅ `block-two-column-white-image-h2-text-button-gold-left.mjml` - Uses only components
+- ✅ `block-two-column-gold-image-h2-text-button-blue-left.mjml` - Uses only components
 
-**Focus Areas:**
+**Phase 2 Results:**
 
-- Contact information (phone, email, address)
-- Social media links
-- Footer text content
+- **100% Complete (26/26 files)**
+- **All direct editable content marked with edit comments**
+- **Component-only blocks identified (no additional work needed)**
+- **MJML-compatible commenting maintained throughout**
 
-### Phase 5: Main Templates (10 files) - MEDIUM PRIORITY
+### Phase 3: Header Templates (6 files) - ✅ COMPLETED
 
-1. `1_Newsletter-Around-UNC.mjml`
-2. `2_Newsletter-One-Column.mjml`
-3. `3_Basic-Hero-One-CTA-Blue.mjml`
-4. `4_Basic-No-Hero-One-CTA-Gold.mjml`
-5. `5_Newsletter-Multi-Events.mjml`
-6. `6_Presidential.mjml`
-7. `7_Single-Event-Promo.mjml`
-8. `8_Magazine.mjml`
-9. `9_Top-Hero.mjml`
-10. `10_Newsletter-Kitchen-Sink.mjml`
+**Status:** All header templates with department/office names have been commented with MJML-compatible edit markers.
 
-**Focus Areas:**
+**✅ HEADERS WITH DIRECT CONTENT - COMMENTED (5 files):**
 
-- Section headers and navigation
-- Any remaining story headlines and content not covered by components
-- Any remaining CTA buttons and links not covered by components
-- Template-specific content
+- ✅ `header-primary.mjml` - Department name
+- ✅ `header-secondary.mjml` - Department name
+- ✅ `header-centered.mjml` - Department name
+- ✅ `header-bluebird.mjml` - Department name
+- ✅ `header-presidential.mjml` - Office name
+
+**✅ HEADERS USING ONLY LOGOS - NO ADDITIONAL COMMENTS NEEDED (1 file):**
+
+- ✅ `header-around-unc.mjml` - Uses only logo images and fixed branding
+
+**Phase 3 Results:**
+
+- **100% Complete (6/6 files)**
+- **All department/office names marked for editing**
+- **Logo-only headers identified (no content to edit)**
+
+### Phase 4: Footer Templates (6 files) - ✅ COMPLETED
+
+**Status:** All footer templates with contact information have been commented with MJML-compatible edit markers.
+
+**✅ FOOTERS WITH DIRECT CONTENT - COMMENTED (6 files):**
+
+- ✅ `footer-primary.mjml` - Contact name, email, phone, address
+- ✅ `footer-secondary.mjml` - Address, email, phone
+- ✅ `footer-presidential.mjml` - Address, phone, email, website
+- ✅ `footer-social-32.mjml` - Uses social elements (commented separately)
+- ✅ `footer-social-20.mjml` - Uses social elements (commented separately)
+- ✅ `social/social-elements.mjml` - All social media URLs
+
+**Phase 4 Results:**
+
+- **100% Complete (6/6 files)**
+- **All contact information marked for editing**
+- **Social media links properly commented**
+- **Email/phone href attributes noted for updates**
+
+### Phase 5: Main Templates (10 files) - ✅ COMPLETED
+
+**Status:** Phase 5 completed! Main templates are primarily structural (using includes) with strategic comments added for template-specific elements.
+
+**✅ MAIN TEMPLATES WITH STRATEGIC COMMENTS (4 files):**
+
+- ✅ `1_Newsletter-Around-UNC.mjml` - Email title and navigation anchors
+- ✅ `2_Newsletter-One-Column.mjml` - Email title
+- ✅ `3_Basic-Hero-One-CTA-Blue.mjml` - Email title
+- ✅ `6_Presidential.mjml` - Email title
+
+**✅ MAIN TEMPLATES USING ONLY INCLUDES - NO ADDITIONAL COMMENTS NEEDED (6 files):**
+
+- ✅ `4_Basic-No-Hero-One-CTA-Gold.mjml` - Uses only pre-commented includes
+- ✅ `5_Newsletter-Multi-Events.mjml` - Uses only pre-commented includes
+- ✅ `7_Single-Event-Promo.mjml` - Uses only pre-commented includes
+- ✅ `8_Magazine.mjml` - Uses only pre-commented includes
+- ✅ `9_Top-Hero.mjml` - Uses only pre-commented includes
+- ✅ `10_Newsletter-Kitchen-Sink.mjml` - Uses only pre-commented includes
+
+**Phase 5 Results:**
+
+- **100% Complete (10/10 files)**
+- **Email titles marked for template identification**
+- **Navigation anchors commented where present**
+- **All content editing happens at component/block level (already completed)**
+
+## 🎉 COMMENTING PLAN - FULLY COMPLETED
+
+**FINAL PROJECT STATUS: 100% COMPLETE**
+
+**Summary of All Phases:**
+
+- ✅ **Phase 1:** 38/38 content components - All text, buttons, images, and layout components
+- ✅ **Phase 2:** 26/26 block templates - All callout boxes, events, news, and content blocks
+- ✅ **Phase 3:** 6/6 header templates - All department names and branding
+- ✅ **Phase 4:** 6/6 footer templates - All contact information and social media
+- ✅ **Phase 5:** 10/10 main templates - Email titles and navigation anchors
+
+**TOTAL FILES PROCESSED: 86 files**
+
+**Content Editor Benefits:**
+
+- 🎯 **Every editable piece of content clearly marked** with `<!-- EDIT: -->` comments
+- 📝 **Clear instructions** for what to update (text, links, images, contact info)
+- 🔧 **MJML-compatible** comments that don't break email compilation
+- 📧 **Email client safe** - comments preserved but don't affect rendering
+- 👥 **Non-technical friendly** - clear descriptions for content editors
+
+**The email template system is now fully documented and ready for content editing!**
 
 ## Quality Assurance Process
 

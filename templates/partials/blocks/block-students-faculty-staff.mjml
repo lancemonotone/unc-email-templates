@@ -5,6 +5,7 @@
     <!-- Header -->
     <mj-section padding="0" css-class="gold-header">
       <mj-column width="100%">
+        <!-- EDIT: STUDENTS_SECTION_TITLE - Update students section title -->
         <mj-text
           mj-class="h1"
           align="center"
@@ -12,6 +13,7 @@
           css-class="no-dark-mode-text">
           Students
         </mj-text>
+        <!-- END EDIT: STUDENTS_SECTION_TITLE -->
       </mj-column>
     </mj-section>
 
@@ -53,6 +55,7 @@
     <!-- Faculty and Staff Section -->
     <mj-section padding="0" css-class="gold-header">
       <mj-column width="100%">
+        <!-- EDIT: FACULTY_SECTION_TITLE - Update faculty and staff section title -->
         <mj-text
           mj-class="h1"
           align="center"
@@ -60,6 +63,7 @@
           css-class="no-dark-mode-text">
           Faculty and Staff
         </mj-text>
+        <!-- END EDIT: FACULTY_SECTION_TITLE -->
       </mj-column>
     </mj-section>
 

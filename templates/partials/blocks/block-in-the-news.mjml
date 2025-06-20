@@ -34,6 +34,7 @@
         vertical-align="middle"
         css-class="mobile-stack-column"
         padding-bottom="0">
+        <!-- EDIT: IN_THE_NEWS_TITLE - Update "In the News" section title -->
         <mj-text
           css-class="mobile-center"
           mj-class="highlight"
@@ -41,15 +42,18 @@
           padding="0">
           in the News
         </mj-text>
+        <!-- END EDIT: IN_THE_NEWS_TITLE -->
       </mj-column>
     </mj-section>
 
     <!-- Subtitle -->
     <mj-section padding="0" css-class="grey-section">
       <mj-column width="100%">
+        <!-- EDIT: IN_THE_NEWS_SUBTITLE - Update news subtitle description -->
         <mj-text align="center" padding="15px 10px" mj-class="h5">
           A selection of featured headlines about the university
         </mj-text>
+        <!-- END EDIT: IN_THE_NEWS_SUBTITLE -->
       </mj-column>
     </mj-section>
 
@@ -58,6 +62,7 @@
       <mj-column
         css-class="column-centered mobile-stack-column light-section padding-sides"
         padding-bottom="0">
+        <!-- EDIT: NEWS_CONTENT - Update news content including headlines and links -->
         <mj-text padding="0">
           <ul>
             <li>
@@ -83,6 +88,7 @@
             </li>
           </ul>
         </mj-text>
+        <!-- END EDIT: NEWS_CONTENT -->
       </mj-column>
     </mj-section>
   </mj-column>

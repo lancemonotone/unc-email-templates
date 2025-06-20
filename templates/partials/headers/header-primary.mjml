@@ -25,6 +25,7 @@
     padding="0"
     vertical-align="middle"
     css-class="mobile-stack-column mobile-stack-padding-lg">
+    <!-- EDIT: DEPARTMENT_NAME - Update department or office name -->
     <mj-text
       mj-class="header-title-white"
       align="right"
@@ -32,5 +33,6 @@
       css-class="mobile-center">
       Department Name
     </mj-text>
+    <!-- END EDIT: DEPARTMENT_NAME -->
   </mj-column>
 </mj-section>

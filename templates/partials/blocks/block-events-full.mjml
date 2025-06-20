@@ -24,6 +24,7 @@
       vertical-align="middle"
       padding-bottom="0"
       css-class="mobile-stack-column">
+      <!-- EDIT: EVENTS_SECTION_TITLE - Update events section title -->
       <mj-text
         css-class="mobile-center"
         mj-class="highlight"
@@ -35,36 +36,40 @@
         padding-left="0">
         Events
       </mj-text>
+      <!-- END EDIT: EVENTS_SECTION_TITLE -->
     </mj-column>
   </mj-section>
 
   <!-- Event Items -->
   <mj-column width="100%" padding="0" padding-top="10px">
-    <!-- Event 1 -->
+    <!-- EDIT: EVENT_1 - Update first event details -->
     <mj-text padding-top="2px" padding-bottom="2px">
       <p>
         <strong><a href="#">Free Movie Night</a></strong>
       </p>
       <p>Monday, Feb. 10, 5-7 p.m., Kress Cinema.</p>
     </mj-text>
+    <!-- END EDIT: EVENT_1 -->
 
-    <!-- Event 2 -->
+    <!-- EDIT: EVENT_2 - Update second event details -->
     <mj-text padding-top="2px" padding-bottom="2px">
       <p>
         <strong><a href="#">Valentine's Bash</a></strong>
       </p>
       <p>Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.</p>
     </mj-text>
+    <!-- END EDIT: EVENT_2 -->
 
-    <!-- Event 3 -->
+    <!-- EDIT: EVENT_3 - Update third event details -->
     <mj-text padding-top="2px" padding-bottom="2px">
       <p>
         <strong><a href="#">Valentine's Bash</a></strong>
       </p>
       <p>Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.</p>
     </mj-text>
+    <!-- END EDIT: EVENT_3 -->
 
-    <!-- Button -->
+    <!-- EDIT: EVENTS_CTA_BUTTON - Update events call-to-action button -->
     <mj-button
       mj-class="button-primary"
       align="center"
@@ -74,5 +79,6 @@
       padding-bottom="0">
       <span style="color: #ffffff">See All Events</span>
     </mj-button>
+    <!-- END EDIT: EVENTS_CTA_BUTTON -->
   </mj-column>
 </mj-section>

@@ -7,6 +7,7 @@
   css-class="blue-section">
   <!-- Left Column - Address -->
   <mj-column width="40%" vertical-align="top" css-class="mobile-stack-column">
+    <!-- EDIT: SECONDARY_ADDRESS - Update office address -->
     <mj-text
       css-class="mobile-center white-text"
       font-size="11px"
@@ -16,6 +17,7 @@
       color="#ffffff">
       1234 Address, Greeley, CO 12345
     </mj-text>
+    <!-- END EDIT: SECONDARY_ADDRESS -->
   </mj-column>
 
   <!-- Center Column - Bear Head Logo -->
@@ -36,6 +38,7 @@
     width="40%"
     vertical-align="top"
     css-class="mobile-stack-column mobile-stack-padding-sm">
+    <!-- EDIT: SECONDARY_CONTACT - Update email and phone (update both display text and href attributes) -->
     <mj-text
       css-class="mobile-center white-text"
       font-size="11px"
@@ -55,6 +58,7 @@
         <span style="color: white !important">Phone</span></a
       >
     </mj-text>
+    <!-- END EDIT: SECONDARY_CONTACT -->
   </mj-column>
 </mj-section>
 

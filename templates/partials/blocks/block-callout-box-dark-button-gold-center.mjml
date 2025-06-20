@@ -1,19 +1,21 @@
-<!-- Follow-Up Information Callout Box -->
-<mj-section padding="20px" css-class="grey-section-dark light-border">
+<!-- Follow-Up Information Callout Box - Dark Background -->
+<mj-section padding="20px" css-class="blue-section">
   <mj-column
     css-class="mobile-stack-column padding-sides"
     padding-left="20px"
     padding-right="20px">
-    <!-- Headline -->
-    <mj-text mj-class="h4" align="center">
-      <h4>Questions?</h4>
+    <!-- EDIT: CALLOUT_HEADLINE_DARK - Update dark callout box headline -->
+    <mj-text mj-class="h4" align="center" color="#ffffff">
+      <h4 style="color: #ffffff">Questions?</h4>
     </mj-text>
+    <!-- END EDIT: CALLOUT_HEADLINE_DARK -->
 
-    <!-- Body Text -->
-    <mj-text mj-class="body-text" align="center">
+    <!-- EDIT: CALLOUT_TEXT_DARK - Update dark callout box content text -->
+    <mj-text mj-class="body-text" align="center" color="#ffffff">
       Contact us for more information about this event or program. We're here to
       help you navigate your UNC experience.
     </mj-text>
+    <!-- END EDIT: CALLOUT_TEXT_DARK -->
 
     <!-- Button -->
     <mj-include

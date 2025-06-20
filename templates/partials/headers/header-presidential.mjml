@@ -15,6 +15,7 @@
 <!-- Gold Office Bar -->
 <mj-section css-class="gold-header" padding="0">
   <mj-column width="100%" padding="0">
+    <!-- EDIT: OFFICE_NAME - Update office or department name -->
     <mj-text
       align="center"
       color="#013c65"
@@ -25,5 +26,6 @@
       padding-right="40px">
       Office of the President
     </mj-text>
+    <!-- END EDIT: OFFICE_NAME -->
   </mj-column>
 </mj-section>

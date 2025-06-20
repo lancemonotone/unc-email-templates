@@ -1,6 +1,8 @@
 <mjml>
   <mj-head>
+    <!-- EDIT: EMAIL_TITLE_PRESIDENTIAL - Update email subject/title for presidential communications -->
     <mj-title>University of Northern Colorado - Presidential</mj-title>
+    <!-- END EDIT: EMAIL_TITLE_PRESIDENTIAL -->
     <mj-include path="./assets/styles.css" type="css" />
     <mj-include path="./assets/styles.mjml" />
   </mj-head>

@@ -1,6 +1,8 @@
 <mjml>
   <mj-head>
+    <!-- EDIT: EMAIL_TITLE - Update email subject/title for inbox display -->
     <mj-title>Around UNC - University of Northern Colorado</mj-title>
+    <!-- END EDIT: EMAIL_TITLE -->
     <mj-include path="./assets/styles.css" type="css" />
     <mj-include path="./assets/styles.mjml" />
   </mj-head>
@@ -17,7 +19,9 @@
     <!-- Section 2: Featured Story/Events Section inside Two Column Sidebar -->
     <mj-section padding="0" css-class="light-section">
       <mj-column width="100%">
+        <!-- EDIT: NAVIGATION_ANCHOR_EVENTS - Update anchor ID for navigation linking -->
         <mj-raw><a id="events"></a></mj-raw>
+        <!-- END EDIT: NAVIGATION_ANCHOR_EVENTS -->
       </mj-column>
       <mj-include path="./partials/blocks/block-two-column-sidebar.mjml" />
     </mj-section>
@@ -30,7 +34,9 @@
     <!-- Section 4: UNC in Pictures Section -->
     <mj-section padding="0" css-class="light-section">
       <mj-column width="100%">
+        <!-- EDIT: NAVIGATION_ANCHOR_PICTURES - Update anchor ID for navigation linking -->
         <mj-raw><a id="pictures"></a></mj-raw>
+        <!-- END EDIT: NAVIGATION_ANCHOR_PICTURES -->
       </mj-column>
       <mj-include path="./partials/blocks/block-in-pictures.mjml" />
     </mj-section>
@@ -38,7 +44,9 @@
     <!-- Section 5: Faculty and Staff Section -->
     <mj-section padding="0" css-class="light-section">
       <mj-column width="100%">
+        <!-- EDIT: NAVIGATION_ANCHOR_STUDENTS - Update anchor ID for navigation linking -->
         <mj-raw><a id="students"></a></mj-raw>
+        <!-- END EDIT: NAVIGATION_ANCHOR_STUDENTS -->
       </mj-column>
       <mj-include path="./partials/blocks/block-students-faculty-staff.mjml" />
     </mj-section>
@@ -51,7 +59,9 @@
     <!-- Section 7: UNC in the News Section -->
     <mj-section padding="0" css-class="light-section">
       <mj-column width="100%">
+        <!-- EDIT: NAVIGATION_ANCHOR_NEWS - Update anchor ID for navigation linking -->
         <mj-raw><a id="news"></a></mj-raw>
+        <!-- END EDIT: NAVIGATION_ANCHOR_NEWS -->
       </mj-column>
       <mj-include path="./partials/blocks/block-in-the-news.mjml" />
     </mj-section>

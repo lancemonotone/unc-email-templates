@@ -1,18 +1,20 @@
-<!-- Follow-Up Information Callout Box -->
+<!-- Follow-Up Information Callout Box - No Button -->
 <mj-section padding="20px" css-class="grey-section light-border">
   <mj-column
     css-class="mobile-stack-column padding-sides"
     padding-left="20px"
     padding-right="20px">
-    <!-- Headline -->
-    <mj-text mj-class="h3" align="center">
+    <!-- EDIT: CALLOUT_HEADLINE_SIMPLE - Update callout box headline -->
+    <mj-text mj-class="h4" align="center">
       <h4>Questions?</h4>
     </mj-text>
+    <!-- END EDIT: CALLOUT_HEADLINE_SIMPLE -->
 
-    <!-- Body Text -->
+    <!-- EDIT: CALLOUT_TEXT_SIMPLE - Update callout box content text -->
     <mj-text mj-class="body-text" align="center">
       Contact us for more information about this event or program. We're here to
       help you navigate your UNC experience.
     </mj-text>
+    <!-- END EDIT: CALLOUT_TEXT_SIMPLE -->
   </mj-column>
 </mj-section>

@@ -33,7 +33,7 @@
     width="75%"
     vertical-align="middle"
     css-class="mobile-stack-column mobile-stack-padding-sm">
-    <!-- Row 1: Name -->
+    <!-- EDIT: CONTACT_NAME - Update contact person name -->
     <mj-text
       css-class="mobile-center white-text"
       font-size="11px"
@@ -43,8 +43,9 @@
       color="#ffffff">
       Name
     </mj-text>
+    <!-- END EDIT: CONTACT_NAME -->
 
-    <!-- Row 2: Email | Phone -->
+    <!-- EDIT: CONTACT_EMAIL_PHONE - Update email and phone number (update both display text and href attributes) -->
     <mj-text
       css-class="mobile-center white-text"
       font-size="11px"
@@ -66,8 +67,9 @@
         >Phone</a
       >
     </mj-text>
+    <!-- END EDIT: CONTACT_EMAIL_PHONE -->
 
-    <!-- Row 3: Address -->
+    <!-- EDIT: CONTACT_ADDRESS - Update mailing address -->
     <mj-text
       css-class="mobile-center white-text"
       font-size="11px"
@@ -77,6 +79,7 @@
       color="#ffffff">
       Address
     </mj-text>
+    <!-- END EDIT: CONTACT_ADDRESS -->
   </mj-column>
   <!--[if mso]>
   </td>

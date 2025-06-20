@@ -1,6 +1,8 @@
 <mjml>
   <mj-head>
+    <!-- EDIT: EMAIL_TITLE_BASIC - Update email subject/title for basic communications -->
     <mj-title>University of Northern Colorado</mj-title>
+    <!-- END EDIT: EMAIL_TITLE_BASIC -->
     <mj-include path="./assets/styles.css" type="css" />
     <mj-include path="./assets/styles.mjml" />
   </mj-head>
