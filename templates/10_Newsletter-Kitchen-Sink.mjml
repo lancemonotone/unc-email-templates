@@ -103,7 +103,7 @@
     <!-- Three Column H3 Section (this needs different padding for the left and right columns)-->
     <mj-section
       css-class="content-section light-section"
-      padding="20px"
+      padding="30px"
       padding-left="40px"
       padding-right="40px">
       <mj-include
