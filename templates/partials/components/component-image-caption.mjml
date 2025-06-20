@@ -1,3 +1,4 @@
+<!-- EDIT: IMAGE_CAPTION - Update image caption text and links -->
 <mj-text align="left" padding="5px 0 0">
   <p>
     Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
@@ -5,3 +6,4 @@
     magna aliqua ut enim ad <strong>minim veniam</strong>.
   </p>
 </mj-text>
+<!-- END EDIT: IMAGE_CAPTION -->

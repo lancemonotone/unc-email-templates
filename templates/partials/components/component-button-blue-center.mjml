@@ -1,4 +1,5 @@
 <!-- UNC Standard Button Component Center -->
+<!-- EDIT: CTA_BUTTON_BLUE - Update button text and destination URL (href attribute) -->
 <mj-button
   mj-class="button-primary"
   align="center"
@@ -8,3 +9,4 @@
   padding-top="20px">
   <span style="color: #ffffff">Read More</span>
 </mj-button>
+<!-- END EDIT: CTA_BUTTON_BLUE -->

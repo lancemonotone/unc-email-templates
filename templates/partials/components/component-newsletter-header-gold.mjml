@@ -5,6 +5,7 @@
     padding="0"
     vertical-align="middle"
     css-class="mobile-stack-column">
+    <!-- EDIT: NEWSLETTER_NAME - Update newsletter name -->
     <mj-text
       mj-class="h3"
       align="left"
@@ -15,12 +16,14 @@
       padding-bottom="0">
       NEWSLETTER NAME
     </mj-text>
+    <!-- END EDIT: NEWSLETTER_NAME -->
   </mj-column>
   <mj-column
     width="30%"
     padding="0"
     vertical-align="middle"
     css-class="mobile-stack-column mobile-stack-padding-sm">
+    <!-- EDIT: NEWSLETTER_DATE - Update date and issue number -->
     <mj-text
       mj-class="header-subtitle-blue"
       align="right"
@@ -31,5 +34,6 @@
       padding-bottom="0">
       Date / Issue #
     </mj-text>
+    <!-- END EDIT: NEWSLETTER_DATE -->
   </mj-column>
 </mj-section>

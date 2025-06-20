@@ -1,6 +1,8 @@
+<!-- EDIT: HERO_IMAGE_HALF - Replace hero image source and alt text description -->
 <mj-image
   padding-top="30px"
   mj-class="hero-half"
   fluid-on-mobile="true"
   src="https://enrolled.unco.edu/www/images/_NC_4362.jpg"
   alt="Image alt text" />
+<!-- END EDIT: HERO_IMAGE_HALF -->

@@ -1,6 +1,5 @@
+<!-- EDIT: CENTERED_TEXT - Update centered content including event details -->
 <mj-text align="center">
-  <!-- Ensure all placeholder text and links below are replaced with real content -->
-  <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
   <p>
     Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
     <em>adipiscing elit</em> sed do. Eiusmod tempor
@@ -26,3 +25,4 @@
   <h3>Event Name</h3>
   <h3>Event Location</h3>
 </mj-text>
+<!-- END EDIT: CENTERED_TEXT -->

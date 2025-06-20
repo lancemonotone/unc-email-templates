@@ -1,5 +1,7 @@
+<!-- EDIT: CONTENT_IMAGE - Replace image source and alt text description -->
 <mj-image
   mj-class="content-image image-center"
   fluid-on-mobile="true"
   src="https://enrolled.unco.edu/www/images/_NC_4362.jpg"
   alt="Image alt text" />
+<!-- END EDIT: CONTENT_IMAGE -->

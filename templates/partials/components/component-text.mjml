@@ -1,11 +1,10 @@
+<!-- EDIT: BODY_TEXT - Update article content including paragraphs, links, and bullet points -->
 <mj-text>
-  <!-- Ensure all placeholder text and links below are replaced with real content -->
-  <!-- Ensure text color has sufficient contrast (4.5:1) against the background -->
   <p>
     Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
     <em>adipiscing elit</em> sed do. Eiusmod tempor
     <!-- Ensure link describes destination -->
-    <a href="javascript:void(0);">placeholder link text</a>
+    <a href="https://www.google.com">placeholder link text</a>
     et dolore magna aliqua ut enim ad
     <strong style="font-size: 16px">minim veniam</strong>.
   </p>
@@ -15,7 +14,11 @@
     Commodo consequate
     <!-- Ensure link text clearly indicates it's an email link -->
     <a href="mailto:lorem@ipsum.com">placeholder email link</a>
-    in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+    in reprehenderit
+    <span style="white-space: nowrap">
+      <!-- Ensure link text clearly indicates it's a phone number -->
+      <a href="tel:123-456-7890">123-456-7890</a></span
+    >.
   </p>
   <ul>
     <li>Excepteur sint occaecat</li>
@@ -23,3 +26,4 @@
     <li>Sunt in culpa qui officia</li>
   </ul>
 </mj-text>
+<!-- END EDIT: BODY_TEXT -->

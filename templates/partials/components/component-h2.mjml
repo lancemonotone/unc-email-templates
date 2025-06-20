@@ -1,3 +1,5 @@
+<!-- EDIT: HEADLINE_H2 - Change the story headline text -->
 <mj-text mj-class="h2">
   <h2>Story Title H2</h2>
 </mj-text>
+<!-- END EDIT: HEADLINE_H2 -->
