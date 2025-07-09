@@ -7,12 +7,12 @@
   css-class="blue-header mobile-stack"
   background-color="#013c65">
   <mj-column
-    width="46%"
+    width="50%"
     vertical-align="middle"
     padding-bottom="0"
     css-class="mobile-stack-column">
     <mj-image
-      width="75px"
+      width="76px"
       css-class="mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
       alt="UNC"
@@ -22,7 +22,7 @@
   </mj-column>
 
   <mj-column
-    width="54%"
+    width="50%"
     vertical-align="middle"
     padding-bottom="0"
     css-class="mobile-stack-column">

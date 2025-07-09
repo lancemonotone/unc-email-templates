@@ -1,45 +1,39 @@
-<!-- Header Section with Gradient Background -->
-<mj-section padding="0" width="100%" css-class="blue-header mobile-stack">
-  <!--[if gte mso 9]>
-    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-      <v:fill
-        type="gradient"
-        color="#013c65"
-        color2="#007dba"
-        method="linear"
-        angle="180" />
-    </v:background>
-  <![endif]-->
+<!-- Header Section -->
+<mj-section padding="0">
+  <mj-column width="100%">
+    <!-- Header Section -->
+    <mj-section padding="0" width="100%" css-class="blue-header mobile-stack">
+      <mj-column
+        width="46%"
+        vertical-align="middle"
+        padding-bottom="0"
+        css-class="mobile-stack-column">
+        <mj-image
+          width="100px"
+          css-class="mobile-center"
+          src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+          alt="UNC"
+          align="right"
+          padding="0"
+          padding-right="10px" />
+      </mj-column>
 
-  <mj-column
-    width="46%"
-    vertical-align="middle"
-    padding-bottom="0"
-    css-class="mobile-stack-column">
-    <mj-image
-      width="100px"
-      css-class="mobile-center"
-      src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-      alt="UNC"
-      align="right"
-      padding="0"
-      padding-right="10px" />
-  </mj-column>
-
-  <mj-column
-    width="54%"
-    vertical-align="middle"
-    padding-bottom="0"
-    css-class="mobile-stack-column">
-    <!-- EDIT: IN_PICTURES_TITLE - Update "In Pictures" section title -->
-    <mj-text
-      css-class="mobile-center"
-      mj-class="highlight"
-      align="left"
-      padding="0">
-      in Pictures
-    </mj-text>
-    <!-- END EDIT: IN_PICTURES_TITLE -->
+      <mj-column
+        width="54%"
+        vertical-align="middle"
+        padding-bottom="0"
+        css-class="mobile-stack-column">
+        <!-- EDIT: IN_PICTURES_TITLE - Update "In Pictures" section title -->
+        <mj-text
+          css-class="mobile-center"
+          mj-class="highlight"
+          align="left"
+          padding="0">
+          in Pictures
+        </mj-text>
+        <!-- END EDIT: IN_PICTURES_TITLE -->
+      </mj-column>
+    </mj-section>
   </mj-column>
 </mj-section>
 

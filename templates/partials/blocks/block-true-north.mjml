@@ -1,18 +1,8 @@
 <!-- TRUE NORTH Block -->
 <mj-section padding="0">
   <mj-column width="100%">
-    <!-- Header Section with Gradient Background -->
+    <!-- Header Section -->
     <mj-section padding="0" width="100%" css-class="blue-header mobile-stack">
-      <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-          <v:fill
-            type="gradient"
-            color="#013c65"
-            color2="#007dba"
-            method="linear"
-            angle="180" />
-        </v:background>
-      <![endif]-->
       <mj-column
         width="100%"
         vertical-align="middle"
