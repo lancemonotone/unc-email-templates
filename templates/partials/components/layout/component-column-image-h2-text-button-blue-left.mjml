@@ -1,14 +1,7 @@
-<!-- Column Content: Image, Text, and Button -->
-<mj-column
-  width="100%"
-  padding="0"
-  padding-bottom="5px"
-  css-class="light-section">
+<!-- Column Component with Image, H2, Text, and Blue Left Button -->
+<mj-column width="100%" padding="0" padding-bottom="5px">
   <mj-include path="../images/component-image-content-center.mjml" />
+  <mj-include path="../text/component-h2.mjml" />
+  <mj-include path="../text/component-text-no-bullets.mjml" />
+  <mj-include path="../buttons/component-button-blue-left.mjml" />
 </mj-column>
-
-<mj-include path="../text/component-h2.mjml" />
-
-<mj-include path="../text/component-text-no-bullets.mjml" />
-
-<mj-include path="../buttons/component-button-blue-left.mjml" />

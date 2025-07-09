@@ -2,6 +2,8 @@
 <mj-section
   background-color="#013c65"
   padding="0px"
+  padding-top="20px"
+  padding-bottom="20px"
   padding-left="40px"
   padding-right="40px"
   css-class="blue-section">
@@ -15,6 +17,7 @@
       padding-bottom="0"
       padding-top="0"
       color="#ffffff">
+      <!-- IMPORTANT: UPDATE ADDRESS! Change to actual office address -->
       1234 Address, Greeley, CO 12345
     </mj-text>
     <!-- END EDIT: SECONDARY_ADDRESS -->
@@ -26,11 +29,13 @@
     vertical-align="top"
     css-class="mobile-stack-column mobile-stack-padding-sm">
     <mj-image
+      css-class="mobile-center"
       src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png"
       alt="UNC Bear Head"
       width="50px"
       align="center"
-      href="https://unco.edu" />
+      href="https://unco.edu"
+      padding="0" />
   </mj-column>
 
   <!-- Right Column - Contact Info -->
@@ -46,16 +51,26 @@
       padding-bottom="0"
       padding-top="0"
       color="#ffffff">
-      <!-- IMPORTANT: UPDATE HREF! Change mailto address to match your email -->
+      <!-- IMPORTANT: UPDATE HREF AND TEXT! Change mailto: address and displayed email -->
       <a
         href="mailto:info@unco.edu"
-        style="color: #ffffff; mso-style-priority: 99">
-        <span style="color: white !important">Email</span></a
+        style="
+          color: #ffffff !important;
+          text-decoration: none;
+          mso-style-priority: 99;
+        ">
+        <font color="#ffffff">Email</font></a
       >
       &nbsp;|&nbsp;
-      <!-- IMPORTANT: UPDATE HREF! Change phone number to match your phone number -->
-      <a href="tel:970-351-1890" style="color: #ffffff; mso-style-priority: 99">
-        <span style="color: white !important">Phone</span></a
+      <!-- IMPORTANT: UPDATE HREF AND TEXT! Change tel: number and displayed phone number -->
+      <a
+        href="tel:970-351-1890"
+        style="
+          color: #ffffff !important;
+          text-decoration: none;
+          mso-style-priority: 99;
+        ">
+        <font color="#ffffff">Phone</font></a
       >
     </mj-text>
     <!-- END EDIT: SECONDARY_CONTACT -->
@@ -64,8 +79,17 @@
 
 <!--[if mso]>
   <style>
-    .blue-section a {
-      color: white !important;
+    /* Outlook-specific white link styling */
+    td[style*="background-color:#013c65"] a,
+    td[style*="background-color: #013c65"] a,
+    .blue-section a,
+    table[style*="background-color:#013c65"] a {
+      color: #ffffff !important;
+      text-decoration: none !important;
+    }
+    /* Force white color in Outlook */
+    font[color="#ffffff"] {
+      color: #ffffff !important;
     }
   </style>
 <![endif]-->

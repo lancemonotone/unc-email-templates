@@ -1,4 +1,4 @@
 <!-- Thin Gold Divider Component -->
-<mj-column width="100%" padding="0">
+<mj-section padding="0">
   <mj-divider border-width="1px" border-color="#FFB71B" padding="0" />
-</mj-column>
+</mj-section>

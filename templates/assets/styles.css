@@ -20,12 +20,6 @@ a {
 .blue-section * {
   color: #ffffff !important;
 }
-.light-section {
-  background: #ffffff;
-}
-.light-section a {
-  color: #007dba !important;
-}
 .gold-section {
   background: #ffb71b;
   padding-top: 10px;
@@ -63,13 +57,18 @@ a {
 }
 /* Gold header background (for section headings) */
 .gold-header {
-  background: #ffb71b;
+  background-color: #f6b000;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .gold-header a {
   color: #013c65 !important;
 }
+/* Gold section link styling (for when gold-header class is removed) */
+.gold-section-links a {
+  color: #013c65 !important;
+}
+
 .gold-section-light {
   background: #fff8e8;
 }
@@ -83,6 +82,15 @@ a {
 .grey-section-dark h4 {
   color: #ffffff !important;
 }
+
+.light-section {
+  background: #ffffff !important;
+}
+
+.light-section a {
+  color: #007dba !important;
+}
+
 /* Subtitle section styles */
 .subtitle-section {
   margin-bottom: 20px !important;
@@ -125,11 +133,11 @@ a {
 }
 /* Blue background */
 .blue-section {
-  padding-top: 20px;
+  /* padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 0;
   padding-right: 0;
-  background: #013c65 !important;
+  background: #013c65 !important; */
 }
 
 .blue-section-title {
@@ -230,15 +238,6 @@ p {
     color: #007dba !important;
   }
 
-  .light-section {
-    color: #ffffff !important;
-    background: #333333 !important;
-  }
-
-  .light-section a {
-    color: #f6b000 !important;
-  }
-
   .gold-section-light {
     color: #ffffff !important;
     background: #333333 !important;
@@ -251,6 +250,15 @@ p {
   /* Grey background in dark mode */
   .grey-section {
     background: #272727 !important;
+  }
+
+  .light-section {
+    color: #ffffff !important;
+    background: #333333 !important;
+  }
+
+  .light-section a {
+    color: #f6b000 !important;
   }
 
   .light-border,

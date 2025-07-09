@@ -1,5 +1,5 @@
 <!-- In the News Block -->
-<mj-section padding="0" css-class="block-container light-section">
+<mj-section padding="0">
   <mj-column width="100%">
     <!-- Header Section with Gradient Background -->
     <mj-section padding="0" width="100%" css-class="blue-header mobile-stack">
@@ -60,7 +60,7 @@
     <!-- Content -->
     <mj-section padding="10px">
       <mj-column
-        css-class="column-centered mobile-stack-column light-section padding-sides"
+        css-class="column-centered mobile-stack-column padding-sides"
         padding-bottom="0">
         <!-- EDIT: NEWS_CONTENT - Update news content including headlines and links -->
         <mj-text padding="0">
@@ -75,16 +75,16 @@
               jobs, internships, and Graduate Schools will be providing
               information on their programs. Admission is free and students and
               alumni from all majors are encouraged to attend!
-              <a href="#">Register to attend here</a>.
+              <a href="#" style="color: #007dba">Register to attend here</a>.
             </li>
             <li>
               Are you thinking about studying abroad? The deadline to apply for
               Summer and Fall 2025 study abroad programs is
               <strong>Wednesday, Feb. 28</strong>. For more information and to
               apply, contact the Education Abroad team at
-              <a href="#">abroad@unco.edu</a>
+              <a href="#" style="color: #007dba">abroad@unco.edu</a>
               or
-              <a href="#">visit their web page</a>.
+              <a href="#" style="color: #007dba">visit their web page</a>.
             </li>
           </ul>
         </mj-text>

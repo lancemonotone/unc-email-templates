@@ -6,47 +6,47 @@
   </mj-head>
 
   <mj-body>
-    <!-- Section 1: Header/Logo Section (Left-aligned) -->
-    <mj-section padding="0" css-class="light-section">
-      <mj-include path="./partials/headers/header-centered.mjml" />
-    </mj-section>
+    <mj-wrapper css-class="light-section" padding="0">
+      <!-- Section 1: Header/Logo Section (Left-aligned) -->
+      <mj-section padding="0">
+        <mj-include path="./partials/headers/header-centered.mjml" />
+      </mj-section>
 
-    <!-- Event Title and Description Section -->
-    <mj-section padding="40px" css-class="light-section">
-      <mj-column
-        width="100%"
-        css-class="mobile-stack-column light-section"
-        padding="0">
-        <mj-text mj-class="h1" align="center">
-          <h1>Story Title H1</h1>
-        </mj-text>
-        <mj-include path="./partials/components/text/component-text-center.mjml" />
+      <!-- Event Title and Description Section -->
+      <mj-section padding="40px">
+        <mj-column width="100%" css-class="mobile-stack-column" padding="0">
+          <mj-text mj-class="h1" align="center">
+            <h1>Story Title H1</h1>
+          </mj-text>
+          <mj-include
+            path="./partials/components/text/component-text-center.mjml" />
+          <mj-include
+            path="./partials/components/buttons/component-button-blue-center.mjml" />
+        </mj-column>
+
+        <!-- Event Image -->
+        <mj-column width="100%" padding="0" padding-top="20px">
+          <mj-include
+            path="./partials/components/images/component-image-content-center.mjml" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Callout Section -->
+      <mj-section padding="0">
         <mj-include
-          path="./partials/components/buttons/component-button-blue-center.mjml" />
-      </mj-column>
+          path="./partials/blocks/block-callout-box-bluebird-button-blue-center.mjml" />
+      </mj-section>
 
-      <!-- Event Image -->
-      <mj-column width="100%" padding="0" padding-top="20px">
-        <mj-include
-          path="./partials/components/images/component-image-content-center.mjml" />
-      </mj-column>
-    </mj-section>
+      <!-- Footer Section -->
+      <mj-section padding="0">
+        <!-- Social Media Footer -->
+        <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+      </mj-section>
 
-    <!-- Callout Section -->
-    <mj-section padding="0" css-class="light-section">
-      <mj-include
-        path="./partials/blocks/block-callout-box-bluebird-button-blue-center.mjml" />
-    </mj-section>
-
-    <!-- Footer Section -->
-    <mj-section padding="0">
-      <!-- Social Media Footer -->
-      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
-    </mj-section>
-
-    <mj-section padding="0">
-      <!-- Contact Footer -->
-      <mj-include path="./partials/footers/footer-secondary.mjml" />
-    </mj-section>
+      <mj-section padding="0">
+        <!-- Contact Footer -->
+        <mj-include path="./partials/footers/footer-secondary.mjml" />
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>

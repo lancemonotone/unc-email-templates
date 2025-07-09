@@ -1,7 +1,4 @@
-<mj-column
-  width="100%"
-  css-class="mobile-stack-column light-section"
-  padding="0">
+<mj-column width="100%" css-class="mobile-stack-column" padding="0">
   <mj-include path="../text/component-text-no-bullets.mjml" />
   <mj-include path="../buttons/component-button-gold-center-three.mjml" />
 </mj-column>

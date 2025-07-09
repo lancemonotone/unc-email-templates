@@ -1,40 +1,20 @@
-<!-- Body Content Block with Left Image, Right Content (White Background) -->
-<mj-section
-  padding="20px"
-  padding-left="40px"
-  padding-right="40px"
-  css-class="block-container light-section">
+<!-- Two Column Block - Image Left, H2 Text Right, Gold Button Center -->
+<mj-section padding="40px" padding-left="40px" padding-right="40px">
   <!-- Left Column - Image -->
-  <mj-column
-    width="50%"
-    padding="10px"
-    padding-left="0"
-    vertical-align="top"
-    css-class="mobile-stack-column">
-    <mj-include path="../components/images/component-image-content-left.mjml" />
+  <mj-column width="50%" padding="0" css-class="mobile-stack-column">
+    <mj-include
+      path="../components/images/component-image-content-center.mjml" />
   </mj-column>
 
-  <!-- Right Column - Content -->
+  <!-- Right Column - Text -->
   <mj-column
     width="50%"
-    padding="10px"
-    padding-right="0"
-    vertical-align="top"
-    css-class="mobile-stack-column">
-    <!-- H2 Header -->
-    <mj-include path="../components/text/component-h2.mjml" />
-
-    <!-- Body Text -->
-    <mj-include path="../components/text/component-text-no-bullets.mjml" />
-
-    <!-- CTA Button -->
-  </mj-column>
-
-  <mj-column
-    width="100%"
     padding="0"
-    vertical-align="top"
-    css-class="mobile-stack-column padding-sides">
-    <mj-include path="../components/buttons/component-button-gold-center.mjml" />
+    padding-left="20px"
+    css-class="mobile-stack-column">
+    <mj-include path="../components/text/component-h2.mjml" />
+    <mj-include path="../components/text/component-text-no-bullets.mjml" />
+    <mj-include
+      path="../components/buttons/component-button-gold-center.mjml" />
   </mj-column>
 </mj-section>

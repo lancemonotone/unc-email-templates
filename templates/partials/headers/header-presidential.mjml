@@ -13,7 +13,7 @@
 </mj-section>
 
 <!-- Gold Office Bar -->
-<mj-section css-class="gold-header" padding="0">
+<mj-section background-color="#f6b000" padding="0">
   <mj-column width="100%" padding="0">
     <!-- EDIT: OFFICE_NAME - Update office or department name -->
     <mj-text

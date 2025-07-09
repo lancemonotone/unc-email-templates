@@ -6,7 +6,8 @@
   href="javascript:void(0);"
   color="#ffffff"
   padding="0"
-  padding-top="20px">
+  padding-top="20px"
+  background-color="#013c65">
   <span style="color: #ffffff">Read More</span>
 </mj-button>
 <!-- END EDIT: CTA_BUTTON_BLUE -->

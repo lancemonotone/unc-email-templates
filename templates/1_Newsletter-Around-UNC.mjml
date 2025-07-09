@@ -8,73 +8,53 @@
   </mj-head>
 
   <mj-body>
-    <!-- Section 1: Header/Logo Section -->
-    <mj-section padding="0">
+    <mj-wrapper css-class="light-section" padding="0">
+      <!-- Section 1: Header/Logo Section -->
       <mj-include path="./partials/headers/header-around-unc.mjml" />
       <!-- Navigation Bar Section -->
       <mj-include
         path="./partials/components/navigation/component-navigation-bar-gold.mjml" />
-    </mj-section>
 
-    <!-- Section 2: Featured Story/Events Section inside Two Column Sidebar -->
-    <mj-section padding="0" css-class="light-section">
-      <mj-column width="100%">
-        <!-- EDIT: NAVIGATION_ANCHOR_EVENTS - Update anchor ID for navigation linking -->
-        <mj-raw><a id="events"></a></mj-raw>
-        <!-- END EDIT: NAVIGATION_ANCHOR_EVENTS -->
-      </mj-column>
+      <!-- Section 2: Featured Story/Events Section inside Two Column Sidebar -->
+      <!-- EDIT: NAVIGATION_ANCHOR_EVENTS - Update anchor ID for navigation linking -->
+      <mj-raw><a id="events"></a></mj-raw>
+      <!-- END EDIT: NAVIGATION_ANCHOR_EVENTS -->
       <mj-include path="./partials/blocks/block-two-column-sidebar.mjml" />
-    </mj-section>
 
-    <!-- Section 3: Stories Section -->
-    <mj-section padding="0" css-class="light-section">
+      <!-- Section 3: Stories Section -->
       <mj-include path="./partials/blocks/block-stories.mjml" />
-    </mj-section>
 
-    <!-- Section 4: UNC in Pictures Section -->
-    <mj-section padding="0" css-class="light-section">
-      <mj-column width="100%">
-        <!-- EDIT: NAVIGATION_ANCHOR_PICTURES - Update anchor ID for navigation linking -->
-        <mj-raw><a id="pictures"></a></mj-raw>
-        <!-- END EDIT: NAVIGATION_ANCHOR_PICTURES -->
-      </mj-column>
+      <!-- Section 4: UNC in Pictures Section -->
+      <!-- EDIT: NAVIGATION_ANCHOR_PICTURES - Update anchor ID for navigation linking -->
+      <mj-raw><a id="pictures"></a></mj-raw>
+      <!-- END EDIT: NAVIGATION_ANCHOR_PICTURES -->
       <mj-include path="./partials/blocks/block-in-pictures.mjml" />
-    </mj-section>
 
-    <!-- Section 5: Faculty and Staff Section -->
-    <mj-section padding="0" css-class="light-section">
-      <mj-column width="100%">
-        <!-- EDIT: NAVIGATION_ANCHOR_STUDENTS - Update anchor ID for navigation linking -->
-        <mj-raw><a id="students"></a></mj-raw>
-        <!-- END EDIT: NAVIGATION_ANCHOR_STUDENTS -->
-      </mj-column>
+      <!-- Section 5: Faculty and Staff Section -->
+      <!-- EDIT: NAVIGATION_ANCHOR_STUDENTS - Update anchor ID for navigation linking -->
+      <mj-raw><a id="students"></a></mj-raw>
+      <!-- END EDIT: NAVIGATION_ANCHOR_STUDENTS -->
       <mj-include path="./partials/blocks/block-students-faculty-staff.mjml" />
-    </mj-section>
 
-    <!-- Section 6: TRUE NORTH Section -->
-    <mj-section padding="0" css-class="light-section">
+      <!-- Section 6: TRUE NORTH Section -->
       <mj-include path="./partials/blocks/block-true-north.mjml" />
-    </mj-section>
 
-    <!-- Section 7: UNC in the News Section -->
-    <mj-section padding="0" css-class="light-section">
-      <mj-column width="100%">
-        <!-- EDIT: NAVIGATION_ANCHOR_NEWS - Update anchor ID for navigation linking -->
-        <mj-raw><a id="news"></a></mj-raw>
-        <!-- END EDIT: NAVIGATION_ANCHOR_NEWS -->
-      </mj-column>
+      <!-- Section 7: UNC in the News Section -->
+      <!-- EDIT: NAVIGATION_ANCHOR_NEWS - Update anchor ID for navigation linking -->
+      <mj-raw><a id="news"></a></mj-raw>
+      <!-- END EDIT: NAVIGATION_ANCHOR_NEWS -->
       <mj-include path="./partials/blocks/block-in-the-news.mjml" />
-    </mj-section>
 
-    <!-- Social Media Footer -->
-    <mj-section padding="0">
-      <!-- Section 8: Footer Section -->
-      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
-    </mj-section>
+      <!-- Social Media Footer -->
+      <mj-section padding="0">
+        <!-- Section 8: Footer Section -->
+        <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+      </mj-section>
 
-    <mj-section padding="0">
-      <!-- Contact Footer -->
-      <mj-include path="./partials/footers/footer-primary.mjml" />
-    </mj-section>
+      <mj-section padding="0">
+        <!-- Contact Footer -->
+        <mj-include path="./partials/footers/footer-primary.mjml" />
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>

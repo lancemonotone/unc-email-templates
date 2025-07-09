@@ -1,51 +1,52 @@
 <!-- Events Block -->
-<mj-section padding="0" css-class="block-container light-section">
-  <!-- Header Section with Blue Background -->
-  <mj-section padding="0" css-class="blue-header mobile-stack">
-    <mj-column
-      width="50%"
-      vertical-align="middle"
-      padding-bottom="0"
-      css-class="mobile-stack-column">
-      <mj-image
-        width="75px"
-        css-class="mobile-center"
-        src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-        alt="UNC"
-        align="right"
-        padding-top="0"
-        padding-right="0.5rem"
-        padding-bottom="0"
-        padding-left="5px" />
-    </mj-column>
 
-    <mj-column
-      width="50%"
-      vertical-align="middle"
-      padding-bottom="0"
-      css-class="mobile-stack-column">
-      <!-- EDIT: EVENTS_SECTION_TITLE - Update events section title -->
-      <mj-text
-        css-class="mobile-center"
-        mj-class="highlight"
-        align="left"
-        font-size="28px"
-        padding-top="0"
-        padding-right="5px"
-        padding-bottom="0"
-        padding-left="0">
-        Events
-      </mj-text>
-      <!-- END EDIT: EVENTS_SECTION_TITLE -->
-    </mj-column>
-  </mj-section>
+<!-- Events Header with Blue Background -->
+<mj-section
+  padding="0"
+  width="100%"
+  css-class="blue-header mobile-stack"
+  background-color="#013c65">
+  <mj-column
+    width="46%"
+    vertical-align="middle"
+    padding-bottom="0"
+    css-class="mobile-stack-column">
+    <mj-image
+      width="75px"
+      css-class="mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
+      alt="UNC"
+      align="right"
+      padding="0"
+      padding-right="10px" />
+  </mj-column>
 
-  <!-- Event Items -->
-  <mj-column width="100%" padding="0" padding-top="10px">
+  <mj-column
+    width="54%"
+    vertical-align="middle"
+    padding-bottom="0"
+    css-class="mobile-stack-column">
+    <!-- EDIT: EVENTS_SECTION_TITLE - Update events section title -->
+    <mj-text
+      css-class="mobile-center"
+      mj-class="highlight"
+      align="left"
+      font-size="28px"
+      color="#f6b000"
+      padding="0">
+      Events
+    </mj-text>
+    <!-- END EDIT: EVENTS_SECTION_TITLE -->
+  </mj-column>
+</mj-section>
+
+<!-- Event Items Content Section -->
+<mj-section padding="10px">
+  <mj-column width="100%" padding="0">
     <!-- EDIT: EVENT_1 - Update first event details -->
     <mj-text padding-top="2px" padding-bottom="2px">
       <p>
-        <strong><a href="#">Free Movie Night</a></strong>
+        <strong><a href="#" style="color: #007dba">Free Movie Night</a></strong>
       </p>
       <p>Monday, Feb. 10, 5-7 p.m., Kress Cinema.</p>
     </mj-text>
@@ -54,7 +55,7 @@
     <!-- EDIT: EVENT_2 - Update second event details -->
     <mj-text padding-top="2px" padding-bottom="2px">
       <p>
-        <strong><a href="#">Valentine's Bash</a></strong>
+        <strong><a href="#" style="color: #007dba">Valentine's Bash</a></strong>
       </p>
       <p>Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.</p>
     </mj-text>
@@ -63,7 +64,7 @@
     <!-- EDIT: EVENT_3 - Update third event details -->
     <mj-text padding-top="2px" padding-bottom="2px">
       <p>
-        <strong><a href="#">Valentine's Bash</a></strong>
+        <strong><a href="#" style="color: #007dba">Valentine's Bash</a></strong>
       </p>
       <p>Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.</p>
     </mj-text>
@@ -76,7 +77,8 @@
       href="https://www.unco.edu/events-calendar/events.aspx"
       color="#ffffff"
       padding-top="20px"
-      padding-bottom="0">
+      padding-bottom="0"
+      background-color="#013c65">
       <span style="color: #ffffff">See All Events</span>
     </mj-button>
     <!-- END EDIT: EVENTS_CTA_BUTTON -->

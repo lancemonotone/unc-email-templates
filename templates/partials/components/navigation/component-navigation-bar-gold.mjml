@@ -1,5 +1,5 @@
 <!-- Navigation Bar Component - Gold Background -->
-<mj-section css-class="navigation-bar-gold" padding="0">
+<mj-section background-color="#f6b000" padding="10px 0">
   <mj-column width="100%" padding="0">
     <!-- EDIT: NAVIGATION_LINKS - Update navigation link text and URLs -->
     <mj-text
@@ -9,14 +9,81 @@
       color="#013c65"
       css-class="no-dark-mode-text"
       padding="0 20px">
-      <a href="#events">EVENTS</a>
+      <a
+        href="#events"
+        style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          mso-style-priority: 99;
+        ">
+        <font color="#013c65" style="text-decoration: none">EVENTS</font></a
+      >
       <span style="margin: 0 10px">•</span>
-      <a href="#pictures">UNC IN PICTURES</a>
+      <a
+        href="#pictures"
+        style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          mso-style-priority: 99;
+        ">
+        <font color="#013c65" style="text-decoration: none"
+          >UNC IN PICTURES</font
+        ></a
+      >
       <span style="margin: 0 10px">•</span>
-      <a href="#students">FOR STUDENTS</a>
+      <a
+        href="#students"
+        style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          mso-style-priority: 99;
+        ">
+        <font color="#013c65" style="text-decoration: none"
+          >FOR STUDENTS</font
+        ></a
+      >
       <span style="margin: 0 10px">•</span>
-      <a href="#news">UNC IN THE NEWS</a>
+      <a
+        href="#news"
+        style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          mso-style-priority: 99;
+        ">
+        <font color="#013c65" style="text-decoration: none"
+          >UNC IN THE NEWS</font
+        ></a
+      >
     </mj-text>
     <!-- END EDIT: NAVIGATION_LINKS -->
   </mj-column>
 </mj-section>
+
+<!--[if mso]>
+  <style>
+    /* Enhanced Outlook 2016 underline removal */
+    td[style*="background-color:#f6b000"] a,
+    td[style*="background-color: #f6b000"] a,
+    .navigation-bar-gold a,
+    a[href*="#events"],
+    a[href*="#pictures"],
+    a[href*="#students"],
+    a[href*="#news"] {
+      color: #013c65 !important;
+      text-decoration: none !important;
+    }
+
+    /* Force blue color and no underline in font tags */
+    font[color="#013c65"] {
+      color: #013c65 !important;
+      text-decoration: none !important;
+    }
+
+    /* Aggressive underline removal for Outlook 2016 */
+    td a font,
+    font a,
+    a font {
+      text-decoration: none !important;
+    }
+  </style>
+<![endif]-->

@@ -141,14 +141,6 @@
       color: #ffffff !important;
     }
 
-    .light-section {
-      background: #ffffff;
-    }
-
-    .light-section a {
-      color: #007dba !important;
-    }
-
     .gold-section {
       background: #ffb71b;
       padding-top: 10px;
@@ -192,12 +184,17 @@
 
     /* Gold header background (for section headings) */
     .gold-header {
-      background: #ffb71b;
+      background-color: #f6b000;
       padding-top: 10px;
       padding-bottom: 10px;
     }
 
     .gold-header a {
+      color: #013c65 !important;
+    }
+
+    /* Gold section link styling (for when gold-header class is removed) */
+    .gold-section-links a {
       color: #013c65 !important;
     }
 
@@ -216,6 +213,14 @@
 
     .grey-section-dark h4 {
       color: #ffffff !important;
+    }
+
+    .light-section {
+      background: #ffffff !important;
+    }
+
+    .light-section a {
+      color: #007dba !important;
     }
 
     /* Subtitle section styles */
@@ -269,11 +274,11 @@
 
     /* Blue background */
     .blue-section {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 0;
-      padding-right: 0;
-      background: #013c65 !important;
+      /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #013c65 !important; */
     }
 
     .blue-section-title {
@@ -381,15 +386,6 @@
         color: #007dba !important;
       }
 
-      .light-section {
-        color: #ffffff !important;
-        background: #333333 !important;
-      }
-
-      .light-section a {
-        color: #f6b000 !important;
-      }
-
       .gold-section-light {
         color: #ffffff !important;
         background: #333333 !important;
@@ -402,6 +398,15 @@
       /* Grey background in dark mode */
       .grey-section {
         background: #272727 !important;
+      }
+
+      .light-section {
+        color: #ffffff !important;
+        background: #333333 !important;
+      }
+
+      .light-section a {
+        color: #f6b000 !important;
       }
 
       .light-border,
@@ -686,16 +691,15 @@
 
 <body style="word-spacing:normal;">
   <div style="" lang="und" dir="auto">
-    <!-- Section 1: Header/Logo Section -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div class="light-section" style="margin:0px auto;max-width:680px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
-              <!-- Presidential - Vertical Logo and Gold Office Bar -->
-              <!--[if mso | IE]><td class="blue-section-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-section-outlook" role="presentation" style="width:680px;" width="680" bgcolor="#013c65" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><![endif]-->
+              <!-- Section 1: Header/Logo Section --><!-- Presidential - Vertical Logo and Gold Office Bar -->
+              <!--[if mso | IE]><tr><td class="blue-section-outlook" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-section-outlook" role="presentation" style="width:680px;" width="680" bgcolor="#013c65" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
               <div class="blue-section" style="background:#013c65;background-color:#013c65;margin:0px auto;max-width:680px;">
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#013c65;background-color:#013c65;width:100%;">
                   <tbody>
@@ -729,11 +733,11 @@
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table></td><![endif]-->
+              <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
               <!-- Gold Office Bar -->
-              <!--[if mso | IE]><td class="gold-header-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="gold-header-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div class="gold-header" style="margin:0px auto;max-width:680px;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+              <!--[if mso | IE]><tr><td class="" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" bgcolor="#f6b000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div style="background:#f6b000;background-color:#f6b000;margin:0px auto;max-width:680px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f6b000;background-color:#f6b000;width:100%;">
                   <tbody>
                     <tr>
                       <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
@@ -765,429 +769,465 @@
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Body Story H1 -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="light-section-outlook" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div class="light-section" style="margin:0px auto;max-width:680px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:40px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook light-section-outlook force-questa-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column light-section force-questa" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+              <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
+              <!-- Body Story H1 -->
+              <!--[if mso | IE]><tr><td class="" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div style="margin:0px auto;max-width:680px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:0;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
-                          <tbody>
-                            <!-- EDIT: HEADLINE_H2 - Change the story headline text -->
-                            <tr>
-                              <td align="left" class="dark-mode-text mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:24px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
-                                  <h2>Story Title H2</h2>
-                                </div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: HEADLINE_H2 --><!-- Text With Bullets Component --><!-- EDIT: BODY_TEXT - Update article content including paragraphs, links, and bullet points -->
-                            <tr>
-                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
-                                  <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                    <a href="https://www.google.com">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                  </p>
-                                  <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                    <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">
-                                      <!-- Ensure link text clearly indicates it's a phone number -->
-                                      <a href="tel:123-456-7890">123-456-7890</a></span>.
-                                  </p>
-                                  <ul>
-                                    <li>Excepteur sint occaecat</li>
-                                    <li>Cupidatat non proident</li>
-                                    <li>Sunt in culpa qui officia</li>
-                                  </ul>
-                                </div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: BODY_TEXT --><!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
-                            <tr>
-                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
-                                  <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                    <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                  </p>
-                                  <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                    <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                  </p>
-                                </div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: BODY_TEXT_NO_BULLETS --><!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
-                            <tr>
-                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
-                                  <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                    <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                  </p>
-                                  <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                    <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                  </p>
-                                </div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: BODY_TEXT_NO_BULLETS --><!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
-                            <tr>
-                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
-                                  <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                    <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                  </p>
-                                  <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                    <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                  </p>
-                                </div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: BODY_TEXT_NO_BULLETS --><!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
-                            <tr>
-                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
-                                  <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                    <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
-                                  </p>
-                                  <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                    <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
-                                  </p>
-                                </div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: BODY_TEXT_NO_BULLETS -->
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td><![endif]-->
-              <!-- Presidential Signature Area -->
-              <!--[if mso | IE]><td class="force-questa-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix force-questa" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
-                  <tbody>
-                    <tr>
-                      <td style="vertical-align:top;padding:0;padding-top:40px;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
-                          <tbody>
-                            <!-- Presidential Signature Block --><!-- EDIT: SIGNATURE_GREETING - Update signature greeting text -->
-                            <tr>
-                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">Sincerely,</div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: SIGNATURE_GREETING --><!-- EDIT: SIGNATURE_IMAGE - Replace signature image source and alt text -->
-                            <tr>
-                              <td align="left" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                                  <tbody>
-                                    <tr>
-                                      <td style="width:28px;">
-                                        <img alt="President's Signature" src="https://ncd.test.technolutions.net/www/images/signature-af-transparent.png" style="border:0;display:block;outline:none;text-decoration:none;height:67px;width:100%;font-size:13px;" width="28" height="67" />
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: SIGNATURE_IMAGE --><!-- EDIT: SIGNATURE_NAME_SOCIAL - Update signer name and social media link -->
-                            <tr>
-                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">Andy Feinstein <a href="http://twitter.com/presfeinstein" target="_blank" style="text-decoration: none">
-                                    <img src="https://mx.technolutions.net/proxy/D0IpGC_Ew3Sg7Fn_oPyv5nz1VZ1sgOc1p3ZeLUsI3t7hFG6qYEHd9PpQbis6u3VE49LM4HVfm7O_20QhD1Yuj_xyh-cnMzEDL6Sj0zC8hhw" width="20" height="20" border="0" alt="Twitter" style="vertical-align: middle; padding-left: 5px" />
-                                  </a></div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: SIGNATURE_NAME_SOCIAL --><!-- EDIT: SIGNATURE_TITLE - Update signer title/position -->
-                            <tr>
-                              <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">President</div>
-                              </td>
-                            </tr>
-                            <!-- END EDIT: SIGNATURE_TITLE -->
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
-    <!-- Footer Section -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:680px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
-              <!-- Social Media Footer -->
-              <!--[if mso | IE]><td class="mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile-stack-outlook" role="presentation" style="width:680px;" width="680" bgcolor="#f6b000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div class="mobile-stack" style="background:#f6b000;background-color:#f6b000;margin:0px auto;max-width:680px;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f6b000;background-color:#f6b000;width:100%;">
-                  <tbody>
-                    <tr>
-                      <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:40px;padding-right:40px;padding-top:0;text-align:center;">
-                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                      <td style="direction:ltr;font-size:0px;padding:40px;text-align:center;">
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook force-questa-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+                        <div class="mj-column-per-100 mj-outlook-group-fix mobile-stack-column force-questa" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><![endif]-->
-                                  <!-- EDIT: SOCIAL_MEDIA_LINKS - Update social media URLs to match your department/office accounts --><!-- Social Media Footer --><!-- Former white icon URLs (getbee.io):
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <!-- EDIT: HEADLINE_H2 - Change the story headline text -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:24px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
+                                            <h2>Story Title H2</h2>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: HEADLINE_H2 --><!-- Text With Bullets Component --><!-- EDIT: BODY_TEXT - Update article content including paragraphs, links, and bullet points -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                            <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                              <a href="https://www.google.com">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                            </p>
+                                            <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">
+                                                <!-- Ensure link text clearly indicates it's a phone number -->
+                                                <a href="tel:123-456-7890">123-456-7890</a></span>.
+                                            </p>
+                                            <ul>
+                                              <li>Excepteur sint occaecat</li>
+                                              <li>Cupidatat non proident</li>
+                                              <li>Sunt in culpa qui officia</li>
+                                            </ul>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: BODY_TEXT --><!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                            <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                              <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                            </p>
+                                            <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                            </p>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: BODY_TEXT_NO_BULLETS --><!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                            <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                              <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                            </p>
+                                            <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                            </p>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: BODY_TEXT_NO_BULLETS --><!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                            <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                              <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                            </p>
+                                            <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                            </p>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: BODY_TEXT_NO_BULLETS --><!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
+                                            <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
+                                              <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                            </p>
+                                            <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                            </p>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: BODY_TEXT_NO_BULLETS -->
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
+              <!-- Presidential Signature Area -->
+              <!--[if mso | IE]><tr><td class="" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div style="margin:0px auto;max-width:680px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:40px;text-align:center;">
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="force-questa-outlook" style="vertical-align:top;width:600px;" ><![endif]-->
+                        <div class="mj-column-per-100 mj-outlook-group-fix force-questa" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <!-- Presidential Signature Block --><!-- EDIT: SIGNATURE_GREETING - Update signature greeting text -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">Sincerely,</div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: SIGNATURE_GREETING --><!-- EDIT: SIGNATURE_IMAGE - Replace signature image source and alt text -->
+                                      <tr>
+                                        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                            <tbody>
+                                              <tr>
+                                                <td style="width:28px;">
+                                                  <img alt="President's Signature" src="https://ncd.test.technolutions.net/www/images/signature-af-transparent.png" style="border:0;display:block;outline:none;text-decoration:none;height:67px;width:100%;font-size:13px;" width="28" height="67" />
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: SIGNATURE_IMAGE --><!-- EDIT: SIGNATURE_NAME_SOCIAL - Update signer name and social media link -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">Andy Feinstein <a href="http://twitter.com/presfeinstein" target="_blank" style="text-decoration: none">
+                                              <img src="https://mx.technolutions.net/proxy/D0IpGC_Ew3Sg7Fn_oPyv5nz1VZ1sgOc1p3ZeLUsI3t7hFG6qYEHd9PpQbis6u3VE49LM4HVfm7O_20QhD1Yuj_xyh-cnMzEDL6Sj0zC8hhw" width="20" height="20" border="0" alt="Twitter" style="vertical-align: middle; padding-left: 5px" />
+                                            </a></div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: SIGNATURE_NAME_SOCIAL --><!-- EDIT: SIGNATURE_TITLE - Update signer title/position -->
+                                      <tr>
+                                        <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">President</div>
+                                        </td>
+                                      </tr>
+                                      <!-- END EDIT: SIGNATURE_TITLE -->
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
+              <!-- Footer Section -->
+              <!--[if mso | IE]><tr><td class="" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div style="margin:0px auto;max-width:680px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                        <!-- Social Media Footer -->
+                        <!--[if mso | IE]><td class="mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile-stack-outlook" role="presentation" style="width:680px;" width="680" bgcolor="#f6b000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                        <div class="mobile-stack" style="background:#f6b000;background-color:#f6b000;margin:0px auto;max-width:680px;">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f6b000;background-color:#f6b000;width:100%;">
+                            <tbody>
+                              <tr>
+                                <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:40px;padding-right:40px;padding-top:0;text-align:center;">
+                                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                                            <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><![endif]-->
+                                            <!-- EDIT: SOCIAL_MEDIA_LINKS - Update social media URLs to match your department/office accounts --><!-- Social Media Footer --><!-- Former white icon URLs (getbee.io):
      Facebook: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png
      Instagram: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/instagram@2x.png
      LinkedIn: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/linkedin@2x.png
      Twitter: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/twitter@2x.png
      YouTube: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/youtube@2x.png
      TikTok: https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/tiktok@2x.png -->
-                                  <!--[if mso | IE]><td><![endif]-->
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                    <tbody>
-                                      <tr>
-                                        <td style="padding:10px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
-                                            <tbody>
-                                              <tr>
-                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
-                                                  <a href="https://www.facebook.com/universitynortherncolorado" target="_blank">
-                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-facebook.png" style="border-radius:3px;display:block;" width="25" />
-                                                  </a>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if mso | IE]></td><td><![endif]-->
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                    <tbody>
-                                      <tr>
-                                        <td style="padding:10px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
-                                            <tbody>
-                                              <tr>
-                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
-                                                  <a href="https://instagram.com/unc_colorado" target="_blank">
-                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-instagram.png" style="border-radius:3px;display:block;" width="25" />
-                                                  </a>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if mso | IE]></td><td><![endif]-->
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                    <tbody>
-                                      <tr>
-                                        <td style="padding:10px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
-                                            <tbody>
-                                              <tr>
-                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
-                                                  <a href="https://www.linkedin.com/school/university-of-northern-colorado" target="_blank">
-                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-linkedin.png" style="border-radius:3px;display:block;" width="25" />
-                                                  </a>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if mso | IE]></td><td><![endif]-->
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                    <tbody>
-                                      <tr>
-                                        <td style="padding:10px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
-                                            <tbody>
-                                              <tr>
-                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
-                                                  <a href="https://twitter.com/UNC_Colorado" target="_blank">
-                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-twitter-x.png" style="border-radius:3px;display:block;" width="25" />
-                                                  </a>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if mso | IE]></td><td><![endif]-->
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                    <tbody>
-                                      <tr>
-                                        <td style="padding:10px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
-                                            <tbody>
-                                              <tr>
-                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
-                                                  <a href="https://www.youtube.com/user/UNorthernColorado" target="_blank">
-                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-youtube.png" style="border-radius:3px;display:block;" width="25" />
-                                                  </a>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if mso | IE]></td><td><![endif]-->
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
-                                    <tbody>
-                                      <tr>
-                                        <td style="padding:10px;vertical-align:middle;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
-                                            <tbody>
-                                              <tr>
-                                                <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
-                                                  <a href="https://www.tiktok.com/@unco_colorado" target="_blank">
-                                                    <img alt="" height="25" src="https://rusmiller.com/social-icons/icon-blue-tiktok.png" style="border-radius:3px;display:block;" width="25" />
-                                                  </a>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if mso | IE]></td><![endif]-->
-                                  <!-- END EDIT: SOCIAL_MEDIA_LINKS -->
-                                  <!--[if mso | IE]></tr></table><![endif]-->
+                                            <!--[if mso | IE]><td><![endif]-->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="padding:10px;vertical-align:middle;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
+                                                            <a href="https://www.facebook.com/universitynortherncolorado" target="_blank">
+                                                              <img alt="" height="25" src="https://enrolled.unco.edu/www/images/icons/icon-blue-facebook.png" style="border-radius:3px;display:block;" width="25" />
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <!--[if mso | IE]></td><td><![endif]-->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="padding:10px;vertical-align:middle;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
+                                                            <a href="https://instagram.com/unc_colorado" target="_blank">
+                                                              <img alt="" height="25" src="https://enrolled.unco.edu/www/images/icons/icon-blue-instagram.png" style="border-radius:3px;display:block;" width="25" />
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <!--[if mso | IE]></td><td><![endif]-->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="padding:10px;vertical-align:middle;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
+                                                            <a href="https://www.linkedin.com/school/university-of-northern-colorado" target="_blank">
+                                                              <img alt="" height="25" src="https://enrolled.unco.edu/www/images/icons/icon-blue-linkedin.png" style="border-radius:3px;display:block;" width="25" />
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <!--[if mso | IE]></td><td><![endif]-->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="padding:10px;vertical-align:middle;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
+                                                            <a href="https://twitter.com/UNC_Colorado" target="_blank">
+                                                              <img alt="" height="25" src="https://enrolled.unco.edu/www/images/icons/icon-blue-twitter-x.png" style="border-radius:3px;display:block;" width="25" />
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <!--[if mso | IE]></td><td><![endif]-->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="padding:10px;vertical-align:middle;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
+                                                            <a href="https://www.youtube.com/user/UNorthernColorado" target="_blank">
+                                                              <img alt="" height="25" src="https://enrolled.unco.edu/www/images/icons/icon-blue-youtube.png" style="border-radius:3px;display:block;" width="25" />
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <!--[if mso | IE]></td><td><![endif]-->
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="padding:10px;vertical-align:middle;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:25px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="font-size:0;height:25px;vertical-align:middle;width:25px;">
+                                                            <a href="https://www.tiktok.com/@unco_colorado" target="_blank">
+                                                              <img alt="" height="25" src="https://enrolled.unco.edu/www/images/icons/icon-blue-tiktok.png" style="border-radius:3px;display:block;" width="25" />
+                                                            </a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <!--[if mso | IE]></td><![endif]-->
+                                            <!-- END EDIT: SOCIAL_MEDIA_LINKS -->
+                                            <!--[if mso | IE]></tr></table><![endif]-->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
                                 </td>
                               </tr>
                             </tbody>
                           </table>
                         </div>
-                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                        <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div style="margin:0px auto;max-width:680px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                        <!-- Contact Footer --><!-- Presidential Footer -->
+                        <!--[if mso | IE]><td class="blue-section-outlook mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-section-outlook mobile-stack-outlook" role="presentation" style="width:680px;" width="680" bgcolor="#013c65" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                        <div class="blue-section mobile-stack" style="background:#013c65;background-color:#013c65;margin:0px auto;max-width:680px;">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#013c65;background-color:#013c65;width:100%;">
+                            <tbody>
+                              <tr>
+                                <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:40px;padding-right:40px;padding-top:20px;text-align:center;">
+                                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:150px;" ><![endif]-->
+                                  <div class="mj-column-per-25 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="width:60px;">
+                                                    <a href="https://unco.edu" target="_blank">
+                                                      <img alt="UNC Brandmark" src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="60" height="auto" />
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td><td class="mobile-stack-column-outlook mobile-stack-padding-sm-outlook" style="vertical-align:middle;width:300px;" ><![endif]-->
+                                  <div class="mj-column-per-50 mj-outlook-group-fix mobile-stack-column mobile-stack-padding-sm" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                                      <tbody>
+                                        <!-- EDIT: PRESIDENTIAL_ADDRESS - Update office address -->
+                                        <tr>
+                                          <td align="center" class="mobile-center white-text" style="font-size:0px;padding:0;padding-top:0;padding-bottom:5px;word-break:break-word;">
+                                            <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:11px;line-height:1.2;text-align:center;color:#ffffff;"><!-- IMPORTANT: UPDATE ADDRESS! Change to actual office address --> 1234 Address, Greeley, CO 12345</div>
+                                          </td>
+                                        </tr>
+                                        <!-- END EDIT: PRESIDENTIAL_ADDRESS --><!-- EDIT: PRESIDENTIAL_CONTACT - Update phone, email, and website (update both display text and href attributes) -->
+                                        <tr>
+                                          <td align="center" class="mobile-center white-text" style="font-size:0px;padding:0;padding-top:0;padding-bottom:5px;word-break:break-word;">
+                                            <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:11px;line-height:1.2;text-align:center;color:#ffffff;"><!-- IMPORTANT: UPDATE HREF AND TEXT! Change tel: number and displayed phone number -->
+                                              <a href="tel:970-351-1890" style="
+          color: #ffffff !important;
+          text-decoration: none;
+          mso-style-priority: 99;
+        ">
+                                                <font color="#ffffff">970-351-1890</font>
+                                              </a> &nbsp;|&nbsp; <!-- IMPORTANT: UPDATE HREF AND TEXT! Change mailto: address and displayed email -->
+                                              <a href="mailto:info@unco.edu" style="
+          color: #ffffff !important;
+          text-decoration: none;
+          mso-style-priority: 99;
+        ">
+                                                <font color="#ffffff">info@unco.edu</font>
+                                              </a> &nbsp;|&nbsp; <!-- IMPORTANT: UPDATE HREF AND TEXT! Change website URL and displayed domain -->
+                                              <a href="https://unco.edu" style="
+          color: #ffffff !important;
+          text-decoration: none;
+          mso-style-priority: 99;
+        ">
+                                                <font color="#ffffff">unco.edu</font>
+                                              </a>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <!-- END EDIT: PRESIDENTIAL_CONTACT -->
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:150px;" ><![endif]-->
+                                  <div class="mj-column-per-25 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
+                                      <tbody>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td></tr></table></td><![endif]-->
+                        <!-- [if mso]>
+  <style>
+    /* Outlook-specific white link styling */
+    td[style*="background-color:#013c65"] a,
+    td[style*="background-color: #013c65"] a,
+    .blue-section a,
+    table[style*="background-color:#013c65"] a {
+      color: #ffffff !important;
+      text-decoration: none !important;
+    }
+    /* Force white color in Outlook */
+    font[color="#ffffff"] {
+      color: #ffffff !important;
+    }
+  </style>
+<![endif] -->
+                        <!--[if mso | IE]></tr></table><![endif]-->
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:680px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
-              <!-- Contact Footer --><!-- Presidential Footer -->
-              <!--[if mso | IE]><td class="blue-section-outlook mobile-stack-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="blue-section-outlook mobile-stack-outlook" role="presentation" style="width:680px;" width="680" bgcolor="#013c65" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div class="blue-section mobile-stack" style="background:#013c65;background-color:#013c65;margin:0px auto;max-width:680px;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#013c65;background-color:#013c65;width:100%;">
-                  <tbody>
-                    <tr>
-                      <td style="direction:ltr;font-size:0px;padding:0px;padding-left:40px;padding-right:40px;text-align:center;">
-                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:150px;" ><![endif]-->
-                        <div class="mj-column-per-25 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
-                            <tbody>
-                              <tr>
-                                <td align="left" class="mobile-center" style="font-size:0px;padding:0;padding-bottom:10px;word-break:break-word;">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                                    <tbody>
-                                      <tr>
-                                        <td style="width:60px;">
-                                          <a href="https://unco.edu" target="_blank">
-                                            <img alt="UNC Brandmark" src="https://ncd.test.technolutions.net/www/images/unc_brdmk_clr.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="60" height="auto" />
-                                          </a>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <!--[if mso | IE]></td><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:300px;" ><![endif]-->
-                        <div class="mj-column-per-50 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
-                            <tbody>
-                              <!-- EDIT: PRESIDENTIAL_ADDRESS - Update office address -->
-                              <tr>
-                                <td align="center" class="mobile-center white-text" style="font-size:0px;padding:0;padding-top:0;padding-bottom:5px;word-break:break-word;">
-                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:11px;line-height:1.2;text-align:center;color:#ffffff;"><!-- Ensure placeholder address is updated --> 1234 Address, Greeley, CO 12345</div>
-                                </td>
-                              </tr>
-                              <!-- END EDIT: PRESIDENTIAL_ADDRESS --><!-- EDIT: PRESIDENTIAL_CONTACT - Update phone, email, and website (update both display text and href attributes) -->
-                              <tr>
-                                <td align="center" class="mobile-center white-text" style="font-size:0px;padding:0;padding-top:0;padding-bottom:5px;word-break:break-word;">
-                                  <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:11px;line-height:1.2;text-align:center;color:#ffffff;"><!-- Ensure placeholder phone/email are updated -->
-                                    <a href="tel:970-351-1890" style="color: #ffffff; mso-style-priority: 99">
-                                      <span style="color: white !important">970-351-1890</span></a> &nbsp;|&nbsp; <a href="mailto:info@unco.edu" style="color: #ffffff; mso-style-priority: 99">
-                                      <span style="color: white !important">info@unco.edu</span>
-                                    </a> &nbsp;|&nbsp; <a href="https://unco.edu" style="color: #ffffff; mso-style-priority: 99">
-                                      <span style="color: white !important">unco.edu</span>
-                                    </a>
-                                  </div>
-                                </td>
-                              </tr>
-                              <!-- END EDIT: PRESIDENTIAL_CONTACT -->
-                            </tbody>
-                          </table>
-                        </div>
-                        <!--[if mso | IE]></td><td class="mobile-stack-column-outlook" style="vertical-align:middle;width:150px;" ><![endif]-->
-                        <div class="mj-column-per-25 mj-outlook-group-fix mobile-stack-column" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
-                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
-                            <tbody>
-                            </tbody>
-                          </table>
-                        </div>
-                        <!--[if mso | IE]></td></tr></table><![endif]-->
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table></td><![endif]-->
-              <!-- [if mso]>
-  <style>
-    .blue-section a {
-      color: white !important;
-    }
-  </style>
-<![endif] -->
-              <!--[if mso | IE]></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>

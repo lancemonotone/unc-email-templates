@@ -8,7 +8,8 @@
   padding-top="10px"
   padding-bottom="10px"
   padding-left="0"
-  padding-right="0">
+  padding-right="0"
+  background-color="#FFB71B">
   <span style="color: #013c65">Read More</span>
 </mj-button>
 <!-- END EDIT: CTA_BUTTON_GOLD_LEFT -->

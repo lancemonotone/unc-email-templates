@@ -1,21 +1,19 @@
 <!-- Events Block - H1 Title + 2 Column Layout -->
-<mj-section
-  padding="20px"
-  padding-bottom="0"
-  padding-left="40px"
-  padding-right="40px"
-  css-class="light-section">
+<mj-section padding="20px" padding-left="40px" padding-right="40px">
   <mj-column width="100%" padding="0" padding-bottom="0">
-    <!-- Include existing H1 component -->
-    <mj-include path="../components/text/component-h2.mjml" />
+    <!-- EDIT: EVENTS_SECTION_TITLE - Update events section title -->
+    <mj-text
+      mj-class="h2"
+      align="center"
+      color="#013C65"
+      css-class="no-dark-mode-text">
+      Events
+    </mj-text>
+    <!-- END EDIT: EVENTS_SECTION_TITLE -->
   </mj-column>
 </mj-section>
 
-<mj-section
-  padding="0"
-  padding-left="40px"
-  padding-right="40px"
-  css-class="light-section">
+<mj-section padding="0" padding-left="40px" padding-right="40px">
   <mj-column width="50%" padding="0">
     <!-- EDIT: EVENT_LEFT_1 - Update first left column event -->
     <mj-text
@@ -74,7 +72,7 @@
 </mj-section>
 
 <!-- Centered Gold Button -->
-<mj-section padding="0" css-class="light-section">
+<mj-section padding="0">
   <mj-column width="100%" padding-top="20px" padding-bottom="20px">
     <mj-include
       path="../components/buttons/component-button-blue-center.mjml" />

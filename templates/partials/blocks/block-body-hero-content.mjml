@@ -1,5 +1,5 @@
 <!-- Hero Block with Full-Width Image and Content -->
-<mj-section padding="0" css-class="block-container light-section">
+<mj-section padding="0">
   <!-- Hero Image -->
   <mj-column width="100%" padding="0">
     <mj-include

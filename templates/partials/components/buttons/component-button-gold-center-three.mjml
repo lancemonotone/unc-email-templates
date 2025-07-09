@@ -2,21 +2,21 @@
   <!-- Button Columns -->
   <mj-column
     width="33.33%"
-    css-class="mobile-stack-column light-section padding-sides"
+    css-class="mobile-stack-column padding-sides"
     padding="0px">
     <mj-include path="../buttons/component-button-gold-center.mjml" />
   </mj-column>
 
   <mj-column
     width="33.33%"
-    css-class="mobile-stack-column mobile-stack-padding-lg light-section padding-sides"
+    css-class="mobile-stack-column mobile-stack-padding-lg padding-sides"
     padding="0px">
     <mj-include path="../buttons/component-button-gold-center.mjml" />
   </mj-column>
 
   <mj-column
     width="33.34%"
-    css-class="mobile-stack-column mobile-stack-padding-lg light-section padding-sides"
+    css-class="mobile-stack-column mobile-stack-padding-lg padding-sides"
     padding="0px">
     <mj-include path="../buttons/component-button-gold-center.mjml" />
   </mj-column>

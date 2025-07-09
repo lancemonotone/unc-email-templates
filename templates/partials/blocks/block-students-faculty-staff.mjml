@@ -1,105 +1,113 @@
 <!-- Students and Faculty Staff Block -->
-<mj-section padding="0" css-class="block-container">
-  <!-- Students Section -->
+
+<!-- Students Section Header -->
+<mj-section
+  background-color="#f6b000"
+  padding="0"
+  padding-top="5px"
+  padding-bottom="5px">
   <mj-column width="100%">
-    <!-- Header -->
-    <mj-section padding="0" css-class="gold-header">
-      <mj-column width="100%">
-        <!-- EDIT: STUDENTS_SECTION_TITLE - Update students section title -->
-        <mj-text
-          mj-class="h1"
-          align="center"
-          color="#013C65"
-          css-class="no-dark-mode-text">
-          Students
-        </mj-text>
-        <!-- END EDIT: STUDENTS_SECTION_TITLE -->
-      </mj-column>
-    </mj-section>
+    <!-- EDIT: STUDENTS_SECTION_TITLE - Update students section title -->
+    <mj-text
+      mj-class="h1"
+      align="center"
+      color="#013C65"
+      css-class="no-dark-mode-text">
+      Students
+    </mj-text>
+    <!-- END EDIT: STUDENTS_SECTION_TITLE -->
+  </mj-column>
+</mj-section>
 
-    <!-- Content -->
-    <mj-section padding="10px">
-      <mj-column
-        css-class="column-centered mobile-stack-column light-section padding-sides">
-        <mj-text padding="0">
-          <ul>
-            <li>
-              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
-              ><br />
-              This content will explain the above bullet point topic above.
-              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
-              <em>adipiscing elit</em> sed do. Eiusmod tempor
-              <a href="#">placeholder link text</a> et dolore magna.
-            </li>
-            <li>
-              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
-              ><br />
-              This content will explain the above bullet point topic above.
-              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
-              <em>adipiscing elit</em> sed do. Eiusmod tempor
-              <a href="#">placeholder link text</a> et dolore magna.
-            </li>
-            <li>
-              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
-              ><br />
-              This content will explain the above bullet point topic above.
-              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
-              <em>adipiscing elit</em> sed do. Eiusmod tempor
-              <a href="#">placeholder link text</a> et dolore magna.
-            </li>
-          </ul>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+<!-- Students Content -->
+<mj-section padding="0">
+  <mj-column css-class="column-centered mobile-stack-column padding-sides">
+    <mj-text padding="0">
+      <ul>
+        <li>
+          <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+          ><br />
+          This content will explain the above bullet point topic above. Lorem
+          ipsum <strong>dolor sit amet</strong>! Consectetur
+          <em>adipiscing elit</em> sed do. Eiusmod tempor
+          <a href="#" style="color: #007dba">placeholder link text</a> et dolore
+          magna.
+        </li>
+        <li>
+          <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+          ><br />
+          This content will explain the above bullet point topic above. Lorem
+          ipsum <strong>dolor sit amet</strong>! Consectetur
+          <em>adipiscing elit</em> sed do. Eiusmod tempor
+          <a href="#" style="color: #007dba">placeholder link text</a> et dolore
+          magna.
+        </li>
+        <li>
+          <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+          ><br />
+          This content will explain the above bullet point topic above. Lorem
+          ipsum <strong>dolor sit amet</strong>! Consectetur
+          <em>adipiscing elit</em> sed do. Eiusmod tempor
+          <a href="#" style="color: #007dba">placeholder link text</a> et dolore
+          magna.
+        </li>
+      </ul>
+    </mj-text>
+  </mj-column>
+</mj-section>
 
-    <!-- Faculty and Staff Section -->
-    <mj-section padding="0" css-class="gold-header">
-      <mj-column width="100%">
-        <!-- EDIT: FACULTY_SECTION_TITLE - Update faculty and staff section title -->
-        <mj-text
-          mj-class="h1"
-          align="center"
-          color="#013C65"
-          css-class="no-dark-mode-text">
-          Faculty and Staff
-        </mj-text>
-        <!-- END EDIT: FACULTY_SECTION_TITLE -->
-      </mj-column>
-    </mj-section>
+<!-- Faculty and Staff Section Header -->
+<mj-section
+  background-color="#f6b000"
+  padding="0"
+  padding-top="5px"
+  padding-bottom="5px">
+  <mj-column width="100%">
+    <!-- EDIT: FACULTY_SECTION_TITLE - Update faculty and staff section title -->
+    <mj-text
+      mj-class="h1"
+      align="center"
+      color="#013C65"
+      css-class="no-dark-mode-text">
+      Faculty and Staff
+    </mj-text>
+    <!-- END EDIT: FACULTY_SECTION_TITLE -->
+  </mj-column>
+</mj-section>
 
-    <!-- Content -->
-    <mj-section padding="10px">
-      <mj-column
-        css-class="column-centered mobile-stack-column light-section padding-sides">
-        <mj-text padding="0">
-          <ul>
-            <li>
-              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
-              ><br />
-              This content will explain the above bullet point topic above.
-              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
-              <em>adipiscing elit</em> sed do. Eiusmod tempor
-              <a href="#">placeholder link text</a> et dolore magna.
-            </li>
-            <li>
-              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
-              ><br />
-              This content will explain the above bullet point topic above.
-              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
-              <em>adipiscing elit</em> sed do. Eiusmod tempor
-              <a href="#">placeholder link text</a> et dolore magna.
-            </li>
-            <li>
-              <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
-              ><br />
-              This content will explain the above bullet point topic above.
-              Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
-              <em>adipiscing elit</em> sed do. Eiusmod tempor
-              <a href="#">placeholder link text</a> et dolore magna.
-            </li>
-          </ul>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+<!-- Faculty and Staff Content -->
+<mj-section padding="0" padding-top="10px" padding-bottom="10px">
+  <mj-column css-class="column-centered mobile-stack-column padding-sides">
+    <mj-text padding="0">
+      <ul>
+        <li>
+          <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+          ><br />
+          This content will explain the above bullet point topic above. Lorem
+          ipsum <strong>dolor sit amet</strong>! Consectetur
+          <em>adipiscing elit</em> sed do. Eiusmod tempor
+          <a href="#" style="color: #007dba">placeholder link text</a> et dolore
+          magna.
+        </li>
+        <li>
+          <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+          ><br />
+          This content will explain the above bullet point topic above. Lorem
+          ipsum <strong>dolor sit amet</strong>! Consectetur
+          <em>adipiscing elit</em> sed do. Eiusmod tempor
+          <a href="#" style="color: #007dba">placeholder link text</a> et dolore
+          magna.
+        </li>
+        <li>
+          <strong><u>Section Topic (Bold Underline with Bullet):</u></strong
+          ><br />
+          This content will explain the above bullet point topic above. Lorem
+          ipsum <strong>dolor sit amet</strong>! Consectetur
+          <em>adipiscing elit</em> sed do. Eiusmod tempor
+          <a href="#" style="color: #007dba">placeholder link text</a> et dolore
+          magna.
+        </li>
+      </ul>
+    </mj-text>
   </mj-column>
 </mj-section>

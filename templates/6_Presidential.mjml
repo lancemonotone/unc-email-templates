@@ -8,49 +8,47 @@
   </mj-head>
 
   <mj-body>
-    <!-- Section 1: Header/Logo Section -->
-    <mj-section padding="0" css-class="light-section">
+    <mj-wrapper css-class="light-section" padding="0">
+      <!-- Section 1: Header/Logo Section -->
       <mj-include path="./partials/headers/header-presidential.mjml" />
-    </mj-section>
 
-    <!-- Body Story H1 -->
-    <mj-section padding="40px" css-class="light-section">
-      <mj-column
-        width="100%"
-        css-class="mobile-stack-column light-section force-questa"
-        padding="0">
-        <mj-include path="./partials/components/text/component-h2.mjml" />
-        <!-- Text With Bullets Component -->
-        <mj-include path="./partials/components/text/component-text.mjml" />
-        <mj-include
-          path="./partials/components/text/component-text-no-bullets.mjml" />
-        <mj-include
-          path="./partials/components/text/component-text-no-bullets.mjml" />
-        <mj-include
-          path="./partials/components/text/component-text-no-bullets.mjml" />
-        <mj-include
-          path="./partials/components/text/component-text-no-bullets.mjml" />
-      </mj-column>
+      <!-- Body Story H1 -->
+      <mj-section padding="40px">
+        <mj-column
+          width="100%"
+          css-class="mobile-stack-column force-questa"
+          padding="0">
+          <mj-include path="./partials/components/text/component-h2.mjml" />
+          <!-- Text With Bullets Component -->
+          <mj-include path="./partials/components/text/component-text.mjml" />
+          <mj-include
+            path="./partials/components/text/component-text-no-bullets.mjml" />
+          <mj-include
+            path="./partials/components/text/component-text-no-bullets.mjml" />
+          <mj-include
+            path="./partials/components/text/component-text-no-bullets.mjml" />
+          <mj-include
+            path="./partials/components/text/component-text-no-bullets.mjml" />
+        </mj-column>
+      </mj-section>
 
       <!-- Presidential Signature Area -->
-      <mj-column
-        width="100%"
-        padding="0"
-        padding-top="40px"
-        css-class="force-questa">
-        <mj-include path="./partials/blocks/block-signature.mjml" />
-      </mj-column>
-    </mj-section>
+      <mj-section padding="40px">
+        <mj-column width="100%" padding="0" css-class="force-questa">
+          <mj-include path="./partials/blocks/block-signature.mjml" />
+        </mj-column>
+      </mj-section>
 
-    <!-- Footer Section -->
-    <mj-section padding="0">
-      <!-- Social Media Footer -->
-      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
-    </mj-section>
+      <!-- Footer Section -->
+      <mj-section padding="0">
+        <!-- Social Media Footer -->
+        <mj-include path="./partials/footers/social/footer-social-32.mjml" />
+      </mj-section>
 
-    <mj-section padding="0">
-      <!-- Contact Footer -->
-      <mj-include path="./partials/footers/footer-presidential.mjml" />
-    </mj-section>
+      <mj-section padding="0">
+        <!-- Contact Footer -->
+        <mj-include path="./partials/footers/footer-presidential.mjml" />
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>
