@@ -1,57 +1,43 @@
 <!-- Around UNC Header - Half Bear Head and Around UNC Logo -->
-<mj-section padding="0">
-  <mj-column width="100%" padding="0">
-    <!-- Header Section with Gradient Background -->
-    <mj-section
+<mj-section
+  padding="0"
+  padding-top="20px"
+  padding-bottom="20px"
+  background-color="#013c65"
+  css-class="gradient-bg mobile-stack">
+  <mj-column
+    padding="0"
+    width="15%"
+    vertical-align="middle"
+    css-class="mobile-hide header-column">
+    <mj-image
       padding="0"
-      width="100%"
-      css-class="gradient-bg mobile-stack header-section">
-      <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-          <v:fill
-            type="gradient"
-            color="#013c65"
-            color2="#007dba"
-            method="linear"
-            angle="180" />
-        </v:background>
-      <![endif]-->
+      css-class="mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/banner-around-unc-half-bear.png"
+      alt="UNC Bear Logo"
+      width="63px"
+      href="https://unco.edu"
+      align="left" />
+  </mj-column>
 
-      <mj-column
-        padding="0"
-        width="15%"
-        vertical-align="middle"
-        css-class="mobile-hide header-column">
-        <mj-image
-          padding="0"
-          css-class="mobile-center"
-          src="https://ncd.test.technolutions.net/www/images/banner-around-unc-half-bear.png"
-          alt="UNC Bear Logo"
-          width="63px"
-          href="https://unco.edu"
-          align="left" />
-      </mj-column>
+  <mj-column
+    width="70%"
+    vertical-align="middle"
+    css-class="mobile-stack-column header-column">
+    <mj-image
+      padding="0"
+      css-class="mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/banner-around-unc-logo.png"
+      alt="Around UNC Logo"
+      width="561px"
+      href="https://unco.edu"
+      align="center" />
+  </mj-column>
 
-      <mj-column
-        width="70%"
-        vertical-align="middle"
-        css-class="mobile-stack-column header-column">
-        <mj-image
-          padding="0"
-          css-class="mobile-center"
-          src="https://ncd.test.technolutions.net/www/images/banner-around-unc-logo.png"
-          alt="Around UNC Logo"
-          width="561px"
-          href="https://unco.edu"
-          align="center" />
-      </mj-column>
-
-      <mj-column
-        width="15%"
-        vertical-align="middle"
-        css-class="mobile-hide header-column">
-        <mj-text padding="0">&nbsp;</mj-text>
-      </mj-column>
-    </mj-section>
+  <mj-column
+    width="15%"
+    vertical-align="middle"
+    css-class="mobile-hide header-column">
+    <mj-text padding="0">&nbsp;</mj-text>
   </mj-column>
 </mj-section>
