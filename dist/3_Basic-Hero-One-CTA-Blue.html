@@ -471,58 +471,10 @@
       font-family: "Questa Slab", Arvo, Rockwell, Verdana, Arial, sans-serif !important;
     }
 
-    /* Outlook Dark Mode - Comprehensive Fix */
-    /* Target Outlook 2016+ to prevent aggressive color inversion */
+    /* Outlook Dark
+      Mode */
     [data-ogsc] body {
       background: #333333 !important;
-    }
-
-    /* MSO Gradient technique to maintain white text in Outlook dark mode */
-    [data-ogsc] .blue-section,
-    [data-ogsc] .blue-section *,
-    [data-ogsc] .blue-header,
-    [data-ogsc] .blue-header *,
-    [data-ogsc] .navigation-bar-blue a,
-    [data-ogsc] .white-text,
-    [data-ogsc] .dark-mode-text,
-    [data-ogsc] .dark-mode-text * {
-      mso-style-textfill-type: gradient !important;
-      mso-style-textfill-fill-gradientfill-stoplist: "0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000" !important;
-      color: #000000 !important;
-      /* Inverts to white in Outlook dark mode */
-    }
-
-    /* MSO Gradient technique for blue/gold text elements */
-    [data-ogsc] .navigation-bar-gold a,
-    [data-ogsc] .gold-section a,
-    [data-ogsc] .gold-section-links a,
-    [data-ogsc] .light-section a {
-      mso-style-textfill-type: gradient !important;
-      mso-style-textfill-fill-gradientfill-stoplist: "0 \#007DBA 0 100000\,100000 \#007DBA 0 100000" !important;
-      color: #ff8245 !important;
-      /* Inverts to blue in Outlook dark mode */
-    }
-
-    /* Prevent background color changes on key elements */
-    [data-ogsc] .blue-section,
-    [data-ogsc] .blue-header,
-    [data-ogsc] .navigation-bar-blue {
-      background-color: #013c65 !important;
-    }
-
-    [data-ogsc] .gold-section,
-    [data-ogsc] .navigation-bar-gold,
-    [data-ogsc] .gold-header {
-      background-color: #ffb71b !important;
-    }
-
-    /* Force specific colors that won't be inverted */
-    [data-ogsc] .no-dark-mode-text,
-    [data-ogsc] .no-dark-mode-text * {
-      mso-style-textfill-type: gradient !important;
-      mso-style-textfill-fill-gradientfill-stoplist: "0 \#013C65 0 100000\,100000 \#013C65 0 100000" !important;
-      color: #ffb31b !important;
-      /* Inverts to blue in Outlook dark mode */
     }
 
     /* Hero image dimensions */
