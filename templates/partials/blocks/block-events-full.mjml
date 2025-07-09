@@ -41,7 +41,7 @@
 </mj-section>
 
 <!-- Event Items Content Section -->
-<mj-section padding="10px">
+<mj-section padding="10px" padding-left="5px" padding-right="0">
   <mj-column width="100%" padding="0">
     <!-- EDIT: EVENT_1 - Update first event details -->
     <mj-text padding-top="2px" padding-bottom="2px">
