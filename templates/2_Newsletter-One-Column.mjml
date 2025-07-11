@@ -19,13 +19,13 @@
 
       <mj-section padding="0">
         <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-gold-center.mjml" />
+          path="./partials/blocks/block-two-column-white-image-h2-text-button-gold-left.mjml" />
       </mj-section>
 
-      <!-- Section Title Bar -->
+      <!-- Section Title Blue Center Stories Bar -->
       <mj-section padding="0">
         <mj-include
-          path="./partials/components/layout/component-section-title-stories.mjml" />
+          path="./partials/components/layout/component-section-title-blue-center-stories.mjml" />
       </mj-section>
 
       <!-- Body Content Blocks 1 -->
@@ -70,16 +70,10 @@
           path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
       </mj-section>
 
-      <!-- Body Content Blocks 8 -->
+      <!-- Section Title Blue Center Events Bar -->
       <mj-section padding="0">
         <mj-include
-          path="./partials/blocks/block-bg-gold-image-left-h2-text-button-blue-left.mjml" />
-      </mj-section>
-
-      <!-- Section Title Bar -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/components/layout/component-section-title-events.mjml" />
+          path="./partials/components/layout/component-section-title-blue-center-events.mjml" />
       </mj-section>
 
       <!-- Events Block - 2 Column Layout -->
