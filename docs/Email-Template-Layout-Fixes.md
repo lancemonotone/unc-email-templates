@@ -6,7 +6,158 @@ This document details the structural and styling fixes applied to resolve email 
 
 ---
 
-## Issue #1: Invalid Column Structure in Sections
+## Issue #1: Main Template Structure Standards and Anti-Patterns
+
+### Problem
+
+Some templates use improper structural patterns that differ from the established standard, causing MJML validation errors and nesting issues. This anti-pattern can appear in any template and should be corrected using the standard structure.
+
+### Root Cause Analysis
+
+**Problematic Structure Pattern (anti-pattern to avoid):**
+
+```mjml
+<mj-body>
+  <!-- NO mj-wrapper -->
+  <!-- Individual sections for everything -->
+  <mj-section padding="0" css-class="light-section">
+    <mj-include path="./partials/headers/header-primary.mjml" />
+  </mj-section>
+
+  <!-- Sections with column wrappers around components -->
+  <mj-section padding="40px" css-class="light-section">
+    <mj-column width="100%" padding="0">
+      <mj-include path="./partials/components/text/component-h1.mjml" />
+    </mj-column>
+  </mj-section>
+</mj-body>
+```
+
+**Issues Created:**
+
+- Wrapping column components in additional columns (invalid nesting)
+- Wrapping partials that contain sections in additional sections (invalid nesting)
+- Missing mj-wrapper for consistent styling
+- Unnecessary wrapper elements (not the sections themselves)
+- Harder to maintain and debug
+
+### Correct Structure Pattern
+
+**Standard Template Structure:**
+
+```mjml
+<mj-body>
+  <mj-wrapper css-class="light-section" padding="0">
+    <!-- Direct includes without section wrappers -->
+    <mj-include path="./partials/headers/header-primary.mjml" />
+    <mj-include path="./partials/blocks/block-something.mjml" />
+
+    <!-- Minimal sections only when needed for specific styling -->
+    <mj-section padding="0">
+      <mj-include path="./partials/blocks/block-something.mjml" />
+    </mj-section>
+
+    <!-- Let story components define their own structure -->
+    <mj-section padding="20px" padding-left="40px" padding-right="40px">
+      <mj-include
+        path="./partials/components/stories/component-story-h2-button-blue-center.mjml" />
+    </mj-section>
+  </mj-wrapper>
+</mj-body>
+```
+
+### Why This Structure Works
+
+1. **mj-wrapper provides consistent styling** across the entire template
+2. **Sections are preserved for their intended purpose** - layout, spacing, and styling
+3. **Partials define their own sections** - main template doesn't add unnecessary wrappers
+4. **No column nesting issues** - components that are columns aren't wrapped in columns
+5. **Cleaner, more maintainable code** - eliminates only unnecessary wrapper elements
+6. **Follows MJML best practices** - let components handle their own structure while maintaining proper section usage
+
+### Standard Template Architecture Rules
+
+**DO:**
+
+- Use `<mj-wrapper css-class="light-section" padding="0">` as the main container
+- **Keep all necessary sections for layout, spacing, and styling**
+- Include block partials directly (they define their own sections)
+- Use sections for story components and specific padding/styling needs
+- Let partials handle their own section structure
+- **Preserve section-level padding and styling attributes**
+
+**DON'T:**
+
+- **❌ Remove sections entirely - sections are essential for layout**
+- Wrap partials that already contain sections in additional sections
+- Wrap column components (`component-*`) in additional columns
+- Skip the mj-wrapper container
+- Create unnecessary section wrappers around self-contained partials
+- Override the structural decisions made in partials
+
+**IMPORTANT:** Sections are NOT the problem - **unnecessary section wrappers and invalid nesting** are the problems.
+
+### Examples by Template Type
+
+**Newsletter Templates:**
+
+```mjml
+<mj-wrapper css-class="light-section" padding="0">
+  <mj-include path="./partials/headers/header-around-unc.mjml" />
+  <mj-include
+    path="./partials/components/navigation/component-navigation-bar-gold.mjml" />
+  <mj-include path="./partials/blocks/block-two-column-sidebar.mjml" />
+  <mj-include path="./partials/blocks/block-stories.mjml" />
+</mj-wrapper>
+```
+
+**Basic Templates:**
+
+```mjml
+<mj-wrapper css-class="light-section" padding="0">
+  <mj-section padding="0">
+    <mj-include path="./partials/headers/header-primary.mjml" />
+  </mj-section>
+
+  <mj-section padding="20px" padding-left="40px" padding-right="40px">
+    <mj-include
+      path="./partials/components/stories/component-story-h1-button-blue-center.mjml" />
+  </mj-section>
+</mj-wrapper>
+```
+
+### How to Identify Structure Issues
+
+**Look for these specific problems (NOT section removal):**
+
+- Linter errors: "mj-column cannot be used inside mj-column"
+- Linter errors: "mj-section cannot be used inside mj-section"
+- Template doesn't use `<mj-wrapper>`
+- Block partials (that contain sections) wrapped in additional sections
+- Story components (that are columns) wrapped in column elements
+- **Note: Having many sections is NOT a problem - improper nesting is the problem**
+
+### How to Identify Templates Needing Structure Updates
+
+**Any template with these issues needs restructuring:**
+
+- Uses the problematic structure pattern shown above
+- Missing `<mj-wrapper>` container
+- Has excessive section wrappers around partials
+- Shows MJML validation errors for nesting
+
+**Templates to Verify Structure:**
+
+- `templates/4_Basic-No-Hero-One-CTA-Gold.mjml`
+- `templates/5_Newsletter-Multi-Events.mjml`
+- `templates/7_Single-Event-Promo.mjml`
+- `templates/8_Magazine.mjml`
+- `templates/9_Top-Hero.mjml`
+- `templates/10_Newsletter-Kitchen-Sink.mjml`
+
+---
+
+## Issue #2: Invalid Column Structure in Sections
 
 ### Problem
 
@@ -60,7 +211,7 @@ MJML sections with multiple columns are meant for side-by-side horizontal layout
 
 ---
 
-## Issue #2: Nested Section Structure Breaking Header Layout
+## Issue #3: Nested Section Structure Breaking Header Layout
 
 ### Problem
 
@@ -106,7 +257,7 @@ Where `header-presidential.mjml` contains:
 
 ---
 
-## Issue #3: CSS Class Background Colors Not Working
+## Issue #4: CSS Class Background Colors Not Working
 
 ### Problem
 
@@ -172,7 +323,7 @@ The `gold-header` CSS class wasn't applying background colors reliably across em
 
 ---
 
-## Issue #4: Lost Padding After Structural Changes
+## Issue #5: Lost Padding After Structural Changes
 
 ### Problem
 
@@ -199,7 +350,7 @@ Adjust section padding to maintain visual spacing:
 
 ---
 
-## Issue #5: Link Colors Not Working in Outlook 2016
+## Issue #6: Link Colors Not Working in Outlook 2016
 
 ### Problem
 
@@ -436,8 +587,6 @@ Based on the project structure, these templates likely have similar issues:
 
 **Status:** ✅ Fixed - `component-navigation-bar-gold.mjml`
 **Status:** ⚠️ Needs fixing - All components listed above
-
----
 
 ## Testing Recommendations
 

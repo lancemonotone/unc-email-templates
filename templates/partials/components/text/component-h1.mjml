@@ -1,5 +1,5 @@
 <!-- EDIT: HEADLINE_H1 - Change the main story headline text -->
-<mj-text mj-class="h1">
+<mj-text mj-class="h1" padding-bottom="20px">
   <h1>Story Title H1</h1>
 </mj-text>
 <!-- END EDIT: HEADLINE_H1 -->
