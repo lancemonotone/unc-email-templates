@@ -2,10 +2,12 @@
 
 <!-- Events Header with Blue Background -->
 <mj-section
-  padding="0"
   width="100%"
-  css-class="blue-header mobile-stack"
-  background-color="#013c65">
+  background-color="#013C65"
+  padding="0"
+  padding-top="10px"
+  padding-bottom="10px"
+  css-class="mobile-stack">
   <mj-column
     width="50%"
     vertical-align="middle"
@@ -41,7 +43,7 @@
 </mj-section>
 
 <!-- Event Items Content Section -->
-<mj-section padding="10px" padding-left="5px" padding-right="0">
+<mj-section padding="0" padding-left="5px" padding-right="0">
   <mj-column width="100%" padding="0">
     <!-- EDIT: EVENT_1 - Update first event details -->
     <mj-text padding-top="2px" padding-bottom="2px">

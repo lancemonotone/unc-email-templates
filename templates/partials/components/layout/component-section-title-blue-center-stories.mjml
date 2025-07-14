@@ -1,5 +1,9 @@
 <!-- Section Title Bar Component - Gold Background -->
-<mj-section css-class="blue-section-title" padding="0">
+<mj-section
+  background-color="#013C65"
+  padding="0"
+  padding-top="10px"
+  padding-bottom="10px">
   <mj-column width="100%" padding="0" padding-left="40px" padding-right="40px">
     <!-- EDIT: SECTION_TITLE_BLUE - Update section title text -->
     <mj-text

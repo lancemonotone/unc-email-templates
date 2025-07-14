@@ -2,7 +2,13 @@
 <mj-section padding="0">
   <mj-column width="100%">
     <!-- Header Section -->
-    <mj-section padding="0" width="100%" css-class="blue-header mobile-stack">
+    <mj-section
+      width="100%"
+      background-color="#013C65"
+      padding="0"
+      padding-top="10px"
+      padding-bottom="10px"
+      css-class="mobile-stack">
       <mj-column
         width="100%"
         vertical-align="middle"

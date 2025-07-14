@@ -1,5 +1,9 @@
 <!-- Newsletter Header Component - Gold Background -->
-<mj-section css-class="navigation-bar-gold" padding="0">
+<mj-section
+  background-color="#FFB71B"
+  padding="0"
+  padding-top="10px"
+  padding-bottom="10px">
   <mj-column
     width="70%"
     padding="0"

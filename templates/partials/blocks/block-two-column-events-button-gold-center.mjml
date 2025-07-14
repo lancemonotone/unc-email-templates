@@ -4,7 +4,9 @@
   padding-bottom="0"
   padding-left="40px"
   padding-right="40px">
-  <mj-include path="../components/text/component-h2.mjml" />
+  <mj-column width="100%" padding="0">
+    <mj-include path="../components/text/component-h2.mjml" />
+  </mj-column>
 </mj-section>
 
 <mj-section padding="0" padding-left="40px" padding-right="40px">

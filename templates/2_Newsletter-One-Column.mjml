@@ -10,88 +10,60 @@
   <mj-body>
     <mj-wrapper css-class="light-section" padding="0">
       <!-- Section 1: Header/Logo Section -->
-      <mj-section padding="0">
-        <mj-include path="./partials/headers/header-secondary.mjml" />
-        <!-- Newsletter Header Section -->
-        <mj-include
-          path="./partials/components/navigation/component-newsletter-header-gold.mjml" />
-      </mj-section>
+      <mj-include path="./partials/headers/header-secondary.mjml" />
+      <!-- Newsletter Header Section -->
+      <mj-include
+        path="./partials/components/navigation/component-newsletter-header-gold.mjml" />
 
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-gold-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-gold-left.mjml" />
 
       <!-- Section Title Blue Center Stories Bar -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/components/layout/component-section-title-blue-center-stories.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/components/layout/component-section-title-blue-center-stories.mjml" />
 
       <!-- Body Content Blocks 1 -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
 
       <!-- Body Content Blocks 2 -->
-      <mj-section padding="0" css-class="light-border">
-        <mj-include
-          path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
 
       <!-- Body Content Blocks 3 -->
-      <mj-section padding="0" css-class="light-border">
-        <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
 
       <!-- Body Content Blocks 4 -->
-      <mj-section padding="0" css-class="light-border">
-        <mj-include
-          path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
 
       <!-- Body Content Blocks 5 -->
-      <mj-section padding="0" css-class="light-border">
-        <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
 
       <!-- Body Content Blocks 6 -->
-      <mj-section padding="0" css-class="light-border">
-        <mj-include
-          path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-gold-image-h2-text-button-blue-left.mjml" />
 
       <!-- Body Content Blocks 7 -->
-      <mj-section padding="0" css-class="light-border">
-        <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
 
       <!-- Section Title Blue Center Events Bar -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/components/layout/component-section-title-blue-center-events.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/components/layout/component-section-title-blue-center-events.mjml" />
 
       <!-- Events Block - 2 Column Layout -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/blocks/block-two-column-events-button-gold-center.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-events-button-gold-center.mjml" />
 
       <!-- Footer Section -->
-      <mj-section padding="0">
-        <!-- Social Media Footer -->
-        <mj-include path="./partials/footers/social/footer-social-32.mjml" />
-      </mj-section>
+      <!-- Social Media Footer -->
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
 
-      <mj-section padding="0">
-        <!-- Contact Footer -->
-        <mj-include path="./partials/footers/footer-primary.mjml" />
-      </mj-section>
+      <!-- Contact Footer -->
+      <mj-include path="./partials/footers/footer-primary.mjml" />
     </mj-wrapper>
   </mj-body>
 </mjml>

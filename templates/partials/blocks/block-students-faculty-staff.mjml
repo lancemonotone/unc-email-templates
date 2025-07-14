@@ -20,7 +20,7 @@
 </mj-section>
 
 <!-- Students Content -->
-<mj-section padding="0">
+<mj-section padding="0" padding-top="10px" padding-bottom="10px">
   <mj-column css-class="column-centered mobile-stack-column padding-sides">
     <mj-text padding="0">
       <ul>

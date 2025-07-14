@@ -1,5 +1,5 @@
 <!-- Follow-Up Information Callout Box - Bluebird Background -->
-<mj-section padding="20px" css-class="bluebird-section">
+<mj-section padding="20px" background-color="#007DBA">
   <mj-column
     css-class="mobile-stack-column padding-sides"
     padding-left="20px"
