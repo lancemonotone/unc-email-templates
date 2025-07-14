@@ -84,6 +84,14 @@
           path="./partials/blocks/block-two-column-events-button-blue-center.mjml" />
       </mj-section>
 
+      <mj-section padding="0">
+        <!-- Thin Gold Divider -->
+        <mj-column width="100%" padding="0" padding-top="20px">
+          <mj-include
+            path="./partials/components/dividers/component-divider-gold-thin.mjml" />
+        </mj-column>
+      </mj-section>
+
       <!-- Follow-up Information (Callout Box) -->
       <mj-section padding="0">
         <mj-include

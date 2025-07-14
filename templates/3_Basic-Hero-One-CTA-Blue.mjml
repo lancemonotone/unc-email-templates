@@ -37,11 +37,7 @@
       </mj-section>
 
       <!-- Body Story H2 -->
-      <mj-section
-        padding="20px"
-        padding-left="40px"
-        padding-right="40px"
-        padding-bottom="40px">
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
         <mj-include
           path="./partials/components/stories/component-story-h2-button-blue-center.mjml" />
       </mj-section>
@@ -55,11 +51,7 @@
       </mj-section>
 
       <!-- Two Button Blue Centered -->
-      <mj-section
-        padding="20px"
-        padding-left="40px"
-        padding-right="40px"
-        padding-bottom="40px">
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
         <mj-include
           path="./partials/components/stories/component-text-no-bullets-button-blue-center-two.mjml" />
       </mj-section>
@@ -73,13 +65,17 @@
       </mj-section>
 
       <!-- Three Button Blue Centered -->
-      <mj-section
-        padding="20px"
-        padding-left="40px"
-        padding-right="40px"
-        padding-bottom="40px">
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
         <mj-include
           path="./partials/components/stories/component-text-no-bullets-button-blue-center-three.mjml" />
+      </mj-section>
+
+      <mj-section padding="0">
+        <!-- Thin Gold Divider -->
+        <mj-column width="100%" padding="0" padding-top="20px">
+          <mj-include
+            path="./partials/components/dividers/component-divider-gold-thin.mjml" />
+        </mj-column>
       </mj-section>
 
       <!-- Follow-up Information (Callout Box) -->

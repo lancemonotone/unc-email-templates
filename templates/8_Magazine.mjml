@@ -53,6 +53,14 @@
           path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
       </mj-section>
 
+      <mj-section padding="0">
+        <!-- Thin Gold Divider -->
+        <mj-column width="100%" padding="0" padding-top="20px">
+          <mj-include
+            path="./partials/components/dividers/component-divider-gold-thin.mjml" />
+        </mj-column>
+      </mj-section>
+
       <!-- Callout Box Button Blue -->
       <mj-section padding="0">
         <mj-include

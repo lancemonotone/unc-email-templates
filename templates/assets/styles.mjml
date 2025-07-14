@@ -159,6 +159,11 @@
 
   <mj-class name="gradient-bg" css-class="gradient-bg" />
 
+  <mj-class
+    name="gold-section-light"
+    css-class="gold-section-light"
+    background-color="#fff8e8" />
+
   <!-- Image styles -->
   <mj-class
     name="hero-half"

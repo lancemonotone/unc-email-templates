@@ -1,5 +1,5 @@
 <!-- Follow-Up Information Callout Box -->
-<mj-section padding="20px" css-class="grey-section light-border">
+<mj-section padding="40px" css-class="grey-section">
   <mj-column
     css-class="mobile-stack-column padding-sides"
     padding-left="20px"
