@@ -13,7 +13,7 @@
       <mj-include path="./partials/headers/header-presidential.mjml" />
 
       <!-- Body Story H1 -->
-      <mj-section padding="40px">
+      <mj-section padding="40px" padding-bottom="20px">
         <mj-column
           width="100%"
           css-class="mobile-stack-column force-questa"
@@ -33,7 +33,7 @@
       </mj-section>
 
       <!-- Presidential Signature Area -->
-      <mj-section padding="40px">
+      <mj-section padding="40px" padding-top="20px">
         <mj-column width="100%" padding="0" css-class="force-questa">
           <mj-include path="./partials/blocks/block-signature.mjml" />
         </mj-column>

@@ -1,5 +1,5 @@
 <!-- Follow-Up Information Callout Box - Dark Background -->
-<mj-section padding="40px" css-class="blue-section">
+<mj-section padding="40px" background-color="#404040">
   <mj-column
     css-class="mobile-stack-column padding-sides"
     padding-left="20px"

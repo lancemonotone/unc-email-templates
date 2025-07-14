@@ -7,52 +7,45 @@
 
   <mj-body>
     <mj-wrapper css-class="light-section" padding="0">
-      <!-- Section 1: Header/Logo Section -->
-      <mj-section padding="0">
-        <mj-include path="./partials/headers/header-secondary.mjml" />
-        <!-- Newsletter Header Section -->
-        <mj-include
-          path="./partials/components/navigation/component-newsletter-header-gold.mjml" />
-      </mj-section>
+      <!-- Header/Logo and Newsletter Headers without section wrapper -->
+      <mj-include path="./partials/headers/header-secondary.mjml" />
+      <mj-include
+        path="./partials/components/navigation/component-newsletter-header-gold.mjml" />
 
       <!-- Hero Image with No Text -->
-      <mj-section padding="0">
-        <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
-      </mj-section>
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
 
       <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
       <mj-section
-        padding="40px"
+        padding="20px"
+        padding-bottom="40px"
         padding-left="40px"
-        padding-right="40px"
-        padding-bottom="20px">
+        padding-right="40px">
         <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
+          path="./partials/components/stories/component-story-h2-button-blue-left.mjml" />
       </mj-section>
 
       <!-- Gold Section Title after first h2 story -->
-      <mj-section padding="0">
+      <mj-include
+        path="./partials/components/layout/component-section-title-gold-center.mjml" />
+
+      <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
+      <mj-include
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
+
+      <!-- Gold Divider -->
+      <mj-section padding="0" padding-bottom="20px">
         <mj-include
-          path="./partials/components/layout/component-section-title-gold-center.mjml" />
+          path="./partials/components/dividers/component-divider-gold-thin.mjml" />
       </mj-section>
 
       <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
-
-      <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
 
       <!-- Gold Section Title after third h2 story -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/components/layout/component-section-title-gold-center.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/components/layout/component-section-title-gold-center.mjml" />
 
       <!-- Three Column Block with H3 Stories, Images, and Blue Center Buttons -->
       <mj-section padding="20px" padding-left="40px" padding-right="40px">
@@ -61,10 +54,8 @@
       </mj-section>
 
       <!-- Gold Section Title after third h2 story -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/components/layout/component-section-title-gold-center.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/components/layout/component-section-title-gold-center.mjml" />
 
       <!-- Three Column Block with H3 Stories, Images, and Blue Center Buttons -->
       <mj-section padding="30px" padding-left="40px" padding-right="40px">
@@ -73,40 +64,28 @@
       </mj-section>
 
       <!-- Section Title Bar -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/components/layout/component-section-title-gold-center.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/components/layout/component-section-title-gold-center.mjml" />
 
       <!-- Events Block - 2 Column Layout -->
+      <mj-include
+        path="./partials/blocks/block-two-column-events-button-blue-center.mjml" />
+
+      <!-- Gold Divider -->
       <mj-section padding="0">
         <mj-include
-          path="./partials/blocks/block-two-column-events-button-blue-center.mjml" />
-      </mj-section>
-
-      <mj-section padding="0">
-        <!-- Thin Gold Divider -->
-        <mj-column width="100%" padding="0" padding-top="20px">
-          <mj-include
-            path="./partials/components/dividers/component-divider-gold-thin.mjml" />
-        </mj-column>
+          path="./partials/components/dividers/component-divider-gold-thin.mjml" />
       </mj-section>
 
       <!-- Follow-up Information (Callout Box) -->
-      <mj-section padding="0">
-        <mj-include
-          path="./partials/blocks/block-callout-box-dark-button-gold-center.mjml" />
-      </mj-section>
+      <mj-include
+        path="./partials/blocks/block-callout-box-dark-button-gold-center.mjml" />
 
       <!-- Social Media Footer -->
-      <mj-section padding="0">
-        <mj-include path="./partials/footers/social/footer-social-32.mjml" />
-      </mj-section>
+      <mj-include path="./partials/footers/social/footer-social-32.mjml" />
 
       <!-- Contact Footer -->
-      <mj-section padding="0">
-        <mj-include path="./partials/footers/footer-primary.mjml" />
-      </mj-section>
+      <mj-include path="./partials/footers/footer-primary.mjml" />
     </mj-wrapper>
   </mj-body>
 </mjml>
