@@ -1,4 +1,4 @@
-<!-- Secondary - Bear + UNC Horizontal Logo on Blue Background Header -->
+<!-- Kitchen Sink - Bear + UNC Horizontal Logo on Blue Background Header -->
 <mj-section
   background-color="#013c65"
   padding="40px"
@@ -12,9 +12,9 @@
     css-class="mobile-stack-column">
     <mj-image
       css-class="mobile-center"
-      src="https://ncd.test.technolutions.net/www/images/unc_logoSig_h_rv.png"
+      src="https://ncd.test.technolutions.net/www/images/unc_logo_h_rv.png"
       alt="UNC Bear Logo"
-      width="190px"
+      width="160px"
       padding="0"
       href="https://unco.edu"
       align="left" />
@@ -35,7 +35,5 @@
     <!-- END EDIT: DEPARTMENT_NAME_BLUEBIRD -->
   </mj-column>
 </mj-section>
-<mj-section padding="0">
-  <mj-include
-    path="../../partials/components/dividers/component-divider-bluebird-thick.mjml" />
-</mj-section>
+<mj-include
+  path="../../partials/components/dividers/component-divider-bluebird-thick.mjml" />

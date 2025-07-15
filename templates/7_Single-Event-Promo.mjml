@@ -8,9 +8,7 @@
   <mj-body>
     <mj-wrapper css-class="light-section" padding="0">
       <!-- Section 1: Header/Logo Section (Left-aligned) -->
-      <mj-section padding="0">
-        <mj-include path="./partials/headers/header-centered.mjml" />
-      </mj-section>
+      <mj-include path="./partials/headers/header-centered.mjml" />
 
       <!-- Event Title and Description Section -->
       <mj-section padding="40px">
@@ -23,20 +21,20 @@
           <mj-include
             path="./partials/components/buttons/component-button-blue-center.mjml" />
         </mj-column>
+      </mj-section>
 
-        <!-- Event Image -->
-        <mj-column width="100%" padding="0" padding-top="20px">
+      <!-- Event Image Section -->
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
+        <mj-column width="100%" padding="0">
           <mj-include
             path="./partials/components/images/component-image-content-center.mjml" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding="0">
-        <!-- Thin Gold Divider -->
-        <mj-column width="100%" padding="0" padding-top="20px">
-          <mj-include
-            path="./partials/components/dividers/component-divider-gold-thin.mjml" />
-        </mj-column>
+      <!-- Thin Gold Divider -->
+      <mj-section padding="0" padding-top="20px">
+        <mj-include
+          path="./partials/components/dividers/component-divider-gold-thin.mjml" />
       </mj-section>
 
       <!-- Callout Section -->

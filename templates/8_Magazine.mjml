@@ -8,9 +8,7 @@
   <mj-body>
     <mj-wrapper css-class="light-section" padding="0">
       <!-- Header Section -->
-      <mj-section padding="0">
-        <mj-include path="./partials/headers/header-bluebird.mjml" />
-      </mj-section>
+      <mj-include path="./partials/headers/header-bluebird-magazine.mjml" />
 
       <!-- Hero Image Section -->
       <mj-section padding="0">
@@ -19,18 +17,16 @@
 
       <!-- Featured Story Section -->
       <mj-section padding="40px" padding-bottom="0">
-        <mj-column width="100%" padding="0" padding-bottom="20px">
+        <mj-column width="100%" padding="0" padding-bottom="40px">
           <mj-include
             path="./partials/components/stories/component-story-h1-button-blue-center.mjml" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding="0">
-        <!-- Thin Gold Divider -->
-        <mj-column width="100%" padding="0" padding-bottom="20px">
-          <mj-include
-            path="./partials/components/dividers/component-divider-gold-thin.mjml" />
-        </mj-column>
+      <!-- Thin Gold Divider -->
+      <mj-section padding="0" padding-bottom="20px">
+        <mj-include
+          path="./partials/components/dividers/component-divider-gold-thin.mjml" />
       </mj-section>
 
       <!-- Two Column H2 Section -->
@@ -40,11 +36,9 @@
       </mj-section>
 
       <!-- Thin Gold Divider -->
-      <mj-section padding="0">
-        <mj-column width="100%" padding="0" padding-top="20px">
-          <mj-include
-            path="./partials/components/dividers/component-divider-gold-thin.mjml" />
-        </mj-column>
+      <mj-section padding="0" padding-top="20px">
+        <mj-include
+          path="./partials/components/dividers/component-divider-gold-thin.mjml" />
       </mj-section>
 
       <!-- Three Column H3 Section (this needs different padding for the left and right columns)-->
@@ -53,12 +47,10 @@
           path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
       </mj-section>
 
-      <mj-section padding="0">
-        <!-- Thin Gold Divider -->
-        <mj-column width="100%" padding="0" padding-top="20px">
-          <mj-include
-            path="./partials/components/dividers/component-divider-gold-thin.mjml" />
-        </mj-column>
+      <!-- Thin Gold Divider -->
+      <mj-section padding="0" padding-top="20px">
+        <mj-include
+          path="./partials/components/dividers/component-divider-gold-thin.mjml" />
       </mj-section>
 
       <!-- Callout Box Button Blue -->

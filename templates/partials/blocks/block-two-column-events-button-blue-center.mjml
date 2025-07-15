@@ -1,15 +1,11 @@
 <!-- Events Block - H1 Title + 2 Column Layout -->
 <mj-section
-  padding="0"
-  padding-top="20px"
+  padding="20px"
+  padding-bottom="0"
   padding-left="40px"
   padding-right="40px">
-  <mj-column width="100%" padding="0" padding-bottom="0">
-    <!-- EDIT: EVENTS_SECTION_TITLE - Update events section title -->
-    <mj-text mj-class="h2" padding-bottom="0">
-      <h2>Events</h2>
-    </mj-text>
-    <!-- END EDIT: EVENTS_SECTION_TITLE -->
+  <mj-column width="100%" padding="0">
+    <mj-include path="../components/text/component-h2.mjml" />
   </mj-column>
 </mj-section>
 
@@ -71,7 +67,7 @@
   </mj-column>
 </mj-section>
 
-<!-- Centered Gold Button -->
+<!-- Centered Blue Button -->
 <mj-section padding="0">
   <mj-column width="100%" padding-top="20px" padding-bottom="40px">
     <mj-include

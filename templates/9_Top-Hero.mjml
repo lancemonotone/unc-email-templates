@@ -13,9 +13,7 @@
       </mj-section>
 
       <!-- Header Section -->
-      <mj-section padding="0">
-        <mj-include path="./partials/headers/header-secondary.mjml" />
-      </mj-section>
+      <mj-include path="./partials/headers/header-secondary.mjml" />
 
       <!-- Featured Story Section -->
       <mj-section padding="40px">
@@ -30,14 +28,17 @@
       </mj-section>
 
       <!-- Two Column H2 Section -->
+      <mj-section padding="0" padding-left="40px" padding-right="40px">
+        <mj-include
+          path="./partials/components/stories/component-story-h2-no-button.mjml" />
+      </mj-section>
+
+      <!-- Button Section -->
       <mj-section
         padding="0"
         padding-left="40px"
         padding-right="40px"
         padding-bottom="40px">
-        <mj-include
-          path="./partials/components/stories/component-story-h2-no-button.mjml" />
-
         <mj-include
           path="./partials/components/buttons/component-button-blue-center-three.mjml" />
       </mj-section>
@@ -49,14 +50,17 @@
       </mj-section>
 
       <!-- Two Column H2 Section -->
+      <mj-section padding="0" padding-left="40px" padding-right="40px">
+        <mj-include
+          path="./partials/components/stories/component-story-h2-no-button.mjml" />
+      </mj-section>
+
+      <!-- Button Section -->
       <mj-section
         padding="0"
         padding-left="40px"
         padding-right="40px"
         padding-bottom="40px">
-        <mj-include
-          path="./partials/components/stories/component-story-h2-no-button.mjml" />
-
         <mj-include
           path="./partials/components/buttons/component-button-blue-center-three.mjml" />
       </mj-section>

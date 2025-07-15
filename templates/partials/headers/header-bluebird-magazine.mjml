@@ -1,0 +1,39 @@
+<!-- Magazine - Bear + UNC Horizontal Logo on Blue Background Header -->
+<mj-section
+  background-color="#013c65"
+  padding="40px"
+  padding-top="20px"
+  padding-bottom="20px"
+  css-class="blue-section mobile-stack">
+  <mj-column
+    width="40%"
+    padding="0"
+    vertical-align="middle"
+    css-class="mobile-stack-column">
+    <mj-image
+      css-class="mobile-center"
+      src="https://ncd.test.technolutions.net/www/images/unc_logoSig_h_rv.png"
+      alt="UNC Bear Logo"
+      width="190px"
+      padding="0"
+      href="https://unco.edu"
+      align="left" />
+  </mj-column>
+  <mj-column
+    width="60%"
+    padding="0"
+    vertical-align="middle"
+    css-class="mobile-stack-column mobile-stack-padding-lg">
+    <!-- EDIT: DEPARTMENT_NAME_BLUEBIRD - Update department or office name -->
+    <mj-text
+      mj-class="header-title-white"
+      align="right"
+      padding="0"
+      css-class="mobile-center">
+      Department Name
+    </mj-text>
+    <!-- END EDIT: DEPARTMENT_NAME_BLUEBIRD -->
+  </mj-column>
+</mj-section>
+<mj-include
+  path="../../partials/components/dividers/component-divider-bluebird-thick.mjml" />

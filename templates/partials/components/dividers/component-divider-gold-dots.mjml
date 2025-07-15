@@ -1,6 +1,2 @@
 <!-- Gold Dots Divider Component -->
-<mj-column width="100%" padding="0">
-  <mj-text padding="0">
-    <div style="border-top: 5px dotted #ffb71b; width: 100%; height: 1px"></div>
-  </mj-text>
-</mj-column>
+<mj-divider border-width="5px" border-style="dotted" border-color="#f6b000" />

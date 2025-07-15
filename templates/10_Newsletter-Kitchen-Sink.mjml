@@ -8,73 +8,51 @@
   <mj-body>
     <!-- Header Section -->
     <mj-section padding="0">
-      <mj-include path="./partials/headers/header-primary.mjml" />
+      <mj-include path="./partials/headers/header-bluebird-kitchen-sink.mjml" />
     </mj-section>
 
-    <!-- Gold Dots Section Title -->
+    <!-- Hero Image Section -->
     <mj-section padding="0">
+      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
+    </mj-section>
+
+    <!-- H1 Story with Button Gold Left -->
+    <mj-section padding="20px" padding-left="40px" padding-right="40px">
       <mj-include
-        path="./partials/components/layout/component-section-title-gold-center.mjml" />
+        path="./partials/components/stories/component-story-h1-button-gold-left.mjml" />
     </mj-section>
 
     <!-- Hero Image Section -->
-    <mj-section padding="0" padding-bottom="20px">
+    <mj-section padding="0">
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
     </mj-section>
 
     <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-    <mj-section
-      padding="40px"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px">
+    <mj-section padding="20px" padding-left="40px" padding-right="40px">
       <mj-include
-        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
+        path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
     </mj-section>
 
     <!-- Hero Image Section -->
-    <mj-section padding="0" padding-bottom="20px">
+    <mj-section padding="0">
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
     </mj-section>
 
     <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-    <mj-section
-      padding="40px"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px">
+    <mj-section padding="20px" padding-left="40px" padding-right="40px">
       <mj-include
-        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
+        path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
     </mj-section>
 
     <!-- Hero Image Section -->
-    <mj-section padding="0" padding-bottom="20px">
+    <mj-section padding="0">
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
     </mj-section>
 
     <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-    <mj-section
-      padding="40px"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px">
+    <mj-section padding="20px" padding-left="40px" padding-right="40px">
       <mj-include
-        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
-    </mj-section>
-
-    <!-- Hero Image Section -->
-    <mj-section padding="0" padding-bottom="20px">
-      <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
-    </mj-section>
-
-    <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-    <mj-section
-      padding="40px"
-      padding-left="40px"
-      padding-right="40px"
-      padding-bottom="20px">
-      <mj-include
-        path="./partials/blocks/block-two-column-white-image-h2-text-button-blue-left.mjml" />
+        path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
     </mj-section>
 
     <!-- Bluebird Section Title -->
@@ -83,10 +61,10 @@
         path="./partials/components/layout/component-section-title-bluebird-center.mjml" />
     </mj-section>
 
-    <!-- Three Column Block with H3 Stories, Images, and Blue Center Buttons -->
+    <!-- Two Column Block with H3 Stories, Images, and Blue Center Buttons -->
     <mj-section padding="20px" padding-left="40px" padding-right="40px">
       <mj-include
-        path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
+        path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
     </mj-section>
 
     <!-- Bluebird Section Title -->

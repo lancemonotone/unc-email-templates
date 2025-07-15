@@ -1,10 +1,5 @@
 <!-- Centered - Departmental Header with Vertical Logo and Gold Divider -->
-<mj-section
-  background-color="#013c65"
-  padding="20px"
-  padding="20px"
-  padding-bottom="0"
-  css-class="blue-section">
+<mj-section background-color="#013c65" padding="20px" css-class="blue-section">
   <mj-column width="100%" vertical-align="middle">
     <mj-image
       css-class="mobile-center"
@@ -32,4 +27,8 @@
 </mj-section>
 
 <!-- Gold Office Bar -->
-<mj-section background-color="#FFB71B" padding="5px"> </mj-section>
+<mj-section background-color="#f6b000" padding="0">
+  <mj-column width="100%" padding="0">
+    <mj-divider border-width="5px" border-color="#f6b000" padding="0" />
+  </mj-column>
+</mj-section>
