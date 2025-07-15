@@ -84,6 +84,7 @@ a {
 
 .light-section {
   background: #ffffff !important;
+  background-color: #ffffff !important;
 }
 
 .light-section a {
@@ -282,10 +283,14 @@ p {
   font-family: "Questa Slab", Arvo, Rockwell, Verdana, Arial, sans-serif !important;
 }
 
-/* Outlook Dark
-      Mode */
+/* Outlook Dark Mode */
 [data-ogsc] body {
   background: #333333 !important;
+}
+
+/* MSO specific background enforcement for wrapper only */
+.light-section .outlook-group-fix {
+  background-color: #ffffff !important;
 }
 
 /* Hero image dimensions */

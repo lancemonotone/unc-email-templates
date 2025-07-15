@@ -15,7 +15,8 @@
       padding="0"
       css-class="no-dark-mode-text"
       align="center"
-      width="450px">
+      width="auto"
+      table-layout="auto">
       <tr>
         <!-- Navigation Link 1: Events -->
         <td

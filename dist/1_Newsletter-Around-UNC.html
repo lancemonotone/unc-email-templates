@@ -287,6 +287,7 @@
 
     .light-section {
       background: #ffffff !important;
+      background-color: #ffffff !important;
     }
 
     .light-section a {
@@ -501,10 +502,14 @@
       font-family: "Questa Slab", Arvo, Rockwell, Verdana, Arial, sans-serif !important;
     }
 
-    /* Outlook Dark
-      Mode */
+    /* Outlook Dark Mode */
     [data-ogsc] body {
       background: #333333 !important;
+    }
+
+    /* MSO specific background enforcement for wrapper only */
+    .light-section .outlook-group-fix {
+      background-color: #ffffff !important;
     }
 
     /* Hero image dimensions */
@@ -860,7 +865,7 @@
       5. Keep the styling consistent across all navigation cells -->
                                       <tr>
                                         <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                          <table cellpadding="0" cellspacing="0" width="450" border="0" style="color:#000000;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:450px;border:none;">
+                                          <table cellpadding="0" cellspacing="0" width="NaN" border="0" style="color:#000000;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:auto;border:none;">
                                             <tr>
                                               <!-- Navigation Link 1: Events -->
                                               <td align="center" style="padding: 5px 10px; border: none; white-space: nowrap">

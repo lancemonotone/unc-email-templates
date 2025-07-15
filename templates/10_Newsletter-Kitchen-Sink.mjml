@@ -6,100 +6,86 @@
   </mj-head>
 
   <mj-body>
-    <!-- Header Section -->
-    <mj-section padding="0">
+    <mj-wrapper css-class="light-section" padding="0">
+      <!-- Header Section -->
       <mj-include path="./partials/headers/header-bluebird-kitchen-sink.mjml" />
-    </mj-section>
 
-    <!-- Hero Image Section -->
-    <mj-section padding="0">
+      <!-- Hero Image Section -->
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
-    </mj-section>
 
-    <!-- H1 Story with Button Gold Left -->
-    <mj-section padding="20px" padding-left="40px" padding-right="40px">
-      <mj-include
-        path="./partials/components/stories/component-story-h1-button-gold-left.mjml" />
-    </mj-section>
+      <!-- H1 Story with Button Gold Left -->
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
+        <mj-include
+          path="./partials/components/stories/component-story-h1-button-gold-left.mjml" />
+      </mj-section>
 
-    <!-- Hero Image Section -->
-    <mj-section padding="0">
+      <!-- Hero Image Section -->
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
-    </mj-section>
 
-    <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-    <mj-section padding="20px" padding-left="40px" padding-right="40px">
-      <mj-include
-        path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
-    </mj-section>
+      <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
+        <mj-include
+          path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
+      </mj-section>
 
-    <!-- Hero Image Section -->
-    <mj-section padding="0">
+      <!-- Hero Image Section -->
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
-    </mj-section>
 
-    <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-    <mj-section padding="20px" padding-left="40px" padding-right="40px">
-      <mj-include
-        path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
-    </mj-section>
+      <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
+        <mj-include
+          path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
+      </mj-section>
 
-    <!-- Hero Image Section -->
-    <mj-section padding="0">
+      <!-- Hero Image Section -->
       <mj-include path="./partials/blocks/block-hero-no-text.mjml" />
-    </mj-section>
 
-    <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
-    <mj-section padding="20px" padding-left="40px" padding-right="40px">
-      <mj-include
-        path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
-    </mj-section>
+      <!-- H2 Story with Image Left, Text Right, Button Blue Left -->
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
+        <mj-include
+          path="./partials/components/stories/component-story-h2-button-gold-left.mjml" />
+      </mj-section>
 
-    <!-- Bluebird Section Title -->
-    <mj-section padding="0">
-      <mj-include
-        path="./partials/components/layout/component-section-title-bluebird-center.mjml" />
-    </mj-section>
+      <!-- Bluebird Section Title -->
+      <mj-section padding="0">
+        <mj-include
+          path="./partials/components/layout/component-section-title-bluebird-center.mjml" />
+      </mj-section>
 
-    <!-- Two Column Block with H3 Stories, Images, and Blue Center Buttons -->
-    <mj-section padding="20px" padding-left="40px" padding-right="40px">
-      <mj-include
-        path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
-    </mj-section>
+      <!-- Two Column Block with H3 Stories, Images, and Blue Center Buttons -->
+      <mj-section padding="20px" padding-left="40px" padding-right="40px">
+        <mj-include
+          path="./partials/blocks/block-two-column-h2-text-button-blue-left.mjml" />
+      </mj-section>
 
-    <!-- Bluebird Section Title -->
-    <mj-section padding="0">
-      <mj-include
-        path="./partials/components/layout/component-section-title-bluebird-center.mjml" />
-    </mj-section>
+      <!-- Bluebird Section Title -->
+      <mj-section padding="0">
+        <mj-include
+          path="./partials/components/layout/component-section-title-bluebird-center.mjml" />
+      </mj-section>
 
-    <!-- Three Column Block with H3 Stories, Images, and Blue Center Buttons -->
-    <mj-section padding="30px" padding-left="40px" padding-right="40px">
-      <mj-include
-        path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
-    </mj-section>
+      <!-- Three Column Block with H3 Stories, Images, and Blue Center Buttons -->
+      <mj-section padding="30px" padding-left="40px" padding-right="40px">
+        <mj-include
+          path="./partials/blocks/block-three-column-h3-text-button-blue-center.mjml" />
+      </mj-section>
 
-    <!-- Bluebird Section Title -->
-    <mj-section padding="0">
-      <mj-include
-        path="./partials/components/layout/component-section-title-bluebird-center.mjml" />
-    </mj-section>
+      <!-- Bluebird Section Title -->
+      <mj-section padding="0">
+        <mj-include
+          path="./partials/components/layout/component-section-title-bluebird-center.mjml" />
+      </mj-section>
 
-    <!-- Events Block - 2 Column Layout -->
-    <mj-section padding="0">
+      <!-- Events Block - 2 Column Layout -->
       <mj-include
         path="./partials/blocks/block-two-column-events-button-blue-center.mjml" />
-    </mj-section>
 
-    <!-- Footer Section -->
-    <mj-section padding="0">
+      <!-- Footer Section -->
       <!-- Social Media Footer -->
       <mj-include path="./partials/footers/social/footer-social-32.mjml" />
-    </mj-section>
 
-    <mj-section padding="0">
       <!-- Contact Footer -->
       <mj-include path="./partials/footers/footer-primary.mjml" />
-    </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>

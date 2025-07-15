@@ -277,6 +277,7 @@
 
     .light-section {
       background: #ffffff !important;
+      background-color: #ffffff !important;
     }
 
     .light-section a {
@@ -491,10 +492,14 @@
       font-family: "Questa Slab", Arvo, Rockwell, Verdana, Arial, sans-serif !important;
     }
 
-    /* Outlook Dark
-      Mode */
+    /* Outlook Dark Mode */
     [data-ogsc] body {
       background: #333333 !important;
+    }
+
+    /* MSO specific background enforcement for wrapper only */
+    .light-section .outlook-group-fix {
+      background-color: #ffffff !important;
     }
 
     /* Hero image dimensions */
@@ -1121,11 +1126,30 @@
                             <tbody>
                               <tr>
                                 <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-                                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" class="" style="" ><![endif]-->
-                                  <p style="border-top:solid 1px #FFB71B;font-size:1px;margin:0px auto;width:100%;">
-                                  </p>
-                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #FFB71B;font-size:1px;margin:0px auto;width:680px;" role="presentation" width="680px" ><tr><td style="height:0;line-height:0;"> &nbsp;
-</td></tr></table></td></tr></table><![endif]-->
+                                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
+                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:0;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                                    <p style="border-top:solid 1px #f6b000;font-size:1px;margin:0px auto;width:100%;">
+                                                    </p>
+                                                    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #f6b000;font-size:1px;margin:0px auto;width:680px;" role="presentation" width="680px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
                                 </td>
                               </tr>
                             </tbody>
@@ -1909,24 +1933,24 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="direction:ltr;font-size:0px;padding:0;padding-left:40px;padding-right:40px;padding-top:20px;text-align:center;">
+                      <td style="direction:ltr;font-size:0px;padding:20px;padding-bottom:0;padding-left:40px;padding-right:40px;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
                         <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
-                                <td style="vertical-align:top;padding:0;padding-bottom:0;">
+                                <td style="vertical-align:top;padding:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
-                                      <!-- EDIT: EVENTS_SECTION_TITLE - Update events section title -->
+                                      <!-- EDIT: HEADLINE_H2 - Change the story headline text -->
                                       <tr>
-                                        <td align="left" class="dark-mode-text mobile-center" style="font-size:0px;padding:0;padding-bottom:0;word-break:break-word;">
+                                        <td align="left" class="dark-mode-text mobile-center" style="font-size:0px;padding:0;word-break:break-word;">
                                           <div style="font-family:'Questa Slab', Arvo, Rockwell, Verdana, Arial, sans-serif;font-size:24px;font-weight:700;line-height:1.2;text-align:left;color:#013c65;">
-                                            <h2>Events</h2>
+                                            <h2>Story Title H2</h2>
                                           </div>
                                         </td>
                                       </tr>
-                                      <!-- END EDIT: EVENTS_SECTION_TITLE -->
+                                      <!-- END EDIT: HEADLINE_H2 -->
                                     </tbody>
                                   </table>
                                 </td>
@@ -2029,7 +2053,7 @@
                 </table>
               </div>
               <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
-              <!-- Centered Gold Button -->
+              <!-- Centered Blue Button -->
               <!--[if mso | IE]><tr><td class="" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
               <div style="margin:0px auto;max-width:680px;">
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
@@ -2090,11 +2114,30 @@
                             <tbody>
                               <tr>
                                 <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
-                                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" class="" style="" ><![endif]-->
-                                  <p style="border-top:solid 1px #FFB71B;font-size:1px;margin:0px auto;width:100%;">
-                                  </p>
-                                  <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #FFB71B;font-size:1px;margin:0px auto;width:680px;" role="presentation" width="680px" ><tr><td style="height:0;line-height:0;"> &nbsp;
-</td></tr></table></td></tr></table><![endif]-->
+                                  <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
+                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:0;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                                    <p style="border-top:solid 1px #f6b000;font-size:1px;margin:0px auto;width:100%;">
+                                                    </p>
+                                                    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #f6b000;font-size:1px;margin:0px auto;width:680px;" role="presentation" width="680px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
                                 </td>
                               </tr>
                             </tbody>
