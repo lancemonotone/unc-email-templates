@@ -1,41 +1,37 @@
 <!-- TRUE NORTH Block -->
-<mj-section padding="0">
-  <mj-column width="100%">
-    <!-- Header Section -->
-    <mj-section
-      width="100%"
-      background-color="#013C65"
-      padding="0"
-      padding-top="10px"
-      padding-bottom="10px"
-      css-class="mobile-stack">
-      <mj-column
-        width="100%"
-        vertical-align="middle"
-        css-class="mobile-stack-column">
-        <!-- EDIT: TRUE_NORTH_TITLE - Update True North section title (keep color styling) -->
-        <mj-text
-          css-class="mobile-center"
-          align="center"
-          mj-class="h1"
-          font-weight="700">
-          <span style="color: #ffffff">TRUE</span>
-          <span style="color: #f6b000">NORTH</span>
-        </mj-text>
-        <!-- END EDIT: TRUE_NORTH_TITLE -->
-      </mj-column>
-    </mj-section>
+<!-- Header Section -->
+<mj-section
+  width="100%"
+  background-color="#013C65"
+  padding="0"
+  padding-top="10px"
+  padding-bottom="10px"
+  css-class="mobile-stack">
+  <mj-column
+    width="100%"
+    vertical-align="middle"
+    css-class="mobile-stack-column">
+    <!-- EDIT: TRUE_NORTH_TITLE - Update True North section title (keep color styling) -->
+    <mj-text
+      css-class="mobile-center"
+      align="center"
+      mj-class="h1"
+      font-weight="700">
+      <span style="color: #ffffff">TRUE</span>
+      <span style="color: #f6b000">NORTH</span>
+    </mj-text>
+    <!-- END EDIT: TRUE_NORTH_TITLE -->
+  </mj-column>
+</mj-section>
 
-    <!-- Subtitle -->
-    <mj-section padding="0" css-class="grey-section">
-      <mj-column width="100%">
-        <!-- EDIT: TRUE_NORTH_SUBTITLE - Update True North subtitle description -->
-        <mj-text align="center" padding="15px 10px" mj-class="h5">
-          A selection of featured headlines about the university
-        </mj-text>
-        <!-- END EDIT: TRUE_NORTH_SUBTITLE -->
-      </mj-column>
-    </mj-section>
+<!-- Subtitle -->
+<mj-section padding="0" css-class="grey-section">
+  <mj-column width="100%">
+    <!-- EDIT: TRUE_NORTH_SUBTITLE - Update True North subtitle description -->
+    <mj-text align="center" padding="15px 10px" mj-class="h5">
+      A selection of featured headlines about the university
+    </mj-text>
+    <!-- END EDIT: TRUE_NORTH_SUBTITLE -->
   </mj-column>
 </mj-section>
 
