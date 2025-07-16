@@ -484,6 +484,11 @@ p {
 
   .mobile-nav-separator {
     display: none !important;
+    visibility: hidden !important;
+    max-width: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    height: 5px !important;
   }
 
   .navigation-bar-blue .mobile-nav-item,
@@ -505,6 +510,15 @@ p {
   [class*="mj-column-per-"] {
     width: 100% !important;
     max-width: 100% !important;
+  }
+
+  /* Mobile navigation separator hiding */
+  .mobile-nav-separator {
+    display: none !important;
+    visibility: hidden !important;
+    max-width: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
   }
 
   /* Mobile text alignments */

@@ -1,156 +1,170 @@
 <!-- Navigation Bar Component - Gold Background -->
-<mj-section background-color="#f6b000" padding="10px 0">
-  <mj-column width="100%" padding="0">
-    <!-- EDIT: NAVIGATION_LINKS - Update navigation link text and URLs -->
-    <!-- 
+<mj-section
+  background-color="#f6b000"
+  padding="10px 0"
+  css-class="mobile-stack">
+  <!-- EDIT: NAVIGATION_LINKS - Update navigation link text and URLs -->
+  <!-- 
       INSTRUCTIONS FOR CUSTOMIZING NAVIGATION LINKS:
       
-      1. To change link text: Update the text in the navigation cells
+      1. To change link text: Update the text in the navigation columns
       2. To change link URLs: Update the href attribute
-      3. To add a new link: Add new navigation cell + separator cell before the last navigation cell
-      4. To remove a link: Delete both the navigation cell and its corresponding separator cell
-      5. Keep the styling consistent across all navigation cells
+      3. To add a new link: Add new navigation column + separator column before the last navigation column
+      4. To remove a link: Delete both the navigation column and its corresponding separator column
+      5. Keep the styling consistent across all navigation columns
     -->
-    <mj-table
-      padding="0"
-      css-class="no-dark-mode-text"
-      align="center"
-      width="auto"
-      table-layout="auto">
-      <tr>
-        <!-- Navigation Link 1: Events -->
-        <td
-          align="center"
-          style="padding: 5px 10px; border: none; white-space: nowrap">
-          <a
-            href="#events"
-            style="
-              color: #013c65 !important;
-              text-decoration: none !important;
-              text-decoration-line: none !important;
-              mso-text-decoration: none !important;
-              border: none;
-              font-size: 14px;
-              font-weight: bold;
-              font-family: Arial, Helvetica, sans-serif;
-              mso-style-priority: 99;
-            ">
-            <font color="#013c65" style="text-decoration: none">EVENTS</font>
-          </a>
-        </td>
 
-        <!-- Separator 1 -->
-        <td
-          align="center"
-          style="
-            padding: 5px 8px;
-            border: none;
-            color: #013c65;
-            font-size: 14px;
-            font-weight: bold;
-            white-space: nowrap;
-          ">
-          •
-        </td>
-
-        <!-- Navigation Link 2: UNC in Pictures -->
-        <td
-          align="center"
-          style="padding: 5px 10px; border: none; white-space: nowrap">
-          <a
-            href="#pictures"
-            style="
-              color: #013c65 !important;
-              text-decoration: none !important;
-              text-decoration-line: none !important;
-              mso-text-decoration: none !important;
-              border: none;
-              font-size: 14px;
-              font-weight: bold;
-              font-family: Arial, Helvetica, sans-serif;
-              mso-style-priority: 99;
-            ">
-            <font color="#013c65" style="text-decoration: none"
-              >UNC IN PICTURES</font
-            >
-          </a>
-        </td>
-
-        <!-- Separator 2 -->
-        <td
-          align="center"
-          style="
-            padding: 5px 8px;
-            border: none;
-            color: #013c65;
-            font-size: 14px;
-            font-weight: bold;
-            white-space: nowrap;
-          ">
-          •
-        </td>
-
-        <!-- Navigation Link 3: For Students -->
-        <td
-          align="center"
-          style="padding: 5px 10px; border: none; white-space: nowrap">
-          <a
-            href="#students"
-            style="
-              color: #013c65 !important;
-              text-decoration: none !important;
-              text-decoration-line: none !important;
-              mso-text-decoration: none !important;
-              border: none;
-              font-size: 14px;
-              font-weight: bold;
-              font-family: Arial, Helvetica, sans-serif;
-              mso-style-priority: 99;
-            ">
-            <font color="#013c65" style="text-decoration: none"
-              >FOR STUDENTS</font
-            >
-          </a>
-        </td>
-
-        <!-- Separator 3 -->
-        <td
-          align="center"
-          style="
-            padding: 5px 8px;
-            border: none;
-            color: #013c65;
-            font-size: 14px;
-            font-weight: bold;
-            white-space: nowrap;
-          ">
-          •
-        </td>
-
-        <!-- Navigation Link 4: UNC in the News -->
-        <td
-          align="center"
-          style="padding: 5px 10px; border: none; white-space: nowrap">
-          <a
-            href="#news"
-            style="
-              color: #013c65 !important;
-              text-decoration: none !important;
-              text-decoration-line: none !important;
-              mso-text-decoration: none !important;
-              border: none;
-              font-size: 14px;
-              font-weight: bold;
-              font-family: Arial, Helvetica, sans-serif;
-              mso-style-priority: 99;
-            ">
-            <font color="#013c65" style="text-decoration: none"
-              >UNC IN THE NEWS</font
-            >
-          </a>
-        </td>
-      </tr>
-    </mj-table>
-    <!-- END EDIT: NAVIGATION_LINKS -->
+  <!-- Navigation Link 1: Events -->
+  <mj-column
+    width="12%"
+    padding="0"
+    css-class="mobile-stack-column mobile-nav-item">
+    <mj-text align="center" padding="5px 10px" css-class="no-dark-mode-text">
+      <a
+        href="#events"
+        style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          mso-text-decoration: none !important;
+          border: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          mso-style-priority: 99;
+          white-space: nowrap;
+        ">
+        <font color="#013c65" style="text-decoration: none">EVENTS</font>
+      </a>
+    </mj-text>
   </mj-column>
+
+  <!-- Separator 1 -->
+  <mj-column
+    width="5%"
+    padding="0"
+    css-class="mobile-stack-column mobile-nav-separator">
+    <mj-text
+      align="center"
+      padding="5px 8px"
+      css-class="no-dark-mode-text"
+      color="#013c65"
+      font-size="14px"
+      font-weight="bold">
+      •
+    </mj-text>
+  </mj-column>
+
+  <!-- Navigation Link 2: UNC in Pictures -->
+  <mj-column
+    width="21%"
+    padding="0"
+    css-class="mobile-stack-column mobile-nav-item">
+    <mj-text align="center" padding="5px 10px" css-class="no-dark-mode-text">
+      <a
+        href="#pictures"
+        style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          mso-text-decoration: none !important;
+          border: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          mso-style-priority: 99;
+          white-space: nowrap;
+        ">
+        <font color="#013c65" style="text-decoration: none"
+          >UNC IN PICTURES</font
+        >
+      </a>
+    </mj-text>
+  </mj-column>
+
+  <!-- Separator 2 -->
+  <mj-column
+    width="5%"
+    padding="0"
+    css-class="mobile-stack-column mobile-nav-separator">
+    <mj-text
+      align="center"
+      padding="5px 8px"
+      css-class="no-dark-mode-text"
+      color="#013c65"
+      font-size="14px"
+      font-weight="bold">
+      •
+    </mj-text>
+  </mj-column>
+
+  <!-- Navigation Link 3: For Students -->
+  <mj-column
+    width="21%"
+    padding="0"
+    css-class="mobile-stack-column mobile-nav-item">
+    <mj-text align="center" padding="5px 10px" css-class="no-dark-mode-text">
+      <a
+        href="#students"
+        style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          mso-text-decoration: none !important;
+          border: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          mso-style-priority: 99;
+          white-space: nowrap;
+        ">
+        <font color="#013c65" style="text-decoration: none">FOR STUDENTS</font>
+      </a>
+    </mj-text>
+  </mj-column>
+
+  <!-- Separator 3 -->
+  <mj-column
+    width="5%"
+    padding="0"
+    css-class="mobile-stack-column mobile-nav-separator">
+    <mj-text
+      align="center"
+      padding="5px 8px"
+      css-class="no-dark-mode-text"
+      color="#013c65"
+      font-size="14px"
+      font-weight="bold">
+      •
+    </mj-text>
+  </mj-column>
+
+  <!-- Navigation Link 4: UNC in the News -->
+  <mj-column
+    width="21%"
+    padding="0"
+    css-class="mobile-stack-column mobile-nav-item">
+    <mj-text align="center" padding="5px 10px" css-class="no-dark-mode-text">
+      <a
+        href="#news"
+        style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          mso-text-decoration: none !important;
+          border: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          mso-style-priority: 99;
+          white-space: nowrap;
+        ">
+        <font color="#013c65" style="text-decoration: none"
+          >UNC IN THE NEWS</font
+        >
+      </a>
+    </mj-text>
+  </mj-column>
+
+  <!-- END EDIT: NAVIGATION_LINKS -->
 </mj-section>

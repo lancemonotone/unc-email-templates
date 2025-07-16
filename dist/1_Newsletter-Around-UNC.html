@@ -78,14 +78,29 @@
         max-width: 70%;
       }
 
-      .mj-column-per-100 {
-        width: 100% !important;
-        max-width: 100%;
+      .mj-column-per-12 {
+        width: 12% !important;
+        max-width: 12%;
+      }
+
+      .mj-column-per-5 {
+        width: 5% !important;
+        max-width: 5%;
+      }
+
+      .mj-column-per-21 {
+        width: 21% !important;
+        max-width: 21%;
       }
 
       .mj-column-per-60 {
         width: 60% !important;
         max-width: 60%;
+      }
+
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
       }
 
       .mj-column-per-40 {
@@ -131,14 +146,29 @@
       max-width: 70%;
     }
 
-    .moz-text-html .mj-column-per-100 {
-      width: 100% !important;
-      max-width: 100%;
+    .moz-text-html .mj-column-per-12 {
+      width: 12% !important;
+      max-width: 12%;
+    }
+
+    .moz-text-html .mj-column-per-5 {
+      width: 5% !important;
+      max-width: 5%;
+    }
+
+    .moz-text-html .mj-column-per-21 {
+      width: 21% !important;
+      max-width: 21%;
     }
 
     .moz-text-html .mj-column-per-60 {
       width: 60% !important;
       max-width: 60%;
+    }
+
+    .moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
     }
 
     .moz-text-html .mj-column-per-40 {
@@ -704,6 +734,11 @@
 
       .mobile-nav-separator {
         display: none !important;
+        visibility: hidden !important;
+        max-width: 0 !important;
+        width: 0 !important;
+        overflow: hidden !important;
+        height: 5px !important;
       }
 
       .navigation-bar-blue .mobile-nav-item,
@@ -726,6 +761,15 @@
       [class*="mj-column-per-"] {
         width: 100% !important;
         max-width: 100% !important;
+      }
+
+      /* Mobile navigation separator hiding */
+      .mobile-nav-separator {
+        display: none !important;
+        visibility: hidden !important;
+        max-width: 0 !important;
+        width: 0 !important;
+        overflow: hidden !important;
       }
 
       /* Mobile text alignments */
@@ -842,127 +886,46 @@
               </div>
               <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
               <!-- Navigation Bar Section --><!-- Navigation Bar Component - Gold Background -->
-              <!--[if mso | IE]><tr><td class="" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:680px;" width="680" bgcolor="#f6b000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-              <div style="background:#f6b000;background-color:#f6b000;margin:0px auto;max-width:680px;">
+              <!--[if mso | IE]><tr><td class="mobile-stack-outlook" width="680px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile-stack-outlook" role="presentation" style="width:680px;" width="680" bgcolor="#f6b000" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+              <div class="mobile-stack" style="background:#f6b000;background-color:#f6b000;margin:0px auto;max-width:680px;">
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f6b000;background-color:#f6b000;width:100%;">
                   <tbody>
                     <tr>
                       <td style="direction:ltr;font-size:0px;padding:10px 0;text-align:center;">
-                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:680px;" ><![endif]-->
-                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                        <!-- EDIT: NAVIGATION_LINKS - Update navigation link text and URLs --><!-- INSTRUCTIONS FOR CUSTOMIZING NAVIGATION LINKS:
+      
+      1. To change link text: Update the text in the navigation columns
+      2. To change link URLs: Update the href attribute
+      3. To add a new link: Add new navigation column + separator column before the last navigation column
+      4. To remove a link: Delete both the navigation column and its corresponding separator column
+      5. Keep the styling consistent across all navigation columns --><!-- Navigation Link 1: Events -->
+                        <!--[if mso | IE]><td class="mobile-stack-column-outlook mobile-nav-item-outlook" style="vertical-align:top;width:81.6px;" ><![endif]-->
+                        <div class="mj-column-per-12 mj-outlook-group-fix mobile-stack-column mobile-nav-item" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                             <tbody>
                               <tr>
                                 <td style="vertical-align:top;padding:0;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
-                                      <!-- EDIT: NAVIGATION_LINKS - Update navigation link text and URLs --><!-- INSTRUCTIONS FOR CUSTOMIZING NAVIGATION LINKS:
-      
-      1. To change link text: Update the text in the navigation cells
-      2. To change link URLs: Update the href attribute
-      3. To add a new link: Add new navigation cell + separator cell before the last navigation cell
-      4. To remove a link: Delete both the navigation cell and its corresponding separator cell
-      5. Keep the styling consistent across all navigation cells -->
                                       <tr>
-                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
-                                          <table cellpadding="0" cellspacing="0" width="NaN" border="0" style="color:#000000;font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:auto;border:none;">
-                                            <tr>
-                                              <!-- Navigation Link 1: Events -->
-                                              <td align="center" style="padding: 5px 10px; border: none; white-space: nowrap">
-                                                <a href="#events" style="
-              color: #013c65 !important;
-              text-decoration: none !important;
-              text-decoration-line: none !important;
-              mso-text-decoration: none !important;
-              border: none;
-              font-size: 14px;
-              font-weight: bold;
-              font-family: Arial, Helvetica, sans-serif;
-              mso-style-priority: 99;
-            ">
-                                                  <font color="#013c65" style="text-decoration: none">EVENTS</font>
-                                                </a>
-                                              </td>
-                                              <!-- Separator 1 -->
-                                              <td align="center" style="
-            padding: 5px 8px;
-            border: none;
-            color: #013c65;
-            font-size: 14px;
-            font-weight: bold;
-            white-space: nowrap;
-          "> • </td>
-                                              <!-- Navigation Link 2: UNC in Pictures -->
-                                              <td align="center" style="padding: 5px 10px; border: none; white-space: nowrap">
-                                                <a href="#pictures" style="
-              color: #013c65 !important;
-              text-decoration: none !important;
-              text-decoration-line: none !important;
-              mso-text-decoration: none !important;
-              border: none;
-              font-size: 14px;
-              font-weight: bold;
-              font-family: Arial, Helvetica, sans-serif;
-              mso-style-priority: 99;
-            ">
-                                                  <font color="#013c65" style="text-decoration: none">UNC IN PICTURES</font>
-                                                </a>
-                                              </td>
-                                              <!-- Separator 2 -->
-                                              <td align="center" style="
-            padding: 5px 8px;
-            border: none;
-            color: #013c65;
-            font-size: 14px;
-            font-weight: bold;
-            white-space: nowrap;
-          "> • </td>
-                                              <!-- Navigation Link 3: For Students -->
-                                              <td align="center" style="padding: 5px 10px; border: none; white-space: nowrap">
-                                                <a href="#students" style="
-              color: #013c65 !important;
-              text-decoration: none !important;
-              text-decoration-line: none !important;
-              mso-text-decoration: none !important;
-              border: none;
-              font-size: 14px;
-              font-weight: bold;
-              font-family: Arial, Helvetica, sans-serif;
-              mso-style-priority: 99;
-            ">
-                                                  <font color="#013c65" style="text-decoration: none">FOR STUDENTS</font>
-                                                </a>
-                                              </td>
-                                              <!-- Separator 3 -->
-                                              <td align="center" style="
-            padding: 5px 8px;
-            border: none;
-            color: #013c65;
-            font-size: 14px;
-            font-weight: bold;
-            white-space: nowrap;
-          "> • </td>
-                                              <!-- Navigation Link 4: UNC in the News -->
-                                              <td align="center" style="padding: 5px 10px; border: none; white-space: nowrap">
-                                                <a href="#news" style="
-              color: #013c65 !important;
-              text-decoration: none !important;
-              text-decoration-line: none !important;
-              mso-text-decoration: none !important;
-              border: none;
-              font-size: 14px;
-              font-weight: bold;
-              font-family: Arial, Helvetica, sans-serif;
-              mso-style-priority: 99;
-            ">
-                                                  <font color="#013c65" style="text-decoration: none">UNC IN THE NEWS</font>
-                                                </a>
-                                              </td>
-                                            </tr>
-                                          </table>
+                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:5px 10px;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:center;color:inherit;"><a href="#events" style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          mso-text-decoration: none !important;
+          border: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          mso-style-priority: 99;
+          white-space: nowrap;
+        ">
+                                              <font color="#013c65" style="text-decoration: none">EVENTS</font>
+                                            </a></div>
                                         </td>
                                       </tr>
-                                      <!-- END EDIT: NAVIGATION_LINKS -->
                                     </tbody>
                                   </table>
                                 </td>
@@ -970,7 +933,180 @@
                             </tbody>
                           </table>
                         </div>
-                        <!--[if mso | IE]></td></tr></table><![endif]-->
+                        <!--[if mso | IE]></td><![endif]-->
+                        <!-- Separator 1 -->
+                        <!--[if mso | IE]><td class="mobile-stack-column-outlook mobile-nav-separator-outlook" style="vertical-align:top;width:34px;" ><![endif]-->
+                        <div class="mj-column-per-5 mj-outlook-group-fix mobile-stack-column mobile-nav-separator" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:5px 8px;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:1.2;text-align:center;color:#013c65;">•</div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><![endif]-->
+                        <!-- Navigation Link 2: UNC in Pictures -->
+                        <!--[if mso | IE]><td class="mobile-stack-column-outlook mobile-nav-item-outlook" style="vertical-align:top;width:142.8px;" ><![endif]-->
+                        <div class="mj-column-per-21 mj-outlook-group-fix mobile-stack-column mobile-nav-item" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:5px 10px;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:center;color:inherit;"><a href="#pictures" style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          mso-text-decoration: none !important;
+          border: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          mso-style-priority: 99;
+          white-space: nowrap;
+        ">
+                                              <font color="#013c65" style="text-decoration: none">UNC IN PICTURES</font>
+                                            </a></div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><![endif]-->
+                        <!-- Separator 2 -->
+                        <!--[if mso | IE]><td class="mobile-stack-column-outlook mobile-nav-separator-outlook" style="vertical-align:top;width:34px;" ><![endif]-->
+                        <div class="mj-column-per-5 mj-outlook-group-fix mobile-stack-column mobile-nav-separator" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:5px 8px;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:1.2;text-align:center;color:#013c65;">•</div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><![endif]-->
+                        <!-- Navigation Link 3: For Students -->
+                        <!--[if mso | IE]><td class="mobile-stack-column-outlook mobile-nav-item-outlook" style="vertical-align:top;width:142.8px;" ><![endif]-->
+                        <div class="mj-column-per-21 mj-outlook-group-fix mobile-stack-column mobile-nav-item" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:5px 10px;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:center;color:inherit;"><a href="#students" style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          mso-text-decoration: none !important;
+          border: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          mso-style-priority: 99;
+          white-space: nowrap;
+        ">
+                                              <font color="#013c65" style="text-decoration: none">FOR STUDENTS</font>
+                                            </a></div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><![endif]-->
+                        <!-- Separator 3 -->
+                        <!--[if mso | IE]><td class="mobile-stack-column-outlook mobile-nav-separator-outlook" style="vertical-align:top;width:34px;" ><![endif]-->
+                        <div class="mj-column-per-5 mj-outlook-group-fix mobile-stack-column mobile-nav-separator" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:5px 8px;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:1.2;text-align:center;color:#013c65;">•</div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><![endif]-->
+                        <!-- Navigation Link 4: UNC in the News -->
+                        <!--[if mso | IE]><td class="mobile-stack-column-outlook mobile-nav-item-outlook" style="vertical-align:top;width:142.8px;" ><![endif]-->
+                        <div class="mj-column-per-21 mj-outlook-group-fix mobile-stack-column mobile-nav-item" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" class="no-dark-mode-text" style="font-size:0px;padding:5px 10px;word-break:break-word;">
+                                          <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:center;color:inherit;"><a href="#news" style="
+          color: #013c65 !important;
+          text-decoration: none !important;
+          text-decoration-line: none !important;
+          mso-text-decoration: none !important;
+          border: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+          mso-style-priority: 99;
+          white-space: nowrap;
+        ">
+                                              <font color="#013c65" style="text-decoration: none">UNC IN THE NEWS</font>
+                                            </a></div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]></td><![endif]-->
+                        <!-- END EDIT: NAVIGATION_LINKS -->
+                        <!--[if mso | IE]></tr></table><![endif]-->
                       </td>
                     </tr>
                   </tbody>
