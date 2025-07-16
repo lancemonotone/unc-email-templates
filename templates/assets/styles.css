@@ -118,10 +118,6 @@ a {
   padding-right: 0;
   background: #013c65 !important;
 }
-/* Gradient background */
-.gradient-bg > table {
-  background: linear-gradient(180deg, #013c65 0%, #007dba 100%) !important;
-}
 /* Blue header background with gold text */
 .blue-header {
   padding-top: 10px;

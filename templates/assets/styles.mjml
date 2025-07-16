@@ -13,7 +13,7 @@
   href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700" />
 <mj-attributes>
   <!-- Set global width to 680px -->
-  <mj-body width="680px" max-width="680px" />
+  <mj-body width="680px" max-width="680px" color="#000000" />
   <!-- Default body font stack - Ringside first -->
   <mj-all font-family="Ringside, Roboto, Tahoma, Arial, sans-serif" />
 
@@ -156,8 +156,6 @@
     name="white-text"
     color="#ffffff !important"
     css-class="white-text" />
-
-  <mj-class name="gradient-bg" css-class="gradient-bg" />
 
   <mj-class
     name="gold-section-light"

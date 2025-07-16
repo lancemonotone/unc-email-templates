@@ -1,43 +1,11 @@
-<!-- Around UNC Header - Half Bear Head and Around UNC Logo -->
-<mj-section
-  padding="0"
-  padding-top="20px"
-  padding-bottom="20px"
-  background-color="#013c65"
-  css-class="gradient-bg mobile-stack">
-  <mj-column
-    padding="0"
-    width="15%"
-    vertical-align="middle"
-    css-class="mobile-hide header-column">
+<!-- Around UNC Header - Full Width Header Image -->
+<mj-section padding="0" background-color="#013c65">
+  <mj-column padding="0" width="100%" vertical-align="middle">
     <mj-image
       padding="0"
-      css-class="mobile-center"
-      src="https://ncd.test.technolutions.net/www/images/banner-around-unc-half-bear.png"
-      alt="UNC Bear Logo"
-      width="63px"
-      href="https://unco.edu"
-      align="left" />
-  </mj-column>
-
-  <mj-column
-    width="70%"
-    vertical-align="middle"
-    css-class="mobile-stack-column header-column">
-    <mj-image
-      padding="0"
-      css-class="mobile-center"
-      src="https://ncd.test.technolutions.net/www/images/banner-around-unc-logo.png"
-      alt="Around UNC Logo"
-      width="561px"
+      src="https://enrolled.unco.edu/www/images/EMAIL_HEADERS/header_around_unc.png"
+      alt="Around UNC Header"
       href="https://unco.edu"
       align="center" />
-  </mj-column>
-
-  <mj-column
-    width="15%"
-    vertical-align="middle"
-    css-class="mobile-hide header-column">
-    <mj-text padding="0">&nbsp;</mj-text>
   </mj-column>
 </mj-section>

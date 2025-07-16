@@ -4,9 +4,9 @@
     Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
     <em>adipiscing elit</em> sed do. Eiusmod tempor
     <!-- Ensure link describes destination -->
-    <a href="javascript:void(0);">placeholder link text</a>
+    <a href="https://unco.edu">placeholder link text</a>
     et dolore magna aliqua ut enim ad
-    <strong style="font-size: 16px">minim veniam</strong>.
+    <strong>minim veniam</strong>.
   </p>
   <p>
     Quis nostrud
@@ -14,7 +14,7 @@
     Commodo consequate
     <!-- Ensure link text clearly indicates it's an email link -->
     <a href="mailto:lorem@ipsum.com">placeholder email link</a>
-    in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+    in reprehenderit <a href="tel:1234567890">123-456-7890</a>.
   </p>
 </mj-text>
 <!-- END EDIT: BODY_TEXT_NO_BULLETS -->
