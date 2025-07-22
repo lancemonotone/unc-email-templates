@@ -1,6 +1,10 @@
 # Build output
 dist/
 
+# Archives
+*.zip
+*.7z
+
 # Dependencies
 node_modules/
 
