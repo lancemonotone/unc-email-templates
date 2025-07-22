@@ -2,40 +2,17 @@
 <!-- Header Section -->
 <mj-section
   width="100%"
-  background-color="#013C65"
   padding="0"
-  padding-top="10px"
-  padding-bottom="10px"
-  css-class="mobile-stack">
-  <mj-column
-    width="46%"
-    vertical-align="middle"
-    css-class="mobile-stack-column"
-    padding-bottom="0">
+  background-url="https://enrolled.unco.edu/www/images/ICONS/bg-unc-bear-blue.png"
+  background-repeat="repeat"
+  background-color="#013c65">
+  <mj-column width="100%" padding="0" vertical-align="middle">
     <mj-image
-      width="96px"
-      css-class="mobile-center"
-      src="https://ncd.test.technolutions.net/www/images/unc_mono_wht.png"
-      alt="UNC"
-      align="right"
       padding="0"
-      padding-right="10px" />
-  </mj-column>
-
-  <mj-column
-    width="54%"
-    vertical-align="middle"
-    css-class="mobile-stack-column"
-    padding-bottom="0">
-    <!-- EDIT: IN_THE_NEWS_TITLE - Update "In the News" section title -->
-    <mj-text
-      css-class="mobile-center"
-      mj-class="highlight"
-      align="left"
-      padding="0">
-      in the News
-    </mj-text>
-    <!-- END EDIT: IN_THE_NEWS_TITLE -->
+      src="https://enrolled.unco.edu/www/images/EMAIL_HEADERS/header_unc_in_the_news.png"
+      alt="UNC in the News"
+      align="center"
+      width="349px" />
   </mj-column>
 </mj-section>
 

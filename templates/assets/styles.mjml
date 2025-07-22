@@ -1,16 +1,12 @@
 <mj-breakpoint width="480px" />
 
-<mj-raw>
-  <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" />
-</mj-raw>
-
 <mj-font
   name="Arvo"
   href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700" />
 <mj-font
   name="Roboto"
   href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700" />
+
 <mj-attributes>
   <!-- Set global width to 680px -->
   <mj-body width="680px" max-width="680px" color="#000000" />
@@ -112,7 +108,7 @@
     padding-top="0"
     padding-bottom="5px" />
 
-  <!-- Special highlight text - Eds Market first -->
+  <!-- Special highlight text -->
   <mj-class
     name="highlight"
     color="#f6b000"
@@ -121,16 +117,6 @@
     padding="0"
     align="center"
     line-height="1" />
-
-  <!-- Button styles -->
-  <mj-style inline="inline">
-    /* Ensure Outlook respects the text color */ .button-primary a { color:
-    #ffffff; text-decoration: none; } .button-secondary a { color: #000000;
-    text-decoration: none; } /* Fix Outlook-specific issues */ .button-primary {
-    padding: 20px !important; color: #ffffff !important; mso-padding-alt: 20px
-    !important; } .button-secondary { padding: 20px !important; color: #000000
-    !important; mso-padding-alt: 20px !important; }
-  </mj-style>
 
   <mj-class
     name="button-primary"
@@ -193,6 +179,7 @@
     padding="0"
     css-class="image-centered" />
 </mj-attributes>
+
 <mj-raw>
   <meta name="color-scheme" content="light dark" />
   <meta name="supported-color-schemes" content="light dark" />

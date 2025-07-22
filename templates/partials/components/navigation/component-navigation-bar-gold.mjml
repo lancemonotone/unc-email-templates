@@ -9,14 +9,14 @@
       
       1. To change link text: Update the text in the navigation columns
       2. To change link URLs: Update the href attribute
-      3. To add a new link: Add new navigation column + separator column before the last navigation column
-      4. To remove a link: Delete both the navigation column and its corresponding separator column
+      3. To add a new link: Add new navigation column before the last navigation column
+      4. To remove a link: Delete the navigation column
       5. Keep the styling consistent across all navigation columns
     -->
 
   <!-- Navigation Link 1: Events -->
   <mj-column
-    width="12%"
+    width="15%"
     padding="0"
     css-class="mobile-stack-column mobile-nav-item">
     <mj-text align="center" padding="5px 10px" css-class="no-dark-mode-text">
@@ -39,25 +39,9 @@
     </mj-text>
   </mj-column>
 
-  <!-- Separator 1 -->
-  <mj-column
-    width="5%"
-    padding="0"
-    css-class="mobile-stack-column mobile-nav-separator">
-    <mj-text
-      align="center"
-      padding="5px 8px"
-      css-class="no-dark-mode-text"
-      color="#013c65"
-      font-size="14px"
-      font-weight="bold">
-      •
-    </mj-text>
-  </mj-column>
-
   <!-- Navigation Link 2: UNC in Pictures -->
   <mj-column
-    width="21%"
+    width="25%"
     padding="0"
     css-class="mobile-stack-column mobile-nav-item">
     <mj-text align="center" padding="5px 10px" css-class="no-dark-mode-text">
@@ -82,25 +66,9 @@
     </mj-text>
   </mj-column>
 
-  <!-- Separator 2 -->
-  <mj-column
-    width="5%"
-    padding="0"
-    css-class="mobile-stack-column mobile-nav-separator">
-    <mj-text
-      align="center"
-      padding="5px 8px"
-      css-class="no-dark-mode-text"
-      color="#013c65"
-      font-size="14px"
-      font-weight="bold">
-      •
-    </mj-text>
-  </mj-column>
-
   <!-- Navigation Link 3: For Students -->
   <mj-column
-    width="21%"
+    width="25%"
     padding="0"
     css-class="mobile-stack-column mobile-nav-item">
     <mj-text align="center" padding="5px 10px" css-class="no-dark-mode-text">
@@ -123,25 +91,9 @@
     </mj-text>
   </mj-column>
 
-  <!-- Separator 3 -->
-  <mj-column
-    width="5%"
-    padding="0"
-    css-class="mobile-stack-column mobile-nav-separator">
-    <mj-text
-      align="center"
-      padding="5px 8px"
-      css-class="no-dark-mode-text"
-      color="#013c65"
-      font-size="14px"
-      font-weight="bold">
-      •
-    </mj-text>
-  </mj-column>
-
   <!-- Navigation Link 4: UNC in the News -->
   <mj-column
-    width="21%"
+    width="25%"
     padding="0"
     css-class="mobile-stack-column mobile-nav-item">
     <mj-text align="center" padding="5px 10px" css-class="no-dark-mode-text">

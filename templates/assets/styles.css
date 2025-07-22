@@ -15,6 +15,27 @@ a {
   color: #007dba !important;
   text-decoration: underline;
 }
+
+/* Button styles */
+.button-primary a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+.button-secondary a {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+/* Fix Outlook-specific issues */
+.button-primary {
+  padding: 20px !important;
+  color: #ffffff !important;
+  mso-padding-alt: 20px !important;
+}
+.button-secondary {
+  padding: 20px !important;
+  color: #000000 !important;
+  mso-padding-alt: 20px !important;
+}
 .blue-section,
 .blue-section a,
 .blue-section * {
@@ -55,6 +76,17 @@ a {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+/* Navigation separator hiding - applies to ALL clients */
+.mobile-nav-separator {
+  display: none !important;
+  visibility: hidden !important;
+  max-width: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+  height: 5px !important;
+}
+
 /* Gold header background (for section headings) */
 .gold-header {
   background-color: #f6b000;
@@ -352,13 +384,23 @@ p {
   .mobile-center {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    text-align: center !important;
   }
 
   .mobile-center table,
-  .mobile-center div {
+  .mobile-center div,
+  .mobile-center td,
+  .mobile-center * {
     text-align: center !important;
     width: auto;
     margin: 0 auto;
+  }
+
+  /* Force mobile centering to override MJML align attributes */
+  .mobile-center[align="left"],
+  .mobile-center[align="right"],
+  .mobile-center[align="center"] {
+    text-align: center !important;
   }
 
   .header-column .mobile-center {

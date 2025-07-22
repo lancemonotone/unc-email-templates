@@ -135,6 +135,30 @@
       text-decoration: underline;
     }
 
+    /* Button styles */
+    .button-primary a {
+      color: #ffffff !important;
+      text-decoration: none !important;
+    }
+
+    .button-secondary a {
+      color: #000000 !important;
+      text-decoration: none !important;
+    }
+
+    /* Fix Outlook-specific issues */
+    .button-primary {
+      padding: 20px !important;
+      color: #ffffff !important;
+      mso-padding-alt: 20px !important;
+    }
+
+    .button-secondary {
+      padding: 20px !important;
+      color: #000000 !important;
+      mso-padding-alt: 20px !important;
+    }
+
     .blue-section,
     .blue-section a,
     .blue-section * {
@@ -180,6 +204,16 @@
       text-align: center !important;
       padding: 0 !important;
       margin: 0 !important;
+    }
+
+    /* Navigation separator hiding - applies to ALL clients */
+    .mobile-nav-separator {
+      display: none !important;
+      visibility: hidden !important;
+      max-width: 0 !important;
+      width: 0 !important;
+      overflow: hidden !important;
+      height: 5px !important;
     }
 
     /* Gold header background (for section headings) */
@@ -253,11 +287,6 @@
       padding-left: 0;
       padding-right: 0;
       background: #013c65 !important;
-    }
-
-    /* Gradient background */
-    .gradient-bg>table {
-      background: linear-gradient(180deg, #013c65 0%, #007dba 100%) !important;
     }
 
     /* Blue header background with gold text */
@@ -505,13 +534,23 @@
       .mobile-center {
         padding-left: 0 !important;
         padding-right: 0 !important;
+        text-align: center !important;
       }
 
       .mobile-center table,
-      .mobile-center div {
+      .mobile-center div,
+      .mobile-center td,
+      .mobile-center * {
         text-align: center !important;
         width: auto;
         margin: 0 auto;
+      }
+
+      /* Force mobile centering to override MJML align attributes */
+      .mobile-center[align="left"],
+      .mobile-center[align="right"],
+      .mobile-center[align="center"] {
+        text-align: center !important;
       }
 
       .header-column .mobile-center {
@@ -683,8 +722,6 @@
   <!-- END EDIT: EMAIL_TITLE_PRESIDENTIAL -->
   <meta name="color-scheme" content="light dark" />
   <meta name="supported-color-schemes" content="light dark" />
-  <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if mso]>
     <style type="text/css">
@@ -827,10 +864,10 @@
                                         <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
                                           <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                             <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                              <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                              <a href="https://unco.edu">placeholder link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>.
                                             </p>
                                             <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <a href="tel:1234567890">123-456-7890</a>.
                                             </p>
                                           </div>
                                         </td>
@@ -840,10 +877,10 @@
                                         <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
                                           <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                             <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                              <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                              <a href="https://unco.edu">placeholder link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>.
                                             </p>
                                             <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <a href="tel:1234567890">123-456-7890</a>.
                                             </p>
                                           </div>
                                         </td>
@@ -853,10 +890,10 @@
                                         <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
                                           <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                             <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                              <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                              <a href="https://unco.edu">placeholder link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>.
                                             </p>
                                             <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <a href="tel:1234567890">123-456-7890</a>.
                                             </p>
                                           </div>
                                         </td>
@@ -866,10 +903,10 @@
                                         <td align="left" class="dark-mode-text" style="font-size:0px;padding:0;word-break:break-word;">
                                           <div style="font-family:Ringside, Roboto, Tahoma, Arial, sans-serif;font-size:14px;line-height:1.2;text-align:left;color:inherit;">
                                             <p> Lorem ipsum <strong>dolor sit amet</strong>! Consectetur <em>adipiscing elit</em> sed do. Eiusmod tempor <!-- Ensure link describes destination -->
-                                              <a href="javascript:void(0);">placeholder link text</a> et dolore magna aliqua ut enim ad <strong style="font-size: 16px">minim veniam</strong>.
+                                              <a href="https://unco.edu">placeholder link text</a> et dolore magna aliqua ut enim ad <strong>minim veniam</strong>.
                                             </p>
                                             <p> Quis nostrud <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>. Commodo consequate <!-- Ensure link text clearly indicates it's an email link -->
-                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <span style="white-space: nowrap">123-456-7890</span>.
+                                              <a href="mailto:lorem@ipsum.com">placeholder email link</a> in reprehenderit <a href="tel:1234567890">123-456-7890</a>.
                                             </p>
                                           </div>
                                         </td>

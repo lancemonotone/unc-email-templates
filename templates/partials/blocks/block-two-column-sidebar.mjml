@@ -1,28 +1,135 @@
 <!-- CONTENT Heading Two Column -->
 <mj-section
-  padding="20px"
+  padding="0"
+  padding-top="20px"
   padding-left="40px"
   padding-right="40px"
   css-class="mobile-stack">
-  <!-- Left Column -->
+  <!-- Left Column - Featured Story -->
   <mj-column
     width="60%"
     padding="0"
-    padding-top="5px"
     padding-bottom="20px"
+    padding-right="10px"
     vertical-align="top"
     css-class="mobile-stack-column">
-    <mj-include path="./block-featured-story.mjml" />
+    <!-- Featured Story Content -->
+    <!-- EDIT: CONTENT_IMAGE - Replace image source and alt text description -->
+    <mj-image
+      padding="0"
+      padding-bottom="10px"
+      mj-class="content-image image-center"
+      fluid-on-mobile="true"
+      src="https://enrolled.unco.edu/www/images/_NC_4362.jpg"
+      alt="Image alt text" />
+    <!-- END EDIT: CONTENT_IMAGE -->
+
+    <!-- EDIT: HEADLINE_H3 - Change the story headline text -->
+    <mj-text mj-class="h3">
+      <h3>Story Title H3</h3>
+    </mj-text>
+    <!-- END EDIT: HEADLINE_H3 -->
+
+    <!-- EDIT: BODY_TEXT_NO_BULLETS - Update article content including paragraphs and links -->
+    <mj-text>
+      <p>
+        Lorem ipsum <strong>dolor sit amet</strong>! Consectetur
+        <em>adipiscing elit</em> sed do. Eiusmod tempor
+        <!-- Ensure link describes destination -->
+        <a href="https://unco.edu">placeholder link text</a>
+        et dolore magna aliqua ut enim ad
+        <strong>minim veniam</strong>.
+      </p>
+      <p>
+        Quis nostrud
+        <em>exercitation ullamco</em> laboris nisi ut <em>aliquip ex ea</em>.
+        Commodo consequate
+        <!-- Ensure link text clearly indicates it's an email link -->
+        <a href="mailto:lorem@ipsum.com">placeholder email link</a>
+        in reprehenderit <a href="tel:1234567890">123-456-7890</a>.
+      </p>
+    </mj-text>
+    <!-- END EDIT: BODY_TEXT_NO_BULLETS -->
+
+    <!-- EDIT: CTA_BUTTON_BLUE_LEFT - Update button text and destination URL (href attribute) -->
+    <mj-button
+      mj-class="button-primary"
+      align="left"
+      href="javascript:void(0);"
+      color="#ffffff"
+      padding="0"
+      padding-top="20px"
+      css-class="mobile-center-button"
+      background-color="#013c65">
+      <span style="color: #ffffff">Read More</span>
+    </mj-button>
+    <!-- END EDIT: CTA_BUTTON_BLUE_LEFT -->
   </mj-column>
 
-  <!-- Right Column -->
+  <!-- Right Column - Events -->
   <mj-column
     width="40%"
     padding="0"
-    padding-top="0"
     padding-bottom="20px"
+    padding-left="10px"
     vertical-align="top"
     css-class="mobile-stack-column">
-    <mj-include path="./block-events-full.mjml" />
+    <!-- Events Header with Background -->
+    <mj-raw>
+      <div
+        style="
+          background: #013c65
+            url('https://enrolled.unco.edu/www/images/ICONS/bg-unc-bear-blue.png')
+            repeat;
+          text-align: center;
+          padding: 0;
+        ">
+        <img
+          src="https://enrolled.unco.edu/www/images/EMAIL_HEADERS/header_events_full.png"
+          alt="Events"
+          style="display: block; margin: 0 auto; width: 230px; height: auto" />
+      </div>
+    </mj-raw>
+
+    <!-- Event Items Content -->
+    <!-- EDIT: EVENT_1 - Update first event details -->
+    <mj-text padding-top="5px" padding-bottom="2px">
+      <p>
+        <strong><a href="#">Free Movie Night</a></strong>
+      </p>
+      <p>Monday, Feb. 10, 5-7 p.m., Kress Cinema.</p>
+    </mj-text>
+    <!-- END EDIT: EVENT_1 -->
+
+    <!-- EDIT: EVENT_2 - Update second event details -->
+    <mj-text padding-top="2px" padding-bottom="2px">
+      <p>
+        <strong><a href="#">Valentine's Bash</a></strong>
+      </p>
+      <p>Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.</p>
+    </mj-text>
+    <!-- END EDIT: EVENT_2 -->
+
+    <!-- EDIT: EVENT_3 - Update third event details -->
+    <mj-text padding-top="2px" padding-bottom="2px">
+      <p>
+        <strong><a href="#">Valentine's Bash</a></strong>
+      </p>
+      <p>Tuesday, Feb. 11, 5:00-6:30 p.m., University Center Panorama Room.</p>
+    </mj-text>
+    <!-- END EDIT: EVENT_3 -->
+
+    <!-- EDIT: EVENTS_CTA_BUTTON - Update events call-to-action button -->
+    <mj-button
+      mj-class="button-primary"
+      align="center"
+      href="https://www.unco.edu/events-calendar/events.aspx"
+      color="#ffffff"
+      padding-top="20px"
+      padding-bottom="0"
+      background-color="#013c65">
+      <span style="color: #ffffff">See All Events</span>
+    </mj-button>
+    <!-- END EDIT: EVENTS_CTA_BUTTON -->
   </mj-column>
 </mj-section>

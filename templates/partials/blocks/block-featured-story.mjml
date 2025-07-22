@@ -1,10 +1,14 @@
 <!-- Featured Story Block -->
-<mj-column padding="0" padding-right="10px">
-  <mj-include path="../components/images/component-image-content-center.mjml" />
+<mj-section padding="0">
+  <mj-column padding="0" padding-right="10px">
+    <mj-include
+      path="../components/images/component-image-content-center.mjml" />
 
-  <mj-include path="../components/text/component-h3.mjml" />
+    <mj-include path="../components/text/component-h3.mjml" />
 
-  <mj-include path="../components/text/component-text-no-bullets.mjml" />
+    <mj-include path="../components/text/component-text-no-bullets.mjml" />
 
-  <mj-include path="../components/buttons/component-button-blue-left.mjml" />
-</mj-column>
+    <mj-include
+      path="../components/buttons/component-button-blue-center.mjml" />
+  </mj-column>
+</mj-section>
